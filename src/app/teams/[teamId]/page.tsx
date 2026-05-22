@@ -122,6 +122,12 @@ export default function TeamDetailPage() {
   const id = parseInt(teamId);
   const pr = data.periods[activePeriod];
   const cumulativeScore = data.periods.reduce((sum, p) => sum + p.bestBallScore, 0);
+  const today = new Date().toISOString().split('T')[0];
+  const seasonStart = data.periods[0]?.period.startDate;
+  const daysSinceStart = seasonStart
+    ? Math.max(1, Math.round((new Date(today).getTime() - new Date(seasonStart).getTime()) / 86400000))
+    : 0;
+  const avgPtsPerDay = daysSinceStart > 0 ? (cumulativeScore / daysSinceStart).toFixed(1) : null;
 
   return (
     <div className="space-y-8">
@@ -132,6 +138,11 @@ export default function TeamDetailPage() {
           <span>/</span>
         </div>
         <h1 className="text-lg font-semibold">{data.team.name}</h1>
+        {avgPtsPerDay && (
+          <p className="text-xl font-bold tabular-nums mt-0.5" style={{ color: '#C8102E' }}>
+            {avgPtsPerDay} <span className="text-sm font-normal text-gray-400">pts / day</span>
+          </p>
+        )}
         <p className="text-xs text-muted-foreground mt-0.5">
           {cumulativeScore} total points &middot; 13 rostered, best 10 count
         </p>
