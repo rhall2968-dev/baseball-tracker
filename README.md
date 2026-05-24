@@ -2,7 +2,7 @@
 
 Automated scorekeeper for our 2026 best-ball fantasy baseball league. 8 teams, 13 batters each, top 10 count toward each period's score. Stats sync daily from the MLB Stats API.
 
-**Live site:** https://austinmermans.github.io/baseball-tracker/
+**Live site:** [https://rhall2968-dev.github.io/baseball-tracker/]
 
 ## League Format
 
