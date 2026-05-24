@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-22T21:39:36.677Z",
+  "generatedAt": "2026-05-24T18:00:13.754Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-06-05",
+  "endDate": "2026-06-07",
   "games": [
     {
       "date": "2026-03-26",
@@ -21265,10 +21265,10 @@
         "abbr": "PHI",
         "name": "Phillies"
       },
-      "awayScore": 0,
+      "awayScore": 1,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21293,10 +21293,10 @@
         "abbr": "NYY",
         "name": "Yankees"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21321,10 +21321,10 @@
         "abbr": "TOR",
         "name": "Blue Jays"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 2,
+      "homeScore": 6,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:07:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21349,10 +21349,10 @@
         "abbr": "BOS",
         "name": "Red Sox"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 8,
+      "homeScore": 6,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21377,10 +21377,10 @@
         "abbr": "MIA",
         "name": "Marlins"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 1,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21405,10 +21405,10 @@
         "abbr": "BAL",
         "name": "Orioles"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 7,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21433,10 +21433,10 @@
         "abbr": "ATL",
         "name": "Braves"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21461,10 +21461,10 @@
         "abbr": "KC",
         "name": "Royals"
       },
-      "awayScore": 0,
+      "awayScore": 2,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21489,10 +21489,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 1,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-22T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21517,10 +21517,10 @@
         "abbr": "LAA",
         "name": "Angels"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 6,
+      "homeScore": 9,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T01:38:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21545,10 +21545,10 @@
         "abbr": "AZ",
         "name": "D-backs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21573,10 +21573,10 @@
         "abbr": "SD",
         "name": "Padres"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 3,
+      "homeScore": 7,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21601,10 +21601,10 @@
         "abbr": "SF",
         "name": "Giants"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 9,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T02:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21657,10 +21657,10 @@
         "abbr": "CIN",
         "name": "Reds"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 8,
+      "homeScore": 1,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T17:10:00Z",
       "doubleHeader": "S",
       "awayPitcher": {
@@ -21685,10 +21685,10 @@
         "abbr": "CIN",
         "name": "Reds"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 6,
+      "homeScore": 7,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T23:15:00Z",
       "doubleHeader": "S",
       "awayPitcher": {
@@ -21699,31 +21699,6 @@
         "id": 695534,
         "name": "Chase Petty"
       }
-    },
-    {
-      "date": "2026-05-23",
-      "gamePk": 823543,
-      "away": {
-        "id": 139,
-        "abbr": "TB",
-        "name": "Rays"
-      },
-      "home": {
-        "id": 147,
-        "abbr": "NYY",
-        "name": "Yankees"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-05-23T17:35:00Z",
-      "doubleHeader": null,
-      "awayPitcher": {
-        "id": 656876,
-        "name": "Drew Rasmussen"
-      },
-      "homePitcher": null
     },
     {
       "date": "2026-05-23",
@@ -21738,10 +21713,10 @@
         "abbr": "CHC",
         "name": "Cubs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 0,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T18:20:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21766,10 +21741,10 @@
         "abbr": "TOR",
         "name": "Blue Jays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T19:07:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21779,34 +21754,6 @@
       "homePitcher": {
         "id": 571578,
         "name": "Patrick Corbin"
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "gamePk": 824840,
-      "away": {
-        "id": 116,
-        "abbr": "DET",
-        "name": "Tigers"
-      },
-      "home": {
-        "id": 110,
-        "abbr": "BAL",
-        "name": "Orioles"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-05-23T20:05:00Z",
-      "doubleHeader": null,
-      "awayPitcher": {
-        "id": 664285,
-        "name": "Framber Valdez"
-      },
-      "homePitcher": {
-        "id": 687064,
-        "name": "Brandon Young"
       }
     },
     {
@@ -21822,10 +21769,10 @@
         "abbr": "PHI",
         "name": "Phillies"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21850,15 +21797,15 @@
         "abbr": "SF",
         "name": "Giants"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 10,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
-        "id": 607200,
-        "name": "Erick Fedde"
+        "id": 663542,
+        "name": "Bryan Hudson"
       },
       "homePitcher": {
         "id": 605288,
@@ -21878,10 +21825,10 @@
         "abbr": "KC",
         "name": "Royals"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21906,14 +21853,20 @@
         "abbr": "BOS",
         "name": "Red Sox"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 4,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 671737,
+        "name": "Taj Bradley"
+      },
+      "homePitcher": {
+        "id": 663558,
+        "name": "Jovani Morán"
+      }
     },
     {
       "date": "2026-05-23",
@@ -21928,10 +21881,10 @@
         "abbr": "ATL",
         "name": "Braves"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 0,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21956,10 +21909,10 @@
         "abbr": "MIA",
         "name": "Marlins"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 1,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T20:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -21984,10 +21937,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 11,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-23T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22012,10 +21965,10 @@
         "abbr": "SD",
         "name": "Padres"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-24T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22040,10 +21993,10 @@
         "abbr": "LAA",
         "name": "Angels"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-24T02:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22068,10 +22021,10 @@
         "abbr": "AZ",
         "name": "D-backs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 4,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-24T02:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22081,6 +22034,62 @@
       "homePitcher": {
         "id": 668678,
         "name": "Zac Gallen"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "gamePk": 823543,
+      "away": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "home": {
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "DR",
+      "detailedState": "Postponed",
+      "gameTimeISO": "2026-05-23T17:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      },
+      "homePitcher": {
+        "id": 677960,
+        "name": "Ryan Weathers"
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "gamePk": 824840,
+      "away": {
+        "id": 116,
+        "abbr": "DET",
+        "name": "Tigers"
+      },
+      "home": {
+        "id": 110,
+        "abbr": "BAL",
+        "name": "Orioles"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "DR",
+      "detailedState": "Postponed",
+      "gameTimeISO": "2026-05-23T20:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": {
+        "id": 664285,
+        "name": "Framber Valdez"
+      },
+      "homePitcher": {
+        "id": 687064,
+        "name": "Brandon Young"
       }
     },
     {
@@ -22096,10 +22105,10 @@
         "abbr": "TOR",
         "name": "Blue Jays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 1,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-24T16:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22124,12 +22133,40 @@
         "abbr": "BAL",
         "name": "Orioles"
       },
+      "awayScore": 2,
+      "homeScore": 0,
+      "status": "I",
+      "detailedState": "In Progress",
+      "gameTimeISO": "2026-05-24T16:35:00Z",
+      "doubleHeader": "S",
+      "awayPitcher": {
+        "id": 664285,
+        "name": "Framber Valdez"
+      },
+      "homePitcher": {
+        "id": 687064,
+        "name": "Brandon Young"
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "gamePk": 824840,
+      "away": {
+        "id": 116,
+        "abbr": "DET",
+        "name": "Tigers"
+      },
+      "home": {
+        "id": 110,
+        "abbr": "BAL",
+        "name": "Orioles"
+      },
       "awayScore": null,
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-05-24T17:35:00Z",
-      "doubleHeader": null,
+      "gameTimeISO": "2026-05-24T22:05:00Z",
+      "doubleHeader": "S",
       "awayPitcher": null,
       "homePitcher": {
         "id": 669432,
@@ -22149,10 +22186,10 @@
         "abbr": "BOS",
         "name": "Red Sox"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 1,
+      "homeScore": 0,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-24T17:35:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22177,10 +22214,10 @@
         "abbr": "PHI",
         "name": "Phillies"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-24T17:35:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22205,17 +22242,20 @@
         "abbr": "NYY",
         "name": "Yankees"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-24T17:35:00Z",
       "doubleHeader": null,
       "awayPitcher": {
-        "id": 663556,
-        "name": "Shane McClanahan"
+        "id": 656876,
+        "name": "Drew Rasmussen"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 677960,
+        "name": "Ryan Weathers"
+      }
     },
     {
       "date": "2026-05-24",
@@ -22230,15 +22270,15 @@
         "abbr": "CIN",
         "name": "Reds"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "PR",
+      "detailedState": "Delayed Start",
       "gameTimeISO": "2026-05-24T17:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
-        "id": 669461,
-        "name": "Matthew Liberatore"
+        "id": 802408,
+        "name": "Brycen Mautz"
       },
       "homePitcher": {
         "id": 663903,
@@ -22258,17 +22298,20 @@
         "abbr": "MIA",
         "name": "Marlins"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-24T17:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
         "id": 681035,
         "name": "Christian Scott"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 663969,
+        "name": "Tyler Phillips"
+      }
     },
     {
       "date": "2026-05-24",
@@ -22283,10 +22326,10 @@
         "abbr": "KC",
         "name": "Royals"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-05-24T18:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22311,10 +22354,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-05-24T18:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22339,17 +22382,20 @@
         "abbr": "CHC",
         "name": "Cubs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-05-24T18:20:00Z",
       "doubleHeader": null,
       "awayPitcher": {
         "id": 663567,
         "name": "Peter Lambert"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 684007,
+        "name": "Shota Imanaga"
+      }
     },
     {
       "date": "2026-05-24",
@@ -22364,10 +22410,10 @@
         "abbr": "SF",
         "name": "Giants"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-05-24T20:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22392,10 +22438,10 @@
         "abbr": "AZ",
         "name": "D-backs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-05-24T20:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22420,13 +22466,16 @@
         "abbr": "SD",
         "name": "Padres"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-05-24T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 665622,
+        "name": "Luis Medina"
+      },
       "homePitcher": {
         "id": 650633,
         "name": "Michael King"
@@ -22447,8 +22496,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-05-24T20:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -22479,7 +22528,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-24T23:20:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669022,
+        "name": "MacKenzie Gore"
+      },
       "homePitcher": {
         "id": 672282,
         "name": "Reid Detmers"
@@ -22504,8 +22556,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T17:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 676962,
+        "name": "Ben Brown"
+      },
+      "homePitcher": {
+        "id": 669387,
+        "name": "Carmen Mlodzinski"
+      }
     },
     {
       "date": "2026-05-25",
@@ -22526,7 +22584,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T17:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 663556,
+        "name": "Shane McClanahan"
+      },
       "homePitcher": null
     },
     {
@@ -22548,7 +22609,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T18:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 805673,
+        "name": "Zebby Matthews"
+      },
       "homePitcher": null
     },
     {
@@ -22571,10 +22635,13 @@
       "gameTimeISO": "2026-05-25T18:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
-        "id": 700241,
-        "name": "Michael McGreevy"
+        "id": 669461,
+        "name": "Matthew Liberatore"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 694819,
+        "name": "Jacob Misiorowski"
+      }
     },
     {
       "date": "2026-05-25",
@@ -22595,8 +22662,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T19:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 701542,
+        "name": "Will Warren"
+      },
+      "homePitcher": {
+        "id": 608379,
+        "name": "Michael Wacha"
+      }
     },
     {
       "date": "2026-05-25",
@@ -22617,8 +22690,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 666157,
+        "name": "Nick Lodolo"
+      },
+      "homePitcher": {
+        "id": 690997,
+        "name": "Nolan McLean"
+      }
     },
     {
       "date": "2026-05-25",
@@ -22661,7 +22740,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T22:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 641793,
+        "name": "Zack Littell"
+      },
       "homePitcher": {
         "id": 676440,
         "name": "Tanner Bibee"
@@ -22686,8 +22768,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T22:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 666200,
+        "name": "Jesús Luzardo"
+      },
+      "homePitcher": {
+        "id": 681190,
+        "name": "Randy Vásquez"
+      }
     },
     {
       "date": "2026-05-25",
@@ -22708,7 +22796,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-25T23:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 837227,
+        "name": "Tatsuya Imai"
+      },
       "homePitcher": null
     },
     {
@@ -22734,7 +22825,10 @@
         "id": 676083,
         "name": "Janson Junk"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 702056,
+        "name": "Trey Yesavage"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22756,7 +22850,10 @@
       "gameTimeISO": "2026-05-26T01:10:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 686218,
+        "name": "Emmet Sheehan"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22777,7 +22874,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T01:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 622491,
+        "name": "Luis Castillo"
+      },
       "homePitcher": null
     },
     {
@@ -22799,8 +22899,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T22:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 676917,
+        "name": "Cade Cavalli"
+      },
+      "homePitcher": {
+        "id": 676282,
+        "name": "Joey Cantillo"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22821,7 +22927,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T22:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 643377,
+        "name": "Griffin Jax"
+      },
       "homePitcher": null
     },
     {
@@ -22843,8 +22952,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T22:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 686799,
+        "name": "Jack Kochanowicz"
+      },
+      "homePitcher": {
+        "id": 672456,
+        "name": "Keider Montero"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22866,7 +22981,10 @@
       "gameTimeISO": "2026-05-26T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 677952,
+        "name": "Braxton Ashcraft"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22888,7 +23006,10 @@
       "gameTimeISO": "2026-05-26T22:45:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 624133,
+        "name": "Ranger Suarez"
+      }
     },
     {
       "date": "2026-05-26",
@@ -22934,7 +23055,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T23:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 695505,
+        "name": "Chase Burns"
+      },
       "homePitcher": null
     },
     {
@@ -22956,7 +23080,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T23:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 657746,
+        "name": "Joe Ryan"
+      },
       "homePitcher": null
     },
     {
@@ -22978,7 +23105,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T23:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 693645,
+        "name": "Cam Schlittler"
+      },
       "homePitcher": null
     },
     {
@@ -23000,8 +23130,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-26T23:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 700241,
+        "name": "Michael McGreevy"
+      },
+      "homePitcher": {
+        "id": 690986,
+        "name": "Kyle Harrison"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23044,7 +23180,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T01:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 676106,
+        "name": "Emerson Hancock"
+      },
       "homePitcher": null
     },
     {
@@ -23066,8 +23205,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T01:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 605400,
+        "name": "Aaron Nola"
+      },
+      "homePitcher": {
+        "id": 656288,
+        "name": "Griffin Canning"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23111,7 +23256,10 @@
       "gameTimeISO": "2026-05-27T02:10:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 641778,
+        "name": "Eric Lauer"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23132,8 +23280,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T17:07:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 691587,
+        "name": "Eury Pérez"
+      },
+      "homePitcher": {
+        "id": 592332,
+        "name": "Kevin Gausman"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23154,8 +23308,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T17:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 571945,
+        "name": "Miles Mikolas"
+      },
+      "homePitcher": {
+        "id": 668909,
+        "name": "Gavin Williams"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23176,7 +23336,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T17:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669160,
+        "name": "Dustin May"
+      },
       "homePitcher": null
     },
     {
@@ -23198,7 +23361,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T19:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669302,
+        "name": "Logan Gilbert"
+      },
       "homePitcher": null
     },
     {
@@ -23242,8 +23408,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 650911,
+        "name": "Cristopher Sánchez"
+      },
+      "homePitcher": {
+        "id": 621111,
+        "name": "Walker Buehler"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23264,7 +23436,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T22:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 571927,
+        "name": "Steven Matz"
+      },
       "homePitcher": null
     },
     {
@@ -23286,8 +23461,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T22:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 667755,
+        "name": "José Soriano"
+      },
+      "homePitcher": {
+        "id": 663554,
+        "name": "Casey Mize"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23309,7 +23490,10 @@
       "gameTimeISO": "2026-05-27T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 696149,
+        "name": "Bubba Chandler"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23331,7 +23515,10 @@
       "gameTimeISO": "2026-05-27T22:45:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 813349,
+        "name": "Connelly Early"
+      }
     },
     {
       "date": "2026-05-27",
@@ -23352,7 +23539,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T23:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 671096,
+        "name": "Andrew Abbott"
+      },
       "homePitcher": null
     },
     {
@@ -23374,7 +23564,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T23:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 687570,
+        "name": "Connor Prielipp"
+      },
       "homePitcher": null
     },
     {
@@ -23396,8 +23589,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-27T23:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 543037,
+        "name": "Gerrit Cole"
+      },
+      "homePitcher": {
+        "id": 702070,
+        "name": "Noah Cameron"
+      }
     },
     {
       "date": "2026-05-28",
@@ -23441,7 +23640,10 @@
       "gameTimeISO": "2026-05-28T02:10:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 660271,
+        "name": "Shohei Ohtani"
+      }
     },
     {
       "date": "2026-05-28",
@@ -23463,7 +23665,10 @@
       "gameTimeISO": "2026-05-28T17:10:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 656427,
+        "name": "Jack Flaherty"
+      }
     },
     {
       "date": "2026-05-28",
@@ -23484,7 +23689,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-28T18:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 671737,
+        "name": "Taj Bradley"
+      },
       "homePitcher": null
     },
     {
@@ -23551,7 +23759,10 @@
       "gameTimeISO": "2026-05-28T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 694973,
+        "name": "Paul Skenes"
+      }
     },
     {
       "date": "2026-05-29",
@@ -23572,7 +23783,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-29T00:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 681293,
+        "name": "Spencer Arrighetti"
+      },
       "homePitcher": null
     },
     {
@@ -25947,6 +26161,666 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T02:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 824269,
+      "away": {
+        "id": 136,
+        "abbr": "SEA",
+        "name": "Mariners"
+      },
+      "home": {
+        "id": 116,
+        "abbr": "DET",
+        "name": "Tigers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T17:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 823697,
+      "away": {
+        "id": 118,
+        "abbr": "KC",
+        "name": "Royals"
+      },
+      "home": {
+        "id": 142,
+        "abbr": "MIN",
+        "name": "Twins"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T18:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 823048,
+      "away": {
+        "id": 113,
+        "abbr": "CIN",
+        "name": "Reds"
+      },
+      "home": {
+        "id": 138,
+        "abbr": "STL",
+        "name": "Cardinals"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T18:15:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 824669,
+      "away": {
+        "id": 137,
+        "abbr": "SF",
+        "name": "Giants"
+      },
+      "home": {
+        "id": 112,
+        "abbr": "CHC",
+        "name": "Cubs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T18:20:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 822808,
+      "away": {
+        "id": 110,
+        "abbr": "BAL",
+        "name": "Orioles"
+      },
+      "home": {
+        "id": 141,
+        "abbr": "TOR",
+        "name": "Blue Jays"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T19:07:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 823454,
+      "away": {
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
+      },
+      "home": {
+        "id": 143,
+        "abbr": "PHI",
+        "name": "Phillies"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T20:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 825075,
+      "away": {
+        "id": 120,
+        "abbr": "WSH",
+        "name": "Nationals"
+      },
+      "home": {
+        "id": 109,
+        "abbr": "AZ",
+        "name": "D-backs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 824184,
+      "away": {
+        "id": 133,
+        "abbr": "ATH",
+        "name": "Athletics"
+      },
+      "home": {
+        "id": 117,
+        "abbr": "HOU",
+        "name": "Astros"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 824915,
+      "away": {
+        "id": 134,
+        "abbr": "PIT",
+        "name": "Pirates"
+      },
+      "home": {
+        "id": 144,
+        "abbr": "ATL",
+        "name": "Braves"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 823859,
+      "away": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "home": {
+        "id": 146,
+        "abbr": "MIA",
+        "name": "Marlins"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 822891,
+      "away": {
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
+      },
+      "home": {
+        "id": 140,
+        "abbr": "TEX",
+        "name": "Rangers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T23:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-06",
+      "gamePk": 823539,
+      "away": {
+        "id": 111,
+        "abbr": "BOS",
+        "name": "Red Sox"
+      },
+      "home": {
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-06T23:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 824351,
+      "away": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "home": {
+        "id": 115,
+        "abbr": "COL",
+        "name": "Rockies"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T01:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823942,
+      "away": {
+        "id": 108,
+        "abbr": "LAA",
+        "name": "Angels"
+      },
+      "home": {
+        "id": 119,
+        "abbr": "LAD",
+        "name": "Dodgers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T02:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823292,
+      "away": {
+        "id": 121,
+        "abbr": "NYM",
+        "name": "Mets"
+      },
+      "home": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T02:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 824916,
+      "away": {
+        "id": 134,
+        "abbr": "PIT",
+        "name": "Pirates"
+      },
+      "home": {
+        "id": 144,
+        "abbr": "ATL",
+        "name": "Braves"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823453,
+      "away": {
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
+      },
+      "home": {
+        "id": 143,
+        "abbr": "PHI",
+        "name": "Phillies"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823537,
+      "away": {
+        "id": 111,
+        "abbr": "BOS",
+        "name": "Red Sox"
+      },
+      "home": {
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 822807,
+      "away": {
+        "id": 110,
+        "abbr": "BAL",
+        "name": "Orioles"
+      },
+      "home": {
+        "id": 141,
+        "abbr": "TOR",
+        "name": "Blue Jays"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:37:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 824268,
+      "away": {
+        "id": 136,
+        "abbr": "SEA",
+        "name": "Mariners"
+      },
+      "home": {
+        "id": 116,
+        "abbr": "DET",
+        "name": "Tigers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823857,
+      "away": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "home": {
+        "id": 146,
+        "abbr": "MIA",
+        "name": "Marlins"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T17:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 824183,
+      "away": {
+        "id": 133,
+        "abbr": "ATH",
+        "name": "Athletics"
+      },
+      "home": {
+        "id": 117,
+        "abbr": "HOU",
+        "name": "Astros"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T18:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823696,
+      "away": {
+        "id": 118,
+        "abbr": "KC",
+        "name": "Royals"
+      },
+      "home": {
+        "id": 142,
+        "abbr": "MIN",
+        "name": "Twins"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T18:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823047,
+      "away": {
+        "id": 113,
+        "abbr": "CIN",
+        "name": "Reds"
+      },
+      "home": {
+        "id": 138,
+        "abbr": "STL",
+        "name": "Cardinals"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T18:15:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 822890,
+      "away": {
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
+      },
+      "home": {
+        "id": 140,
+        "abbr": "TEX",
+        "name": "Rangers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T18:35:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 824349,
+      "away": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "home": {
+        "id": 115,
+        "abbr": "COL",
+        "name": "Rockies"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T19:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 825074,
+      "away": {
+        "id": 120,
+        "abbr": "WSH",
+        "name": "Nationals"
+      },
+      "home": {
+        "id": 109,
+        "abbr": "AZ",
+        "name": "D-backs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T19:15:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823941,
+      "away": {
+        "id": 108,
+        "abbr": "LAA",
+        "name": "Angels"
+      },
+      "home": {
+        "id": 119,
+        "abbr": "LAD",
+        "name": "Dodgers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-07",
+      "gamePk": 823291,
+      "away": {
+        "id": 121,
+        "abbr": "NYM",
+        "name": "Mets"
+      },
+      "home": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-07T20:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-08",
+      "gamePk": 824670,
+      "away": {
+        "id": 137,
+        "abbr": "SF",
+        "name": "Giants"
+      },
+      "home": {
+        "id": 112,
+        "abbr": "CHC",
+        "name": "Cubs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-08T00:30:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
