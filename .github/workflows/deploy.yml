@@ -2,8 +2,8 @@ name: Sync Stats & Deploy to GitHub Pages
 
 on:
   schedule:
-    # Run daily at 7 AM UTC (midnight PT, after west coast games finish)
-    - cron: '0 7 * * *'
+    # Run daily at 12 PM UTC (5 AM PT / 8 AM ET), late enough for all west coast extra-inning games to finish
+    - cron: '0 12 * * *'
   workflow_dispatch: # Manual trigger
 
 permissions:
