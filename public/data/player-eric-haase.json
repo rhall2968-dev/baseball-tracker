@@ -9,7 +9,7 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 400
+    "overallRank": 407
   },
   "seasonTotals": {
     "gamesPlayed": 8,
@@ -301,9 +301,9 @@
     }
   ],
   "navigation": {
-    "prevSlug": "endy-rodriguez",
-    "prevName": "Endy Rodríguez",
-    "nextSlug": "ernie-clement",
-    "nextName": "Ernie Clement"
+    "prevSlug": "enrique-hernandez",
+    "prevName": "Enrique Hernández",
+    "nextSlug": "eric-wagaman",
+    "nextName": "Eric Wagaman"
   }
 }
