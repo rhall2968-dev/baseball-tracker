@@ -23,10 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: 'npm'
@@ -42,7 +42,7 @@ jobs:
       # script falls back to a full-season backfill (a few minutes).
       - name: Restore pitches DB cache
         id: pitches-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: pitches.db
           key: pitches-db-2026-${{ github.run_id }}
@@ -55,7 +55,7 @@ jobs:
         run: npx tsx scripts/build-statcast.ts
 
       - name: Save pitches DB cache
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: pitches.db
           key: pitches-db-2026-${{ github.run_id }}
@@ -79,13 +79,13 @@ jobs:
         run: npx next build
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: './out'
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
