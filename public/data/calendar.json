@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T04:05:39.829Z",
+  "generatedAt": "2026-05-27T04:13:44.676Z",
   "seasonStart": "2026-03-26",
   "endDate": "2026-06-10",
   "games": [
@@ -23227,8 +23227,8 @@
       },
       "awayScore": 4,
       "homeScore": 1,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-27T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {

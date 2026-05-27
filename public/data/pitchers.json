@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T04:05:42.114Z",
+  "generatedAt": "2026-05-27T04:13:46.572Z",
   "season": 2026,
   "pitchers": [
     {
@@ -2038,7 +2038,7 @@
         "walksPer9Inn": "2.09",
         "strikeOuts": 63,
         "baseOnBalls": 15,
-        "wins": 3,
+        "wins": 4,
         "losses": 2
       }
     },
@@ -9386,65 +9386,65 @@
       "mlbTeamId": 115,
       "pitchHand": "R",
       "age": 25,
-      "totalPitches": 588,
+      "totalPitches": 591,
       "pitches": [
         {
           "code": "FC",
           "description": "Cutter",
           "pitchCount": 147,
-          "totalPitches": 588,
-          "percentage": 0.25,
+          "totalPitches": 591,
+          "percentage": 0.24873096,
           "averageSpeed": 91.99932621768711
         },
         {
           "code": "FF",
           "description": "Four-seam FB",
           "pitchCount": 142,
-          "totalPitches": 588,
-          "percentage": 0.2414966,
+          "totalPitches": 591,
+          "percentage": 0.24027073,
           "averageSpeed": 94.53272728873246
         },
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 86,
-          "totalPitches": 588,
-          "percentage": 0.1462585,
-          "averageSpeed": 83.79494984883722
+          "pitchCount": 88,
+          "totalPitches": 591,
+          "percentage": 0.14890017,
+          "averageSpeed": 83.80913095454547
         },
         {
           "code": "SL",
           "description": "Slider",
           "pitchCount": 86,
-          "totalPitches": 588,
-          "percentage": 0.1462585,
+          "totalPitches": 591,
+          "percentage": 0.14551607,
           "averageSpeed": 85.09627577906979
         },
         {
           "code": "SI",
           "description": "Sinker",
           "pitchCount": 70,
-          "totalPitches": 588,
-          "percentage": 0.11904762,
+          "totalPitches": 591,
+          "percentage": 0.11844332,
           "averageSpeed": 93.83060169999999
         },
         {
           "code": "FS",
           "description": "Splitter",
-          "pitchCount": 57,
-          "totalPitches": 588,
-          "percentage": 0.096938774,
-          "averageSpeed": 86.14872373684211
+          "pitchCount": 58,
+          "totalPitches": 591,
+          "percentage": 0.09813875,
+          "averageSpeed": 86.16616794827588
         }
       ],
       "season": {
         "gamesStarted": 1,
-        "inningsPitched": "35.1",
-        "era": "5.86",
+        "inningsPitched": "36.0",
+        "era": "6.25",
         "whip": "1.39",
-        "strikeoutsPer9Inn": "6.11",
-        "walksPer9Inn": "3.06",
-        "strikeOuts": 24,
+        "strikeoutsPer9Inn": "6.25",
+        "walksPer9Inn": "3.00",
+        "strikeOuts": 25,
         "baseOnBalls": 12,
         "wins": 0,
         "losses": 0
@@ -16127,7 +16127,7 @@
         "strikeOuts": 5,
         "baseOnBalls": 1,
         "wins": 0,
-        "losses": 0
+        "losses": 1
       }
     },
     {
