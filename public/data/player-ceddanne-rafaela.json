@@ -9,16 +9,16 @@
     "teamId": 6,
     "fantasyTeam": "Jack",
     "draftRound": 11,
-    "overallRank": 100
+    "overallRank": 98
   },
   "seasonTotals": {
     "gamesPlayed": 49,
     "atBats": 174,
-    "hits": 47,
+    "hits": 48,
     "doubles": 9,
     "triples": 2,
     "homeRuns": 5,
-    "totalBases": 75,
+    "totalBases": 76,
     "stolenBases": 3,
     "baseOnBalls": 12,
     "hitByPitch": 6,
@@ -31,7 +31,7 @@
     "groundIntoDoublePlay": 6,
     "groundIntoTriplePlay": 0,
     "leftOnBase": 78,
-    "groundOuts": 45,
+    "groundOuts": 44,
     "flyOuts": 21,
     "lineOuts": 14,
     "popOuts": 6,
@@ -40,7 +40,7 @@
     "caughtStealing": 4,
     "intentionalWalks": 0,
     "pickoffs": 0,
-    "fantasyScore": 96
+    "fantasyScore": 97
   },
   "games": [
     {
@@ -1167,11 +1167,11 @@
       "gameDate": "2026-05-08",
       "gamePk": null,
       "atBats": 4,
-      "hits": 2,
+      "hits": 3,
       "doubles": 0,
       "triples": 0,
       "homeRuns": 1,
-      "totalBases": 5,
+      "totalBases": 6,
       "stolenBases": 0,
       "baseOnBalls": 0,
       "hitByPitch": 0,
@@ -1184,7 +1184,7 @@
       "groundIntoDoublePlay": 0,
       "groundIntoTriplePlay": 0,
       "leftOnBase": 0,
-      "groundOuts": 2,
+      "groundOuts": 1,
       "flyOuts": 0,
       "lineOuts": 0,
       "popOuts": 0,
@@ -1193,7 +1193,7 @@
       "caughtStealing": 0,
       "intentionalWalks": 0,
       "pickoffs": 0,
-      "fantasyScore": 5
+      "fantasyScore": 6
     },
     {
       "gameDate": "2026-05-10",

@@ -9,16 +9,16 @@
     "teamId": 7,
     "fantasyTeam": "Austin",
     "draftRound": 8,
-    "overallRank": 66
+    "overallRank": 68
   },
   "seasonTotals": {
     "gamesPlayed": 53,
     "atBats": 216,
-    "hits": 55,
+    "hits": 56,
     "doubles": 7,
     "triples": 1,
     "homeRuns": 4,
-    "totalBases": 76,
+    "totalBases": 77,
     "stolenBases": 2,
     "baseOnBalls": 25,
     "hitByPitch": 3,
@@ -30,8 +30,8 @@
     "sacFlies": 1,
     "groundIntoDoublePlay": 7,
     "groundIntoTriplePlay": 0,
-    "leftOnBase": 109,
-    "groundOuts": 51,
+    "leftOnBase": 108,
+    "groundOuts": 50,
     "flyOuts": 34,
     "lineOuts": 18,
     "popOuts": 17,
@@ -40,7 +40,7 @@
     "caughtStealing": 1,
     "intentionalWalks": 2,
     "pickoffs": 0,
-    "fantasyScore": 106
+    "fantasyScore": 107
   },
   "games": [
     {
@@ -1263,11 +1263,11 @@
       "gameDate": "2026-05-09",
       "gamePk": null,
       "atBats": 4,
-      "hits": 0,
+      "hits": 1,
       "doubles": 0,
       "triples": 0,
       "homeRuns": 0,
-      "totalBases": 0,
+      "totalBases": 1,
       "stolenBases": 0,
       "baseOnBalls": 0,
       "hitByPitch": 0,
@@ -1279,8 +1279,8 @@
       "sacFlies": 0,
       "groundIntoDoublePlay": 0,
       "groundIntoTriplePlay": 0,
-      "leftOnBase": 2,
-      "groundOuts": 1,
+      "leftOnBase": 1,
+      "groundOuts": 0,
       "flyOuts": 0,
       "lineOuts": 1,
       "popOuts": 0,
@@ -1289,7 +1289,7 @@
       "caughtStealing": 0,
       "intentionalWalks": 0,
       "pickoffs": 0,
-      "fantasyScore": 0
+      "fantasyScore": 1
     },
     {
       "gameDate": "2026-05-12",
