@@ -17,6 +17,7 @@ export async function GET() {
         COALESCE(SUM(ds.hits - ds.doubles - ds.triples - ds.home_runs), 0) as singles,
         COALESCE(SUM(ds.doubles), 0) as doubles,
         COALESCE(SUM(ds.triples), 0) as triples,
+        COALESCE(SUM(ds.home_runs), 0) as homeRuns,
         COALESCE(SUM(ds.stolen_bases), 0) as stolenBases
       FROM players p
       JOIN daily_stats ds ON ds.player_id = p.id
@@ -29,11 +30,28 @@ export async function GET() {
 
     db.close();
 
-    const result = (rows as any[]).map(r => ({
-      ...r,
-      ppg: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 100) / 100 : 0,
-      proj162: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 162) : 0,
-    }));
+    // Build slug map matching generate-static.ts logic
+    function slugify(name: string) {
+      return name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    }
+    const rosteredSlugs = new Set(
+      (db.prepare(`SELECT name FROM players WHERE team_id IS NOT NULL AND is_active = 1`).all() as any[])
+        .map((p: any) => slugify(p.name))
+    );
+    const usedSlugs = new Set<string>();
+    for (const s of rosteredSlugs) usedSlugs.add(s);
+
+    const result = (rows as any[]).map(r => {
+      const bare = slugify(r.name);
+      let slug = (rosteredSlugs.has(bare) || usedSlugs.has(bare)) ? `${bare}-${r.mlbId}` : bare;
+      usedSlugs.add(slug);
+      return {
+        ...r,
+        slug,
+        ppg: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 100) / 100 : 0,
+        proj162: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 162) : 0,
+      };
+    });
 
     return NextResponse.json(result);
   } catch (err) {

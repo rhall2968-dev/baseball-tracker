@@ -533,6 +533,7 @@ const undraftedRows = sqlite.prepare(`
     COALESCE(SUM(ds.hits - ds.doubles - ds.triples - ds.home_runs), 0) as singles,
     COALESCE(SUM(ds.doubles), 0) as doubles,
     COALESCE(SUM(ds.triples), 0) as triples,
+    COALESCE(SUM(ds.home_runs), 0) as homeRuns,
     COALESCE(SUM(ds.stolen_bases), 0) as stolenBases
   FROM players p
   JOIN daily_stats ds ON ds.player_id = p.id
@@ -545,6 +546,7 @@ const undraftedRows = sqlite.prepare(`
 
 const undraftedOut = undraftedRows.map(r => ({
   ...r,
+  slug: playerSlug(r),
   ppg: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 100) / 100 : 0,
   proj162: r.gamesPlayed > 0 ? Math.round((r.totalScore / r.gamesPlayed) * 162) : 0,
 }));

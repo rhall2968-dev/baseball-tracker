@@ -1,11 +1,13 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { fetchData } from '@/lib/data';
 
 interface UndraftedPlayer {
   id: number;
   name: string;
+  slug: string;
   mlbTeam: string | null;
   mlbId: number;
   gamesPlayed: number;
@@ -15,15 +17,17 @@ interface UndraftedPlayer {
   singles: number;
   doubles: number;
   triples: number;
+  homeRuns: number;
   stolenBases: number;
 }
 
-type SortKey = 'totalScore' | 'ppg' | 'proj162' | 'singles' | 'doubles' | 'triples' | 'stolenBases';
+type SortKey = 'totalScore' | 'ppg' | 'proj162' | 'singles' | 'doubles' | 'triples' | 'homeRuns' | 'stolenBases';
 
 const COLUMNS: { key: SortKey; label: string; abbr?: string }[] = [
   { key: 'totalScore', label: 'Total Pts', abbr: 'Pts' },
   { key: 'ppg', label: 'Avg Pts/Game', abbr: 'PPG' },
   { key: 'proj162', label: 'Proj. Total (162G)', abbr: 'Proj' },
+  { key: 'homeRuns', label: 'Home Runs', abbr: 'HR' },
   { key: 'singles', label: 'Singles', abbr: '1B' },
   { key: 'doubles', label: 'Doubles', abbr: '2B' },
   { key: 'triples', label: 'Triples', abbr: '3B' },
@@ -110,12 +114,15 @@ export default function UndraftedPage() {
                     style={{ backgroundColor: isEven ? 'white' : '#f8fafc' }}
                   >
                     <td className="px-3 py-2 text-gray-400 text-xs w-8">{i + 1}</td>
-                    <td className="px-3 py-2 font-medium text-gray-900 whitespace-nowrap">{p.name}</td>
+                    <td className="px-3 py-2 font-medium whitespace-nowrap">
+                      <Link href={`/players/${p.slug}`} className="text-blue-700 hover:underline">{p.name}</Link>
+                    </td>
                     <td className="px-3 py-2 text-gray-500 text-xs whitespace-nowrap">{p.mlbTeam ?? '—'}</td>
                     <td className="px-3 py-2 text-gray-500 text-xs">{p.gamesPlayed}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'totalScore' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'totalScore' ? 600 : 400 }}>{p.totalScore}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'ppg' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'ppg' ? 600 : 400 }}>{p.ppg.toFixed(2)}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'proj162' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'proj162' ? 600 : 400 }}>{p.proj162}</td>
+                    <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'homeRuns' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'homeRuns' ? 600 : 400 }}>{p.homeRuns}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'singles' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'singles' ? 600 : 400 }}>{p.singles}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'doubles' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'doubles' ? 600 : 400 }}>{p.doubles}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'triples' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'triples' ? 600 : 400 }}>{p.triples}</td>

@@ -9,7 +9,9 @@
     "singles": 24,
     "doubles": 8,
     "triples": 0,
+    "homeRuns": 13,
     "stolenBases": 5,
+    "slug": "mike-trout",
     "ppg": 2.73,
     "proj162": 442
   },
@@ -23,7 +25,9 @@
     "singles": 31,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 12,
     "stolenBases": 10,
+    "slug": "sal-stewart",
     "ppg": 2.6,
     "proj162": 422
   },
@@ -37,7 +41,9 @@
     "singles": 47,
     "doubles": 11,
     "triples": 3,
+    "homeRuns": 6,
     "stolenBases": 8,
+    "slug": "xavier-edwards",
     "ppg": 2.42,
     "proj162": 392
   },
@@ -51,7 +57,9 @@
     "singles": 23,
     "doubles": 11,
     "triples": 0,
+    "homeRuns": 16,
     "stolenBases": 2,
+    "slug": "ben-rice",
     "ppg": 2.88,
     "proj162": 466
   },
@@ -65,7 +73,9 @@
     "singles": 23,
     "doubles": 8,
     "triples": 1,
+    "homeRuns": 12,
     "stolenBases": 8,
+    "slug": "miguel-vargas",
     "ppg": 2.58,
     "proj162": 419
   },
@@ -79,7 +89,9 @@
     "singles": 33,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 14,
     "stolenBases": 6,
+    "slug": "jordan-walker",
     "ppg": 2.69,
     "proj162": 435
   },
@@ -93,7 +105,9 @@
     "singles": 25,
     "doubles": 12,
     "triples": 1,
+    "homeRuns": 14,
     "stolenBases": 0,
+    "slug": "brandon-lowe",
     "ppg": 2.68,
     "proj162": 434
   },
@@ -107,7 +121,9 @@
     "singles": 28,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 15,
     "stolenBases": 0,
+    "slug": "christian-walker",
     "ppg": 2.38,
     "proj162": 386
   },
@@ -121,7 +137,9 @@
     "singles": 41,
     "doubles": 12,
     "triples": 3,
+    "homeRuns": 3,
     "stolenBases": 8,
+    "slug": "kevin-mcgonigle",
     "ppg": 2.46,
     "proj162": 399
   },
@@ -135,7 +153,9 @@
     "singles": 55,
     "doubles": 14,
     "triples": 2,
+    "homeRuns": 4,
     "stolenBases": 10,
+    "slug": "otto-lopez",
     "ppg": 2.27,
     "proj162": 367
   },
@@ -149,7 +169,9 @@
     "singles": 34,
     "doubles": 11,
     "triples": 1,
+    "homeRuns": 6,
     "stolenBases": 2,
+    "slug": "ivan-herrera",
     "ppg": 2.42,
     "proj162": 393
   },
@@ -163,7 +185,9 @@
     "singles": 36,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 9,
     "stolenBases": 0,
+    "slug": "jonathan-aranda",
     "ppg": 2.34,
     "proj162": 379
   },
@@ -177,7 +201,9 @@
     "singles": 21,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 13,
     "stolenBases": 1,
+    "slug": "colson-montgomery",
     "ppg": 2.28,
     "proj162": 370
   },
@@ -191,7 +217,9 @@
     "singles": 35,
     "doubles": 15,
     "triples": 1,
+    "homeRuns": 7,
     "stolenBases": 4,
+    "slug": "daylen-lile",
     "ppg": 2.14,
     "proj162": 347
   },
@@ -205,7 +233,9 @@
     "singles": 32,
     "doubles": 6,
     "triples": 0,
+    "homeRuns": 9,
     "stolenBases": 5,
+    "slug": "jj-wetherholt",
     "ppg": 2.35,
     "proj162": 381
   },
@@ -219,7 +249,9 @@
     "singles": 42,
     "doubles": 10,
     "triples": 1,
+    "homeRuns": 6,
     "stolenBases": 4,
+    "slug": "wilyer-abreu",
     "ppg": 2.15,
     "proj162": 348
   },
@@ -233,7 +265,9 @@
     "singles": 38,
     "doubles": 12,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 2,
+    "slug": "alec-burleson",
     "ppg": 2.24,
     "proj162": 362
   },
@@ -247,7 +281,9 @@
     "singles": 24,
     "doubles": 6,
     "triples": 0,
+    "homeRuns": 12,
     "stolenBases": 0,
+    "slug": "max-muncy",
     "ppg": 2.31,
     "proj162": 375
   },
@@ -261,7 +297,9 @@
     "singles": 31,
     "doubles": 11,
     "triples": 1,
+    "homeRuns": 7,
     "stolenBases": 2,
+    "slug": "chase-delauter",
     "ppg": 2.13,
     "proj162": 346
   },
@@ -275,7 +313,9 @@
     "singles": 29,
     "doubles": 10,
     "triples": 1,
+    "homeRuns": 11,
     "stolenBases": 4,
+    "slug": "casey-schmitt",
     "ppg": 2.47,
     "proj162": 400
   },
@@ -289,7 +329,9 @@
     "singles": 40,
     "doubles": 8,
     "triples": 1,
+    "homeRuns": 4,
     "stolenBases": 9,
+    "slug": "brayan-rocchio",
     "ppg": 2,
     "proj162": 324
   },
@@ -303,7 +345,9 @@
     "singles": 37,
     "doubles": 9,
     "triples": 1,
+    "homeRuns": 7,
     "stolenBases": 0,
+    "slug": "tj-rumfield",
     "ppg": 2.04,
     "proj162": 330
   },
@@ -317,7 +361,9 @@
     "singles": 32,
     "doubles": 4,
     "triples": 0,
+    "homeRuns": 11,
     "stolenBases": 1,
+    "slug": "liam-hicks",
     "ppg": 1.98,
     "proj162": 321
   },
@@ -331,7 +377,9 @@
     "singles": 26,
     "doubles": 6,
     "triples": 0,
+    "homeRuns": 11,
     "stolenBases": 0,
+    "slug": "kazuma-okamoto",
     "ppg": 2,
     "proj162": 324
   },
@@ -345,7 +393,9 @@
     "singles": 19,
     "doubles": 9,
     "triples": 2,
+    "homeRuns": 12,
     "stolenBases": 1,
+    "slug": "mickey-moniak",
     "ppg": 2.5,
     "proj162": 405
   },
@@ -359,7 +409,9 @@
     "singles": 32,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 3,
+    "slug": "spencer-steer",
     "ppg": 2.04,
     "proj162": 330
   },
@@ -373,7 +425,9 @@
     "singles": 21,
     "doubles": 11,
     "triples": 0,
+    "homeRuns": 10,
     "stolenBases": 0,
+    "slug": "dillon-dingler",
     "ppg": 2.17,
     "proj162": 351
   },
@@ -387,7 +441,9 @@
     "singles": 40,
     "doubles": 17,
     "triples": 0,
+    "homeRuns": 5,
     "stolenBases": 2,
+    "slug": "ernie-clement",
     "ppg": 1.89,
     "proj162": 306
   },
@@ -401,7 +457,9 @@
     "singles": 29,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 8,
     "stolenBases": 4,
+    "slug": "jake-bauers",
     "ppg": 2.29,
     "proj162": 371
   },
@@ -415,7 +473,9 @@
     "singles": 37,
     "doubles": 14,
     "triples": 0,
+    "homeRuns": 5,
     "stolenBases": 1,
+    "slug": "josh-jung",
     "ppg": 2.1,
     "proj162": 341
   },
@@ -429,7 +489,9 @@
     "singles": 33,
     "doubles": 11,
     "triples": 1,
+    "homeRuns": 5,
     "stolenBases": 4,
+    "slug": "daulton-varsho",
     "ppg": 1.98,
     "proj162": 321
   },
@@ -443,7 +505,9 @@
     "singles": 31,
     "doubles": 7,
     "triples": 1,
+    "homeRuns": 6,
     "stolenBases": 1,
+    "slug": "spencer-horwitz",
     "ppg": 1.98,
     "proj162": 321
   },
@@ -457,7 +521,9 @@
     "singles": 23,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 9,
     "stolenBases": 0,
+    "slug": "jorge-soler",
     "ppg": 1.94,
     "proj162": 315
   },
@@ -471,7 +537,9 @@
     "singles": 29,
     "doubles": 8,
     "triples": 0,
+    "homeRuns": 10,
     "stolenBases": 1,
+    "slug": "jake-burger",
     "ppg": 1.92,
     "proj162": 312
   },
@@ -485,7 +553,9 @@
     "singles": 25,
     "doubles": 9,
     "triples": 1,
+    "homeRuns": 9,
     "stolenBases": 8,
+    "slug": "angel-martinez",
     "ppg": 2.04,
     "proj162": 331
   },
@@ -499,7 +569,9 @@
     "singles": 41,
     "doubles": 9,
     "triples": 2,
+    "homeRuns": 5,
     "stolenBases": 4,
+    "slug": "brandon-marsh",
     "ppg": 2.02,
     "proj162": 327
   },
@@ -513,7 +585,9 @@
     "singles": 27,
     "doubles": 11,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 1,
+    "slug": "nolan-arenado",
     "ppg": 1.98,
     "proj162": 321
   },
@@ -527,7 +601,9 @@
     "singles": 53,
     "doubles": 4,
     "triples": 4,
+    "homeRuns": 0,
     "stolenBases": 14,
+    "slug": "chandler-simpson",
     "ppg": 1.88,
     "proj162": 305
   },
@@ -541,7 +617,9 @@
     "singles": 18,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 3,
+    "slug": "trent-grisham",
     "ppg": 1.92,
     "proj162": 311
   },
@@ -555,7 +633,9 @@
     "singles": 39,
     "doubles": 8,
     "triples": 2,
+    "homeRuns": 7,
     "stolenBases": 1,
+    "slug": "ildemaro-vargas",
     "ppg": 2.09,
     "proj162": 338
   },
@@ -569,7 +649,9 @@
     "singles": 36,
     "doubles": 3,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 8,
+    "slug": "xander-bogaerts",
     "ppg": 1.87,
     "proj162": 302
   },
@@ -583,7 +665,9 @@
     "singles": 39,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 4,
     "stolenBases": 1,
+    "slug": "chase-meidroth",
     "ppg": 1.85,
     "proj162": 299
   },
@@ -597,7 +681,9 @@
     "singles": 33,
     "doubles": 6,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 1,
+    "slug": "ryan-o-hearn",
     "ppg": 2.16,
     "proj162": 350
   },
@@ -611,7 +697,9 @@
     "singles": 32,
     "doubles": 9,
     "triples": 1,
+    "homeRuns": 6,
     "stolenBases": 3,
+    "slug": "brooks-lee",
     "ppg": 1.9,
     "proj162": 308
   },
@@ -625,7 +713,9 @@
     "singles": 34,
     "doubles": 10,
     "triples": 1,
+    "homeRuns": 3,
     "stolenBases": 2,
+    "slug": "cole-young",
     "ppg": 1.7,
     "proj162": 275
   },
@@ -639,7 +729,9 @@
     "singles": 18,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 9,
     "stolenBases": 3,
+    "slug": "gavin-sheets",
     "ppg": 1.96,
     "proj162": 317
   },
@@ -653,7 +745,9 @@
     "singles": 24,
     "doubles": 4,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 1,
+    "slug": "j-p-crawford",
     "ppg": 2,
     "proj162": 324
   },
@@ -667,7 +761,9 @@
     "singles": 31,
     "doubles": 8,
     "triples": 0,
+    "homeRuns": 5,
     "stolenBases": 0,
+    "slug": "isaac-paredes",
     "ppg": 1.88,
     "proj162": 304
   },
@@ -681,7 +777,9 @@
     "singles": 26,
     "doubles": 7,
     "triples": 0,
+    "homeRuns": 5,
     "stolenBases": 7,
+    "slug": "cam-smith",
     "ppg": 1.7,
     "proj162": 276
   },
@@ -695,7 +793,9 @@
     "singles": 37,
     "doubles": 14,
     "triples": 0,
+    "homeRuns": 2,
     "stolenBases": 2,
+    "slug": "troy-johnston",
     "ppg": 1.84,
     "proj162": 298
   },
@@ -709,7 +809,9 @@
     "singles": 21,
     "doubles": 7,
     "triples": 1,
+    "homeRuns": 7,
     "stolenBases": 1,
+    "slug": "ryan-jeffers",
     "ppg": 2.46,
     "proj162": 398
   },
@@ -723,7 +825,9 @@
     "singles": 34,
     "doubles": 12,
     "triples": 2,
+    "homeRuns": 3,
     "stolenBases": 0,
+    "slug": "mauricio-dubon",
     "ppg": 1.72,
     "proj162": 278
   },
@@ -737,7 +841,9 @@
     "singles": 31,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 2,
     "stolenBases": 7,
+    "slug": "austin-martin",
     "ppg": 2,
     "proj162": 324
   },
@@ -751,7 +857,9 @@
     "singles": 20,
     "doubles": 5,
     "triples": 1,
+    "homeRuns": 11,
     "stolenBases": 1,
+    "slug": "luke-raley",
     "ppg": 1.84,
     "proj162": 298
   },
@@ -765,7 +873,9 @@
     "singles": 30,
     "doubles": 8,
     "triples": 1,
+    "homeRuns": 5,
     "stolenBases": 1,
+    "slug": "carlos-cortes",
     "ppg": 2.05,
     "proj162": 331
   },
@@ -779,7 +889,9 @@
     "singles": 22,
     "doubles": 6,
     "triples": 2,
+    "homeRuns": 6,
     "stolenBases": 5,
+    "slug": "ramon-laureano",
     "ppg": 1.78,
     "proj162": 288
   },
@@ -793,7 +905,9 @@
     "singles": 15,
     "doubles": 5,
     "triples": 2,
+    "homeRuns": 6,
     "stolenBases": 8,
+    "slug": "evan-carter",
     "ppg": 1.68,
     "proj162": 272
   },
@@ -807,7 +921,9 @@
     "singles": 33,
     "doubles": 12,
     "triples": 0,
+    "homeRuns": 4,
     "stolenBases": 0,
+    "slug": "nolan-schanuel",
     "ppg": 1.8,
     "proj162": 291
   },
@@ -821,7 +937,9 @@
     "singles": 24,
     "doubles": 8,
     "triples": 2,
+    "homeRuns": 5,
     "stolenBases": 10,
+    "slug": "bryson-stott",
     "ppg": 1.83,
     "proj162": 297
   },
@@ -835,7 +953,9 @@
     "singles": 21,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 4,
     "stolenBases": 6,
+    "slug": "connor-norby",
     "ppg": 1.76,
     "proj162": 285
   },
@@ -849,7 +969,9 @@
     "singles": 34,
     "doubles": 7,
     "triples": 0,
+    "homeRuns": 3,
     "stolenBases": 9,
+    "slug": "carson-benge",
     "ppg": 1.72,
     "proj162": 279
   },
@@ -863,7 +985,9 @@
     "singles": 24,
     "doubles": 7,
     "triples": 1,
+    "homeRuns": 8,
     "stolenBases": 0,
+    "slug": "samuel-basallo",
     "ppg": 2,
     "proj162": 324
   },
@@ -877,7 +1001,9 @@
     "singles": 29,
     "doubles": 6,
     "triples": 0,
+    "homeRuns": 7,
     "stolenBases": 3,
+    "slug": "jacob-young",
     "ppg": 1.67,
     "proj162": 270
   },
@@ -891,7 +1017,9 @@
     "singles": 26,
     "doubles": 6,
     "triples": 1,
+    "homeRuns": 6,
     "stolenBases": 5,
+    "slug": "oswald-peraza",
     "ppg": 1.81,
     "proj162": 293
   },
@@ -905,7 +1033,9 @@
     "singles": 25,
     "doubles": 12,
     "triples": 1,
+    "homeRuns": 4,
     "stolenBases": 4,
+    "slug": "ezequiel-duran",
     "ppg": 1.93,
     "proj162": 313
   },
@@ -919,7 +1049,9 @@
     "singles": 29,
     "doubles": 10,
     "triples": 0,
+    "homeRuns": 6,
     "stolenBases": 1,
+    "slug": "jesus-sanchez",
     "ppg": 1.57,
     "proj162": 255
   },
@@ -933,7 +1065,9 @@
     "singles": 20,
     "doubles": 9,
     "triples": 1,
+    "homeRuns": 3,
     "stolenBases": 6,
+    "slug": "garrett-mitchell",
     "ppg": 1.87,
     "proj162": 302
   },
@@ -947,7 +1081,9 @@
     "singles": 29,
     "doubles": 8,
     "triples": 0,
+    "homeRuns": 5,
     "stolenBases": 1,
+    "slug": "josh-bell",
     "ppg": 1.62,
     "proj162": 262
   },
@@ -961,7 +1097,9 @@
     "singles": 46,
     "doubles": 9,
     "triples": 0,
+    "homeRuns": 0,
     "stolenBases": 3,
+    "slug": "nick-gonzales",
     "ppg": 1.66,
     "proj162": 269
   },
@@ -975,7 +1113,9 @@
     "singles": 30,
     "doubles": 8,
     "triples": 2,
+    "homeRuns": 1,
     "stolenBases": 5,
+    "slug": "masyn-winn",
     "ppg": 1.77,
     "proj162": 286
   }
