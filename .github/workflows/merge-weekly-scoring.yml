@@ -1,0 +1,33 @@
+name: Merge Weekly Scoring (June 1)
+
+on:
+  schedule:
+    # June 1, 2026 at 12:00 UTC — fires after Period 1 ends and the new rosters are live
+    - cron: '0 12 1 6 *'
+  workflow_dispatch: # Manual trigger for testing
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  merge-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v6
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Merge weekly-scoring branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git merge origin/weekly-scoring --no-edit -m "Activate weekly scoring engine for Period 2+"
+          git push origin master
+
+      - name: Trigger main deploy workflow
+        run: gh workflow run deploy.yml --repo ${{ github.repository }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
