@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T03:59:06.390Z",
+  "generatedAt": "2026-05-28T04:03:17.239Z",
   "season": 2026,
   "pitchers": [
     {
@@ -4087,10 +4087,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 315,
+          "pitchCount": 317,
           "totalPitches": 955,
-          "percentage": 0.32984293,
-          "averageSpeed": 94.2652922603175
+          "percentage": 0.33193716,
+          "averageSpeed": 94.26812325236597
         },
         {
           "code": "SL",
@@ -4127,10 +4127,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 27,
+          "pitchCount": 25,
           "totalPitches": 955,
-          "percentage": 0.02827225,
-          "averageSpeed": 93.51655062962963
+          "percentage": 0.02617801,
+          "averageSpeed": 93.42075432000001
         }
       ],
       "season": {
@@ -8879,10 +8879,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 200,
+          "pitchCount": 201,
           "totalPitches": 663,
-          "percentage": 0.30165914,
-          "averageSpeed": 92.62720978499999
+          "percentage": 0.30316743,
+          "averageSpeed": 92.62722393034828
         },
         {
           "code": "ST",
@@ -8895,10 +8895,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 65,
+          "pitchCount": 64,
           "totalPitches": 663,
-          "percentage": 0.09803922,
-          "averageSpeed": 92.30899012307695
+          "percentage": 0.09653092,
+          "averageSpeed": 92.30397351562503
         },
         {
           "code": "CH",
@@ -10239,10 +10239,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 177,
+          "pitchCount": 180,
           "totalPitches": 517,
-          "percentage": 0.34235978,
-          "averageSpeed": 93.12070092090399
+          "percentage": 0.34816247,
+          "averageSpeed": 93.10121984444447
         },
         {
           "code": "SL",
@@ -10271,10 +10271,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 41,
+          "pitchCount": 38,
           "totalPitches": 517,
-          "percentage": 0.079303674,
-          "averageSpeed": 92.16434119512193
+          "percentage": 0.07350097,
+          "averageSpeed": 92.18111789473683
         }
       ],
       "season": {
@@ -13011,6 +13011,62 @@
       }
     },
     {
+      "id": 694361,
+      "name": "Will Klein",
+      "slug": "will-klein-694361",
+      "mlbTeam": "LAD",
+      "mlbTeamId": 119,
+      "pitchHand": "R",
+      "age": 26,
+      "totalPitches": 361,
+      "pitches": [
+        {
+          "code": "FF",
+          "description": "Four-seam FB",
+          "pitchCount": 184,
+          "totalPitches": 361,
+          "percentage": 0.5096953,
+          "averageSpeed": 97.7605547826087
+        },
+        {
+          "code": "ST",
+          "description": "Sweeper",
+          "pitchCount": 89,
+          "totalPitches": 361,
+          "percentage": 0.2465374,
+          "averageSpeed": 88.87954098876403
+        },
+        {
+          "code": "CU",
+          "description": "Curveball",
+          "pitchCount": 69,
+          "totalPitches": 361,
+          "percentage": 0.19113573,
+          "averageSpeed": 84.95101804347824
+        },
+        {
+          "code": "SL",
+          "description": "Slider",
+          "pitchCount": 19,
+          "totalPitches": 361,
+          "percentage": 0.05263158,
+          "averageSpeed": 90.59622173684211
+        }
+      ],
+      "season": {
+        "gamesStarted": 1,
+        "inningsPitched": "22.2",
+        "era": "1.99",
+        "whip": "1.06",
+        "strikeoutsPer9Inn": "9.93",
+        "walksPer9Inn": "2.38",
+        "strikeOuts": 25,
+        "baseOnBalls": 6,
+        "wins": 1,
+        "losses": 2
+      }
+    },
+    {
       "id": 689254,
       "name": "Mason Fluharty",
       "slug": "mason-fluharty-689254",
@@ -13336,62 +13392,6 @@
         "baseOnBalls": 6,
         "wins": 2,
         "losses": 1
-      }
-    },
-    {
-      "id": 694361,
-      "name": "Will Klein",
-      "slug": "will-klein-694361",
-      "mlbTeam": "LAD",
-      "mlbTeamId": 119,
-      "pitchHand": "R",
-      "age": 26,
-      "totalPitches": 354,
-      "pitches": [
-        {
-          "code": "FF",
-          "description": "Four-seam FB",
-          "pitchCount": 179,
-          "totalPitches": 354,
-          "percentage": 0.50564975,
-          "averageSpeed": 97.76437572067039
-        },
-        {
-          "code": "ST",
-          "description": "Sweeper",
-          "pitchCount": 89,
-          "totalPitches": 354,
-          "percentage": 0.25141242,
-          "averageSpeed": 88.87954098876403
-        },
-        {
-          "code": "CU",
-          "description": "Curveball",
-          "pitchCount": 67,
-          "totalPitches": 354,
-          "percentage": 0.18926553,
-          "averageSpeed": 84.95116268656714
-        },
-        {
-          "code": "SL",
-          "description": "Slider",
-          "pitchCount": 19,
-          "totalPitches": 354,
-          "percentage": 0.053672317,
-          "averageSpeed": 90.59622173684211
-        }
-      ],
-      "season": {
-        "gamesStarted": 1,
-        "inningsPitched": "22.1",
-        "era": "2.01",
-        "whip": "1.07",
-        "strikeoutsPer9Inn": "10.07",
-        "walksPer9Inn": "2.42",
-        "strikeOuts": 25,
-        "baseOnBalls": 6,
-        "wins": 1,
-        "losses": 2
       }
     },
     {
