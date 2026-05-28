@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T01:54:37.620Z",
+  "generatedAt": "2026-05-28T03:59:03.706Z",
   "seasonStart": "2026-03-26",
   "endDate": "2026-06-11",
   "games": [
@@ -23619,8 +23619,8 @@
       },
       "awayScore": 2,
       "homeScore": 4,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-27T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -23646,9 +23646,9 @@
         "name": "White Sox"
       },
       "awayScore": 2,
-      "homeScore": 14,
-      "status": "I",
-      "detailedState": "In Progress",
+      "homeScore": 15,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-27T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -23675,8 +23675,8 @@
       },
       "awayScore": 7,
       "homeScore": 0,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-27T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -23701,10 +23701,10 @@
         "abbr": "TEX",
         "name": "Rangers"
       },
-      "awayScore": 2,
-      "homeScore": 2,
-      "status": "I",
-      "detailedState": "In Progress",
+      "awayScore": 4,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-05-28T00:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -23729,10 +23729,10 @@
         "abbr": "LAD",
         "name": "Dodgers"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "PW",
-      "detailedState": "Warmup",
+      "awayScore": 1,
+      "homeScore": 3,
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-05-28T02:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -23791,7 +23791,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-05-28T18:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 696070,
+        "name": "Kendry Rojas"
+      },
       "homePitcher": {
         "id": 663436,
         "name": "Davis Martin"
@@ -24959,7 +24962,10 @@
         "id": 592662,
         "name": "Robbie Ray"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 685299,
+        "name": "Tanner Gordon"
+      }
     },
     {
       "date": "2026-05-31",
