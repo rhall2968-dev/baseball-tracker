@@ -25,6 +25,7 @@ export function dataUrl(path: string): string {
     '/api/calendar': '/data/calendar.json',
     '/api/pitchers': '/data/pitchers.json',
     '/api/statcast': '/data/statcast-2026.json',
+    '/api/undrafted': '/data/undrafted.json',
   };
 
   const teamMatch = path.match(/^\/api\/teams\/(\d+)$/);
