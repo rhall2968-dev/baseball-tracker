@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T04:03:17.239Z",
+  "generatedAt": "2026-05-28T04:29:59.048Z",
   "season": 2026,
   "pitchers": [
     {
@@ -4087,10 +4087,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 317,
+          "pitchCount": 315,
           "totalPitches": 955,
-          "percentage": 0.33193716,
-          "averageSpeed": 94.26812325236597
+          "percentage": 0.32984293,
+          "averageSpeed": 94.2652922603175
         },
         {
           "code": "SL",
@@ -4127,10 +4127,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 25,
+          "pitchCount": 27,
           "totalPitches": 955,
-          "percentage": 0.02617801,
-          "averageSpeed": 93.42075432000001
+          "percentage": 0.02827225,
+          "averageSpeed": 93.51655062962963
         }
       ],
       "season": {
@@ -5951,10 +5951,10 @@
         {
           "code": "CH",
           "description": "Changeup",
-          "pitchCount": 178,
+          "pitchCount": 179,
           "totalPitches": 872,
-          "percentage": 0.20412844,
-          "averageSpeed": 81.51743831460674
+          "percentage": 0.20527522,
+          "averageSpeed": 81.49443756424581
         },
         {
           "code": "FC",
@@ -5975,10 +5975,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 104,
+          "pitchCount": 103,
           "totalPitches": 872,
-          "percentage": 0.119266056,
-          "averageSpeed": 85.104264
+          "percentage": 0.11811927,
+          "averageSpeed": 85.17905972815534
         },
         {
           "code": "SI",
@@ -8879,10 +8879,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 201,
+          "pitchCount": 200,
           "totalPitches": 663,
-          "percentage": 0.30316743,
-          "averageSpeed": 92.62722393034828
+          "percentage": 0.30165914,
+          "averageSpeed": 92.62720978499999
         },
         {
           "code": "ST",
@@ -8895,10 +8895,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 64,
+          "pitchCount": 65,
           "totalPitches": 663,
-          "percentage": 0.09653092,
-          "averageSpeed": 92.30397351562503
+          "percentage": 0.09803922,
+          "averageSpeed": 92.30899012307695
         },
         {
           "code": "CH",
@@ -10239,10 +10239,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 180,
+          "pitchCount": 177,
           "totalPitches": 517,
-          "percentage": 0.34816247,
-          "averageSpeed": 93.10121984444447
+          "percentage": 0.34235978,
+          "averageSpeed": 93.12070092090399
         },
         {
           "code": "SL",
@@ -10271,10 +10271,10 @@
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 38,
+          "pitchCount": 41,
           "totalPitches": 517,
-          "percentage": 0.07350097,
-          "averageSpeed": 92.18111789473683
+          "percentage": 0.079303674,
+          "averageSpeed": 92.16434119512193
         }
       ],
       "season": {
@@ -13055,11 +13055,11 @@
       ],
       "season": {
         "gamesStarted": 1,
-        "inningsPitched": "22.2",
-        "era": "1.99",
-        "whip": "1.06",
-        "strikeoutsPer9Inn": "9.93",
-        "walksPer9Inn": "2.38",
+        "inningsPitched": "23.1",
+        "era": "1.93",
+        "whip": "1.03",
+        "strikeoutsPer9Inn": "9.64",
+        "walksPer9Inn": "2.31",
         "strikeOuts": 25,
         "baseOnBalls": 6,
         "wins": 1,
