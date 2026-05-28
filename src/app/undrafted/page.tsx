@@ -18,13 +18,12 @@ interface UndraftedPlayer {
   stolenBases: number;
 }
 
-type SortKey = 'totalScore' | 'ppg' | 'proj162' | 'gamesPlayed' | 'singles' | 'doubles' | 'triples' | 'stolenBases';
+type SortKey = 'totalScore' | 'ppg' | 'proj162' | 'singles' | 'doubles' | 'triples' | 'stolenBases';
 
 const COLUMNS: { key: SortKey; label: string; abbr?: string }[] = [
   { key: 'totalScore', label: 'Total Pts', abbr: 'Pts' },
   { key: 'ppg', label: 'Avg Pts/Game', abbr: 'PPG' },
   { key: 'proj162', label: 'Proj. Total (162G)', abbr: 'Proj' },
-  { key: 'gamesPlayed', label: 'Games Played', abbr: 'GP' },
   { key: 'singles', label: 'Singles', abbr: '1B' },
   { key: 'doubles', label: 'Doubles', abbr: '2B' },
   { key: 'triples', label: 'Triples', abbr: '3B' },
@@ -77,6 +76,7 @@ export default function UndraftedPage() {
                 <th className="text-left px-3 py-2.5 text-xs font-semibold text-gray-300 w-8">#</th>
                 <th className="text-left px-3 py-2.5 text-xs font-semibold text-gray-300">Player</th>
                 <th className="text-left px-3 py-2.5 text-xs font-semibold text-gray-300">Team</th>
+                <th className="text-left px-3 py-2.5 text-xs font-semibold text-gray-300">GP</th>
                 {COLUMNS.map(col => {
                   const active = col.key === sortKey;
                   return (
@@ -112,10 +112,10 @@ export default function UndraftedPage() {
                     <td className="px-3 py-2 text-gray-400 text-xs w-8">{i + 1}</td>
                     <td className="px-3 py-2 font-medium text-gray-900 whitespace-nowrap">{p.name}</td>
                     <td className="px-3 py-2 text-gray-500 text-xs whitespace-nowrap">{p.mlbTeam ?? '—'}</td>
+                    <td className="px-3 py-2 text-gray-500 text-xs">{p.gamesPlayed}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'totalScore' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'totalScore' ? 600 : 400 }}>{p.totalScore}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'ppg' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'ppg' ? 600 : 400 }}>{p.ppg.toFixed(2)}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'proj162' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'proj162' ? 600 : 400 }}>{p.proj162}</td>
-                    <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'gamesPlayed' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'gamesPlayed' ? 600 : 400 }}>{p.gamesPlayed}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'singles' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'singles' ? 600 : 400 }}>{p.singles}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'doubles' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'doubles' ? 600 : 400 }}>{p.doubles}</td>
                     <td className="px-3 py-2 text-right tabular-nums" style={{ color: sortKey === 'triples' ? '#1d4ed8' : '#374151', fontWeight: sortKey === 'triples' ? 600 : 400 }}>{p.triples}</td>
