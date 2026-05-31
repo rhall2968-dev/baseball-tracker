@@ -9,7 +9,7 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 416
+    "overallRank": 417
   },
   "seasonTotals": {
     "gamesPlayed": 9,
@@ -335,7 +335,7 @@
   "navigation": {
     "prevSlug": "ty-france",
     "prevName": "Ty France",
-    "nextSlug": "tyler-freeman",
-    "nextName": "Tyler Freeman"
+    "nextSlug": "tyler-callihan",
+    "nextName": "Tyler Callihan"
   }
 }
