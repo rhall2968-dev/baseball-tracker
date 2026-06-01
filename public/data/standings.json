@@ -2,6 +2,392 @@
   "standings": [
     {
       "team": {
+        "id": 1,
+        "name": "Cole"
+      },
+      "periods": [
+        {
+          "periodId": 1,
+          "periodName": "First Third",
+          "bestBallScore": 1267,
+          "countingPlayerIds": [
+            4,
+            1,
+            2,
+            11,
+            12,
+            9,
+            7,
+            8,
+            6,
+            5
+          ],
+          "benchPlayerIds": [
+            10,
+            13,
+            3
+          ],
+          "weeklyBreakdown": null
+        },
+        {
+          "periodId": 2,
+          "periodName": "Second Third",
+          "bestBallScore": 21,
+          "countingPlayerIds": [
+            4,
+            9,
+            5,
+            1,
+            2,
+            8,
+            6,
+            10,
+            3,
+            7,
+            12
+          ],
+          "benchPlayerIds": [
+            11,
+            13
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 21,
+              "countingPlayerIds": [
+                4,
+                9,
+                5,
+                1,
+                2,
+                8,
+                6,
+                10,
+                12,
+                3
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "periodId": 3,
+          "periodName": "Third Third",
+          "bestBallScore": 0,
+          "countingPlayerIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "benchPlayerIds": [
+            11,
+            12,
+            13
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "cumulativeScore": 1288
+    },
+    {
+      "team": {
         "id": 8,
         "name": "Bobby"
       },
@@ -26,28 +412,184 @@
             101,
             102,
             100
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 11,
           "countingPlayerIds": [
+            97,
+            94,
+            100,
             92,
             93,
-            94,
             95,
             96,
-            97,
             98,
             99,
-            100,
-            101
+            101,
+            104
           ],
           "benchPlayerIds": [
             102,
-            103,
-            104
+            103
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 11,
+              "countingPlayerIds": [
+                97,
+                104,
+                94,
+                100,
+                92,
+                93,
+                95,
+                96,
+                98,
+                99
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            }
           ]
         },
         {
@@ -70,10 +612,165 @@
             102,
             103,
             104
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                92,
+                93,
+                94,
+                95,
+                96,
+                97,
+                98,
+                99,
+                100,
+                101
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1276
+      "cumulativeScore": 1287
     },
     {
       "team": {
@@ -101,28 +798,184 @@
             64,
             65,
             62
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 15,
           "countingPlayerIds": [
-            53,
             54,
+            59,
+            53,
             55,
             56,
+            61,
             57,
             58,
-            59,
             60,
-            61,
-            62
-          ],
-          "benchPlayerIds": [
-            63,
+            62,
             64,
             65
+          ],
+          "benchPlayerIds": [
+            63
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 15,
+              "countingPlayerIds": [
+                54,
+                59,
+                53,
+                64,
+                65,
+                55,
+                56,
+                61,
+                57,
+                58
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            }
           ]
         },
         {
@@ -145,85 +998,165 @@
             63,
             64,
             65
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59,
+                60,
+                61,
+                62
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1271
-    },
-    {
-      "team": {
-        "id": 1,
-        "name": "Cole"
-      },
-      "periods": [
-        {
-          "periodId": 1,
-          "periodName": "First Third",
-          "bestBallScore": 1267,
-          "countingPlayerIds": [
-            4,
-            1,
-            2,
-            11,
-            12,
-            9,
-            7,
-            8,
-            6,
-            5
-          ],
-          "benchPlayerIds": [
-            10,
-            13,
-            3
-          ]
-        },
-        {
-          "periodId": 2,
-          "periodName": "Second Third",
-          "bestBallScore": 0,
-          "countingPlayerIds": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "benchPlayerIds": [
-            11,
-            12,
-            13
-          ]
-        },
-        {
-          "periodId": 3,
-          "periodName": "Third Third",
-          "bestBallScore": 0,
-          "countingPlayerIds": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
-          "benchPlayerIds": [
-            11,
-            12,
-            13
-          ]
-        }
-      ],
-      "cumulativeScore": 1267
+      "cumulativeScore": 1286
     },
     {
       "team": {
@@ -251,28 +1184,184 @@
             18,
             23,
             26
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 12,
           "countingPlayerIds": [
-            14,
-            15,
             16,
+            15,
+            14,
+            22,
             17,
             18,
             19,
             20,
             21,
-            22,
-            23
+            23,
+            24,
+            25
           ],
           "benchPlayerIds": [
-            24,
-            25,
             26
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 12,
+              "countingPlayerIds": [
+                16,
+                15,
+                14,
+                22,
+                24,
+                25,
+                17,
+                18,
+                19,
+                20
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            }
           ]
         },
         {
@@ -295,10 +1384,165 @@
             24,
             25,
             26
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1260
+      "cumulativeScore": 1272
     },
     {
       "team": {
@@ -326,28 +1570,184 @@
             83,
             87,
             81
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 15,
           "countingPlayerIds": [
-            79,
             80,
-            81,
-            82,
-            83,
-            84,
-            85,
             86,
+            84,
+            88,
+            79,
+            82,
+            81,
+            83,
+            85,
             87,
-            88
+            90
           ],
           "benchPlayerIds": [
             89,
-            90,
             91
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 15,
+              "countingPlayerIds": [
+                80,
+                86,
+                84,
+                88,
+                79,
+                82,
+                90,
+                81,
+                83,
+                85
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            }
           ]
         },
         {
@@ -370,10 +1770,165 @@
             89,
             90,
             91
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                79,
+                80,
+                81,
+                82,
+                83,
+                84,
+                85,
+                86,
+                87,
+                88
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1242
+      "cumulativeScore": 1257
     },
     {
       "team": {
@@ -401,28 +1956,184 @@
             52,
             41,
             43
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 33,
           "countingPlayerIds": [
+            44,
             40,
-            41,
+            47,
             42,
             43,
-            44,
-            45,
-            46,
-            47,
             48,
-            49
-          ],
-          "benchPlayerIds": [
-            50,
+            49,
+            45,
+            41,
+            46,
             51,
             52
+          ],
+          "benchPlayerIds": [
+            50
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 33,
+              "countingPlayerIds": [
+                44,
+                51,
+                40,
+                47,
+                42,
+                43,
+                48,
+                49,
+                52,
+                45
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            }
           ]
         },
         {
@@ -445,10 +2156,165 @@
             50,
             51,
             52
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48,
+                49
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1155
+      "cumulativeScore": 1188
     },
     {
       "team": {
@@ -476,28 +2342,184 @@
             78,
             70,
             74
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 25,
           "countingPlayerIds": [
             66,
+            73,
             67,
+            74,
             68,
             69,
+            72,
             70,
             71,
-            72,
-            73,
-            74,
-            75
+            75,
+            77
           ],
           "benchPlayerIds": [
             76,
-            77,
             78
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 25,
+              "countingPlayerIds": [
+                66,
+                73,
+                67,
+                74,
+                77,
+                68,
+                69,
+                72,
+                70,
+                71
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            }
           ]
         },
         {
@@ -520,10 +2542,165 @@
             76,
             77,
             78
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1143
+      "cumulativeScore": 1168
     },
     {
       "team": {
@@ -551,28 +2728,184 @@
             33,
             29,
             35
-          ]
+          ],
+          "weeklyBreakdown": null
         },
         {
           "periodId": 2,
           "periodName": "Second Third",
-          "bestBallScore": 0,
+          "bestBallScore": 20,
           "countingPlayerIds": [
+            30,
             27,
+            33,
+            31,
+            36,
             28,
             29,
-            30,
-            31,
             32,
-            33,
             34,
             35,
-            36
+            39
           ],
           "benchPlayerIds": [
             37,
-            38,
-            39
+            38
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-05-31",
+              "weekEnd": "2026-06-06",
+              "score": 20,
+              "countingPlayerIds": [
+                30,
+                27,
+                33,
+                31,
+                36,
+                39,
+                28,
+                29,
+                32,
+                34
+              ]
+            },
+            {
+              "weekStart": "2026-06-07",
+              "weekEnd": "2026-06-13",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-06-14",
+              "weekEnd": "2026-06-20",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-06-21",
+              "weekEnd": "2026-06-27",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-06-28",
+              "weekEnd": "2026-07-04",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-07-05",
+              "weekEnd": "2026-07-11",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-07-12",
+              "weekEnd": "2026-07-18",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-07-19",
+              "weekEnd": "2026-07-25",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-07-26",
+              "weekEnd": "2026-07-30",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            }
           ]
         },
         {
@@ -595,10 +2928,165 @@
             37,
             38,
             39
+          ],
+          "weeklyBreakdown": [
+            {
+              "weekStart": "2026-07-31",
+              "weekEnd": "2026-08-06",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-08-07",
+              "weekEnd": "2026-08-13",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-08-14",
+              "weekEnd": "2026-08-20",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-08-21",
+              "weekEnd": "2026-08-27",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-08-28",
+              "weekEnd": "2026-09-03",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-09-04",
+              "weekEnd": "2026-09-10",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-09-11",
+              "weekEnd": "2026-09-17",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-09-18",
+              "weekEnd": "2026-09-24",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            },
+            {
+              "weekStart": "2026-09-25",
+              "weekEnd": "2026-09-27",
+              "score": 0,
+              "countingPlayerIds": [
+                27,
+                28,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ]
+            }
           ]
         }
       ],
-      "cumulativeScore": 1123
+      "cumulativeScore": 1143
     }
   ],
   "periods": [
