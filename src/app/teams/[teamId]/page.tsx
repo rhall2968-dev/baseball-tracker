@@ -183,91 +183,98 @@ export default function TeamDetailPage() {
     };
   });
 
-  // Scoreboard table shared by 2nd and 3rd Third tabs
+  // Scoreboard table for 2nd and 3rd Third tabs
   function ScoreboardTable({
     players,
     weekDates,
     activePeriod,
-    periodLabel,
-    thirdScore,
-    thirdTeamTotal,
-    otherThirdScore,
-    otherThirdLabel,
+    weekPeriods,
   }: {
     players: typeof allPlayers;
     weekDates: string[];
     activePeriod: PeriodResult | null;
-    periodLabel: string;
-    thirdScore: (p: typeof allPlayers[0]) => number;
-    thirdTeamTotal: number;
-    otherThirdScore?: (p: typeof allPlayers[0]) => number;
-    otherThirdLabel?: string;
+    weekPeriods: PeriodResult[];
   }) {
     const countingIds = new Set(activePeriod?.countingPlayerIds ?? []);
     const sorted = [...players].sort((a, b) => b.seasonTotal - a.seasonTotal);
+    const hasDaily = weekDates.length > 0;
+    // colspan for the current-week section: daily days + 1 for Wk Total
+    const weekSectionCols = weekDates.length + 1;
+    const weekPeriodTeamTotal = weekPeriods.reduce((s, p) => s + p.bestBallScore, 0);
 
     return (
       <div className="border border-border rounded-lg overflow-x-auto">
-        <table className="w-full" style={{ minWidth: `${380 + weekDates.length * 44}px` }}>
+        <table className="w-full" style={{ minWidth: `${260 + weekDates.length * 36 + 48 + weekPeriods.length * 44 + 56}px` }}>
           <thead>
-            <tr className="border-b border-border bg-muted/40">
+            {/* Group header */}
+            <tr className="border-b border-border/40 bg-muted/40">
               <th className="w-5 px-3 py-2"></th>
               <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
-              {weekDates.length > 0 && (
+              {hasDaily && (
                 <th
-                  colSpan={weekDates.length}
-                  className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1 border-l border-border/50"
+                  colSpan={weekSectionCols}
+                  className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1.5 border-l border-border/50"
                 >
-                  {activePeriod?.period.name ?? periodLabel}
+                  {activePeriod?.period.name ?? 'This Week'}
                 </th>
               )}
-              <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50">
-                1st ⅓
-              </th>
-              <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">
-                {periodLabel}
-              </th>
-              {otherThirdLabel && (
-                <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 text-muted-foreground/50">
-                  {otherThirdLabel}
+              {weekPeriods.length > 0 && (
+                <th
+                  colSpan={weekPeriods.length}
+                  className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1.5 border-l border-border/50"
+                >
+                  Week Totals
                 </th>
               )}
               <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50">
                 Total
               </th>
             </tr>
-            {weekDates.length > 0 && (
-              <tr className="border-b border-border/50 bg-muted/20">
-                <th className="px-3 py-1"></th>
-                <th className="px-3 py-1"></th>
-                {weekDates.map((date, i) => {
-                  const d = new Date(date + 'T12:00:00Z');
-                  const isFuture = date > today;
-                  return (
-                    <th
-                      key={date}
-                      className={`text-center text-[10px] font-normal px-1 py-1 w-10 ${
-                        i === 0 ? 'border-l border-border/50' : ''
-                      } ${date === today ? 'text-primary font-medium' : isFuture ? 'text-muted-foreground/30' : 'text-muted-foreground'}`}
-                    >
-                      <div>{DAY_ABBR[d.getUTCDay()]}</div>
-                      <div className="text-[9px]">{d.getUTCMonth() + 1}/{d.getUTCDate()}</div>
-                    </th>
-                  );
-                })}
-                <th className="px-3 py-1 border-l border-border/50"></th>
-                <th className="px-3 py-1"></th>
-                {otherThirdLabel && <th className="px-3 py-1"></th>}
-                <th className="px-3 py-1 border-l border-border/50"></th>
-              </tr>
-            )}
+            {/* Column header */}
+            <tr className="border-b border-border/50 bg-muted/20">
+              <th className="px-3 py-1"></th>
+              <th className="px-3 py-1"></th>
+              {weekDates.map((date, i) => {
+                const d = new Date(date + 'T12:00:00Z');
+                const isFuture = date > today;
+                return (
+                  <th
+                    key={date}
+                    className={`text-center text-[10px] font-normal px-1 py-1 w-9 ${
+                      i === 0 ? 'border-l border-border/50' : ''
+                    } ${date === today ? 'text-primary font-medium' : isFuture ? 'text-muted-foreground/30' : 'text-muted-foreground'}`}
+                  >
+                    <div>{DAY_ABBR[d.getUTCDay()]}</div>
+                    <div className="text-[9px]">{d.getUTCMonth() + 1}/{d.getUTCDate()}</div>
+                  </th>
+                );
+              })}
+              {hasDaily && (
+                <th className="text-center text-[10px] font-semibold text-muted-foreground px-2 py-1 whitespace-nowrap">
+                  Wk
+                </th>
+              )}
+              {weekPeriods.map((wp, i) => {
+                const isCurrent = wp.period.startDate <= today && wp.period.endDate >= today;
+                return (
+                  <th
+                    key={wp.period.id}
+                    className={`text-center text-[10px] font-normal px-1 py-1 w-10 ${
+                      i === 0 ? 'border-l border-border/50' : ''
+                    } ${isCurrent ? 'text-primary font-semibold' : 'text-muted-foreground'}`}
+                  >
+                    {wp.period.name.replace('Wk ', 'W')}
+                  </th>
+                );
+              })}
+              <th className="px-3 py-1 border-l border-border/50"></th>
+            </tr>
           </thead>
           <tbody>
             {sorted.map((ps, idx) => {
               const counting = countingIds.has(ps.playerId);
               const dailyMap = data!.weeklyDaily[String(ps.playerId)] ?? {};
-              const pts2nd = thirdScore(ps);
-              const pts3rd = otherThirdScore ? otherThirdScore(ps) : null;
+              const wkTotal = weekDates.reduce((s, d) => s + (dailyMap[d] ?? 0), 0);
               return (
                 <tr
                   key={ps.playerId}
@@ -294,7 +301,7 @@ export default function TeamDetailPage() {
                     return (
                       <td
                         key={date}
-                        className={`text-center text-xs tabular-nums py-1.5 w-10 ${
+                        className={`text-center text-xs tabular-nums py-1.5 w-9 ${
                           i === 0 ? 'border-l border-border/50' : ''
                         } ${isFuture ? 'text-muted-foreground/20' : score ? '' : 'text-muted-foreground/40'}`}
                       >
@@ -302,17 +309,25 @@ export default function TeamDetailPage() {
                       </td>
                     );
                   })}
-                  <td className={`text-right text-xs tabular-nums px-3 py-1.5 border-l border-border/50 ${ps.firstThirdScore === 0 ? 'text-muted-foreground/30' : ''}`}>
-                    {ps.firstThirdScore || '—'}
-                  </td>
-                  <td className={`text-right text-xs tabular-nums px-3 py-1.5 ${pts2nd === 0 ? 'text-muted-foreground/30' : ''}`}>
-                    {pts2nd || '—'}
-                  </td>
-                  {pts3rd !== null && (
-                    <td className={`text-right text-xs tabular-nums px-3 py-1.5 text-muted-foreground/50 ${pts3rd === 0 ? 'text-muted-foreground/20' : ''}`}>
-                      {pts3rd || '—'}
+                  {hasDaily && (
+                    <td className={`text-center text-xs tabular-nums font-semibold py-1.5 px-2 ${wkTotal === 0 ? 'text-muted-foreground/30' : ''}`}>
+                      {wkTotal || '—'}
                     </td>
                   )}
+                  {weekPeriods.map((wp, i) => {
+                    const entry = wp.playerScores.find(x => x.playerId === ps.playerId);
+                    const pts = entry?.totalScore ?? 0;
+                    return (
+                      <td
+                        key={wp.period.id}
+                        className={`text-center text-xs tabular-nums py-1.5 px-2 ${
+                          i === 0 ? 'border-l border-border/50' : ''
+                        } ${pts === 0 ? 'text-muted-foreground/20' : ''}`}
+                      >
+                        {pts || '—'}
+                      </td>
+                    );
+                  })}
                   <td className={`text-right text-xs tabular-nums font-semibold px-3 py-1.5 border-l border-border/50 ${counting ? '' : 'text-muted-foreground'}`}>
                     {ps.seasonTotal || '—'}
                   </td>
@@ -322,20 +337,21 @@ export default function TeamDetailPage() {
           </tbody>
           <tfoot>
             <tr className="bg-muted/30">
-              <td colSpan={2 + weekDates.length} className="px-3 py-2 text-xs font-medium">
+              <td colSpan={2 + (hasDaily ? weekSectionCols : 0)} className="px-3 py-2 text-xs font-medium">
                 Best Ball Total
               </td>
-              <td className={`text-right text-xs tabular-nums px-3 py-2 border-l border-border/50 ${firstThirdTeamScore > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}>
-                {firstThirdTeamScore || '—'}
-              </td>
-              <td className={`text-right text-xs tabular-nums px-3 py-2 ${thirdTeamTotal > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}>
-                {thirdTeamTotal || '—'}
-              </td>
-              {otherThirdLabel && (
-                <td className="text-right text-xs tabular-nums px-3 py-2 text-muted-foreground/40">—</td>
-              )}
-              <td className="text-right text-xs tabular-nums font-semibold text-primary px-3 py-2 border-l border-border/50">
-                {cumulativeScore}
+              {weekPeriods.map((wp, i) => (
+                <td
+                  key={wp.period.id}
+                  className={`text-center text-xs tabular-nums px-2 py-2 ${
+                    i === 0 ? 'border-l border-border/50' : ''
+                  } ${wp.bestBallScore > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}
+                >
+                  {wp.bestBallScore || '—'}
+                </td>
+              ))}
+              <td className={`text-right text-xs tabular-nums font-semibold px-3 py-2 border-l border-border/50 ${weekPeriodTeamTotal > 0 ? 'text-primary' : 'text-muted-foreground/40'}`}>
+                {weekPeriodTeamTotal || '—'}
               </td>
             </tr>
           </tfoot>
@@ -468,9 +484,7 @@ export default function TeamDetailPage() {
             players={allPlayers}
             weekDates={getWeekDates(activeSecondThirdPeriod)}
             activePeriod={activeSecondThirdPeriod}
-            periodLabel="2nd ⅓"
-            thirdScore={p => p.secondThirdScore}
-            thirdTeamTotal={secondThirdTeamScore}
+            weekPeriods={secondThirdPeriods}
           />
         </TabsContent>
 
@@ -481,9 +495,7 @@ export default function TeamDetailPage() {
               players={allPlayers}
               weekDates={getWeekDates(activeThirdThirdPeriod)}
               activePeriod={activeThirdThirdPeriod}
-              periodLabel="3rd ⅓"
-              thirdScore={p => p.thirdThirdScore}
-              thirdTeamTotal={thirdThirdTeamScore}
+              weekPeriods={thirdThirdPeriods}
             />
           ) : (
             <div className="border border-border rounded-lg p-10 text-center">
