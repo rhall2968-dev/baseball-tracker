@@ -6,10 +6,10 @@
     "slug": "yainer-diaz",
     "mlbTeam": "HOU",
     "position": "C",
-    "teamId": 2,
-    "fantasyTeam": "Markus",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 13,
-    "overallRank": 311
+    "overallRank": 315
   },
   "seasonTotals": {
     "gamesPlayed": 24,

@@ -6,10 +6,10 @@
     "slug": "luis-robert-jr",
     "mlbTeam": "NYM",
     "position": "CF",
-    "teamId": 3,
-    "fantasyTeam": "J Mill",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 9,
-    "overallRank": 297
+    "overallRank": 300
   },
   "seasonTotals": {
     "gamesPlayed": 24,

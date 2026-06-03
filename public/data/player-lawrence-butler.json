@@ -6,10 +6,10 @@
     "slug": "lawrence-butler",
     "mlbTeam": "ATH",
     "position": "RF",
-    "teamId": 6,
-    "fantasyTeam": "Jack",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 9,
-    "overallRank": 235
+    "overallRank": 240
   },
   "seasonTotals": {
     "gamesPlayed": 48,

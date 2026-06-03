@@ -6,10 +6,10 @@
     "slug": "trevor-story",
     "mlbTeam": "BOS",
     "position": "SS",
-    "teamId": 2,
-    "fantasyTeam": "Markus",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 10,
-    "overallRank": 220
+    "overallRank": 224
   },
   "seasonTotals": {
     "gamesPlayed": 41,

@@ -6,6 +6,17 @@
     "created_at": "2026-04-05 19:32:19",
     "roster": [
       {
+        "id": 219,
+        "mlbId": 691023,
+        "name": "Jordan Walker",
+        "mlbTeam": "STL",
+        "position": "RF",
+        "teamId": 1,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "jordan-walker"
+      },
+      {
         "id": 1,
         "mlbId": 660271,
         "name": "Shohei Ohtani",
@@ -43,7 +54,7 @@
         "mlbId": 695578,
         "name": "James Wood",
         "mlbTeam": "WSH",
-        "position": "RF",
+        "position": "LF",
         "teamId": 1,
         "draftRound": 4,
         "isActive": 1,
@@ -59,6 +70,17 @@
         "draftRound": 5,
         "isActive": 1,
         "slug": "jackson-merrill"
+      },
+      {
+        "id": 83,
+        "mlbId": 543807,
+        "name": "George Springer",
+        "mlbTeam": "TOR",
+        "position": "DH",
+        "teamId": 1,
+        "draftRound": 5,
+        "isActive": 1,
+        "slug": "george-springer"
       },
       {
         "id": 6,
@@ -105,17 +127,6 @@
         "slug": "michael-harris-ii"
       },
       {
-        "id": 10,
-        "mlbId": 521692,
-        "name": "Salvador Perez",
-        "mlbTeam": "KC",
-        "position": "C",
-        "teamId": 1,
-        "draftRound": 10,
-        "isActive": 1,
-        "slug": "salvador-perez"
-      },
-      {
         "id": 11,
         "mlbId": 686948,
         "name": "Drake Baldwin",
@@ -136,17 +147,6 @@
         "draftRound": 12,
         "isActive": 1,
         "slug": "ozzie-albies"
-      },
-      {
-        "id": 13,
-        "mlbId": 805779,
-        "name": "Jacob Wilson",
-        "mlbTeam": "ATH",
-        "position": "SS",
-        "teamId": 1,
-        "draftRound": 13,
-        "isActive": 1,
-        "slug": "jacob-wilson"
       }
     ]
   },
@@ -156,6 +156,28 @@
     "owner": "Markus",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 106,
+        "mlbId": 664040,
+        "name": "Brandon Lowe",
+        "mlbTeam": "PIT",
+        "position": "2B",
+        "teamId": 2,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "brandon-lowe"
+      },
+      {
+        "id": 248,
+        "mlbId": 571970,
+        "name": "Max Muncy",
+        "mlbTeam": "LAD",
+        "position": "3B",
+        "teamId": 2,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "max-muncy"
+      },
       {
         "id": 14,
         "mlbId": 592450,
@@ -249,22 +271,11 @@
         "mlbId": 663538,
         "name": "Nico Hoerner",
         "mlbTeam": "CHC",
-        "position": "2B",
+        "position": "SS",
         "teamId": 2,
         "draftRound": 9,
         "isActive": 1,
         "slug": "nico-hoerner"
-      },
-      {
-        "id": 23,
-        "mlbId": 596115,
-        "name": "Trevor Story",
-        "mlbTeam": "BOS",
-        "position": "SS",
-        "teamId": 2,
-        "draftRound": 10,
-        "isActive": 1,
-        "slug": "trevor-story"
       },
       {
         "id": 24,
@@ -287,17 +298,6 @@
         "draftRound": 12,
         "isActive": 1,
         "slug": "jakob-marsee"
-      },
-      {
-        "id": 26,
-        "mlbId": 673237,
-        "name": "Yainer Diaz",
-        "mlbTeam": "HOU",
-        "position": "C",
-        "teamId": 2,
-        "draftRound": 13,
-        "isActive": 1,
-        "slug": "yainer-diaz"
       }
     ]
   },
@@ -307,6 +307,50 @@
     "owner": "J Mill",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 181,
+        "mlbId": 545361,
+        "name": "Mike Trout",
+        "mlbTeam": "LAA",
+        "position": "CF",
+        "teamId": 3,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "mike-trout"
+      },
+      {
+        "id": 194,
+        "mlbId": 805808,
+        "name": "Kevin McGonigle",
+        "mlbTeam": "DET",
+        "position": "3B",
+        "teamId": 3,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "kevin-mcgonigle"
+      },
+      {
+        "id": 222,
+        "mlbId": 802139,
+        "name": "JJ Wetherholt",
+        "mlbTeam": "STL",
+        "position": "2B",
+        "teamId": 3,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "jj-wetherholt"
+      },
+      {
+        "id": 226,
+        "mlbId": 671056,
+        "name": "Iván Herrera",
+        "mlbTeam": "STL",
+        "position": "DH",
+        "teamId": 3,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "ivan-herrera"
+      },
       {
         "id": 27,
         "mlbId": 665742,
@@ -341,17 +385,6 @@
         "slug": "francisco-lindor"
       },
       {
-        "id": 30,
-        "mlbId": 667670,
-        "name": "Brent Rooker",
-        "mlbTeam": "ATH",
-        "position": "DH",
-        "teamId": 3,
-        "draftRound": 4,
-        "isActive": 1,
-        "slug": "brent-rooker"
-      },
-      {
         "id": 31,
         "mlbId": 682928,
         "name": "CJ Abrams",
@@ -367,22 +400,11 @@
         "mlbId": 621439,
         "name": "Byron Buxton",
         "mlbTeam": "MIN",
-        "position": "DH",
+        "position": "CF",
         "teamId": 3,
         "draftRound": 6,
         "isActive": 1,
         "slug": "byron-buxton"
-      },
-      {
-        "id": 33,
-        "mlbId": 553993,
-        "name": "Eugenio Suarez",
-        "mlbTeam": "CIN",
-        "position": "DH",
-        "teamId": 3,
-        "draftRound": 7,
-        "isActive": 1,
-        "slug": "eugenio-suarez"
       },
       {
         "id": 34,
@@ -394,17 +416,6 @@
         "draftRound": 8,
         "isActive": 1,
         "slug": "will-smith"
-      },
-      {
-        "id": 35,
-        "mlbId": 673357,
-        "name": "Luis Robert Jr.",
-        "mlbTeam": "NYM",
-        "position": "CF",
-        "teamId": 3,
-        "draftRound": 9,
-        "isActive": 1,
-        "slug": "luis-robert-jr"
       },
       {
         "id": 36,
@@ -438,17 +449,6 @@
         "draftRound": 12,
         "isActive": 1,
         "slug": "willson-contreras"
-      },
-      {
-        "id": 39,
-        "mlbId": 643446,
-        "name": "Jeff McNeil",
-        "mlbTeam": "ATH",
-        "position": "2B",
-        "teamId": 3,
-        "draftRound": 13,
-        "isActive": 1,
-        "slug": "jeff-mcneil"
       }
     ]
   },
@@ -458,6 +458,39 @@
     "owner": "Ryan",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 121,
+        "mlbId": 695657,
+        "name": "Colson Montgomery",
+        "mlbTeam": "CWS",
+        "position": "SS",
+        "teamId": 4,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "colson-montgomery"
+      },
+      {
+        "id": 171,
+        "mlbId": 701398,
+        "name": "Sal Stewart",
+        "mlbTeam": "CIN",
+        "position": "2B",
+        "teamId": 4,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "sal-stewart"
+      },
+      {
+        "id": 395,
+        "mlbId": 666160,
+        "name": "Mickey Moniak",
+        "mlbTeam": "COL",
+        "position": "DH",
+        "teamId": 4,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "mickey-moniak"
+      },
       {
         "id": 40,
         "mlbId": 677951,
@@ -507,7 +540,7 @@
         "mlbId": 646240,
         "name": "Rafael Devers",
         "mlbTeam": "SF",
-        "position": "DH",
+        "position": "1B",
         "teamId": 4,
         "draftRound": 5,
         "isActive": 1,
@@ -562,44 +595,11 @@
         "mlbId": 668804,
         "name": "Bryan Reynolds",
         "mlbTeam": "PIT",
-        "position": "RF",
+        "position": "LF",
         "teamId": 4,
         "draftRound": 10,
         "isActive": 1,
         "slug": "bryan-reynolds"
-      },
-      {
-        "id": 50,
-        "mlbId": 804606,
-        "name": "Konnor Griffin",
-        "mlbTeam": "PIT",
-        "position": "DH",
-        "teamId": 4,
-        "draftRound": 11,
-        "isActive": 1,
-        "slug": "konnor-griffin"
-      },
-      {
-        "id": 51,
-        "mlbId": 808982,
-        "name": "Jung Hoo Lee",
-        "mlbTeam": "SF",
-        "position": "CF",
-        "teamId": 4,
-        "draftRound": 12,
-        "isActive": 1,
-        "slug": "jung-hoo-lee"
-      },
-      {
-        "id": 52,
-        "mlbId": 695506,
-        "name": "Jac Caglianone",
-        "mlbTeam": "KC",
-        "position": "DH",
-        "teamId": 4,
-        "draftRound": 13,
-        "isActive": 1,
-        "slug": "jac-caglianone"
       }
     ]
   },
@@ -609,6 +609,28 @@
     "owner": "Joey",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 214,
+        "mlbId": 666018,
+        "name": "Jonathan Aranda",
+        "mlbTeam": "TB",
+        "position": "1B",
+        "teamId": 5,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "jonathan-aranda"
+      },
+      {
+        "id": 296,
+        "mlbId": 669364,
+        "name": "Xavier Edwards",
+        "mlbTeam": "MIA",
+        "position": "2B",
+        "teamId": 5,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "xavier-edwards"
+      },
       {
         "id": 53,
         "mlbId": 608070,
@@ -729,28 +751,6 @@
         "draftRound": 11,
         "isActive": 1,
         "slug": "brandon-nimmo"
-      },
-      {
-        "id": 64,
-        "mlbId": 656305,
-        "name": "Matt Chapman",
-        "mlbTeam": "SF",
-        "position": "3B",
-        "teamId": 5,
-        "draftRound": 12,
-        "isActive": 1,
-        "slug": "matt-chapman"
-      },
-      {
-        "id": 65,
-        "mlbId": 669065,
-        "name": "Kyle Stowers",
-        "mlbTeam": "MIA",
-        "position": "LF",
-        "teamId": 5,
-        "draftRound": 13,
-        "isActive": 1,
-        "slug": "kyle-stowers"
       }
     ]
   },
@@ -760,6 +760,28 @@
     "owner": "Jack",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 192,
+        "mlbId": 572233,
+        "name": "Christian Walker",
+        "mlbTeam": "HOU",
+        "position": "1B",
+        "teamId": 6,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "christian-walker"
+      },
+      {
+        "id": 350,
+        "mlbId": 700250,
+        "name": "Ben Rice",
+        "mlbTeam": "NYY",
+        "position": "1B",
+        "teamId": 6,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "ben-rice"
+      },
       {
         "id": 66,
         "mlbId": 660670,
@@ -820,7 +842,7 @@
         "mlbId": 682985,
         "name": "Riley Greene",
         "mlbTeam": "DET",
-        "position": "DH",
+        "position": "LF",
         "teamId": 6,
         "draftRound": 6,
         "isActive": 1,
@@ -847,28 +869,6 @@
         "draftRound": 8,
         "isActive": 1,
         "slug": "willy-adames"
-      },
-      {
-        "id": 74,
-        "mlbId": 671732,
-        "name": "Lawrence Butler",
-        "mlbTeam": "ATH",
-        "position": "RF",
-        "teamId": 6,
-        "draftRound": 9,
-        "isActive": 1,
-        "slug": "lawrence-butler"
-      },
-      {
-        "id": 75,
-        "mlbId": 680757,
-        "name": "Steven Kwan",
-        "mlbTeam": "CLE",
-        "position": "CF",
-        "teamId": 6,
-        "draftRound": 10,
-        "isActive": 1,
-        "slug": "steven-kwan"
       },
       {
         "id": 76,
@@ -911,6 +911,28 @@
     "owner": "Austin",
     "created_at": "2026-04-05 19:32:19",
     "roster": [
+      {
+        "id": 128,
+        "mlbId": 678246,
+        "name": "Miguel Vargas",
+        "mlbTeam": "CWS",
+        "position": "3B",
+        "teamId": 7,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "miguel-vargas"
+      },
+      {
+        "id": 300,
+        "mlbId": 672640,
+        "name": "Otto Lopez",
+        "mlbTeam": "MIA",
+        "position": "SS",
+        "teamId": 7,
+        "draftRound": null,
+        "isActive": 1,
+        "slug": "otto-lopez"
+      },
       {
         "id": 79,
         "mlbId": 656941,
@@ -956,17 +978,6 @@
         "slug": "bryce-harper"
       },
       {
-        "id": 83,
-        "mlbId": 543807,
-        "name": "George Springer",
-        "mlbTeam": "TOR",
-        "position": "DH",
-        "teamId": 7,
-        "draftRound": 5,
-        "isActive": 1,
-        "slug": "george-springer"
-      },
-      {
         "id": 84,
         "mlbId": 665833,
         "name": "Oneil Cruz",
@@ -1000,17 +1011,6 @@
         "slug": "alex-bregman"
       },
       {
-        "id": 87,
-        "mlbId": 686668,
-        "name": "Brenton Doyle",
-        "mlbTeam": "COL",
-        "position": "CF",
-        "teamId": 7,
-        "draftRound": 9,
-        "isActive": 1,
-        "slug": "brenton-doyle"
-      },
-      {
         "id": 88,
         "mlbId": 666176,
         "name": "Jo Adell",
@@ -1037,7 +1037,7 @@
         "mlbId": 668939,
         "name": "Adley Rutschman",
         "mlbTeam": "BAL",
-        "position": "DH",
+        "position": "C",
         "teamId": 7,
         "draftRound": 12,
         "isActive": 1,
@@ -1078,7 +1078,7 @@
         "mlbId": 665489,
         "name": "Vladimir Guerrero Jr.",
         "mlbTeam": "TOR",
-        "position": "DH",
+        "position": "1B",
         "teamId": 8,
         "draftRound": 2,
         "isActive": 1,
@@ -1122,7 +1122,7 @@
         "mlbId": 680776,
         "name": "Jarren Duran",
         "mlbTeam": "BOS",
-        "position": "CF",
+        "position": "LF",
         "teamId": 8,
         "draftRound": 6,
         "isActive": 1,

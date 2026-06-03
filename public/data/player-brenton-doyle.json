@@ -6,10 +6,10 @@
     "slug": "brenton-doyle",
     "mlbTeam": "COL",
     "position": "CF",
-    "teamId": 7,
-    "fantasyTeam": "Austin",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 9,
-    "overallRank": 271
+    "overallRank": 272
   },
   "seasonTotals": {
     "gamesPlayed": 38,

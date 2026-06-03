@@ -6,10 +6,10 @@
     "slug": "kevin-mcgonigle",
     "mlbTeam": "DET",
     "position": "3B",
-    "teamId": null,
-    "fantasyTeam": "",
+    "teamId": 3,
+    "fantasyTeam": "J Mill",
     "draftRound": null,
-    "overallRank": 38
+    "overallRank": 42
   },
   "seasonTotals": {
     "gamesPlayed": 57,

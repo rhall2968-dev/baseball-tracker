@@ -6,10 +6,10 @@
     "slug": "konnor-griffin",
     "mlbTeam": "PIT",
     "position": "DH",
-    "teamId": 4,
-    "fantasyTeam": "Ryan",
+    "teamId": null,
+    "fantasyTeam": "",
     "draftRound": 11,
-    "overallRank": 96
+    "overallRank": 103
   },
   "seasonTotals": {
     "gamesPlayed": 50,

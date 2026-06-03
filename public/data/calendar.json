@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-02T22:06:47.426Z",
+  "generatedAt": "2026-06-03T15:40:39.021Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-06-16",
+  "endDate": "2026-06-17",
   "games": [
     {
       "date": "2026-03-26",
@@ -25437,10 +25437,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": 0,
+      "awayScore": 8,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25465,10 +25465,10 @@
         "abbr": "PHI",
         "name": "Phillies"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 2,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25493,10 +25493,10 @@
         "abbr": "BOS",
         "name": "Red Sox"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T22:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25521,10 +25521,10 @@
         "abbr": "WSH",
         "name": "Nationals"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 7,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T22:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25549,10 +25549,10 @@
         "abbr": "NYY",
         "name": "Yankees"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 9,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25577,10 +25577,10 @@
         "abbr": "CIN",
         "name": "Reds"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 3,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25605,10 +25605,10 @@
         "abbr": "ATL",
         "name": "Braves"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 3,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25633,10 +25633,10 @@
         "abbr": "MIN",
         "name": "Twins"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 6,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25661,10 +25661,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 3,
+      "homeScore": 8,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25689,10 +25689,10 @@
         "abbr": "STL",
         "name": "Cardinals"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 7,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-02T23:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25717,10 +25717,10 @@
         "abbr": "CHC",
         "name": "Cubs"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 2,
+      "homeScore": 1,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T00:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25745,10 +25745,10 @@
         "abbr": "HOU",
         "name": "Astros"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 10,
+      "homeScore": 6,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T00:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25773,10 +25773,10 @@
         "abbr": "LAA",
         "name": "Angels"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 8,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T01:38:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25801,10 +25801,10 @@
         "abbr": "AZ",
         "name": "D-backs"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 6,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25829,13 +25829,16 @@
         "abbr": "SEA",
         "name": "Mariners"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 8,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T01:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 623211,
+        "name": "Huascar Brazobán"
+      },
       "homePitcher": {
         "id": 669302,
         "name": "Logan Gilbert"
@@ -25854,10 +25857,10 @@
         "abbr": "WSH",
         "name": "Nationals"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-03T17:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25882,10 +25885,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-03T17:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25910,10 +25913,10 @@
         "abbr": "MIN",
         "name": "Twins"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-03T17:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26277,7 +26280,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-04T17:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 608337,
+        "name": "Lucas Giolito"
+      },
       "homePitcher": {
         "id": 554430,
         "name": "Zack Wheeler"
@@ -26531,7 +26537,10 @@
       "gameTimeISO": "2026-06-05T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 664285,
+        "name": "Framber Valdez"
+      }
     },
     {
       "date": "2026-06-05",
@@ -26552,7 +26561,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-05T22:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 641743,
+        "name": "Anthony Kay"
+      },
       "homePitcher": null
     },
     {
@@ -26618,7 +26630,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-05T23:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      },
       "homePitcher": {
         "id": 663969,
         "name": "Tyler Phillips"
@@ -26691,7 +26706,10 @@
         "id": 663903,
         "name": "Brady Singer"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 681517,
+        "name": "Kyle Leahy"
+      }
     },
     {
       "date": "2026-06-06",
@@ -26712,7 +26730,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T00:15:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 800048,
+        "name": "Parker Messick"
+      },
       "homePitcher": null
     },
     {
@@ -26778,7 +26799,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T01:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 656492,
+        "name": "Foster Griffin"
+      },
       "homePitcher": null
     },
     {
@@ -26804,7 +26828,10 @@
         "id": 681035,
         "name": "Christian Scott"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 650633,
+        "name": "Michael King"
+      }
     },
     {
       "date": "2026-06-06",
@@ -26848,7 +26875,10 @@
       "gameTimeISO": "2026-06-06T17:10:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 672456,
+        "name": "Keider Montero"
+      }
     },
     {
       "date": "2026-06-06",
@@ -26895,7 +26925,10 @@
         "id": 666157,
         "name": "Nick Lodolo"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 669461,
+        "name": "Matthew Liberatore"
+      }
     },
     {
       "date": "2026-06-06",
@@ -26960,7 +26993,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T20:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 680732,
+        "name": "Sean Burke"
+      },
       "homePitcher": null
     },
     {
@@ -26982,7 +27018,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 641793,
+        "name": "Zack Littell"
+      },
       "homePitcher": null
     },
     {
@@ -27048,7 +27087,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T20:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 663556,
+        "name": "Shane McClanahan"
+      },
       "homePitcher": null
     },
     {
@@ -27070,7 +27112,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T23:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 676440,
+        "name": "Tanner Bibee"
+      },
       "homePitcher": null
     },
     {
@@ -27162,7 +27207,10 @@
         "id": 690997,
         "name": "Nolan McLean"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 656288,
+        "name": "Griffin Canning"
+      }
     },
     {
       "date": "2026-06-07",
@@ -27205,7 +27253,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-07T17:35:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 689818,
+        "name": "David Sandlin"
+      },
       "homePitcher": null
     },
     {
@@ -27272,7 +27323,10 @@
       "gameTimeISO": "2026-06-07T17:40:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 656427,
+        "name": "Jack Flaherty"
+      }
     },
     {
       "date": "2026-06-07",
@@ -27293,7 +27347,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-07T17:40:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 643377,
+        "name": "Griffin Jax"
+      },
       "homePitcher": null
     },
     {
@@ -27425,7 +27482,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-07T19:15:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 676917,
+        "name": "Cade Cavalli"
+      },
       "homePitcher": null
     },
     {
@@ -30045,6 +30105,314 @@
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 824503,
+      "away": {
+        "id": 121,
+        "abbr": "NYM",
+        "name": "Mets"
+      },
+      "home": {
+        "id": 113,
+        "abbr": "CIN",
+        "name": "Reds"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T16:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 822721,
+      "away": {
+        "id": 118,
+        "abbr": "KC",
+        "name": "Royals"
+      },
+      "home": {
+        "id": 120,
+        "abbr": "WSH",
+        "name": "Nationals"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T17:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 823450,
+      "away": {
+        "id": 146,
+        "abbr": "MIA",
+        "name": "Marlins"
+      },
+      "home": {
+        "id": 143,
+        "abbr": "PHI",
+        "name": "Phillies"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T17:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 824178,
+      "away": {
+        "id": 116,
+        "abbr": "DET",
+        "name": "Tigers"
+      },
+      "home": {
+        "id": 117,
+        "abbr": "HOU",
+        "name": "Astros"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T18:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 823044,
+      "away": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
+      },
+      "home": {
+        "id": 138,
+        "abbr": "STL",
+        "name": "Cardinals"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T18:15:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 823940,
+      "away": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "home": {
+        "id": 119,
+        "abbr": "LAD",
+        "name": "Dodgers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T19:10:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 825072,
+      "away": {
+        "id": 108,
+        "abbr": "LAA",
+        "name": "Angels"
+      },
+      "home": {
+        "id": 109,
+        "abbr": "AZ",
+        "name": "D-backs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T19:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 824746,
+      "away": {
+        "id": 141,
+        "abbr": "TOR",
+        "name": "Blue Jays"
+      },
+      "home": {
+        "id": 111,
+        "abbr": "BOS",
+        "name": "Red Sox"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T22:45:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 823536,
+      "away": {
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
+      },
+      "home": {
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T23:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 824913,
+      "away": {
+        "id": 137,
+        "abbr": "SF",
+        "name": "Giants"
+      },
+      "home": {
+        "id": 144,
+        "abbr": "ATL",
+        "name": "Braves"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T23:15:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-17",
+      "gamePk": 823774,
+      "away": {
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
+      },
+      "home": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-17T23:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-18",
+      "gamePk": 824668,
+      "away": {
+        "id": 115,
+        "abbr": "COL",
+        "name": "Rockies"
+      },
+      "home": {
+        "id": 112,
+        "abbr": "CHC",
+        "name": "Cubs"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-18T00:05:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-18",
+      "gamePk": 824992,
+      "away": {
+        "id": 134,
+        "abbr": "PIT",
+        "name": "Pirates"
+      },
+      "home": {
+        "id": 133,
+        "abbr": "ATH",
+        "name": "Athletics"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-18T01:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-06-18",
+      "gamePk": 823127,
+      "away": {
+        "id": 110,
+        "abbr": "BAL",
+        "name": "Orioles"
+      },
+      "home": {
+        "id": 136,
+        "abbr": "SEA",
+        "name": "Mariners"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-06-18T01:40:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
     }
   ],
   "rosteredByTeam": {
@@ -30078,6 +30446,12 @@
         "slug": "teoscar-hernandez",
         "fantasyTeam": "Joey",
         "fantasyTeamId": 5
+      },
+      {
+        "name": "Max Muncy",
+        "slug": "max-muncy",
+        "fantasyTeam": "Markus",
+        "fantasyTeamId": 2
       },
       {
         "name": "Andy Pages",
@@ -30206,12 +30580,6 @@
         "fantasyTeamId": 1
       },
       {
-        "name": "Salvador Perez",
-        "slug": "salvador-perez",
-        "fantasyTeam": "Cole",
-        "fantasyTeamId": 1
-      },
-      {
         "name": "Vinnie Pasquantino",
         "slug": "vinnie-pasquantino",
         "fantasyTeam": "Markus",
@@ -30220,12 +30588,6 @@
       {
         "name": "Bobby Witt Jr.",
         "slug": "bobby-witt-jr",
-        "fantasyTeam": "Ryan",
-        "fantasyTeamId": 4
-      },
-      {
-        "name": "Jac Caglianone",
-        "slug": "jac-caglianone",
         "fantasyTeam": "Ryan",
         "fantasyTeamId": 4
       }
@@ -30238,34 +30600,10 @@
         "fantasyTeamId": 8
       },
       {
-        "name": "Jacob Wilson",
-        "slug": "jacob-wilson",
-        "fantasyTeam": "Cole",
-        "fantasyTeamId": 1
-      },
-      {
         "name": "Tyler Soderstrom",
         "slug": "tyler-soderstrom",
         "fantasyTeam": "Cole",
         "fantasyTeamId": 1
-      },
-      {
-        "name": "Brent Rooker",
-        "slug": "brent-rooker",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Jeff McNeil",
-        "slug": "jeff-mcneil",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Lawrence Butler",
-        "slug": "lawrence-butler",
-        "fantasyTeam": "Jack",
-        "fantasyTeamId": 6
       },
       {
         "name": "Nick Kurtz",
@@ -30320,6 +30658,12 @@
         "fantasyTeamId": 8
       },
       {
+        "name": "Ben Rice",
+        "slug": "ben-rice",
+        "fantasyTeam": "Jack",
+        "fantasyTeamId": 6
+      },
+      {
         "name": "Cody Bellinger",
         "slug": "cody-bellinger",
         "fantasyTeam": "Joey",
@@ -30366,6 +30710,12 @@
         "fantasyTeamId": 7
       },
       {
+        "name": "Mike Trout",
+        "slug": "mike-trout",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
         "name": "Zach Neto",
         "slug": "zach-neto",
         "fantasyTeam": "Markus",
@@ -30374,16 +30724,16 @@
     ],
     "COL": [
       {
-        "name": "Brenton Doyle",
-        "slug": "brenton-doyle",
-        "fantasyTeam": "Austin",
-        "fantasyTeamId": 7
-      },
-      {
         "name": "Hunter Goodman",
         "slug": "hunter-goodman",
         "fantasyTeam": "Markus",
         "fantasyTeamId": 2
+      },
+      {
+        "name": "Mickey Moniak",
+        "slug": "mickey-moniak",
+        "fantasyTeam": "Ryan",
+        "fantasyTeamId": 4
       }
     ],
     "CHC": [
@@ -30430,6 +30780,66 @@
         "fantasyTeamId": 4
       }
     ],
+    "MIN": [
+      {
+        "name": "Byron Buxton",
+        "slug": "byron-buxton",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
+        "name": "Luke Keaschall",
+        "slug": "luke-keaschall",
+        "fantasyTeam": "Markus",
+        "fantasyTeamId": 2
+      }
+    ],
+    "MIA": [
+      {
+        "name": "Otto Lopez",
+        "slug": "otto-lopez",
+        "fantasyTeam": "Austin",
+        "fantasyTeamId": 7
+      },
+      {
+        "name": "Agustín Ramírez",
+        "slug": "agustin-ramirez",
+        "fantasyTeam": "Bobby",
+        "fantasyTeamId": 8
+      },
+      {
+        "name": "Xavier Edwards",
+        "slug": "xavier-edwards",
+        "fantasyTeam": "Joey",
+        "fantasyTeamId": 5
+      },
+      {
+        "name": "Jakob Marsee",
+        "slug": "jakob-marsee",
+        "fantasyTeam": "Markus",
+        "fantasyTeamId": 2
+      }
+    ],
+    "NYM": [
+      {
+        "name": "Francisco Lindor",
+        "slug": "francisco-lindor",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
+        "name": "Juan Soto",
+        "slug": "juan-soto",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
+        "name": "Bo Bichette",
+        "slug": "bo-bichette",
+        "fantasyTeam": "Ryan",
+        "fantasyTeamId": 4
+      }
+    ],
     "BOS": [
       {
         "name": "Jarren Duran",
@@ -30454,118 +30864,6 @@
         "slug": "roman-anthony",
         "fantasyTeam": "Jack",
         "fantasyTeamId": 6
-      },
-      {
-        "name": "Trevor Story",
-        "slug": "trevor-story",
-        "fantasyTeam": "Markus",
-        "fantasyTeamId": 2
-      }
-    ],
-    "MIN": [
-      {
-        "name": "Byron Buxton",
-        "slug": "byron-buxton",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Luke Keaschall",
-        "slug": "luke-keaschall",
-        "fantasyTeam": "Markus",
-        "fantasyTeamId": 2
-      }
-    ],
-    "MIA": [
-      {
-        "name": "Agustín Ramírez",
-        "slug": "agustin-ramirez",
-        "fantasyTeam": "Bobby",
-        "fantasyTeamId": 8
-      },
-      {
-        "name": "Kyle Stowers",
-        "slug": "kyle-stowers",
-        "fantasyTeam": "Joey",
-        "fantasyTeamId": 5
-      },
-      {
-        "name": "Jakob Marsee",
-        "slug": "jakob-marsee",
-        "fantasyTeam": "Markus",
-        "fantasyTeamId": 2
-      }
-    ],
-    "HOU": [
-      {
-        "name": "Jeremy Pena",
-        "slug": "jeremy-pena",
-        "fantasyTeam": "Bobby",
-        "fantasyTeamId": 8
-      },
-      {
-        "name": "Jose Altuve",
-        "slug": "jose-altuve",
-        "fantasyTeam": "Bobby",
-        "fantasyTeamId": 8
-      },
-      {
-        "name": "Yordan Alvarez",
-        "slug": "yordan-alvarez",
-        "fantasyTeam": "Bobby",
-        "fantasyTeamId": 8
-      },
-      {
-        "name": "Yainer Diaz",
-        "slug": "yainer-diaz",
-        "fantasyTeam": "Markus",
-        "fantasyTeamId": 2
-      }
-    ],
-    "NYM": [
-      {
-        "name": "Francisco Lindor",
-        "slug": "francisco-lindor",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Juan Soto",
-        "slug": "juan-soto",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Luis Robert Jr.",
-        "slug": "luis-robert-jr",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
-      },
-      {
-        "name": "Bo Bichette",
-        "slug": "bo-bichette",
-        "fantasyTeam": "Ryan",
-        "fantasyTeamId": 4
-      }
-    ],
-    "CIN": [
-      {
-        "name": "Elly De La Cruz",
-        "slug": "elly-de-la-cruz",
-        "fantasyTeam": "Austin",
-        "fantasyTeamId": 7
-      },
-      {
-        "name": "Matt McLain",
-        "slug": "matt-mclain",
-        "fantasyTeam": "Austin",
-        "fantasyTeamId": 7
-      },
-      {
-        "name": "Eugenio Suarez",
-        "slug": "eugenio-suarez",
-        "fantasyTeam": "J Mill",
-        "fantasyTeamId": 3
       }
     ],
     "SF": [
@@ -30588,18 +30886,6 @@
         "fantasyTeamId": 6
       },
       {
-        "name": "Matt Chapman",
-        "slug": "matt-chapman",
-        "fantasyTeam": "Joey",
-        "fantasyTeamId": 5
-      },
-      {
-        "name": "Jung Hoo Lee",
-        "slug": "jung-hoo-lee",
-        "fantasyTeam": "Ryan",
-        "fantasyTeamId": 4
-      },
-      {
         "name": "Rafael Devers",
         "slug": "rafael-devers",
         "fantasyTeam": "Ryan",
@@ -30614,25 +30900,19 @@
         "fantasyTeamId": 7
       },
       {
-        "name": "Bryan Reynolds",
-        "slug": "bryan-reynolds",
-        "fantasyTeam": "Ryan",
-        "fantasyTeamId": 4
+        "name": "Brandon Lowe",
+        "slug": "brandon-lowe",
+        "fantasyTeam": "Markus",
+        "fantasyTeamId": 2
       },
       {
-        "name": "Konnor Griffin",
-        "slug": "konnor-griffin",
+        "name": "Bryan Reynolds",
+        "slug": "bryan-reynolds",
         "fantasyTeam": "Ryan",
         "fantasyTeamId": 4
       }
     ],
     "CLE": [
-      {
-        "name": "Steven Kwan",
-        "slug": "steven-kwan",
-        "fantasyTeam": "Jack",
-        "fantasyTeamId": 6
-      },
       {
         "name": "Jose Ramirez",
         "slug": "jose-ramirez",
@@ -30646,6 +30926,12 @@
         "slug": "junior-caminero",
         "fantasyTeam": "Jack",
         "fantasyTeamId": 6
+      },
+      {
+        "name": "Jonathan Aranda",
+        "slug": "jonathan-aranda",
+        "fantasyTeam": "Joey",
+        "fantasyTeamId": 5
       },
       {
         "name": "Yandy Diaz",
@@ -30702,32 +30988,116 @@
         "fantasyTeamId": 8
       },
       {
+        "name": "Kevin McGonigle",
+        "slug": "kevin-mcgonigle",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
         "name": "Riley Greene",
         "slug": "riley-greene",
         "fantasyTeam": "Jack",
         "fantasyTeamId": 6
       }
     ],
-    "TOR": [
+    "CIN": [
       {
-        "name": "George Springer",
-        "slug": "george-springer",
+        "name": "Elly De La Cruz",
+        "slug": "elly-de-la-cruz",
         "fantasyTeam": "Austin",
         "fantasyTeamId": 7
       },
+      {
+        "name": "Matt McLain",
+        "slug": "matt-mclain",
+        "fantasyTeam": "Austin",
+        "fantasyTeamId": 7
+      },
+      {
+        "name": "Sal Stewart",
+        "slug": "sal-stewart",
+        "fantasyTeam": "Ryan",
+        "fantasyTeamId": 4
+      }
+    ],
+    "TOR": [
       {
         "name": "Vladimir Guerrero Jr.",
         "slug": "vladimir-guerrero-jr",
         "fantasyTeam": "Bobby",
         "fantasyTeamId": 8
+      },
+      {
+        "name": "George Springer",
+        "slug": "george-springer",
+        "fantasyTeam": "Cole",
+        "fantasyTeamId": 1
       }
     ],
     "CWS": [
+      {
+        "name": "Miguel Vargas",
+        "slug": "miguel-vargas",
+        "fantasyTeam": "Austin",
+        "fantasyTeamId": 7
+      },
       {
         "name": "Munetaka Murakami",
         "slug": "munetaka-murakami",
         "fantasyTeam": "Austin",
         "fantasyTeamId": 7
+      },
+      {
+        "name": "Colson Montgomery",
+        "slug": "colson-montgomery",
+        "fantasyTeam": "Ryan",
+        "fantasyTeamId": 4
+      }
+    ],
+    "HOU": [
+      {
+        "name": "Jeremy Pena",
+        "slug": "jeremy-pena",
+        "fantasyTeam": "Bobby",
+        "fantasyTeamId": 8
+      },
+      {
+        "name": "Jose Altuve",
+        "slug": "jose-altuve",
+        "fantasyTeam": "Bobby",
+        "fantasyTeamId": 8
+      },
+      {
+        "name": "Yordan Alvarez",
+        "slug": "yordan-alvarez",
+        "fantasyTeam": "Bobby",
+        "fantasyTeamId": 8
+      },
+      {
+        "name": "Christian Walker",
+        "slug": "christian-walker",
+        "fantasyTeam": "Jack",
+        "fantasyTeamId": 6
+      }
+    ],
+    "STL": [
+      {
+        "name": "Jordan Walker",
+        "slug": "jordan-walker",
+        "fantasyTeam": "Cole",
+        "fantasyTeamId": 1
+      },
+      {
+        "name": "Iván Herrera",
+        "slug": "ivan-herrera",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
+      },
+      {
+        "name": "JJ Wetherholt",
+        "slug": "jj-wetherholt",
+        "fantasyTeam": "J Mill",
+        "fantasyTeamId": 3
       }
     ]
   }

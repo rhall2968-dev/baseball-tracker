@@ -6,10 +6,10 @@
     "slug": "mickey-moniak",
     "mlbTeam": "COL",
     "position": "DH",
-    "teamId": null,
-    "fantasyTeam": "",
+    "teamId": 4,
+    "fantasyTeam": "Ryan",
     "draftRound": null,
-    "overallRank": 104
+    "overallRank": 108
   },
   "seasonTotals": {
     "gamesPlayed": 42,
