@@ -175,12 +175,12 @@ for (const ls of lockedRows) {
   lockedPeriodIds.add(ls.period_id);
 }
 
-// Only fetch stats for dynamic (non-locked) periods
+// Fetch stats for all periods; locked periods use locked score at team level but live player data
 const dynamicPeriods = periods.filter((p: any) => !lockedPeriodIds.has(p.id));
 
 const statsByPeriod = new Map<number, Map<number, PlayerPeriodScore>>();
 
-for (const period of dynamicPeriods) {
+for (const period of periods) {
   const rows = sqlite.prepare(`
     SELECT ${EXPANDED_STATS_SELECT}
     FROM daily_stats ds
@@ -197,6 +197,9 @@ for (const period of dynamicPeriods) {
   }
   statsByPeriod.set(period.id, map);
 }
+
+// Keep dynamicPeriods reference for standings (only non-locked periods needed there)
+void dynamicPeriods;
 
 const standings = teams.map((team: any) => {
   const teamPlayers = players.filter((p: any) => p.team_id === team.id);
@@ -324,9 +327,9 @@ if (activePeriod) {
 for (const team of teams) {
   const roster = players.filter(p => p.team_id === team.id);
 
-  const periodResults = periods.map(period => {
+  const periodResults = periods.map((period: any) => {
     const periodStats = statsByPeriod.get(period.id) || new Map();
-    const playerScores: PlayerPeriodScore[] = roster.map(player => {
+    const playerScores: PlayerPeriodScore[] = roster.map((player: any) => {
       const s = periodStats.get(player.id);
       return {
         playerId: player.id,
@@ -357,9 +360,17 @@ for (const team of teams) {
     });
 
     const bestBall = computeBestBall(playerScores);
+    // For locked periods, use the locked team total; otherwise use computed value
+    const lockedTeamScore = lockedMap.get(`${period.id}-${team.id}`);
     return {
-      period,
-      bestBallScore: bestBall.bestBallScore,
+      // Normalize to camelCase so page.tsx can use startDate/endDate
+      period: {
+        id: period.id,
+        name: period.name,
+        startDate: period.start_date,
+        endDate: period.end_date,
+      },
+      bestBallScore: lockedTeamScore !== undefined ? lockedTeamScore : bestBall.bestBallScore,
       playerScores: playerScores.sort((a, b) => b.totalScore - a.totalScore),
       countingPlayerIds: bestBall.countingPlayerIds,
       benchPlayerIds: bestBall.benchPlayerIds,

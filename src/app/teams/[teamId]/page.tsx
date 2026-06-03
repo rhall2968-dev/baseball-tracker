@@ -5,7 +5,6 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { fetchData } from '@/lib/data';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { avg, obp, slg, fmtRate } from '@/lib/stats';
 
 interface PlayerScore {
   playerId: number;
@@ -66,6 +65,11 @@ interface CalendarGame {
 interface CalendarShape { games: CalendarGame[] }
 
 const teamNames = ['Cole', 'Markus', 'J Mill', 'Ryan', 'Joey', 'Jack', 'Austin', 'Bobby'];
+const DAY_ABBR = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+
+// Wk 1-9 = 2nd Third, Wk 10-17 = 3rd Third
+const SECOND_THIRD_SLICE: [number, number] = [1, 10];
+const THIRD_THIRD_SLICE: [number, number] = [10, 18];
 
 export default function TeamDetailPage() {
   const params = useParams();
@@ -73,8 +77,6 @@ export default function TeamDetailPage() {
   const [data, setData] = useState<TeamDetail | null>(null);
   const [calendar, setCalendar] = useState<CalendarShape | null>(null);
   const [loading, setLoading] = useState(true);
-  const [activePeriod, setActivePeriod] = useState(0);
-  const [statsView, setStatsView] = useState<'key' | 'all'>('key');
 
   useEffect(() => {
     Promise.all([
@@ -86,20 +88,17 @@ export default function TeamDetailPage() {
     }).finally(() => setLoading(false));
   }, [teamId]);
 
-  // Count remaining (today onward) games per MLB team within the next 7 days.
-  // Used for the games-this-week badge on each rostered player.
   const gamesNext7ByMlbTeam = (() => {
     const map = new Map<string, number>();
     if (!calendar) return map;
-    const today = new Date();
-    today.setHours(0, 0, 0, 0);
-    const end = new Date(today);
+    const now = new Date();
+    now.setHours(0, 0, 0, 0);
+    const end = new Date(now);
     end.setDate(end.getDate() + 7);
-    const todayYmd = today.toISOString().split('T')[0];
+    const todayYmd = now.toISOString().split('T')[0];
     const endYmd = end.toISOString().split('T')[0];
     for (const g of calendar.games) {
       if (g.date < todayYmd || g.date >= endYmd) continue;
-      // Don't count games that already finished today.
       if (g.date === todayYmd && g.status === 'F') continue;
       for (const abbr of [g.away.abbr, g.home.abbr]) {
         if (!abbr) continue;
@@ -121,43 +120,238 @@ export default function TeamDetailPage() {
   if (!data?.team) return <p className="text-muted-foreground text-sm">Team not found</p>;
 
   const id = parseInt(teamId);
-  const pr = data.periods[activePeriod];
-  const cumulativeScore = data.periods.reduce((sum, p) => sum + p.bestBallScore, 0);
   const today = new Date().toISOString().split('T')[0];
 
-  // Active period = the period whose date range contains today
-  const activeScoringPeriodIdx = data.periods.findIndex(
-    p => p.period.startDate <= today && p.period.endDate >= today
-  );
-  const activeScoringPeriod = activeScoringPeriodIdx >= 0 ? data.periods[activeScoringPeriodIdx] : null;
+  // Period groupings
+  const firstThirdPeriod = data.periods[0];
+  const secondThirdPeriods = data.periods.slice(...SECOND_THIRD_SLICE);
+  const thirdThirdPeriods = data.periods.slice(...THIRD_THIRD_SLICE);
 
-  // Dates to show as columns (all days in the active period's range)
-  const weekDates: string[] = [];
-  if (activeScoringPeriod) {
-    const d = new Date(activeScoringPeriod.period.startDate + 'T12:00:00Z');
-    const end = new Date(activeScoringPeriod.period.endDate + 'T12:00:00Z');
-    while (d <= end) {
-      weekDates.push(d.toISOString().split('T')[0]);
-      d.setUTCDate(d.getUTCDate() + 1);
-    }
-  }
+  const firstThirdTeamScore = firstThirdPeriod?.bestBallScore ?? 0;
+  const secondThirdTeamScore = secondThirdPeriods.reduce((s, p) => s + p.bestBallScore, 0);
+  const thirdThirdTeamScore = thirdThirdPeriods.reduce((s, p) => s + p.bestBallScore, 0);
+  const cumulativeScore = firstThirdTeamScore + secondThirdTeamScore + thirdThirdTeamScore;
 
-  const DAY_ABBR = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
-
-  // First 3 periods for summary columns
-  const summaryPeriods = data.periods.slice(0, 3);
   const seasonStart = data.periods[0]?.period.startDate;
   const daysSinceStart = seasonStart
     ? Math.max(1, Math.round((new Date(today).getTime() - new Date(seasonStart).getTime()) / 86400000))
     : 0;
   const avgPtsPerDay = daysSinceStart > 0 ? (cumulativeScore / daysSinceStart).toFixed(1) : null;
 
+  // Active scoring period within the 2nd Third (the current week)
+  const activeSecondThirdPeriod = secondThirdPeriods.find(
+    p => p.period.startDate <= today && p.period.endDate >= today
+  ) ?? null;
+
+  // Active scoring period within the 3rd Third
+  const activeThirdThirdPeriod = thirdThirdPeriods.find(
+    p => p.period.startDate <= today && p.period.endDate >= today
+  ) ?? null;
+
+  // Build week date columns for a given active period
+  function getWeekDates(period: PeriodResult | null): string[] {
+    if (!period) return [];
+    const dates: string[] = [];
+    const d = new Date(period.period.startDate + 'T12:00:00Z');
+    const end = new Date(period.period.endDate + 'T12:00:00Z');
+    while (d <= end) {
+      dates.push(d.toISOString().split('T')[0]);
+      d.setUTCDate(d.getUTCDate() + 1);
+    }
+    return dates;
+  }
+
+  // Per-player cross-period aggregates
+  function getPlayerThirdTotal(playerId: number, periods: PeriodResult[]): number {
+    return periods.reduce((sum, p) => {
+      const entry = p.playerScores.find(x => x.playerId === playerId);
+      return sum + (entry?.totalScore ?? 0);
+    }, 0);
+  }
+
+  // Master player list from first third (includes all 13 rostered players)
+  const allPlayers = (firstThirdPeriod?.playerScores ?? []).map(ps => {
+    const firstThirdScore = ps.totalScore;
+    const secondThirdScore = getPlayerThirdTotal(ps.playerId, secondThirdPeriods);
+    const thirdThirdScore = getPlayerThirdTotal(ps.playerId, thirdThirdPeriods);
+    return {
+      ...ps,
+      firstThirdScore,
+      secondThirdScore,
+      thirdThirdScore,
+      seasonTotal: firstThirdScore + secondThirdScore + thirdThirdScore,
+    };
+  });
+
+  // Scoreboard table shared by 2nd and 3rd Third tabs
+  function ScoreboardTable({
+    players,
+    weekDates,
+    activePeriod,
+    periodLabel,
+    thirdScore,
+    thirdTeamTotal,
+    otherThirdScore,
+    otherThirdLabel,
+  }: {
+    players: typeof allPlayers;
+    weekDates: string[];
+    activePeriod: PeriodResult | null;
+    periodLabel: string;
+    thirdScore: (p: typeof allPlayers[0]) => number;
+    thirdTeamTotal: number;
+    otherThirdScore?: (p: typeof allPlayers[0]) => number;
+    otherThirdLabel?: string;
+  }) {
+    const countingIds = new Set(activePeriod?.countingPlayerIds ?? []);
+    const sorted = [...players].sort((a, b) => b.seasonTotal - a.seasonTotal);
+
+    return (
+      <div className="border border-border rounded-lg overflow-x-auto">
+        <table className="w-full" style={{ minWidth: `${380 + weekDates.length * 44}px` }}>
+          <thead>
+            <tr className="border-b border-border bg-muted/40">
+              <th className="w-5 px-3 py-2"></th>
+              <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
+              {weekDates.length > 0 && (
+                <th
+                  colSpan={weekDates.length}
+                  className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1 border-l border-border/50"
+                >
+                  {activePeriod?.period.name ?? periodLabel}
+                </th>
+              )}
+              <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50">
+                1st ⅓
+              </th>
+              <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">
+                {periodLabel}
+              </th>
+              {otherThirdLabel && (
+                <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 text-muted-foreground/50">
+                  {otherThirdLabel}
+                </th>
+              )}
+              <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50">
+                Total
+              </th>
+            </tr>
+            {weekDates.length > 0 && (
+              <tr className="border-b border-border/50 bg-muted/20">
+                <th className="px-3 py-1"></th>
+                <th className="px-3 py-1"></th>
+                {weekDates.map((date, i) => {
+                  const d = new Date(date + 'T12:00:00Z');
+                  const isFuture = date > today;
+                  return (
+                    <th
+                      key={date}
+                      className={`text-center text-[10px] font-normal px-1 py-1 w-10 ${
+                        i === 0 ? 'border-l border-border/50' : ''
+                      } ${date === today ? 'text-primary font-medium' : isFuture ? 'text-muted-foreground/30' : 'text-muted-foreground'}`}
+                    >
+                      <div>{DAY_ABBR[d.getUTCDay()]}</div>
+                      <div className="text-[9px]">{d.getUTCMonth() + 1}/{d.getUTCDate()}</div>
+                    </th>
+                  );
+                })}
+                <th className="px-3 py-1 border-l border-border/50"></th>
+                <th className="px-3 py-1"></th>
+                {otherThirdLabel && <th className="px-3 py-1"></th>}
+                <th className="px-3 py-1 border-l border-border/50"></th>
+              </tr>
+            )}
+          </thead>
+          <tbody>
+            {sorted.map((ps, idx) => {
+              const counting = countingIds.has(ps.playerId);
+              const dailyMap = data!.weeklyDaily[String(ps.playerId)] ?? {};
+              const pts2nd = thirdScore(ps);
+              const pts3rd = otherThirdScore ? otherThirdScore(ps) : null;
+              return (
+                <tr
+                  key={ps.playerId}
+                  className={`border-b border-border/50 ${counting ? '' : 'text-muted-foreground'}`}
+                >
+                  <td className="px-3 py-1.5">
+                    <div className={`w-1.5 h-1.5 rounded-full ${counting ? 'bg-primary' : 'bg-border'}`} />
+                  </td>
+                  <td className="px-3 py-1.5">
+                    <div className="flex items-center gap-1">
+                      <Link
+                        href={`/players/${ps.slug}`}
+                        className="inline-flex items-center min-h-[32px] -my-1 text-sm hover:text-primary transition-colors whitespace-nowrap"
+                      >
+                        {ps.playerName}
+                      </Link>
+                      {idx === 0 && counting && <span className="text-[10px] text-primary">MVP</span>}
+                      {!counting && <span className="text-[10px] text-muted-foreground/50">bench</span>}
+                    </div>
+                  </td>
+                  {weekDates.map((date, i) => {
+                    const score = dailyMap[date];
+                    const isFuture = date > today;
+                    return (
+                      <td
+                        key={date}
+                        className={`text-center text-xs tabular-nums py-1.5 w-10 ${
+                          i === 0 ? 'border-l border-border/50' : ''
+                        } ${isFuture ? 'text-muted-foreground/20' : score ? '' : 'text-muted-foreground/40'}`}
+                      >
+                        {isFuture ? '·' : (score ?? '—')}
+                      </td>
+                    );
+                  })}
+                  <td className={`text-right text-xs tabular-nums px-3 py-1.5 border-l border-border/50 ${ps.firstThirdScore === 0 ? 'text-muted-foreground/30' : ''}`}>
+                    {ps.firstThirdScore || '—'}
+                  </td>
+                  <td className={`text-right text-xs tabular-nums px-3 py-1.5 ${pts2nd === 0 ? 'text-muted-foreground/30' : ''}`}>
+                    {pts2nd || '—'}
+                  </td>
+                  {pts3rd !== null && (
+                    <td className={`text-right text-xs tabular-nums px-3 py-1.5 text-muted-foreground/50 ${pts3rd === 0 ? 'text-muted-foreground/20' : ''}`}>
+                      {pts3rd || '—'}
+                    </td>
+                  )}
+                  <td className={`text-right text-xs tabular-nums font-semibold px-3 py-1.5 border-l border-border/50 ${counting ? '' : 'text-muted-foreground'}`}>
+                    {ps.seasonTotal || '—'}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+          <tfoot>
+            <tr className="bg-muted/30">
+              <td colSpan={2 + weekDates.length} className="px-3 py-2 text-xs font-medium">
+                Best Ball Total
+              </td>
+              <td className={`text-right text-xs tabular-nums px-3 py-2 border-l border-border/50 ${firstThirdTeamScore > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}>
+                {firstThirdTeamScore || '—'}
+              </td>
+              <td className={`text-right text-xs tabular-nums px-3 py-2 ${thirdTeamTotal > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}>
+                {thirdTeamTotal || '—'}
+              </td>
+              {otherThirdLabel && (
+                <td className="text-right text-xs tabular-nums px-3 py-2 text-muted-foreground/40">—</td>
+              )}
+              <td className="text-right text-xs tabular-nums font-semibold text-primary px-3 py-2 border-l border-border/50">
+                {cumulativeScore}
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-8">
+    <div className="space-y-6">
       {/* Header */}
       <div>
         <div className="flex items-center gap-2 text-xs text-muted-foreground mb-1">
-          <Link href="/standings" className="inline-flex items-center min-h-[32px] -my-1 hover:text-foreground">Standings</Link>
+          <Link href="/standings" className="inline-flex items-center min-h-[32px] -my-1 hover:text-foreground">
+            Standings
+          </Link>
           <span>/</span>
         </div>
         <h1 className="text-lg font-semibold">{data.team.name}</h1>
@@ -166,9 +360,6 @@ export default function TeamDetailPage() {
             {avgPtsPerDay} <span className="text-sm font-normal text-gray-400">pts / day</span>
           </p>
         )}
-        <p className="text-xs text-muted-foreground mt-0.5">
-          {cumulativeScore} total points &middot; 13 rostered, best 10 count
-        </p>
         <div className="flex flex-wrap gap-1 mt-3">
           {teamNames.map((name, i) => (
             <Link
@@ -186,306 +377,120 @@ export default function TeamDetailPage() {
         </div>
       </div>
 
-      {/* Score summary */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
-        {data.periods.map((p, i) => (
-          <button
-            key={p.period.id}
-            onClick={() => setActivePeriod(i)}
-            className={`flex-1 p-3 rounded-lg border text-left transition-colors ${
-              i === activePeriod
-                ? 'border-primary/30 bg-accent/20'
-                : 'border-border hover:bg-muted/50'
-            }`}
-          >
-            <span className="text-[11px] text-muted-foreground">{p.period.name}</span>
-            <p className={`text-xl tabular-nums font-semibold mt-0.5 ${
-              i === activePeriod ? 'text-primary' : ''
-            }`}>
-              {p.bestBallScore}
-            </p>
-          </button>
-        ))}
-        <div className="flex-1 p-3 rounded-lg border border-border bg-muted/30">
-          <span className="text-[11px] text-muted-foreground">Cumulative</span>
-          <p className="text-xl tabular-nums font-semibold mt-0.5">{cumulativeScore}</p>
+      {/* Score summary — one block per third */}
+      <div className="grid grid-cols-3 gap-2">
+        <div className="p-3 rounded-lg border border-border">
+          <div className="text-[11px] text-muted-foreground mb-0.5">1st Third</div>
+          <div className="text-2xl font-bold tabular-nums">{firstThirdTeamScore || '—'}</div>
+        </div>
+        <div className="p-3 rounded-lg border border-primary/30 bg-accent/10">
+          <div className="text-[11px] text-muted-foreground mb-0.5">2nd Third</div>
+          <div className="text-2xl font-bold tabular-nums text-primary">{secondThirdTeamScore || '—'}</div>
+        </div>
+        <div className="p-3 rounded-lg border border-border opacity-50">
+          <div className="text-[11px] text-muted-foreground mb-0.5">3rd Third</div>
+          <div className="text-2xl font-bold tabular-nums text-muted-foreground">{thirdThirdTeamScore || '—'}</div>
         </div>
       </div>
+      <div className="text-xs text-muted-foreground -mt-4">
+        {cumulativeScore} total pts &middot; 13 rostered, best 10 count
+      </div>
 
-      {/* Roster Tabs */}
-      <Tabs defaultValue="fantasy">
+      {/* Roster — three-thirds tabs */}
+      <Tabs defaultValue="second">
         <div className="flex items-center gap-3 mb-3">
-          <h2 className="text-sm font-medium">
-            Roster &middot; {pr?.period.name}
-          </h2>
+          <h2 className="text-sm font-medium">Roster</h2>
           <TabsList className="h-auto">
-            <TabsTrigger value="fantasy" className="text-[11px] px-3 min-h-[32px] h-auto">Fantasy Scoring</TabsTrigger>
-            <TabsTrigger value="stats" className="text-[11px] px-3 min-h-[32px] h-auto">Player Stats</TabsTrigger>
+            <TabsTrigger value="first" className="text-[11px] px-3 min-h-[32px] h-auto">1st Third</TabsTrigger>
+            <TabsTrigger value="second" className="text-[11px] px-3 min-h-[32px] h-auto">2nd Third</TabsTrigger>
+            <TabsTrigger value="third" className="text-[11px] px-3 min-h-[32px] h-auto">3rd Third</TabsTrigger>
           </TabsList>
         </div>
 
-        {/* Fantasy Scoring Tab */}
-        <TabsContent value="fantasy">
-          {(() => {
-            // Build a master player list sorted by season total (desc)
-            const playerTotals = (pr?.playerScores ?? []).map(ps => {
-              const seasonTotal = data.periods.reduce((sum, p) => {
-                const entry = p.playerScores.find(x => x.playerId === ps.playerId);
-                return sum + (entry?.totalScore ?? 0);
-              }, 0);
-              return { ...ps, seasonTotal };
-            }).sort((a, b) => b.seasonTotal - a.seasonTotal);
-
-            // Counting/bench from the active scoring period (or fallback to last period)
-            const refPeriod = activeScoringPeriod ?? data.periods[data.periods.length - 1];
-
-            const bestBallIds = new Set(refPeriod?.countingPlayerIds ?? []);
-
-            return (
-              <div className="border border-border rounded-lg overflow-x-auto">
-                <table className="w-full" style={{ minWidth: `${480 + weekDates.length * 44 + summaryPeriods.length * 52}px` }}>
-                  <thead>
-                    <tr className="border-b border-border bg-muted/40">
-                      <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2 w-5"></th>
-                      <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
-                      {weekDates.length > 0 && (
-                        <th
-                          colSpan={weekDates.length}
-                          className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1 border-l border-border/50"
-                        >
-                          {activeScoringPeriod?.period.name ?? 'This Week'}
-                        </th>
-                      )}
-                      {summaryPeriods.map((sp, i) => (
-                        <th
-                          key={sp.period.id}
-                          className={`text-right text-[11px] font-medium text-muted-foreground px-3 py-2 ${i === 0 ? 'border-l border-border/50' : ''}`}
-                        >
-                          {['1st', '2nd', '3rd'][i]}
-                        </th>
-                      ))}
-                      <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50 font-semibold">
-                        Total
-                      </th>
-                    </tr>
-                    {weekDates.length > 0 && (
-                      <tr className="border-b border-border/50 bg-muted/20">
-                        <th className="px-3 py-1"></th>
-                        <th className="px-3 py-1"></th>
-                        {weekDates.map((date, i) => {
-                          const d = new Date(date + 'T12:00:00Z');
-                          const isPast = date <= today;
-                          return (
-                            <th
-                              key={date}
-                              className={`text-center text-[10px] font-normal px-1 py-1 w-10 ${
-                                i === 0 ? 'border-l border-border/50' : ''
-                              } ${date === today ? 'text-primary font-medium' : isPast ? 'text-muted-foreground' : 'text-muted-foreground/40'}`}
-                            >
-                              <div>{DAY_ABBR[d.getUTCDay()]}</div>
-                              <div className="text-[9px]">{d.getUTCMonth() + 1}/{d.getUTCDate()}</div>
-                            </th>
-                          );
-                        })}
-                        {summaryPeriods.map((_, i) => (
-                          <th key={i} className={`px-3 py-1 ${i === 0 ? 'border-l border-border/50' : ''}`}></th>
-                        ))}
-                        <th className="px-3 py-1 border-l border-border/50"></th>
-                      </tr>
-                    )}
-                  </thead>
-                  <tbody>
-                    {playerTotals.map((ps, idx) => {
-                      const counting = bestBallIds.has(ps.playerId);
-                      const dailyMap = data.weeklyDaily[String(ps.playerId)] ?? {};
-                      return (
-                        <tr
-                          key={ps.playerId}
-                          className={`border-b border-border/50 ${counting ? '' : 'text-muted-foreground'}`}
-                        >
-                          <td className="px-3 py-1.5">
-                            <div className={`w-1.5 h-1.5 rounded-full ${counting ? 'bg-primary' : 'bg-border'}`} />
-                          </td>
-                          <td className="px-3 py-1.5">
-                            <div className="flex items-center gap-1">
-                              <Link href={`/players/${ps.slug}`} className="inline-flex items-center min-h-[32px] -my-1 text-sm hover:text-primary transition-colors whitespace-nowrap">
-                                {ps.playerName}
-                              </Link>
-                              {idx === 0 && counting && (
-                                <span className="text-[10px] text-primary">MVP</span>
-                              )}
-                              {!counting && (
-                                <span className="text-[10px] text-muted-foreground/50">bench</span>
-                              )}
-                            </div>
-                          </td>
-                          {weekDates.map((date, i) => {
-                            const score = dailyMap[date];
-                            const isFuture = date > today;
-                            return (
-                              <td
-                                key={date}
-                                className={`text-center text-xs tabular-nums py-1.5 w-10 ${
-                                  i === 0 ? 'border-l border-border/50' : ''
-                                } ${isFuture ? 'text-muted-foreground/20' : score ? '' : 'text-muted-foreground/40'}`}
-                              >
-                                {isFuture ? '·' : score ?? '—'}
-                              </td>
-                            );
-                          })}
-                          {summaryPeriods.map((sp, i) => {
-                            const entry = sp.playerScores.find(x => x.playerId === ps.playerId);
-                            const pts = entry?.totalScore ?? 0;
-                            return (
-                              <td
-                                key={sp.period.id}
-                                className={`text-right text-xs tabular-nums px-3 py-1.5 ${
-                                  i === 0 ? 'border-l border-border/50' : ''
-                                } ${pts === 0 ? 'text-muted-foreground/30' : ''}`}
-                              >
-                                {pts || '—'}
-                              </td>
-                            );
-                          })}
-                          <td className={`text-right text-xs tabular-nums font-semibold px-3 py-1.5 border-l border-border/50 ${counting ? '' : 'text-muted-foreground'}`}>
-                            {ps.seasonTotal || '—'}
-                          </td>
-                        </tr>
-                      );
-                    })}
-                  </tbody>
-                  <tfoot>
-                    <tr className="bg-muted/30">
-                      <td colSpan={2 + weekDates.length} className="px-3 py-2 text-xs font-medium">
-                        Best Ball Total
-                      </td>
-                      {summaryPeriods.map((sp, i) => (
-                        <td
-                          key={sp.period.id}
-                          className={`text-right text-xs tabular-nums px-3 py-2 ${i === 0 ? 'border-l border-border/50' : ''} ${sp.bestBallScore > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}
-                        >
-                          {sp.bestBallScore || '—'}
+        {/* 1st Third */}
+        <TabsContent value="first">
+          <div className="border border-border rounded-lg overflow-x-auto">
+            <table className="w-full min-w-[280px]">
+              <thead>
+                <tr className="border-b border-border bg-muted/40">
+                  <th className="w-5 px-3 py-2"></th>
+                  <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
+                  <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2">Pts</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[...allPlayers]
+                  .sort((a, b) => b.firstThirdScore - a.firstThirdScore)
+                  .map((ps, idx) => {
+                    const counting = firstThirdPeriod?.countingPlayerIds.includes(ps.playerId) ?? false;
+                    return (
+                      <tr
+                        key={ps.playerId}
+                        className={`border-b border-border/50 ${counting ? '' : 'text-muted-foreground'}`}
+                      >
+                        <td className="px-3 py-1.5">
+                          <div className={`w-1.5 h-1.5 rounded-full ${counting ? 'bg-primary' : 'bg-border'}`} />
                         </td>
-                      ))}
-                      <td className="text-right text-xs tabular-nums font-semibold text-primary px-3 py-2 border-l border-border/50">
-                        {cumulativeScore}
-                      </td>
-                    </tr>
-                  </tfoot>
-                </table>
-              </div>
-            );
-          })()}
+                        <td className="px-3 py-1.5">
+                          <div className="flex items-center gap-1">
+                            <Link
+                              href={`/players/${ps.slug}`}
+                              className="inline-flex items-center min-h-[32px] -my-1 text-sm hover:text-primary transition-colors whitespace-nowrap"
+                            >
+                              {ps.playerName}
+                            </Link>
+                            {idx === 0 && counting && <span className="text-[10px] text-primary">MVP</span>}
+                            {!counting && <span className="text-[10px] text-muted-foreground/50">bench</span>}
+                          </div>
+                        </td>
+                        <td className="px-4 py-1.5 text-right text-sm tabular-nums font-semibold">
+                          {ps.firstThirdScore || '—'}
+                        </td>
+                      </tr>
+                    );
+                  })}
+              </tbody>
+              <tfoot>
+                <tr className="bg-muted/30">
+                  <td colSpan={2} className="px-3 py-2 text-xs font-medium">Best Ball Total</td>
+                  <td className="px-4 py-2 text-right text-xs tabular-nums font-semibold text-primary">
+                    {firstThirdTeamScore || '—'}
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
         </TabsContent>
 
-        {/* Player Stats Tab */}
-        <TabsContent value="stats">
-          <div className="flex gap-1 mb-3">
-            <button
-              onClick={() => setStatsView('key')}
-              className={`px-2 py-1 text-[11px] rounded transition-colors ${
-                statsView === 'key' ? 'bg-accent text-accent-foreground font-medium' : 'text-muted-foreground hover:text-foreground'
-              }`}
-            >Key</button>
-            <button
-              onClick={() => setStatsView('all')}
-              className={`px-2 py-1 text-[11px] rounded transition-colors ${
-                statsView === 'all' ? 'bg-accent text-accent-foreground font-medium' : 'text-muted-foreground hover:text-foreground'
-              }`}
-            >All</button>
-          </div>
-          <div className="border border-border rounded-lg overflow-hidden">
-            <div className="overflow-x-auto">
-              <table className="w-full min-w-[520px]">
-                <thead>
-                  <tr className="border-b border-border bg-muted/40">
-                    <th className="text-left text-[11px] font-medium text-muted-foreground px-4 py-2">Player</th>
-                    {statsView === 'key' ? (
-                      <>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">AB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">H</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">HR</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">BB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">AVG</th>
-                      </>
-                    ) : (
-                      <>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">PA</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">AB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">H</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">2B</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">3B</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">HR</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">R</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">RBI</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">BB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">IBB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SO</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SB</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">CS</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">HBP</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SF</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">AVG</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">OBP</th>
-                        <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SLG</th>
-                      </>
-                    )}
-                  </tr>
-                </thead>
-                <tbody>
-                  {pr?.playerScores.map(ps => (
-                    <tr key={ps.playerId} className="border-b border-border/50 hover:bg-muted/30">
-                      <td className="px-4 py-2">
-                        <Link href={`/players/${ps.slug}`} className="inline-flex items-center min-h-[36px] -my-2 text-sm hover:text-primary transition-colors">
-                          {ps.playerName}
-                        </Link>
-                      </td>
-                      {statsView === 'key' ? (
-                        <>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.atBats}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.hits}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.homeRuns}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.stolenBases}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.walks}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums text-muted-foreground">
-                            {fmtRate(avg(ps.hits, ps.atBats))}
-                          </td>
-                        </>
-                      ) : (
-                        <>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.plateAppearances}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.atBats}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.hits}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.doubles}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.triples}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.homeRuns}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.runs}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.rbi}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.walks}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.intentionalWalks}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.strikeouts}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.stolenBases}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.caughtStealing}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.hbp}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.sacFlies}</td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums text-muted-foreground">
-                            {fmtRate(avg(ps.hits, ps.atBats))}
-                          </td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums text-muted-foreground">
-                            {fmtRate(obp(ps.hits, ps.walks, ps.hbp, ps.atBats, ps.sacFlies))}
-                          </td>
-                          <td className="px-3 py-2 text-right text-xs tabular-nums text-muted-foreground">
-                            {fmtRate(slg(ps.totalBases, ps.atBats))}
-                          </td>
-                        </>
-                      )}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        {/* 2nd Third */}
+        <TabsContent value="second">
+          <ScoreboardTable
+            players={allPlayers}
+            weekDates={getWeekDates(activeSecondThirdPeriod)}
+            activePeriod={activeSecondThirdPeriod}
+            periodLabel="2nd ⅓"
+            thirdScore={p => p.secondThirdScore}
+            thirdTeamTotal={secondThirdTeamScore}
+          />
+        </TabsContent>
+
+        {/* 3rd Third */}
+        <TabsContent value="third">
+          {thirdThirdTeamScore > 0 ? (
+            <ScoreboardTable
+              players={allPlayers}
+              weekDates={getWeekDates(activeThirdThirdPeriod)}
+              activePeriod={activeThirdThirdPeriod}
+              periodLabel="3rd ⅓"
+              thirdScore={p => p.thirdThirdScore}
+              thirdTeamTotal={thirdThirdTeamScore}
+            />
+          ) : (
+            <div className="border border-border rounded-lg p-10 text-center">
+              <p className="text-sm text-muted-foreground">3rd Third scoring begins in early August</p>
+              <p className="text-xs text-muted-foreground/60 mt-1">Wk 10 · Aug 2 – Aug 8</p>
             </div>
-          </div>
+          )}
         </TabsContent>
       </Tabs>
 
@@ -501,7 +506,10 @@ export default function TeamDetailPage() {
             return (
               <div key={p.id} className="px-3 py-1 border-b border-border/50 flex items-center gap-2">
                 <span className="text-xs text-muted-foreground tabular-nums w-5 shrink-0">{i + 1}.</span>
-                <Link href={`/players/${p.slug}`} className="inline-flex items-center min-h-[36px] text-xs flex-1 hover:text-primary transition-colors truncate">
+                <Link
+                  href={`/players/${p.slug}`}
+                  className="inline-flex items-center min-h-[36px] text-xs flex-1 hover:text-primary transition-colors truncate"
+                >
                   {p.name}
                 </Link>
                 {p.mlbTeam && (
