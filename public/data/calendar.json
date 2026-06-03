@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T22:13:18.988Z",
+  "generatedAt": "2026-06-03T23:00:04.001Z",
   "seasonStart": "2026-03-26",
   "endDate": "2026-06-17",
   "games": [
@@ -25943,8 +25943,8 @@
       },
       "awayScore": 7,
       "homeScore": 1,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T19:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25971,8 +25971,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T22:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25999,8 +25999,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T22:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26027,8 +26027,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-06-03T23:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26055,8 +26055,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-06-03T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26083,8 +26083,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-06-03T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26223,8 +26223,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-04T01:38:00Z",
       "doubleHeader": null,
       "awayPitcher": {
