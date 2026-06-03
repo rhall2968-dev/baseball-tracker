@@ -84,12 +84,38 @@ export async function GET(
       });
     }
 
+    // Per-day fantasy scores for the active scoring period
+    const today = new Date().toISOString().split('T')[0];
+    const activePeriod = allPeriods.find(p => p.startDate <= today && p.endDate >= today);
+
+    const weeklyDaily: Record<string, Record<string, number>> = {};
+    if (activePeriod) {
+      const dailyRows = await db.select({
+        playerId: dailyStats.playerId,
+        gameDate: dailyStats.gameDate,
+        fantasyScore: dailyStats.fantasyScore,
+      })
+        .from(dailyStats)
+        .where(and(
+          sql`${dailyStats.playerId} IN (SELECT id FROM players WHERE team_id = ${teamId})`,
+          gte(dailyStats.gameDate, activePeriod.startDate),
+          lte(dailyStats.gameDate, activePeriod.endDate),
+        ));
+
+      for (const row of dailyRows) {
+        const pid = String(row.playerId);
+        if (!weeklyDaily[pid]) weeklyDaily[pid] = {};
+        weeklyDaily[pid][row.gameDate] = row.fantasyScore ?? 0;
+      }
+    }
+
     return NextResponse.json({
       team: team[0],
       roster: roster
         .sort((a, b) => (a.draftRound ?? 99) - (b.draftRound ?? 99))
         .map(p => ({ ...p, slug: slugify(p.name) })),
       periods: periodResults,
+      weeklyDaily,
     });
   } catch (error) {
     console.error('Team detail error:', error);

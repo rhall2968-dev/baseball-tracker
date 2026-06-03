@@ -293,6 +293,34 @@ fs.writeFileSync(path.join(outDir, 'teams.json'), JSON.stringify(teamsData, null
 
 console.log('Generating team detail files...');
 
+// Pre-load active period daily scores for all teams
+const todayStr = new Date().toISOString().split('T')[0];
+const activePeriod = periods.find((p: any) => p.start_date <= todayStr && p.end_date >= todayStr) as any | undefined;
+
+const allWeeklyDaily: Map<number, Record<string, Record<string, number>>> = new Map();
+if (activePeriod) {
+  const weeklyRows = sqlite.prepare(`
+    SELECT ds.player_id, ds.game_date, ds.fantasy_score
+    FROM daily_stats ds
+    JOIN players p ON ds.player_id = p.id
+    WHERE p.is_active = 1
+      AND ds.game_date >= ?
+      AND ds.game_date <= ?
+  `).all(activePeriod.start_date, activePeriod.end_date) as any[];
+
+  for (const row of weeklyRows) {
+    const p = players.find((pl: any) => pl.id === row.player_id) as any;
+    if (!p) continue;
+    const teamId = p.team_id;
+    if (!teamId) continue;
+    if (!allWeeklyDaily.has(teamId)) allWeeklyDaily.set(teamId, {});
+    const teamMap = allWeeklyDaily.get(teamId)!;
+    const pid = String(row.player_id);
+    if (!teamMap[pid]) teamMap[pid] = {};
+    teamMap[pid][row.game_date] = row.fantasy_score;
+  }
+}
+
 for (const team of teams) {
   const roster = players.filter(p => p.team_id === team.id);
 
@@ -346,6 +374,7 @@ for (const team of teams) {
         .sort((a: any, b: any) => a.draft_round - b.draft_round)
         .map((p: any) => ({ ...normalizePlayerRow(p), slug: playerSlug(p) })),
       periods: periodResults,
+      weeklyDaily: allWeeklyDaily.get(team.id) ?? {},
     }, null, 2)
   );
 }

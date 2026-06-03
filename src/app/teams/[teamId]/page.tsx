@@ -53,6 +53,7 @@ interface TeamDetail {
     draftRound: number | null;
   }>;
   periods: PeriodResult[];
+  weeklyDaily: Record<string, Record<string, number>>;
 }
 
 interface CalendarGame {
@@ -123,6 +124,28 @@ export default function TeamDetailPage() {
   const pr = data.periods[activePeriod];
   const cumulativeScore = data.periods.reduce((sum, p) => sum + p.bestBallScore, 0);
   const today = new Date().toISOString().split('T')[0];
+
+  // Active period = the period whose date range contains today
+  const activeScoringPeriodIdx = data.periods.findIndex(
+    p => p.period.startDate <= today && p.period.endDate >= today
+  );
+  const activeScoringPeriod = activeScoringPeriodIdx >= 0 ? data.periods[activeScoringPeriodIdx] : null;
+
+  // Dates to show as columns (all days in the active period's range)
+  const weekDates: string[] = [];
+  if (activeScoringPeriod) {
+    const d = new Date(activeScoringPeriod.period.startDate + 'T12:00:00Z');
+    const end = new Date(activeScoringPeriod.period.endDate + 'T12:00:00Z');
+    while (d <= end) {
+      weekDates.push(d.toISOString().split('T')[0]);
+      d.setUTCDate(d.getUTCDate() + 1);
+    }
+  }
+
+  const DAY_ABBR = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+
+  // First 3 periods for summary columns
+  const summaryPeriods = data.periods.slice(0, 3);
   const seasonStart = data.periods[0]?.period.startDate;
   const daysSinceStart = seasonStart
     ? Math.max(1, Math.round((new Date(today).getTime() - new Date(seasonStart).getTime()) / 86400000))
@@ -203,68 +226,156 @@ export default function TeamDetailPage() {
 
         {/* Fantasy Scoring Tab */}
         <TabsContent value="fantasy">
-          <div className="border border-border rounded-lg overflow-x-auto">
-            <table className="w-full min-w-[520px]">
-              <thead>
-                <tr className="border-b border-border bg-muted/40">
-                  <th className="text-left text-[11px] font-medium text-muted-foreground px-4 py-2 w-6"></th>
-                  <th className="text-left text-[11px] font-medium text-muted-foreground px-4 py-2">Player</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">GP</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">TB</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">SB</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">BB</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2">HBP</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2">PTS</th>
-                </tr>
-              </thead>
-              <tbody>
-                {pr?.playerScores.map((ps, idx) => {
-                  const counting = pr.countingPlayerIds.includes(ps.playerId);
-                  return (
-                    <tr
-                      key={ps.playerId}
-                      className={`border-b border-border/50 ${counting ? '' : 'text-muted-foreground'}`}
-                    >
-                      <td className="px-4 py-2">
-                        <div className={`w-1.5 h-1.5 rounded-full ${
-                          counting ? 'bg-primary' : 'bg-border'
-                        }`} />
+          {(() => {
+            // Build a master player list sorted by season total (desc)
+            const playerTotals = (pr?.playerScores ?? []).map(ps => {
+              const seasonTotal = data.periods.reduce((sum, p) => {
+                const entry = p.playerScores.find(x => x.playerId === ps.playerId);
+                return sum + (entry?.totalScore ?? 0);
+              }, 0);
+              return { ...ps, seasonTotal };
+            }).sort((a, b) => b.seasonTotal - a.seasonTotal);
+
+            // Counting/bench from the active scoring period (or fallback to last period)
+            const refPeriod = activeScoringPeriod ?? data.periods[data.periods.length - 1];
+
+            const bestBallIds = new Set(refPeriod?.countingPlayerIds ?? []);
+
+            return (
+              <div className="border border-border rounded-lg overflow-x-auto">
+                <table className="w-full" style={{ minWidth: `${480 + weekDates.length * 44 + summaryPeriods.length * 52}px` }}>
+                  <thead>
+                    <tr className="border-b border-border bg-muted/40">
+                      <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2 w-5"></th>
+                      <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
+                      {weekDates.length > 0 && (
+                        <th
+                          colSpan={weekDates.length}
+                          className="text-center text-[11px] font-medium text-muted-foreground px-3 py-1 border-l border-border/50"
+                        >
+                          {activeScoringPeriod?.period.name ?? 'This Week'}
+                        </th>
+                      )}
+                      {summaryPeriods.map((sp, i) => (
+                        <th
+                          key={sp.period.id}
+                          className={`text-right text-[11px] font-medium text-muted-foreground px-3 py-2 ${i === 0 ? 'border-l border-border/50' : ''}`}
+                        >
+                          {['1st', '2nd', '3rd'][i]}
+                        </th>
+                      ))}
+                      <th className="text-right text-[11px] font-medium text-muted-foreground px-3 py-2 border-l border-border/50 font-semibold">
+                        Total
+                      </th>
+                    </tr>
+                    {weekDates.length > 0 && (
+                      <tr className="border-b border-border/50 bg-muted/20">
+                        <th className="px-3 py-1"></th>
+                        <th className="px-3 py-1"></th>
+                        {weekDates.map((date, i) => {
+                          const d = new Date(date + 'T12:00:00Z');
+                          const isPast = date <= today;
+                          return (
+                            <th
+                              key={date}
+                              className={`text-center text-[10px] font-normal px-1 py-1 w-10 ${
+                                i === 0 ? 'border-l border-border/50' : ''
+                              } ${date === today ? 'text-primary font-medium' : isPast ? 'text-muted-foreground' : 'text-muted-foreground/40'}`}
+                            >
+                              <div>{DAY_ABBR[d.getUTCDay()]}</div>
+                              <div className="text-[9px]">{d.getUTCMonth() + 1}/{d.getUTCDate()}</div>
+                            </th>
+                          );
+                        })}
+                        {summaryPeriods.map((_, i) => (
+                          <th key={i} className={`px-3 py-1 ${i === 0 ? 'border-l border-border/50' : ''}`}></th>
+                        ))}
+                        <th className="px-3 py-1 border-l border-border/50"></th>
+                      </tr>
+                    )}
+                  </thead>
+                  <tbody>
+                    {playerTotals.map((ps, idx) => {
+                      const counting = bestBallIds.has(ps.playerId);
+                      const dailyMap = data.weeklyDaily[String(ps.playerId)] ?? {};
+                      return (
+                        <tr
+                          key={ps.playerId}
+                          className={`border-b border-border/50 ${counting ? '' : 'text-muted-foreground'}`}
+                        >
+                          <td className="px-3 py-1.5">
+                            <div className={`w-1.5 h-1.5 rounded-full ${counting ? 'bg-primary' : 'bg-border'}`} />
+                          </td>
+                          <td className="px-3 py-1.5">
+                            <div className="flex items-center gap-1">
+                              <Link href={`/players/${ps.slug}`} className="inline-flex items-center min-h-[32px] -my-1 text-sm hover:text-primary transition-colors whitespace-nowrap">
+                                {ps.playerName}
+                              </Link>
+                              {idx === 0 && counting && (
+                                <span className="text-[10px] text-primary">MVP</span>
+                              )}
+                              {!counting && (
+                                <span className="text-[10px] text-muted-foreground/50">bench</span>
+                              )}
+                            </div>
+                          </td>
+                          {weekDates.map((date, i) => {
+                            const score = dailyMap[date];
+                            const isFuture = date > today;
+                            return (
+                              <td
+                                key={date}
+                                className={`text-center text-xs tabular-nums py-1.5 w-10 ${
+                                  i === 0 ? 'border-l border-border/50' : ''
+                                } ${isFuture ? 'text-muted-foreground/20' : score ? '' : 'text-muted-foreground/40'}`}
+                              >
+                                {isFuture ? '·' : score ?? '—'}
+                              </td>
+                            );
+                          })}
+                          {summaryPeriods.map((sp, i) => {
+                            const entry = sp.playerScores.find(x => x.playerId === ps.playerId);
+                            const pts = entry?.totalScore ?? 0;
+                            return (
+                              <td
+                                key={sp.period.id}
+                                className={`text-right text-xs tabular-nums px-3 py-1.5 ${
+                                  i === 0 ? 'border-l border-border/50' : ''
+                                } ${pts === 0 ? 'text-muted-foreground/30' : ''}`}
+                              >
+                                {pts || '—'}
+                              </td>
+                            );
+                          })}
+                          <td className={`text-right text-xs tabular-nums font-semibold px-3 py-1.5 border-l border-border/50 ${counting ? '' : 'text-muted-foreground'}`}>
+                            {ps.seasonTotal || '—'}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                  <tfoot>
+                    <tr className="bg-muted/30">
+                      <td colSpan={2 + weekDates.length} className="px-3 py-2 text-xs font-medium">
+                        Best Ball Total
                       </td>
-                      <td className="px-4 py-2">
-                        <Link href={`/players/${ps.slug}`} className="inline-flex items-center min-h-[36px] -my-2 text-sm hover:text-primary transition-colors">
-                          {ps.playerName}
-                        </Link>
-                        {idx === 0 && counting && (
-                          <span className="ml-1.5 text-[10px] text-primary">MVP</span>
-                        )}
-                        {!counting && (
-                          <span className="ml-1.5 text-[10px] text-muted-foreground/60">bench</span>
-                        )}
-                      </td>
-                      <td className="px-3 py-2 text-right text-xs tabular-nums text-muted-foreground">
-                        {ps.gamesPlayed}
-                      </td>
-                      <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.totalBases}</td>
-                      <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.stolenBases}</td>
-                      <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.walks}</td>
-                      <td className="px-3 py-2 text-right text-xs tabular-nums">{ps.hbp}</td>
-                      <td className="px-4 py-2 text-right text-xs tabular-nums font-semibold">
-                        {ps.totalScore}
+                      {summaryPeriods.map((sp, i) => (
+                        <td
+                          key={sp.period.id}
+                          className={`text-right text-xs tabular-nums px-3 py-2 ${i === 0 ? 'border-l border-border/50' : ''} ${sp.bestBallScore > 0 ? 'font-semibold text-primary' : 'text-muted-foreground/40'}`}
+                        >
+                          {sp.bestBallScore || '—'}
+                        </td>
+                      ))}
+                      <td className="text-right text-xs tabular-nums font-semibold text-primary px-3 py-2 border-l border-border/50">
+                        {cumulativeScore}
                       </td>
                     </tr>
-                  );
-                })}
-              </tbody>
-              <tfoot>
-                <tr className="bg-muted/30">
-                  <td colSpan={7} className="px-4 py-2 text-xs font-medium">Best Ball Total</td>
-                  <td className="px-4 py-2 text-right text-xs tabular-nums font-semibold text-primary">
-                    {pr?.bestBallScore}
-                  </td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
+                  </tfoot>
+                </table>
+              </div>
+            );
+          })()}
         </TabsContent>
 
         {/* Player Stats Tab */}
