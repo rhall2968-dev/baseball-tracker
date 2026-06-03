@@ -64,6 +64,27 @@ interface CalendarGame {
 }
 interface CalendarShape { games: CalendarGame[] }
 
+// Frozen pre-waiver First Third roster data
+interface FirstThirdPlayerScore {
+  playerId: number;
+  playerName: string;
+  slug: string;
+  draftRound: number;
+  totalScore: number;
+  gamesPlayed: number;
+  totalBases: number;
+  stolenBases: number;
+  walks: number;
+  hbp: number;
+}
+interface FirstThirdTeam {
+  bestBallScore: number;
+  countingPlayerIds: number[];
+  benchPlayerIds: number[];
+  playerScores: FirstThirdPlayerScore[];
+}
+type FirstThirdData = Record<string, FirstThirdTeam>;
+
 const teamNames = ['Cole', 'Markus', 'J Mill', 'Ryan', 'Joey', 'Jack', 'Austin', 'Bobby'];
 const DAY_ABBR = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
 
@@ -76,15 +97,18 @@ export default function TeamDetailPage() {
   const teamId = params.teamId as string;
   const [data, setData] = useState<TeamDetail | null>(null);
   const [calendar, setCalendar] = useState<CalendarShape | null>(null);
+  const [firstThird, setFirstThird] = useState<FirstThirdData | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     Promise.all([
       fetchData<TeamDetail>(`/api/teams/${teamId}`),
       fetchData<CalendarShape>(`/api/calendar`).catch(() => ({ games: [] })),
-    ]).then(([detail, cal]) => {
+      fetchData<FirstThirdData>('/data/first-third.json').catch(() => null),
+    ]).then(([detail, cal, ft]) => {
       setData(detail);
       setCalendar(cal);
+      setFirstThird(ft);
     }).finally(() => setLoading(false));
   }, [teamId]);
 
@@ -123,11 +147,12 @@ export default function TeamDetailPage() {
   const today = new Date().toISOString().split('T')[0];
 
   // Period groupings
-  const firstThirdPeriod = data.periods[0];
   const secondThirdPeriods = data.periods.slice(...SECOND_THIRD_SLICE);
   const thirdThirdPeriods = data.periods.slice(...THIRD_THIRD_SLICE);
 
-  const firstThirdTeamScore = firstThirdPeriod?.bestBallScore ?? 0;
+  // Frozen First Third data (original pre-waiver rosters + locked scores)
+  const ft1 = firstThird?.[teamId] ?? null;
+  const firstThirdTeamScore = ft1?.bestBallScore ?? 0;
   const secondThirdTeamScore = secondThirdPeriods.reduce((s, p) => s + p.bestBallScore, 0);
   const thirdThirdTeamScore = thirdThirdPeriods.reduce((s, p) => s + p.bestBallScore, 0);
   const cumulativeScore = firstThirdTeamScore + secondThirdTeamScore + thirdThirdTeamScore;
@@ -169,17 +194,16 @@ export default function TeamDetailPage() {
     }, 0);
   }
 
-  // Master player list from first third (includes all 13 rostered players)
-  const allPlayers = (firstThirdPeriod?.playerScores ?? []).map(ps => {
-    const firstThirdScore = ps.totalScore;
+  // Current-roster player list for 2nd/3rd Third tabs
+  // Use the first weekly period's playerScores to get the current 13 players
+  const currentRosterPlayers = (data.periods[1]?.playerScores ?? data.periods[0]?.playerScores ?? []).map(ps => {
     const secondThirdScore = getPlayerThirdTotal(ps.playerId, secondThirdPeriods);
     const thirdThirdScore = getPlayerThirdTotal(ps.playerId, thirdThirdPeriods);
     return {
       ...ps,
-      firstThirdScore,
       secondThirdScore,
       thirdThirdScore,
-      seasonTotal: firstThirdScore + secondThirdScore + thirdThirdScore,
+      seasonTotal: secondThirdScore + thirdThirdScore,
     };
   });
 
@@ -190,7 +214,7 @@ export default function TeamDetailPage() {
     activePeriod,
     weekPeriods,
   }: {
-    players: typeof allPlayers;
+    players: typeof currentRosterPlayers;
     weekDates: string[];
     activePeriod: PeriodResult | null;
     weekPeriods: PeriodResult[];
@@ -423,22 +447,28 @@ export default function TeamDetailPage() {
           </TabsList>
         </div>
 
-        {/* 1st Third */}
+        {/* 1st Third — frozen pre-waiver rosters */}
         <TabsContent value="first">
-          <div className="border border-border rounded-lg overflow-x-auto">
-            <table className="w-full min-w-[280px]">
-              <thead>
-                <tr className="border-b border-border bg-muted/40">
-                  <th className="w-5 px-3 py-2"></th>
-                  <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
-                  <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2">Pts</th>
-                </tr>
-              </thead>
-              <tbody>
-                {[...allPlayers]
-                  .sort((a, b) => b.firstThirdScore - a.firstThirdScore)
-                  .map((ps, idx) => {
-                    const counting = firstThirdPeriod?.countingPlayerIds.includes(ps.playerId) ?? false;
+          {!ft1 ? (
+            <div className="border border-border rounded-lg p-8 text-center text-sm text-muted-foreground">
+              Loading…
+            </div>
+          ) : (
+            <div className="border border-border rounded-lg overflow-x-auto">
+              <p className="text-[10px] text-muted-foreground px-3 pt-2 pb-1">
+                Original draft rosters · Mar 26 – May 31
+              </p>
+              <table className="w-full min-w-[280px]">
+                <thead>
+                  <tr className="border-b border-border bg-muted/40">
+                    <th className="w-5 px-3 py-2"></th>
+                    <th className="text-left text-[11px] font-medium text-muted-foreground px-3 py-2">Player</th>
+                    <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2">Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ft1.playerScores.map((ps, idx) => {
+                    const counting = ft1.countingPlayerIds.includes(ps.playerId);
                     return (
                       <tr
                         key={ps.playerId}
@@ -460,28 +490,29 @@ export default function TeamDetailPage() {
                           </div>
                         </td>
                         <td className="px-4 py-1.5 text-right text-sm tabular-nums font-semibold">
-                          {ps.firstThirdScore || '—'}
+                          {ps.totalScore || '—'}
                         </td>
                       </tr>
                     );
                   })}
-              </tbody>
-              <tfoot>
-                <tr className="bg-muted/30">
-                  <td colSpan={2} className="px-3 py-2 text-xs font-medium">Best Ball Total</td>
-                  <td className="px-4 py-2 text-right text-xs tabular-nums font-semibold text-primary">
-                    {firstThirdTeamScore || '—'}
-                  </td>
-                </tr>
-              </tfoot>
-            </table>
-          </div>
+                </tbody>
+                <tfoot>
+                  <tr className="bg-muted/30">
+                    <td colSpan={2} className="px-3 py-2 text-xs font-medium">Best Ball Total</td>
+                    <td className="px-4 py-2 text-right text-xs tabular-nums font-semibold text-primary">
+                      {ft1.bestBallScore}
+                    </td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          )}
         </TabsContent>
 
         {/* 2nd Third */}
         <TabsContent value="second">
           <ScoreboardTable
-            players={allPlayers}
+            players={currentRosterPlayers}
             weekDates={getWeekDates(activeSecondThirdPeriod)}
             activePeriod={activeSecondThirdPeriod}
             weekPeriods={secondThirdPeriods}
@@ -492,7 +523,7 @@ export default function TeamDetailPage() {
         <TabsContent value="third">
           {thirdThirdTeamScore > 0 ? (
             <ScoreboardTable
-              players={allPlayers}
+              players={currentRosterPlayers}
               weekDates={getWeekDates(activeThirdThirdPeriod)}
               activePeriod={activeThirdThirdPeriod}
               weekPeriods={thirdThirdPeriods}
