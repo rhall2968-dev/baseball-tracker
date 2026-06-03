@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T23:00:04.001Z",
+  "generatedAt": "2026-06-03T23:19:33.995Z",
   "seasonStart": "2026-03-26",
   "endDate": "2026-06-17",
   "games": [
@@ -25998,7 +25998,7 @@
         "name": "Red Sox"
       },
       "awayScore": 0,
-      "homeScore": 0,
+      "homeScore": 1,
       "status": "I",
       "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T22:45:00Z",
@@ -26027,8 +26027,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "PW",
-      "detailedState": "Warmup",
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T23:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26053,10 +26053,10 @@
         "abbr": "CIN",
         "name": "Reds"
       },
-      "awayScore": 0,
+      "awayScore": 2,
       "homeScore": 0,
-      "status": "PW",
-      "detailedState": "Warmup",
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T23:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26083,8 +26083,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "PW",
-      "detailedState": "Warmup",
+      "status": "I",
+      "detailedState": "In Progress",
       "gameTimeISO": "2026-06-03T23:15:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26111,8 +26111,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-06-03T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26139,8 +26139,8 @@
       },
       "awayScore": 0,
       "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "status": "PW",
+      "detailedState": "Warmup",
       "gameTimeISO": "2026-06-03T23:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26221,8 +26221,8 @@
         "abbr": "LAA",
         "name": "Angels"
       },
-      "awayScore": null,
-      "homeScore": null,
+      "awayScore": 0,
+      "homeScore": 0,
       "status": "P",
       "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-04T01:38:00Z",
@@ -26445,7 +26445,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-05T00:05:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669372,
+        "name": "J.T. Ginn"
+      },
       "homePitcher": {
         "id": 684007,
         "name": "Shota Imanaga"
@@ -26695,7 +26698,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-06-06T00:10:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 678022,
+        "name": "Jack Perkins"
+      },
       "homePitcher": null
     },
     {
