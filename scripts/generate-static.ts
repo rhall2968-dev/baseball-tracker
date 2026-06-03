@@ -67,61 +67,7 @@ function computeBestBall(playerScores: PlayerPeriodScore[]) {
     bestBallScore: counting.reduce((sum, p) => sum + p.totalScore, 0),
     countingPlayerIds: counting.map(p => p.playerId),
     benchPlayerIds: bench.map(p => p.playerId),
-    weeklyBreakdown: null as null | { weekStart: string; weekEnd: string; score: number; countingPlayerIds: number[] }[],
   };
-}
-
-// Weekly best-ball: split period into 7-day windows, top 10 per week, sum the weekly scores.
-// Used for Period 2+ after the redraft.
-function computeWeeklyBestBall(
-  playerIds: number[],
-  periodStart: string,
-  periodEnd: string,
-  db: ReturnType<typeof import('better-sqlite3')>,
-) {
-  const weeks: { start: string; end: string }[] = [];
-  const cur = new Date(periodStart + 'T12:00:00Z');
-  const end = new Date(periodEnd + 'T12:00:00Z');
-  while (cur <= end) {
-    const wEnd = new Date(cur);
-    wEnd.setUTCDate(wEnd.getUTCDate() + 6);
-    if (wEnd > end) wEnd.setTime(end.getTime());
-    weeks.push({ start: cur.toISOString().slice(0, 10), end: wEnd.toISOString().slice(0, 10) });
-    cur.setUTCDate(cur.getUTCDate() + 7);
-  }
-
-  let totalScore = 0;
-  const weeklyBreakdown: { weekStart: string; weekEnd: string; score: number; countingPlayerIds: number[] }[] = [];
-  const weeksInTop10 = new Map<number, number>();
-
-  const placeholders = playerIds.map(() => '?').join(',');
-  const stmt = db.prepare(`
-    SELECT player_id as playerId, COALESCE(SUM(fantasy_score), 0) as weekScore
-    FROM daily_stats
-    WHERE player_id IN (${placeholders}) AND game_date >= ? AND game_date <= ?
-    GROUP BY player_id
-  `);
-
-  for (const week of weeks) {
-    const rows = stmt.all(...playerIds, week.start, week.end) as { playerId: number; weekScore: number }[];
-    const scoreMap = new Map(rows.map(r => [r.playerId, r.weekScore]));
-    const sorted = playerIds
-      .map(id => ({ playerId: id, score: scoreMap.get(id) ?? 0 }))
-      .sort((a, b) => b.score - a.score);
-    const top10 = sorted.slice(0, 10);
-    const weekScore = top10.reduce((s, p) => s + p.score, 0);
-    totalScore += weekScore;
-    for (const p of top10) weeksInTop10.set(p.playerId, (weeksInTop10.get(p.playerId) ?? 0) + 1);
-    weeklyBreakdown.push({ weekStart: week.start, weekEnd: week.end, score: weekScore, countingPlayerIds: top10.map(p => p.playerId) });
-  }
-
-  // "Counting" = players who made top 10 at least once; bench = the rest
-  const countingPlayerIds = [...weeksInTop10.entries()]
-    .sort((a, b) => b[1] - a[1])
-    .map(([id]) => id);
-  const benchPlayerIds = playerIds.filter(id => !weeksInTop10.has(id));
-
-  return { bestBallScore: totalScore, countingPlayerIds, benchPlayerIds, weeklyBreakdown };
 }
 
 // --- Load base data ---
@@ -220,9 +166,21 @@ const EXPANDED_STATS_SELECT = `
 
 console.log('Generating standings.json...');
 
+// Load locked period scores (e.g. First Third)
+const lockedRows = sqlite.prepare('SELECT * FROM period_scores').all() as { team_id: number; period_id: number; score: number }[];
+const lockedMap = new Map<string, number>();
+const lockedPeriodIds = new Set<number>();
+for (const ls of lockedRows) {
+  lockedMap.set(`${ls.period_id}-${ls.team_id}`, ls.score);
+  lockedPeriodIds.add(ls.period_id);
+}
+
+// Only fetch stats for dynamic (non-locked) periods
+const dynamicPeriods = periods.filter((p: any) => !lockedPeriodIds.has(p.id));
+
 const statsByPeriod = new Map<number, Map<number, PlayerPeriodScore>>();
 
-for (const period of periods) {
+for (const period of dynamicPeriods) {
   const rows = sqlite.prepare(`
     SELECT ${EXPANDED_STATS_SELECT}
     FROM daily_stats ds
@@ -240,13 +198,28 @@ for (const period of periods) {
   statsByPeriod.set(period.id, map);
 }
 
-const standings = teams.map(team => {
-  const teamPlayers = players.filter(p => p.team_id === team.id);
-  let cumulativeScore = 0;
+const standings = teams.map((team: any) => {
+  const teamPlayers = players.filter((p: any) => p.team_id === team.id);
+  let firstThirdScore = 0;
+  let weeklyTotal = 0;
 
-  const periodResults = periods.map(period => {
+  const periodResults = periods.map((period: any) => {
+    const locked = lockedMap.get(`${period.id}-${team.id}`);
+
+    if (locked !== undefined) {
+      firstThirdScore = locked;
+      return {
+        periodId: period.id,
+        periodName: period.name,
+        bestBallScore: locked,
+        locked: true,
+        countingPlayerIds: [] as number[],
+        benchPlayerIds: [] as number[],
+      };
+    }
+
     const periodStats = statsByPeriod.get(period.id) || new Map();
-    const playerScores: PlayerPeriodScore[] = teamPlayers.map(player => {
+    const playerScores: PlayerPeriodScore[] = teamPlayers.map((player: any) => {
       const s = periodStats.get(player.id);
       return {
         playerId: player.id,
@@ -276,35 +249,31 @@ const standings = teams.map(team => {
       };
     });
 
-    let result;
-    if (period.id === 1) {
-      result = computeBestBall(playerScores);
-    } else {
-      const teamPlayerIds = teamPlayers.map(p => p.id);
-      result = computeWeeklyBestBall(teamPlayerIds, period.start_date, period.end_date, sqlite);
-    }
-    cumulativeScore += result.bestBallScore;
+    const bestBall = computeBestBall(playerScores);
+    weeklyTotal += bestBall.bestBallScore;
 
     return {
       periodId: period.id,
       periodName: period.name,
-      bestBallScore: result.bestBallScore,
-      countingPlayerIds: result.countingPlayerIds,
-      benchPlayerIds: result.benchPlayerIds,
-      weeklyBreakdown: result.weeklyBreakdown ?? null,
+      bestBallScore: bestBall.bestBallScore,
+      locked: false,
+      countingPlayerIds: bestBall.countingPlayerIds,
+      benchPlayerIds: bestBall.benchPlayerIds,
     };
   });
 
   return {
     team: { id: team.id, name: team.name },
     periods: periodResults,
-    cumulativeScore,
+    firstThirdScore,
+    weeklyTotal,
+    cumulativeScore: firstThirdScore + weeklyTotal,
   };
-}).sort((a, b) => b.cumulativeScore - a.cumulativeScore);
+}).sort((a: any, b: any) => b.cumulativeScore - a.cumulativeScore);
 
 fs.writeFileSync(
   path.join(outDir, 'standings.json'),
-  JSON.stringify({ standings, periods }, null, 2)
+  JSON.stringify({ standings, periods, lockedPeriodIds: [...lockedPeriodIds] }, null, 2)
 );
 
 // --- Generate teams.json (list) ---
@@ -359,20 +328,13 @@ for (const team of teams) {
       };
     });
 
-    let result;
-    if (period.id === 1) {
-      result = computeBestBall(playerScores);
-    } else {
-      const rosterIds = roster.map((p: any) => p.id);
-      result = computeWeeklyBestBall(rosterIds, period.start_date, period.end_date, sqlite);
-    }
+    const bestBall = computeBestBall(playerScores);
     return {
       period,
-      bestBallScore: result.bestBallScore,
+      bestBallScore: bestBall.bestBallScore,
       playerScores: playerScores.sort((a, b) => b.totalScore - a.totalScore),
-      countingPlayerIds: result.countingPlayerIds,
-      benchPlayerIds: result.benchPlayerIds,
-      weeklyBreakdown: result.weeklyBreakdown ?? null,
+      countingPlayerIds: bestBall.countingPlayerIds,
+      benchPlayerIds: bestBall.benchPlayerIds,
     };
   });
 

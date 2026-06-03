@@ -73,6 +73,13 @@ export const seasonPeriods = sqliteTable('season_periods', {
   redraftDate: text('redraft_date'),
 });
 
+export const periodScores = sqliteTable('period_scores', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  teamId: integer('team_id').references(() => teams.id).notNull(),
+  periodId: integer('period_id').references(() => seasonPeriods.id).notNull(),
+  score: integer('score').notNull().default(0),
+});
+
 export const redraftLog = sqliteTable('redraft_log', {
   id: integer('id').primaryKey({ autoIncrement: true }),
   periodId: integer('period_id').references(() => seasonPeriods.id),
@@ -88,3 +95,4 @@ export type Player = typeof players.$inferSelect;
 export type DailyStat = typeof dailyStats.$inferSelect;
 export type TeamDailyScore = typeof teamDailyScores.$inferSelect;
 export type SeasonPeriod = typeof seasonPeriods.$inferSelect;
+export type PeriodScore = typeof periodScores.$inferSelect;

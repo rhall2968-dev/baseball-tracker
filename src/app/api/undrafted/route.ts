@@ -35,15 +35,15 @@ export async function GET() {
       return name.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
     }
     const rosteredSlugs = new Set(
-      (db.prepare(`SELECT name FROM players WHERE team_id IS NOT NULL AND is_active = 1`).all() as any[])
-        .map((p: any) => slugify(p.name))
+      (db.prepare(`SELECT name FROM players WHERE team_id IS NOT NULL AND is_active = 1`).all() as { name: string }[])
+        .map(p => slugify(p.name))
     );
     const usedSlugs = new Set<string>();
     for (const s of rosteredSlugs) usedSlugs.add(s);
 
-    const result = (rows as any[]).map(r => {
+    const result = (rows as { name: string; mlbId: number; gamesPlayed: number; totalScore: number; [key: string]: unknown }[]).map(r => {
       const bare = slugify(r.name);
-      let slug = (rosteredSlugs.has(bare) || usedSlugs.has(bare)) ? `${bare}-${r.mlbId}` : bare;
+      const slug = (rosteredSlugs.has(bare) || usedSlugs.has(bare)) ? `${bare}-${r.mlbId}` : bare;
       usedSlugs.add(slug);
       return {
         ...r,

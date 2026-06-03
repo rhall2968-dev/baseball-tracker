@@ -5,15 +5,25 @@ import Link from 'next/link';
 import { fetchData } from '@/lib/data';
 import { BumpChart } from '@/components/bump-chart';
 
+interface PeriodResult {
+  periodId: number;
+  periodName: string;
+  bestBallScore: number;
+  locked: boolean;
+}
+
 interface Standing {
   team: { id: number; name: string };
-  periods: Array<{ periodId: number; periodName: string; bestBallScore: number }>;
+  periods: PeriodResult[];
+  firstThirdScore: number;
+  weeklyTotal: number;
   cumulativeScore: number;
 }
 
 type StandingsData = {
   standings: Standing[];
   periods: Array<{ id: number; name: string; startDate: string; endDate: string }>;
+  lockedPeriodIds: number[];
 };
 
 interface RankingsData {
@@ -29,6 +39,7 @@ export default function StandingsPage() {
   const [data, setData] = useState<StandingsData | null>(null);
   const [rankings, setRankings] = useState<RankingsData | null>(null);
   const [loading, setLoading] = useState(true);
+  // 'cumulative' | periodId (number)
   const [view, setView] = useState<'cumulative' | number>('cumulative');
 
   useEffect(() => {
@@ -52,18 +63,25 @@ export default function StandingsPage() {
 
   const standings = data?.standings || [];
   const periods = data?.periods || [];
+  const lockedPeriodIds = new Set(data?.lockedPeriodIds ?? []);
 
-  const displayStandings = view === 'cumulative'
-    ? standings
-    : [...standings].sort((a, b) =>
-        b.periods[view as number].bestBallScore - a.periods[view as number].bestBallScore
-      );
+  // For period-specific view: sort by that period's score
+  const selectedPeriod = typeof view === 'number' ? periods.find(p => p.id === view) : null;
+  const displayStandings = selectedPeriod
+    ? [...standings].sort((a, b) => {
+        const aScore = a.periods.find(p => p.periodId === selectedPeriod.id)?.bestBallScore ?? 0;
+        const bScore = b.periods.find(p => p.periodId === selectedPeriod.id)?.bestBallScore ?? 0;
+        return bScore - aScore;
+      })
+    : standings;
+
+  const weekPeriods = periods.filter(p => !lockedPeriodIds.has(p.id));
 
   return (
     <div className="space-y-6">
       <div>
         <h1 className="text-lg font-semibold">Standings</h1>
-        <p className="text-xs text-muted-foreground mt-0.5">Period and cumulative rankings</p>
+        <p className="text-xs text-muted-foreground mt-0.5">First third locked · weekly best-ball scoring</p>
       </div>
 
       {/* Bump Chart */}
@@ -93,21 +111,38 @@ export default function StandingsPage() {
               : 'text-muted-foreground hover:text-foreground'
           }`}
         >
-          Cumulative
+          Overall
         </button>
-        {periods.map((p, i) => (
+        {/* First Third locked period */}
+        {periods.filter(p => lockedPeriodIds.has(p.id)).map(p => (
           <button
             key={p.id}
-            onClick={() => setView(i)}
+            onClick={() => setView(p.id)}
             role="tab"
-            aria-selected={view === i}
+            aria-selected={view === p.id}
             className={`min-h-[38px] px-3.5 py-2 sm:py-1.5 text-xs rounded-md transition-colors ${
-              view === i
+              view === p.id
                 ? 'bg-accent text-accent-foreground font-medium'
                 : 'text-muted-foreground hover:text-foreground'
             }`}
           >
-            {p.name.replace(' Third', '')}
+            1st Third
+          </button>
+        ))}
+        {/* Weekly periods */}
+        {weekPeriods.map(p => (
+          <button
+            key={p.id}
+            onClick={() => setView(p.id)}
+            role="tab"
+            aria-selected={view === p.id}
+            className={`min-h-[38px] px-3.5 py-2 sm:py-1.5 text-xs rounded-md transition-colors ${
+              view === p.id
+                ? 'bg-accent text-accent-foreground font-medium'
+                : 'text-muted-foreground hover:text-foreground'
+            }`}
+          >
+            {p.name}
           </button>
         ))}
       </div>
@@ -121,11 +156,8 @@ export default function StandingsPage() {
               <th className="text-left text-[11px] font-medium text-muted-foreground px-4 py-2.5">Team</th>
               {view === 'cumulative' ? (
                 <>
-                  {periods.map(p => (
-                    <th key={p.id} className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2.5">
-                      {p.name.replace(' Third', '')}
-                    </th>
-                  ))}
+                  <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2.5">1st Third</th>
+                  <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2.5">Weekly</th>
                   <th className="text-right text-[11px] font-medium text-muted-foreground px-4 py-2.5">Total</th>
                 </>
               ) : (
@@ -148,18 +180,19 @@ export default function StandingsPage() {
                 </td>
                 {view === 'cumulative' ? (
                   <>
-                    {s.periods.map(p => (
-                      <td key={p.periodId} className="px-4 py-2.5 text-right text-sm tabular-nums">
-                        {p.bestBallScore || '—'}
-                      </td>
-                    ))}
+                    <td className="px-4 py-2.5 text-right text-sm tabular-nums text-muted-foreground">
+                      {s.firstThirdScore || '—'}
+                    </td>
+                    <td className="px-4 py-2.5 text-right text-sm tabular-nums text-muted-foreground">
+                      {s.weeklyTotal || '—'}
+                    </td>
                     <td className="px-4 py-2.5 text-right text-sm tabular-nums font-semibold">
                       {s.cumulativeScore}
                     </td>
                   </>
                 ) : (
                   <td className="px-4 py-2.5 text-right text-sm tabular-nums font-semibold">
-                    {s.periods[view as number].bestBallScore}
+                    {s.periods.find(p => p.periodId === (view as number))?.bestBallScore ?? '—'}
                   </td>
                 )}
               </tr>
@@ -167,7 +200,6 @@ export default function StandingsPage() {
           </tbody>
         </table>
       </div>
-
     </div>
   );
 }
