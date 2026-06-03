@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T20:02:47.267Z",
+  "generatedAt": "2026-06-03T20:29:28.715Z",
   "seasonStart": "2026-03-26",
   "endDate": "2026-06-17",
   "games": [
@@ -25859,8 +25859,8 @@
       },
       "awayScore": 4,
       "homeScore": 1,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-06-03T17:05:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -25915,8 +25915,8 @@
       },
       "awayScore": 8,
       "homeScore": 0,
-      "status": "I",
-      "detailedState": "In Progress",
+      "status": "O",
+      "detailedState": "Game Over",
       "gameTimeISO": "2026-06-03T17:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26111,8 +26111,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-03T23:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26139,8 +26139,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-03T23:45:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26195,8 +26195,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-04T00:10:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -26251,8 +26251,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-06-04T01:40:00Z",
       "doubleHeader": null,
       "awayPitcher": {
