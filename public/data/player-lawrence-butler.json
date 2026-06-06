@@ -9,7 +9,7 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": 9,
-    "overallRank": 244
+    "overallRank": 247
   },
   "seasonTotals": {
     "gamesPlayed": 50,
@@ -1645,8 +1645,8 @@
     }
   ],
   "navigation": {
-    "prevSlug": "lane-thomas",
-    "prevName": "Lane Thomas",
+    "prevSlug": "lars-nootbaar",
+    "prevName": "Lars Nootbaar",
     "nextSlug": "lenyn-sosa",
     "nextName": "Lenyn Sosa"
   }
