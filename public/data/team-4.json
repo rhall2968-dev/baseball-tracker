@@ -22,7 +22,7 @@
       "mlbId": 701398,
       "name": "Sal Stewart",
       "mlbTeam": "CIN",
-      "position": "3B",
+      "position": "1B",
       "teamId": 4,
       "draftRound": null,
       "isActive": 1,
@@ -88,7 +88,7 @@
       "mlbId": 646240,
       "name": "Rafael Devers",
       "mlbTeam": "SF",
-      "position": "1B",
+      "position": "DH",
       "teamId": 4,
       "draftRound": 5,
       "isActive": 1,
@@ -890,7 +890,7 @@
         "startDate": "2026-06-07",
         "endDate": "2026-06-13"
       },
-      "bestBallScore": 12,
+      "bestBallScore": 15,
       "playerScores": [
         {
           "playerId": 121,
@@ -945,56 +945,82 @@
           "leftOnBase": 2
         },
         {
-          "playerId": 42,
-          "playerName": "Pete Alonso",
-          "slug": "pete-alonso",
-          "totalScore": 1,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 1,
-          "hbp": 0,
-          "atBats": 3,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
-        },
-        {
           "playerId": 44,
           "playerName": "Rafael Devers",
           "slug": "rafael-devers",
-          "totalScore": 1,
-          "gamesPlayed": 1,
+          "totalScore": 2,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
-          "walks": 1,
+          "walks": 2,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 7,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 0,
-          "strikeouts": 3,
-          "plateAppearances": 4,
+          "strikeouts": 4,
+          "plateAppearances": 9,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 5
+        },
+        {
+          "playerId": 171,
+          "playerName": "Sal Stewart",
+          "slug": "sal-stewart",
+          "totalScore": 2,
+          "gamesPlayed": 2,
+          "totalBases": 1,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 7,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 1,
+          "strikeouts": 1,
+          "plateAppearances": 8,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 2
+        },
+        {
+          "playerId": 42,
+          "playerName": "Pete Alonso",
+          "slug": "pete-alonso",
+          "totalScore": 1,
+          "gamesPlayed": 2,
+          "totalBases": 0,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 7,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 1,
+          "strikeouts": 2,
+          "plateAppearances": 9,
+          "sacFlies": 1,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 8
         },
         {
           "playerId": 46,
@@ -1179,32 +1205,6 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 171,
-          "playerName": "Sal Stewart",
-          "slug": "sal-stewart",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
-        },
-        {
           "playerId": 395,
           "playerName": "Mickey Moniak",
           "slug": "mickey-moniak",
@@ -1234,18 +1234,18 @@
       "countingPlayerIds": [
         121,
         45,
-        42,
         44,
+        171,
+        42,
         46,
         48,
         49,
         40,
-        41,
-        43
+        41
       ],
       "benchPlayerIds": [
+        43,
         47,
-        171,
         395
       ]
     },
@@ -6745,10 +6745,12 @@
       "2026-06-07": 0
     },
     "42": {
-      "2026-06-07": 1
+      "2026-06-07": 1,
+      "2026-06-08": 0
     },
     "44": {
-      "2026-06-07": 1
+      "2026-06-07": 1,
+      "2026-06-08": 1
     },
     "45": {
       "2026-06-07": 3
@@ -6766,7 +6768,8 @@
       "2026-06-07": 4
     },
     "171": {
-      "2026-06-07": 0
+      "2026-06-07": 0,
+      "2026-06-08": 2
     }
   }
 }
