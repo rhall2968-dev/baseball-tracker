@@ -1,15 +1,15 @@
 {
   "player": {
-    "id": 5824,
-    "mlbId": 694224,
-    "name": "Gabriel Gonzalez",
-    "slug": "gabriel-gonzalez",
-    "mlbTeam": "MIN",
-    "position": "LF",
+    "id": 33226,
+    "mlbId": 670224,
+    "name": "Kameron Misner",
+    "slug": "kameron-misner",
+    "mlbTeam": "KC",
+    "position": "CF",
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 519
+    "overallRank": 530
   },
   "seasonTotals": {
     "gamesPlayed": 1,
@@ -20,12 +20,12 @@
     "homeRuns": 0,
     "totalBases": 1,
     "stolenBases": 0,
-    "baseOnBalls": 2,
+    "baseOnBalls": 1,
     "hitByPitch": 0,
-    "runs": 1,
-    "rbi": 0,
-    "strikeouts": 0,
-    "plateAppearances": 4,
+    "runs": 0,
+    "rbi": 1,
+    "strikeouts": 1,
+    "plateAppearances": 3,
     "sacBunts": 0,
     "sacFlies": 0,
     "groundIntoDoublePlay": 0,
@@ -34,17 +34,17 @@
     "groundOuts": 0,
     "flyOuts": 0,
     "lineOuts": 0,
-    "popOuts": 1,
-    "airOuts": 1,
+    "popOuts": 0,
+    "airOuts": 0,
     "catchersInterference": 0,
     "caughtStealing": 0,
     "intentionalWalks": 0,
     "pickoffs": 0,
-    "fantasyScore": 3
+    "fantasyScore": 2
   },
   "games": [
     {
-      "gameDate": "2026-05-22",
+      "gameDate": "2026-06-11",
       "gamePk": null,
       "atBats": 2,
       "hits": 1,
@@ -53,12 +53,12 @@
       "homeRuns": 0,
       "totalBases": 1,
       "stolenBases": 0,
-      "baseOnBalls": 2,
+      "baseOnBalls": 1,
       "hitByPitch": 0,
-      "runs": 1,
-      "rbi": 0,
-      "strikeouts": 0,
-      "plateAppearances": 4,
+      "runs": 0,
+      "rbi": 1,
+      "strikeouts": 1,
+      "plateAppearances": 3,
       "sacBunts": 0,
       "sacFlies": 0,
       "groundIntoDoublePlay": 0,
@@ -67,19 +67,19 @@
       "groundOuts": 0,
       "flyOuts": 0,
       "lineOuts": 0,
-      "popOuts": 1,
-      "airOuts": 1,
+      "popOuts": 0,
+      "airOuts": 0,
       "catchersInterference": 0,
       "caughtStealing": 0,
       "intentionalWalks": 0,
       "pickoffs": 0,
-      "fantasyScore": 3
+      "fantasyScore": 2
     }
   ],
   "navigation": {
-    "prevSlug": "gabriel-arias",
-    "prevName": "Gabriel Arias",
-    "nextSlug": "gabriel-moreno",
-    "nextName": "Gabriel Moreno"
+    "prevSlug": "justin-foscue",
+    "prevName": "Justin Foscue",
+    "nextSlug": "kazuma-okamoto",
+    "nextName": "Kazuma Okamoto"
   }
 }

@@ -9,7 +9,7 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 75
+    "overallRank": 79
   },
   "seasonTotals": {
     "gamesPlayed": 65,
@@ -2125,8 +2125,8 @@
     }
   ],
   "navigation": {
-    "prevSlug": "justin-foscue",
-    "prevName": "Justin Foscue",
+    "prevSlug": "kameron-misner",
+    "prevName": "Kameron Misner",
     "nextSlug": "ke-bryan-hayes",
     "nextName": "Ke'Bryan Hayes"
   }
