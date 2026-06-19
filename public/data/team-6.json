@@ -22,7 +22,7 @@
       "mlbId": 700250,
       "name": "Ben Rice",
       "mlbTeam": "NYY",
-      "position": "DH",
+      "position": "1B",
       "teamId": 6,
       "draftRound": null,
       "isActive": 1,
@@ -1256,27 +1256,27 @@
         "startDate": "2026-06-14",
         "endDate": "2026-06-20"
       },
-      "bestBallScore": 70,
+      "bestBallScore": 74,
       "playerScores": [
         {
           "playerId": 350,
           "playerName": "Ben Rice",
           "slug": "ben-rice",
-          "totalScore": 13,
-          "gamesPlayed": 3,
-          "totalBases": 10,
+          "totalScore": 14,
+          "gamesPlayed": 4,
+          "totalBases": 11,
           "stolenBases": 0,
           "walks": 3,
           "hbp": 0,
-          "atBats": 13,
-          "hits": 4,
+          "atBats": 17,
+          "hits": 5,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 2,
           "runs": 3,
           "rbi": 4,
-          "strikeouts": 4,
-          "plateAppearances": 16,
+          "strikeouts": 5,
+          "plateAppearances": 20,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -1392,27 +1392,53 @@
           "playerId": 69,
           "playerName": "Trea Turner",
           "slug": "trea-turner",
-          "totalScore": 6,
-          "gamesPlayed": 3,
+          "totalScore": 7,
+          "gamesPlayed": 4,
           "totalBases": 4,
           "stolenBases": 1,
           "walks": 0,
-          "hbp": 1,
+          "hbp": 2,
           "atBats": 12,
           "hits": 3,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
-          "runs": 1,
+          "runs": 2,
           "rbi": 0,
           "strikeouts": 3,
-          "plateAppearances": 13,
+          "plateAppearances": 14,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 4
+        },
+        {
+          "playerId": 76,
+          "playerName": "Ceddanne Rafaela",
+          "slug": "ceddanne-rafaela",
+          "totalScore": 6,
+          "gamesPlayed": 4,
+          "totalBases": 6,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 17,
+          "hits": 4,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 3,
+          "plateAppearances": 18,
+          "sacFlies": 0,
+          "sacBunts": 1,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 8
         },
         {
           "playerId": 192,
@@ -1465,32 +1491,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 6
-        },
-        {
-          "playerId": 76,
-          "playerName": "Ceddanne Rafaela",
-          "slug": "ceddanne-rafaela",
-          "totalScore": 4,
-          "gamesPlayed": 3,
-          "totalBases": 4,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 14,
-          "hits": 3,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 3,
-          "plateAppearances": 14,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 7
         },
         {
           "playerId": 66,
@@ -1604,9 +1604,9 @@
         68,
         73,
         69,
+        76,
         192,
         71,
-        76,
         66
       ],
       "benchPlayerIds": [
@@ -6756,7 +6756,8 @@
     "69": {
       "2026-06-14": 0,
       "2026-06-15": 1,
-      "2026-06-17": 5
+      "2026-06-17": 5,
+      "2026-06-18": 1
     },
     "71": {
       "2026-06-15": 2,
@@ -6770,7 +6771,8 @@
     "76": {
       "2026-06-14": 0,
       "2026-06-16": 3,
-      "2026-06-17": 1
+      "2026-06-17": 1,
+      "2026-06-18": 2
     },
     "77": {
       "2026-06-14": 0,
@@ -6785,7 +6787,8 @@
     "350": {
       "2026-06-14": 5,
       "2026-06-16": 6,
-      "2026-06-17": 2
+      "2026-06-17": 2,
+      "2026-06-18": 1
     }
   }
 }
