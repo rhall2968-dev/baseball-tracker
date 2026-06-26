@@ -55,7 +55,7 @@
       "mlbId": 695578,
       "name": "James Wood",
       "mlbTeam": "WSH",
-      "position": "RF",
+      "position": "DH",
       "teamId": 1,
       "draftRound": 4,
       "isActive": 1,
@@ -1622,7 +1622,7 @@
         "startDate": "2026-06-21",
         "endDate": "2026-06-27"
       },
-      "bestBallScore": 63,
+      "bestBallScore": 68,
       "playerScores": [
         {
           "playerId": 1,
@@ -1648,6 +1648,32 @@
           "caughtStealing": 0,
           "intentionalWalks": 1,
           "groundIntoDoublePlay": 1,
+          "leftOnBase": 5
+        },
+        {
+          "playerId": 6,
+          "playerName": "Josh Naylor",
+          "slug": "josh-naylor",
+          "totalScore": 9,
+          "gamesPlayed": 4,
+          "totalBases": 6,
+          "stolenBases": 1,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 14,
+          "hits": 5,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 0,
+          "strikeouts": 2,
+          "plateAppearances": 16,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
           "leftOnBase": 5
         },
         {
@@ -1677,30 +1703,30 @@
           "leftOnBase": 3
         },
         {
-          "playerId": 6,
-          "playerName": "Josh Naylor",
-          "slug": "josh-naylor",
+          "playerId": 8,
+          "playerName": "Tyler Soderstrom",
+          "slug": "tyler-soderstrom",
           "totalScore": 7,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 5,
-          "stolenBases": 1,
-          "walks": 1,
+          "stolenBases": 0,
+          "walks": 2,
           "hbp": 0,
-          "atBats": 11,
-          "hits": 4,
-          "doubles": 1,
+          "atBats": 15,
+          "hits": 5,
+          "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 12,
+          "runs": 2,
+          "rbi": 1,
+          "strikeouts": 1,
+          "plateAppearances": 17,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 4
+          "leftOnBase": 5
         },
         {
           "playerId": 2,
@@ -1811,20 +1837,20 @@
           "playerName": "James Wood",
           "slug": "james-wood",
           "totalScore": 5,
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "totalBases": 3,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 16,
+          "atBats": 21,
           "hits": 2,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 2,
           "rbi": 1,
-          "strikeouts": 9,
-          "plateAppearances": 19,
+          "strikeouts": 11,
+          "plateAppearances": 24,
           "sacFlies": 1,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -1837,52 +1863,26 @@
           "playerName": "George Springer",
           "slug": "george-springer",
           "totalScore": 5,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 3,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 13,
+          "atBats": 17,
           "hits": 3,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 2,
           "rbi": 0,
-          "strikeouts": 6,
-          "plateAppearances": 15,
+          "strikeouts": 7,
+          "plateAppearances": 19,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 6
-        },
-        {
-          "playerId": 8,
-          "playerName": "Tyler Soderstrom",
-          "slug": "tyler-soderstrom",
-          "totalScore": 4,
-          "gamesPlayed": 3,
-          "totalBases": 3,
-          "stolenBases": 0,
-          "walks": 1,
-          "hbp": 0,
-          "atBats": 11,
-          "hits": 3,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 1,
-          "rbi": 1,
-          "strikeouts": 1,
-          "plateAppearances": 12,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
+          "leftOnBase": 7
         },
         {
           "playerId": 219,
@@ -1965,15 +1965,15 @@
       ],
       "countingPlayerIds": [
         1,
-        9,
         6,
+        9,
+        8,
         2,
         5,
         12,
         3,
         4,
-        83,
-        8
+        83
       ],
       "benchPlayerIds": [
         219,
@@ -6763,7 +6763,8 @@
       "2026-06-21": 1,
       "2026-06-22": 4,
       "2026-06-23": 0,
-      "2026-06-24": 0
+      "2026-06-24": 0,
+      "2026-06-25": 0
     },
     "5": {
       "2026-06-21": 3,
@@ -6774,7 +6775,8 @@
     "6": {
       "2026-06-21": 1,
       "2026-06-23": 3,
-      "2026-06-24": 3
+      "2026-06-24": 3,
+      "2026-06-25": 2
     },
     "7": {
       "2026-06-21": 0,
@@ -6783,7 +6785,8 @@
     "8": {
       "2026-06-21": 2,
       "2026-06-23": 2,
-      "2026-06-24": 0
+      "2026-06-24": 0,
+      "2026-06-25": 3
     },
     "9": {
       "2026-06-21": 3,
@@ -6806,7 +6809,8 @@
     "83": {
       "2026-06-22": 3,
       "2026-06-23": 2,
-      "2026-06-24": 0
+      "2026-06-24": 0,
+      "2026-06-25": 0
     },
     "219": {
       "2026-06-21": 1,
