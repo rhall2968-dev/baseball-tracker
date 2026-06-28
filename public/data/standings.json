@@ -86,22 +86,22 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 140,
+          "bestBallScore": 163,
           "locked": false,
           "countingPlayerIds": [
             58,
-            61,
             56,
-            63,
             214,
-            55,
+            61,
+            63,
             296,
+            55,
             59,
             57,
-            62
+            54
           ],
           "benchPlayerIds": [
-            54,
+            62,
             53,
             60
           ]
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1275,
-      "weeklyTotal": 558,
-      "cumulativeScore": 1833
+      "weeklyTotal": 581,
+      "cumulativeScore": 1856
     },
     {
       "team": {
@@ -496,16 +496,16 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 120,
+          "bestBallScore": 140,
           "locked": false,
           "countingPlayerIds": [
             36,
             194,
+            38,
             28,
+            222,
             31,
             32,
-            38,
-            222,
             226,
             37,
             27
@@ -817,8 +817,8 @@
         }
       ],
       "firstThirdScore": 1287,
-      "weeklyTotal": 536,
-      "cumulativeScore": 1823
+      "weeklyTotal": 556,
+      "cumulativeScore": 1843
     },
     {
       "team": {
@@ -906,22 +906,22 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 83,
+          "bestBallScore": 98,
           "locked": false,
           "countingPlayerIds": [
             1,
-            2,
-            9,
-            6,
             3,
-            8,
-            4,
+            9,
+            2,
+            6,
             5,
+            4,
+            8,
             12,
-            83
+            219
           ],
           "benchPlayerIds": [
-            219,
+            83,
             7,
             11
           ]
@@ -1227,8 +1227,8 @@
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 539,
-      "cumulativeScore": 1810
+      "weeklyTotal": 554,
+      "cumulativeScore": 1825
     },
     {
       "team": {
@@ -1316,18 +1316,18 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 102,
+          "bestBallScore": 128,
           "locked": false,
           "countingPlayerIds": [
-            81,
             82,
-            128,
+            81,
             300,
-            79,
-            86,
+            128,
             88,
-            80,
+            79,
             85,
+            86,
+            80,
             91
           ],
           "benchPlayerIds": [
@@ -1637,8 +1637,8 @@
         }
       ],
       "firstThirdScore": 1309,
-      "weeklyTotal": 474,
-      "cumulativeScore": 1783
+      "weeklyTotal": 500,
+      "cumulativeScore": 1809
     },
     {
       "team": {
@@ -1726,18 +1726,18 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 94,
+          "bestBallScore": 120,
           "locked": false,
           "countingPlayerIds": [
+            21,
             18,
-            15,
             22,
             106,
+            15,
+            248,
             16,
             17,
             19,
-            248,
-            21,
             25
           ],
           "benchPlayerIds": [
@@ -2047,8 +2047,8 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 505,
-      "cumulativeScore": 1773
+      "weeklyTotal": 531,
+      "cumulativeScore": 1799
     },
     {
       "team": {
@@ -2136,24 +2136,24 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 115,
+          "bestBallScore": 153,
           "locked": false,
           "countingPlayerIds": [
-            45,
-            42,
             43,
+            42,
+            45,
             49,
-            47,
-            41,
-            48,
             44,
+            47,
             46,
-            121
+            48,
+            171,
+            41
           ],
           "benchPlayerIds": [
-            171,
-            395,
-            40
+            121,
+            40,
+            395
           ]
         },
         {
@@ -2457,8 +2457,8 @@
         }
       ],
       "firstThirdScore": 1207,
-      "weeklyTotal": 538,
-      "cumulativeScore": 1745
+      "weeklyTotal": 576,
+      "cumulativeScore": 1783
     },
     {
       "team": {
@@ -2546,22 +2546,22 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 110,
+          "bestBallScore": 126,
           "locked": false,
           "countingPlayerIds": [
             103,
             94,
             100,
-            95,
-            96,
-            104,
             98,
-            101,
+            104,
+            95,
             92,
-            93
+            96,
+            101,
+            99
           ],
           "benchPlayerIds": [
-            99,
+            93,
             97,
             102
           ]
@@ -2867,8 +2867,8 @@
         }
       ],
       "firstThirdScore": 1218,
-      "weeklyTotal": 495,
-      "cumulativeScore": 1713
+      "weeklyTotal": 511,
+      "cumulativeScore": 1729
     },
     {
       "team": {
@@ -2956,7 +2956,7 @@
         {
           "periodId": 7,
           "periodName": "Wk 4",
-          "bestBallScore": 112,
+          "bestBallScore": 140,
           "locked": false,
           "countingPlayerIds": [
             67,
@@ -2965,10 +2965,10 @@
             76,
             69,
             73,
-            350,
-            77,
             72,
-            192
+            192,
+            350,
+            77
           ],
           "benchPlayerIds": [
             66,
@@ -3277,8 +3277,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 458,
-      "cumulativeScore": 1644
+      "weeklyTotal": 486,
+      "cumulativeScore": 1672
     }
   ],
   "periods": [

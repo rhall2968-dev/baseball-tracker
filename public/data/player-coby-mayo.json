@@ -9,23 +9,23 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 203
+    "overallRank": 204
   },
   "seasonTotals": {
-    "gamesPlayed": 60,
-    "atBats": 203,
+    "gamesPlayed": 61,
+    "atBats": 205,
     "hits": 39,
     "doubles": 9,
     "triples": 0,
     "homeRuns": 9,
     "totalBases": 75,
     "stolenBases": 1,
-    "baseOnBalls": 16,
+    "baseOnBalls": 17,
     "hitByPitch": 2,
     "runs": 26,
     "rbi": 30,
-    "strikeouts": 73,
-    "plateAppearances": 222,
+    "strikeouts": 75,
+    "plateAppearances": 225,
     "sacBunts": 0,
     "sacFlies": 1,
     "groundIntoDoublePlay": 3,
@@ -40,7 +40,7 @@
     "caughtStealing": 0,
     "intentionalWalks": 0,
     "pickoffs": 1,
-    "fantasyScore": 94
+    "fantasyScore": 95
   },
   "games": [
     {
@@ -1962,6 +1962,38 @@
       "intentionalWalks": 0,
       "pickoffs": 0,
       "fantasyScore": 4
+    },
+    {
+      "gameDate": "2026-06-27",
+      "gamePk": null,
+      "atBats": 2,
+      "hits": 0,
+      "doubles": 0,
+      "triples": 0,
+      "homeRuns": 0,
+      "totalBases": 0,
+      "stolenBases": 0,
+      "baseOnBalls": 1,
+      "hitByPitch": 0,
+      "runs": 0,
+      "rbi": 0,
+      "strikeouts": 2,
+      "plateAppearances": 3,
+      "sacBunts": 0,
+      "sacFlies": 0,
+      "groundIntoDoublePlay": 0,
+      "groundIntoTriplePlay": 0,
+      "leftOnBase": 0,
+      "groundOuts": 0,
+      "flyOuts": 0,
+      "lineOuts": 0,
+      "popOuts": 0,
+      "airOuts": 0,
+      "catchersInterference": 0,
+      "caughtStealing": 0,
+      "intentionalWalks": 0,
+      "pickoffs": 0,
+      "fantasyScore": 1
     }
   ],
   "navigation": {
