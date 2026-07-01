@@ -1,19 +1,19 @@
 {
   "player": {
-    "id": 35467,
-    "mlbId": 675448,
-    "name": "Blake Hunt",
-    "slug": "blake-hunt",
-    "mlbTeam": "SD",
-    "position": "C",
+    "id": 38376,
+    "mlbId": 671155,
+    "name": "Ivan Johnson",
+    "slug": "ivan-johnson",
+    "mlbTeam": "CIN",
+    "position": "PH",
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 583
+    "overallRank": 586
   },
   "seasonTotals": {
     "gamesPlayed": 1,
-    "atBats": 3,
+    "atBats": 1,
     "hits": 0,
     "doubles": 0,
     "triples": 0,
@@ -24,8 +24,8 @@
     "hitByPitch": 0,
     "runs": 0,
     "rbi": 0,
-    "strikeouts": 3,
-    "plateAppearances": 3,
+    "strikeouts": 1,
+    "plateAppearances": 1,
     "sacBunts": 0,
     "sacFlies": 0,
     "groundIntoDoublePlay": 0,
@@ -44,9 +44,9 @@
   },
   "games": [
     {
-      "gameDate": "2026-06-20",
+      "gameDate": "2026-06-30",
       "gamePk": null,
-      "atBats": 3,
+      "atBats": 1,
       "hits": 0,
       "doubles": 0,
       "triples": 0,
@@ -57,8 +57,8 @@
       "hitByPitch": 0,
       "runs": 0,
       "rbi": 0,
-      "strikeouts": 3,
-      "plateAppearances": 3,
+      "strikeouts": 1,
+      "plateAppearances": 1,
       "sacBunts": 0,
       "sacFlies": 0,
       "groundIntoDoublePlay": 0,
@@ -77,9 +77,9 @@
     }
   ],
   "navigation": {
-    "prevSlug": "blake-dunn",
-    "prevName": "Blake Dunn",
-    "nextSlug": "blake-perkins",
-    "nextName": "Blake Perkins"
+    "prevSlug": "ivan-herrera",
+    "prevName": "Iván Herrera",
+    "nextSlug": "j-c-escarra",
+    "nextName": "J.C. Escarra"
   }
 }
