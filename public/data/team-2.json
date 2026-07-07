@@ -110,7 +110,7 @@
       "mlbId": 696100,
       "name": "Hunter Goodman",
       "mlbTeam": "COL",
-      "position": "DH",
+      "position": "C",
       "teamId": 2,
       "draftRound": 8,
       "isActive": 1,
@@ -2354,33 +2354,33 @@
         "startDate": "2026-07-05",
         "endDate": "2026-07-11"
       },
-      "bestBallScore": 28,
+      "bestBallScore": 36,
       "playerScores": [
         {
           "playerId": 18,
           "playerName": "Manny Machado",
           "slug": "manny-machado",
-          "totalScore": 8,
-          "gamesPlayed": 1,
-          "totalBases": 4,
+          "totalScore": 9,
+          "gamesPlayed": 2,
+          "totalBases": 5,
           "stolenBases": 1,
           "walks": 3,
           "hbp": 0,
-          "atBats": 2,
-          "hits": 1,
+          "atBats": 6,
+          "hits": 2,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
           "runs": 2,
           "rbi": 3,
-          "strikeouts": 0,
-          "plateAppearances": 5,
+          "strikeouts": 1,
+          "plateAppearances": 9,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 1,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 2
         },
         {
           "playerId": 17,
@@ -2409,6 +2409,58 @@
           "leftOnBase": 0
         },
         {
+          "playerId": 19,
+          "playerName": "Austin Riley",
+          "slug": "austin-riley",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 1,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 3,
+          "plateAppearances": 9,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 3
+        },
+        {
+          "playerId": 21,
+          "playerName": "Hunter Goodman",
+          "slug": "hunter-goodman",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 1,
+          "strikeouts": 3,
+          "plateAppearances": 10,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 1,
+          "groundIntoDoublePlay": 1,
+          "leftOnBase": 4
+        },
+        {
           "playerId": 106,
           "playerName": "Brandon Lowe",
           "slug": "brandon-lowe",
@@ -2435,42 +2487,16 @@
           "leftOnBase": 3
         },
         {
-          "playerId": 19,
-          "playerName": "Austin Riley",
-          "slug": "austin-riley",
-          "totalScore": 2,
-          "gamesPlayed": 1,
+          "playerId": 248,
+          "playerName": "Max Muncy",
+          "slug": "max-muncy",
+          "totalScore": 3,
+          "gamesPlayed": 2,
           "totalBases": 2,
           "stolenBases": 0,
-          "walks": 0,
+          "walks": 1,
           "hbp": 0,
-          "atBats": 4,
-          "hits": 2,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 1,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
-          "playerId": 21,
-          "playerName": "Hunter Goodman",
-          "slug": "hunter-goodman",
-          "totalScore": 2,
-          "gamesPlayed": 1,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
+          "atBats": 5,
           "hits": 2,
           "doubles": 0,
           "triples": 0,
@@ -2478,13 +2504,13 @@
           "runs": 1,
           "rbi": 1,
           "strikeouts": 1,
-          "plateAppearances": 4,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
-          "intentionalWalks": 0,
+          "intentionalWalks": 1,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 2
         },
         {
           "playerId": 24,
@@ -2667,50 +2693,24 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
-        },
-        {
-          "playerId": 248,
-          "playerName": "Max Muncy",
-          "slug": "max-muncy",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 1,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 1,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
         }
       ],
       "countingPlayerIds": [
         18,
         17,
-        106,
         19,
         21,
+        106,
+        248,
         24,
         25,
         22,
-        14,
-        15
+        14
       ],
       "benchPlayerIds": [
+        15,
         16,
-        20,
-        248
+        20
       ]
     },
     {
@@ -6751,13 +6751,16 @@
       "2026-07-05": 7
     },
     "18": {
-      "2026-07-05": 8
+      "2026-07-05": 8,
+      "2026-07-06": 1
     },
     "19": {
-      "2026-07-05": 2
+      "2026-07-05": 2,
+      "2026-07-06": 2
     },
     "21": {
-      "2026-07-05": 2
+      "2026-07-05": 2,
+      "2026-07-06": 2
     },
     "22": {
       "2026-07-05": 1
@@ -6772,7 +6775,8 @@
       "2026-07-05": 4
     },
     "248": {
-      "2026-07-05": 0
+      "2026-07-05": 0,
+      "2026-07-06": 3
     }
   }
 }
