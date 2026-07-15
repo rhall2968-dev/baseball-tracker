@@ -2720,8 +2720,34 @@
         "startDate": "2026-07-12",
         "endDate": "2026-07-18"
       },
-      "bestBallScore": 21,
+      "bestBallScore": 23,
       "playerScores": [
+        {
+          "playerId": 40,
+          "playerName": "Bobby Witt Jr.",
+          "slug": "bobby-witt-jr",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 3,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 6,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 2,
+          "rbi": 0,
+          "strikeouts": 0,
+          "plateAppearances": 7,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
+        },
         {
           "playerId": 48,
           "playerName": "Michael Busch",
@@ -2749,30 +2775,30 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 40,
-          "playerName": "Bobby Witt Jr.",
-          "slug": "bobby-witt-jr",
-          "totalScore": 3,
-          "gamesPlayed": 1,
-          "totalBases": 3,
+          "playerId": 171,
+          "playerName": "Sal Stewart",
+          "slug": "sal-stewart",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
           "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
+          "walks": 1,
+          "hbp": 1,
           "atBats": 5,
-          "hits": 2,
+          "hits": 1,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 0,
           "strikeouts": 0,
-          "plateAppearances": 5,
+          "plateAppearances": 7,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 3
         },
         {
           "playerId": 49,
@@ -2799,32 +2825,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
-        },
-        {
-          "playerId": 171,
-          "playerName": "Sal Stewart",
-          "slug": "sal-stewart",
-          "totalScore": 3,
-          "gamesPlayed": 1,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 1,
-          "atBats": 4,
-          "hits": 1,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 1,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 5,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
         },
         {
           "playerId": 41,
@@ -2857,20 +2857,20 @@
           "playerName": "Andy Pages",
           "slug": "andy-pages",
           "totalScore": 2,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 2,
+          "atBats": 4,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
+          "strikeouts": 2,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -3062,10 +3062,10 @@
         }
       ],
       "countingPlayerIds": [
-        48,
         40,
-        49,
+        48,
         171,
+        49,
         41,
         47,
         42,
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "40": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 1
     },
     "41": {
       "2026-07-12": 2
@@ -6763,7 +6764,8 @@
       "2026-07-12": 1
     },
     "47": {
-      "2026-07-12": 2
+      "2026-07-12": 2,
+      "2026-07-14": 0
     },
     "48": {
       "2026-07-12": 4
@@ -6775,7 +6777,8 @@
       "2026-07-12": 1
     },
     "171": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 1
     },
     "395": {
       "2026-07-12": 0

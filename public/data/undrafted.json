@@ -84,7 +84,7 @@
     "name": "Dillon Dingler",
     "mlbTeam": "DET",
     "mlbId": 693307,
-    "gamesPlayed": 85,
+    "gamesPlayed": 86,
     "totalScore": 194,
     "singles": 45,
     "doubles": 19,
@@ -92,15 +92,15 @@
     "homeRuns": 19,
     "stolenBases": 0,
     "slug": "dillon-dingler",
-    "ppg": 2.28,
-    "proj162": 370
+    "ppg": 2.26,
+    "proj162": 365
   },
   {
     "id": 236,
     "name": "Brandon Marsh",
     "mlbTeam": "PHI",
     "mlbId": 669016,
-    "gamesPlayed": 89,
+    "gamesPlayed": 90,
     "totalScore": 193,
     "singles": 68,
     "doubles": 15,
@@ -108,8 +108,8 @@
     "homeRuns": 15,
     "stolenBases": 8,
     "slug": "brandon-marsh",
-    "ppg": 2.17,
-    "proj162": 351
+    "ppg": 2.14,
+    "proj162": 347
   },
   {
     "id": 271,
@@ -484,7 +484,7 @@
     "name": "Ernie Clement",
     "mlbTeam": "TOR",
     "mlbId": 676391,
-    "gamesPlayed": 92,
+    "gamesPlayed": 93,
     "totalScore": 169,
     "singles": 74,
     "doubles": 22,
@@ -492,8 +492,8 @@
     "homeRuns": 8,
     "stolenBases": 3,
     "slug": "ernie-clement",
-    "ppg": 1.84,
-    "proj162": 298
+    "ppg": 1.82,
+    "proj162": 294
   },
   {
     "id": 292,
@@ -932,7 +932,7 @@
     "name": "Tristan Peters",
     "mlbTeam": "CWS",
     "mlbId": 671976,
-    "gamesPlayed": 87,
+    "gamesPlayed": 88,
     "totalScore": 145,
     "singles": 46,
     "doubles": 20,
@@ -940,8 +940,8 @@
     "homeRuns": 6,
     "stolenBases": 5,
     "slug": "tristan-peters",
-    "ppg": 1.67,
-    "proj162": 270
+    "ppg": 1.65,
+    "proj162": 267
   },
   {
     "id": 139,
@@ -1012,7 +1012,7 @@
     "name": "Travis Bazzana",
     "mlbTeam": "CLE",
     "mlbId": 683953,
-    "gamesPlayed": 65,
+    "gamesPlayed": 66,
     "totalScore": 143,
     "singles": 36,
     "doubles": 14,
@@ -1020,8 +1020,8 @@
     "homeRuns": 7,
     "stolenBases": 13,
     "slug": "travis-bazzana",
-    "ppg": 2.2,
-    "proj162": 356
+    "ppg": 2.17,
+    "proj162": 351
   },
   {
     "id": 179,

@@ -2720,33 +2720,59 @@
         "startDate": "2026-07-12",
         "endDate": "2026-07-18"
       },
-      "bestBallScore": 19,
+      "bestBallScore": 22,
       "playerScores": [
         {
           "playerId": 72,
           "playerName": "Randy Arozarena",
           "slug": "randy-arozarena",
-          "totalScore": 4,
-          "gamesPlayed": 1,
-          "totalBases": 4,
+          "totalScore": 5,
+          "gamesPlayed": 2,
+          "totalBases": 5,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 5,
-          "hits": 1,
+          "atBats": 7,
+          "hits": 2,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
           "runs": 1,
           "rbi": 3,
           "strikeouts": 2,
-          "plateAppearances": 5,
+          "plateAppearances": 7,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 1,
-          "leftOnBase": 4
+          "leftOnBase": 5
+        },
+        {
+          "playerId": 350,
+          "playerName": "Ben Rice",
+          "slug": "ben-rice",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 4,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 6,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 1,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 3,
+          "strikeouts": 3,
+          "plateAppearances": 6,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
         },
         {
           "playerId": 73,
@@ -2775,30 +2801,30 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 350,
-          "playerName": "Ben Rice",
-          "slug": "ben-rice",
-          "totalScore": 3,
-          "gamesPlayed": 1,
-          "totalBases": 3,
+          "playerId": 67,
+          "playerName": "Junior Caminero",
+          "slug": "junior-caminero",
+          "totalScore": 2,
+          "gamesPlayed": 2,
+          "totalBases": 0,
           "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
+          "walks": 1,
+          "hbp": 1,
           "atBats": 4,
-          "hits": 1,
+          "hits": 0,
           "doubles": 0,
-          "triples": 1,
+          "triples": 0,
           "homeRuns": 0,
           "runs": 0,
-          "rbi": 2,
-          "strikeouts": 2,
-          "plateAppearances": 4,
+          "rbi": 0,
+          "strikeouts": 3,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 4
         },
         {
           "playerId": 69,
@@ -2853,108 +2879,82 @@
           "leftOnBase": 4
         },
         {
-          "playerId": 67,
-          "playerName": "Junior Caminero",
-          "slug": "junior-caminero",
-          "totalScore": 1,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 1,
-          "hbp": 0,
-          "atBats": 3,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 3,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
-        },
-        {
           "playerId": 71,
           "playerName": "Riley Greene",
           "slug": "riley-greene",
           "totalScore": 1,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 1,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 6,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 4,
+          "strikeouts": 4,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
+          "leftOnBase": 4
         },
         {
           "playerId": 76,
           "playerName": "Ceddanne Rafaela",
           "slug": "ceddanne-rafaela",
           "totalScore": 1,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 1,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 5,
+          "atBats": 7,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 5,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
-        },
-        {
-          "playerId": 77,
-          "playerName": "Luis Arraez",
-          "slug": "luis-arraez",
-          "totalScore": 1,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 1,
-          "hbp": 0,
-          "atBats": 3,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 4,
+          "strikeouts": 3,
+          "plateAppearances": 7,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 2
+        },
+        {
+          "playerId": 77,
+          "playerName": "Luis Arraez",
+          "slug": "luis-arraez",
+          "totalScore": 1,
+          "gamesPlayed": 2,
+          "totalBases": 0,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 4,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 0,
+          "strikeouts": 1,
+          "plateAppearances": 5,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 3
         },
         {
           "playerId": 192,
@@ -3063,11 +3063,11 @@
       ],
       "countingPlayerIds": [
         72,
-        73,
         350,
+        73,
+        67,
         69,
         78,
-        67,
         71,
         76,
         77,
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "67": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 1
     },
     "68": {
       "2026-07-12": 0
@@ -6751,19 +6752,23 @@
       "2026-07-12": 2
     },
     "71": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 0
     },
     "72": {
-      "2026-07-12": 4
+      "2026-07-12": 4,
+      "2026-07-14": 1
     },
     "73": {
       "2026-07-12": 3
     },
     "76": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 0
     },
     "77": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 0
     },
     "78": {
       "2026-07-12": 2
@@ -6772,7 +6777,8 @@
       "2026-07-12": 1
     },
     "350": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 1
     }
   }
 }

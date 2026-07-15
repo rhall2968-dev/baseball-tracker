@@ -11,7 +11,7 @@
       "mlbId": 545361,
       "name": "Mike Trout",
       "mlbTeam": "LAA",
-      "position": "DH",
+      "position": "CF",
       "teamId": 3,
       "draftRound": null,
       "isActive": 1,
@@ -55,7 +55,7 @@
       "mlbId": 665742,
       "name": "Juan Soto",
       "mlbTeam": "NYM",
-      "position": "DH",
+      "position": "LF",
       "teamId": 3,
       "draftRound": 1,
       "isActive": 1,
@@ -2720,7 +2720,7 @@
         "startDate": "2026-07-12",
         "endDate": "2026-07-18"
       },
-      "bestBallScore": 13,
+      "bestBallScore": 15,
       "playerScores": [
         {
           "playerId": 29,
@@ -2779,20 +2779,20 @@
           "playerName": "Mike Trout",
           "slug": "mike-trout",
           "totalScore": 2,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 2,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 7,
           "hits": 2,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 4,
+          "strikeouts": 1,
+          "plateAppearances": 7,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2801,30 +2801,56 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 31,
-          "playerName": "CJ Abrams",
-          "slug": "cj-abrams",
+          "playerId": 27,
+          "playerName": "Juan Soto",
+          "slug": "juan-soto",
           "totalScore": 1,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 1,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 6,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
+          "strikeouts": 2,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 1
+        },
+        {
+          "playerId": 31,
+          "playerName": "CJ Abrams",
+          "slug": "cj-abrams",
+          "totalScore": 1,
+          "gamesPlayed": 2,
+          "totalBases": 1,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 6,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 0,
+          "strikeouts": 3,
+          "plateAppearances": 6,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
         },
         {
           "playerId": 37,
@@ -2853,42 +2879,42 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 194,
-          "playerName": "Kevin McGonigle",
-          "slug": "kevin-mcgonigle",
+          "playerId": 38,
+          "playerName": "Willson Contreras",
+          "slug": "willson-contreras",
           "totalScore": 1,
           "gamesPlayed": 1,
-          "totalBases": 0,
+          "totalBases": 1,
           "stolenBases": 0,
-          "walks": 1,
+          "walks": 0,
           "hbp": 0,
-          "atBats": 3,
-          "hits": 0,
+          "atBats": 1,
+          "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
           "strikeouts": 0,
-          "plateAppearances": 4,
+          "plateAppearances": 1,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
+          "leftOnBase": 0
         },
         {
-          "playerId": 27,
-          "playerName": "Juan Soto",
-          "slug": "juan-soto",
-          "totalScore": 0,
-          "gamesPlayed": 1,
+          "playerId": 194,
+          "playerName": "Kevin McGonigle",
+          "slug": "kevin-mcgonigle",
+          "totalScore": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
-          "walks": 0,
+          "walks": 1,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 5,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
@@ -2896,7 +2922,7 @@
           "runs": 0,
           "rbi": 0,
           "strikeouts": 1,
-          "plateAppearances": 4,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2983,32 +3009,6 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 38,
-          "playerName": "Willson Contreras",
-          "slug": "willson-contreras",
-          "totalScore": 0,
-          "gamesPlayed": 0,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 0,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 0,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
           "playerId": 222,
           "playerName": "JJ Wetherholt",
           "slug": "jj-wetherholt",
@@ -3039,12 +3039,12 @@
           "playerName": "Iván Herrera",
           "slug": "ivan-herrera",
           "totalScore": 0,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 5,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
@@ -3052,29 +3052,29 @@
           "runs": 0,
           "rbi": 0,
           "strikeouts": 0,
-          "plateAppearances": 4,
+          "plateAppearances": 5,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 1
         }
       ],
       "countingPlayerIds": [
         29,
         36,
         181,
+        27,
         31,
         37,
+        38,
         194,
-        27,
         28,
-        32,
-        34
+        32
       ],
       "benchPlayerIds": [
-        38,
+        34,
         222,
         226
       ]
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "27": {
-      "2026-07-12": 0
+      "2026-07-12": 0,
+      "2026-07-14": 1
     },
     "28": {
       "2026-07-12": 0
@@ -6751,7 +6752,8 @@
       "2026-07-12": 6
     },
     "31": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 0
     },
     "36": {
       "2026-07-12": 2
@@ -6759,17 +6761,23 @@
     "37": {
       "2026-07-12": 1
     },
+    "38": {
+      "2026-07-14": 1
+    },
     "181": {
-      "2026-07-12": 2
+      "2026-07-12": 2,
+      "2026-07-14": 0
     },
     "194": {
-      "2026-07-12": 1
+      "2026-07-12": 1,
+      "2026-07-14": 0
     },
     "222": {
       "2026-07-12": 0
     },
     "226": {
-      "2026-07-12": 0
+      "2026-07-12": 0,
+      "2026-07-14": 0
     }
   }
 }

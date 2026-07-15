@@ -2720,8 +2720,60 @@
         "startDate": "2026-07-12",
         "endDate": "2026-07-18"
       },
-      "bestBallScore": 26,
+      "bestBallScore": 29,
       "playerScores": [
+        {
+          "playerId": 99,
+          "playerName": "Shea Langeliers",
+          "slug": "shea-langeliers",
+          "totalScore": 6,
+          "gamesPlayed": 2,
+          "totalBases": 5,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 5,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "runs": 2,
+          "rbi": 1,
+          "strikeouts": 0,
+          "plateAppearances": 6,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
+        },
+        {
+          "playerId": 94,
+          "playerName": "Yordan Alvarez",
+          "slug": "yordan-alvarez",
+          "totalScore": 5,
+          "gamesPlayed": 2,
+          "totalBases": 3,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 5,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 0,
+          "plateAppearances": 7,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 2,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 0
+        },
         {
           "playerId": 96,
           "playerName": "Brice Turang",
@@ -2747,58 +2799,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 1
-        },
-        {
-          "playerId": 94,
-          "playerName": "Yordan Alvarez",
-          "slug": "yordan-alvarez",
-          "totalScore": 4,
-          "gamesPlayed": 1,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 2,
-          "hbp": 0,
-          "atBats": 3,
-          "hits": 2,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 5,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 2,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
-          "playerId": 99,
-          "playerName": "Shea Langeliers",
-          "slug": "shea-langeliers",
-          "totalScore": 4,
-          "gamesPlayed": 1,
-          "totalBases": 4,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 1,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 1,
-          "runs": 1,
-          "rbi": 1,
-          "strikeouts": 0,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
         },
         {
           "playerId": 101,
@@ -3062,9 +3062,9 @@
         }
       ],
       "countingPlayerIds": [
-        96,
-        94,
         99,
+        94,
+        96,
         101,
         95,
         103,
@@ -6745,7 +6745,8 @@
       "2026-07-12": 1
     },
     "94": {
-      "2026-07-12": 4
+      "2026-07-12": 4,
+      "2026-07-14": 1
     },
     "95": {
       "2026-07-12": 3
@@ -6760,7 +6761,8 @@
       "2026-07-12": 1
     },
     "99": {
-      "2026-07-12": 4
+      "2026-07-12": 4,
+      "2026-07-14": 2
     },
     "100": {
       "2026-07-12": 0

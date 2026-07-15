@@ -2753,20 +2753,20 @@
           "playerName": "James Wood",
           "slug": "james-wood",
           "totalScore": 6,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 4,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 2,
+          "atBats": 3,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
           "runs": 1,
           "rbi": 1,
-          "strikeouts": 1,
-          "plateAppearances": 4,
+          "strikeouts": 2,
+          "plateAppearances": 5,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2831,20 +2831,20 @@
           "playerName": "Drake Baldwin",
           "slug": "drake-baldwin",
           "totalScore": 3,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 1,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 4,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 1,
-          "strikeouts": 0,
-          "plateAppearances": 5,
+          "strikeouts": 1,
+          "plateAppearances": 6,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2857,12 +2857,12 @@
           "playerName": "Ozzie Albies",
           "slug": "ozzie-albies",
           "totalScore": 3,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 2,
           "stolenBases": 0,
           "walks": 1,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 6,
           "hits": 1,
           "doubles": 1,
           "triples": 0,
@@ -2870,7 +2870,7 @@
           "runs": 1,
           "rbi": 0,
           "strikeouts": 1,
-          "plateAppearances": 5,
+          "plateAppearances": 7,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2883,20 +2883,20 @@
           "playerName": "Jordan Walker",
           "slug": "jordan-walker",
           "totalScore": 3,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 1,
           "stolenBases": 1,
           "walks": 1,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 4,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 2,
           "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 4,
+          "strikeouts": 1,
+          "plateAppearances": 5,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -2935,20 +2935,20 @@
           "playerName": "Corbin Carroll",
           "slug": "corbin-carroll",
           "totalScore": 0,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 5,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 4,
+          "strikeouts": 3,
+          "plateAppearances": 5,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -6745,13 +6745,15 @@
       "2026-07-12": 6
     },
     "2": {
-      "2026-07-12": 0
+      "2026-07-12": 0,
+      "2026-07-14": 0
     },
     "3": {
       "2026-07-12": 3
     },
     "4": {
-      "2026-07-12": 6
+      "2026-07-12": 6,
+      "2026-07-14": 0
     },
     "5": {
       "2026-07-12": 0
@@ -6763,13 +6765,16 @@
       "2026-07-12": 1
     },
     "11": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 0
     },
     "12": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 0
     },
     "219": {
-      "2026-07-12": 3
+      "2026-07-12": 3,
+      "2026-07-14": 0
     }
   }
 }
