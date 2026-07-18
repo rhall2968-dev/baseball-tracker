@@ -9,7 +9,7 @@
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 353
+    "overallRank": 356
   },
   "seasonTotals": {
     "gamesPlayed": 30,
@@ -1005,8 +1005,8 @@
     }
   ],
   "navigation": {
-    "prevSlug": "victor-caratini",
-    "prevName": "Victor Caratini",
+    "prevSlug": "victor-mederos",
+    "prevName": "Victor Mederos",
     "nextSlug": "victor-robles",
     "nextName": "Victor Robles"
   }
