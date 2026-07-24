@@ -3086,7 +3086,7 @@
         "startDate": "2026-07-19",
         "endDate": "2026-07-25"
       },
-      "bestBallScore": 111,
+      "bestBallScore": 114,
       "playerScores": [
         {
           "playerId": 94,
@@ -3141,6 +3141,32 @@
           "leftOnBase": 12
         },
         {
+          "playerId": 98,
+          "playerName": "Geraldo Perdomo",
+          "slug": "geraldo-perdomo",
+          "totalScore": 14,
+          "gamesPlayed": 5,
+          "totalBases": 8,
+          "stolenBases": 1,
+          "walks": 5,
+          "hbp": 0,
+          "atBats": 20,
+          "hits": 4,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 1,
+          "runs": 1,
+          "rbi": 2,
+          "strikeouts": 2,
+          "plateAppearances": 25,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 1,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 7
+        },
+        {
           "playerId": 100,
           "playerName": "Jeremy Pena",
           "slug": "jeremy-pena",
@@ -3191,32 +3217,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 9
-        },
-        {
-          "playerId": 98,
-          "playerName": "Geraldo Perdomo",
-          "slug": "geraldo-perdomo",
-          "totalScore": 11,
-          "gamesPlayed": 4,
-          "totalBases": 8,
-          "stolenBases": 1,
-          "walks": 2,
-          "hbp": 0,
-          "atBats": 18,
-          "hits": 4,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 1,
-          "runs": 1,
-          "rbi": 2,
-          "strikeouts": 2,
-          "plateAppearances": 20,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 1,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 6
         },
         {
           "playerId": 103,
@@ -3275,26 +3275,26 @@
           "playerName": "Spencer Torkelson",
           "slug": "spencer-torkelson",
           "totalScore": 8,
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "totalBases": 6,
           "stolenBases": 0,
           "walks": 2,
           "hbp": 0,
-          "atBats": 15,
+          "atBats": 19,
           "hits": 3,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
           "runs": 3,
           "rbi": 3,
-          "strikeouts": 4,
-          "plateAppearances": 17,
+          "strikeouts": 7,
+          "plateAppearances": 21,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 4
+          "leftOnBase": 8
         },
         {
           "playerId": 101,
@@ -3378,27 +3378,27 @@
           "playerId": 93,
           "playerName": "Vladimir Guerrero Jr.",
           "slug": "vladimir-guerrero-jr",
-          "totalScore": 2,
-          "gamesPlayed": 4,
-          "totalBases": 2,
+          "totalScore": 4,
+          "gamesPlayed": 5,
+          "totalBases": 4,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 16,
-          "hits": 1,
+          "atBats": 20,
+          "hits": 3,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
-          "rbi": 0,
-          "strikeouts": 3,
-          "plateAppearances": 16,
+          "rbi": 1,
+          "strikeouts": 4,
+          "plateAppearances": 20,
           "sacFlies": 0,
           "sacBunts": 0,
-          "caughtStealing": 0,
+          "caughtStealing": 1,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 9
+          "leftOnBase": 10
         },
         {
           "playerId": 102,
@@ -3430,9 +3430,9 @@
       "countingPlayerIds": [
         94,
         95,
+        98,
         100,
         99,
-        98,
         103,
         92,
         104,
@@ -6751,7 +6751,8 @@
       "2026-07-19": 0,
       "2026-07-20": 0,
       "2026-07-21": 0,
-      "2026-07-22": 2
+      "2026-07-22": 2,
+      "2026-07-23": 2
     },
     "94": {
       "2026-07-19": 2,
@@ -6779,7 +6780,8 @@
       "2026-07-19": 5,
       "2026-07-20": 3,
       "2026-07-21": 2,
-      "2026-07-22": 1
+      "2026-07-22": 1,
+      "2026-07-23": 3
     },
     "99": {
       "2026-07-19": 3,
@@ -6806,7 +6808,8 @@
       "2026-07-19": 0,
       "2026-07-20": 1,
       "2026-07-21": 1,
-      "2026-07-22": 6
+      "2026-07-22": 6,
+      "2026-07-23": 0
     }
   }
 }

@@ -3086,7 +3086,7 @@
         "startDate": "2026-07-19",
         "endDate": "2026-07-25"
       },
-      "bestBallScore": 83,
+      "bestBallScore": 84,
       "playerScores": [
         {
           "playerId": 56,
@@ -3145,26 +3145,26 @@
           "playerName": "Matt Olson",
           "slug": "matt-olson",
           "totalScore": 10,
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "totalBases": 6,
           "stolenBases": 0,
           "walks": 4,
           "hbp": 0,
-          "atBats": 14,
+          "atBats": 18,
           "hits": 5,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 2,
           "rbi": 1,
-          "strikeouts": 3,
-          "plateAppearances": 18,
+          "strikeouts": 4,
+          "plateAppearances": 22,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 1,
-          "leftOnBase": 4
+          "leftOnBase": 5
         },
         {
           "playerId": 63,
@@ -3222,21 +3222,21 @@
           "playerId": 61,
           "playerName": "Yandy Diaz",
           "slug": "yandy-diaz",
-          "totalScore": 8,
-          "gamesPlayed": 4,
-          "totalBases": 7,
+          "totalScore": 9,
+          "gamesPlayed": 5,
+          "totalBases": 8,
           "stolenBases": 1,
           "walks": 0,
           "hbp": 0,
-          "atBats": 21,
-          "hits": 4,
+          "atBats": 25,
+          "hits": 5,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
           "runs": 5,
-          "rbi": 4,
+          "rbi": 5,
           "strikeouts": 4,
-          "plateAppearances": 21,
+          "plateAppearances": 25,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -3327,26 +3327,52 @@
           "playerName": "Jonathan Aranda",
           "slug": "jonathan-aranda",
           "totalScore": 5,
-          "gamesPlayed": 4,
+          "gamesPlayed": 5,
           "totalBases": 4,
           "stolenBases": 0,
           "walks": 1,
           "hbp": 0,
-          "atBats": 19,
+          "atBats": 23,
           "hits": 4,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 1,
-          "strikeouts": 8,
-          "plateAppearances": 20,
+          "strikeouts": 9,
+          "plateAppearances": 24,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 1,
-          "leftOnBase": 11
+          "leftOnBase": 12
+        },
+        {
+          "playerId": 53,
+          "playerName": "Jose Ramirez",
+          "slug": "jose-ramirez",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 2,
+          "strikeouts": 0,
+          "plateAppearances": 10,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 1,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 6
         },
         {
           "playerId": 296,
@@ -3373,32 +3399,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 8
-        },
-        {
-          "playerId": 53,
-          "playerName": "Jose Ramirez",
-          "slug": "jose-ramirez",
-          "totalScore": 2,
-          "gamesPlayed": 1,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 5,
-          "hits": 2,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 1,
-          "rbi": 2,
-          "strikeouts": 0,
-          "plateAppearances": 5,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
         },
         {
           "playerId": 54,
@@ -3440,8 +3440,8 @@
         214
       ],
       "benchPlayerIds": [
-        296,
         53,
+        296,
         54
       ]
     },
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "53": {
-      "2026-07-22": 2
+      "2026-07-22": 2,
+      "2026-07-23": 2
     },
     "54": {
       "2026-07-19": 1,
@@ -6765,7 +6766,8 @@
       "2026-07-19": 4,
       "2026-07-20": 0,
       "2026-07-21": 2,
-      "2026-07-22": 4
+      "2026-07-22": 4,
+      "2026-07-23": 0
     },
     "58": {
       "2026-07-19": 4,
@@ -6787,7 +6789,8 @@
       "2026-07-19": 0,
       "2026-07-20": 3,
       "2026-07-21": 5,
-      "2026-07-22": 0
+      "2026-07-22": 0,
+      "2026-07-23": 1
     },
     "62": {
       "2026-07-19": 2,
@@ -6804,7 +6807,8 @@
       "2026-07-19": 2,
       "2026-07-20": 1,
       "2026-07-21": 2,
-      "2026-07-22": 0
+      "2026-07-22": 0,
+      "2026-07-23": 0
     },
     "296": {
       "2026-07-19": 1,

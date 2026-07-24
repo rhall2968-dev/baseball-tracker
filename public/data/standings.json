@@ -178,18 +178,18 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 107,
+          "bestBallScore": 131,
           "locked": false,
           "countingPlayerIds": [
-            5,
             11,
-            6,
+            5,
             2,
             9,
-            219,
-            1,
+            6,
             12,
             83,
+            219,
+            1,
             3
           ],
           "benchPlayerIds": [
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 1044,
-      "cumulativeScore": 2315
+      "weeklyTotal": 1068,
+      "cumulativeScore": 2339
     },
     {
       "team": {
@@ -588,7 +588,7 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 127,
+          "bestBallScore": 132,
           "locked": false,
           "countingPlayerIds": [
             31,
@@ -597,14 +597,14 @@
             38,
             37,
             194,
+            222,
             36,
             181,
-            222,
             27
           ],
           "benchPlayerIds": [
-            226,
             32,
+            226,
             34
           ]
         },
@@ -817,8 +817,8 @@
         }
       ],
       "firstThirdScore": 1287,
-      "weeklyTotal": 1016,
-      "cumulativeScore": 2303
+      "weeklyTotal": 1021,
+      "cumulativeScore": 2308
     },
     {
       "team": {
@@ -998,7 +998,7 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 83,
+          "bestBallScore": 84,
           "locked": false,
           "countingPlayerIds": [
             56,
@@ -1013,8 +1013,8 @@
             214
           ],
           "benchPlayerIds": [
-            296,
             53,
+            296,
             54
           ]
         },
@@ -1227,8 +1227,8 @@
         }
       ],
       "firstThirdScore": 1275,
-      "weeklyTotal": 998,
-      "cumulativeScore": 2273
+      "weeklyTotal": 999,
+      "cumulativeScore": 2274
     },
     {
       "team": {
@@ -1818,7 +1818,7 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 108,
+          "bestBallScore": 116,
           "locked": false,
           "countingPlayerIds": [
             21,
@@ -1826,8 +1826,8 @@
             15,
             248,
             19,
-            17,
             20,
+            17,
             22,
             24,
             25
@@ -2047,8 +2047,8 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 934,
-      "cumulativeScore": 2202
+      "weeklyTotal": 942,
+      "cumulativeScore": 2210
     },
     {
       "team": {
@@ -2638,7 +2638,7 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 91,
+          "bestBallScore": 92,
           "locked": false,
           "countingPlayerIds": [
             69,
@@ -2867,8 +2867,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 990,
-      "cumulativeScore": 2176
+      "weeklyTotal": 991,
+      "cumulativeScore": 2177
     },
     {
       "team": {
@@ -3048,14 +3048,14 @@
         {
           "periodId": 11,
           "periodName": "Wk 8",
-          "bestBallScore": 111,
+          "bestBallScore": 114,
           "locked": false,
           "countingPlayerIds": [
             94,
             95,
+            98,
             100,
             99,
-            98,
             103,
             92,
             104,
@@ -3277,8 +3277,8 @@
         }
       ],
       "firstThirdScore": 1218,
-      "weeklyTotal": 951,
-      "cumulativeScore": 2169
+      "weeklyTotal": 954,
+      "cumulativeScore": 2172
     }
   ],
   "periods": [
