@@ -1,28 +1,28 @@
 {
   "player": {
-    "id": 35926,
-    "mlbId": 672279,
-    "name": "Michael Siani",
-    "slug": "michael-siani",
-    "mlbTeam": "BAL",
-    "position": "CF",
+    "id": 44140,
+    "mlbId": 701649,
+    "name": "James Triantos",
+    "slug": "james-triantos",
+    "mlbTeam": "CHC",
+    "position": "2B",
     "teamId": null,
     "fantasyTeam": "",
     "draftRound": null,
-    "overallRank": 604
+    "overallRank": 597
   },
   "seasonTotals": {
     "gamesPlayed": 1,
     "atBats": 1,
-    "hits": 0,
+    "hits": 1,
     "doubles": 0,
     "triples": 0,
     "homeRuns": 0,
-    "totalBases": 0,
+    "totalBases": 1,
     "stolenBases": 0,
     "baseOnBalls": 0,
     "hitByPitch": 0,
-    "runs": 0,
+    "runs": 1,
     "rbi": 0,
     "strikeouts": 0,
     "plateAppearances": 1,
@@ -31,7 +31,7 @@
     "groundIntoDoublePlay": 0,
     "groundIntoTriplePlay": 0,
     "leftOnBase": 0,
-    "groundOuts": 1,
+    "groundOuts": 0,
     "flyOuts": 0,
     "lineOuts": 0,
     "popOuts": 0,
@@ -40,22 +40,22 @@
     "caughtStealing": 0,
     "intentionalWalks": 0,
     "pickoffs": 0,
-    "fantasyScore": 0
+    "fantasyScore": 1
   },
   "games": [
     {
-      "gameDate": "2026-06-21",
+      "gameDate": "2026-07-25",
       "gamePk": null,
       "atBats": 1,
-      "hits": 0,
+      "hits": 1,
       "doubles": 0,
       "triples": 0,
       "homeRuns": 0,
-      "totalBases": 0,
+      "totalBases": 1,
       "stolenBases": 0,
       "baseOnBalls": 0,
       "hitByPitch": 0,
-      "runs": 0,
+      "runs": 1,
       "rbi": 0,
       "strikeouts": 0,
       "plateAppearances": 1,
@@ -64,7 +64,7 @@
       "groundIntoDoublePlay": 0,
       "groundIntoTriplePlay": 0,
       "leftOnBase": 0,
-      "groundOuts": 1,
+      "groundOuts": 0,
       "flyOuts": 0,
       "lineOuts": 0,
       "popOuts": 0,
@@ -73,13 +73,13 @@
       "caughtStealing": 0,
       "intentionalWalks": 0,
       "pickoffs": 0,
-      "fantasyScore": 0
+      "fantasyScore": 1
     }
   ],
   "navigation": {
-    "prevSlug": "michael-massey",
-    "prevName": "Michael Massey",
-    "nextSlug": "michael-stefanic",
-    "nextName": "Michael Stefanic"
+    "prevSlug": "james-outman",
+    "prevName": "James Outman",
+    "nextSlug": "james-wood",
+    "nextName": "James Wood"
   }
 }
