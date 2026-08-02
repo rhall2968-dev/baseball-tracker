@@ -201,19 +201,19 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 128,
+          "bestBallScore": 153,
           "locked": false,
           "countingPlayerIds": [
             4,
             1,
             2,
-            11,
             83,
+            11,
             5,
             6,
             12,
-            3,
-            8
+            8,
+            3
           ],
           "benchPlayerIds": [
             9,
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 1239,
-      "cumulativeScore": 2510
+      "weeklyTotal": 1264,
+      "cumulativeScore": 2535
     },
     {
       "team": {
@@ -611,18 +611,18 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 137,
+          "bestBallScore": 154,
           "locked": false,
           "countingPlayerIds": [
             29,
             31,
             194,
-            38,
             28,
-            222,
+            38,
             226,
-            37,
+            222,
             181,
+            37,
             36
           ],
           "benchPlayerIds": [
@@ -817,8 +817,8 @@
         }
       ],
       "firstThirdScore": 1287,
-      "weeklyTotal": 1195,
-      "cumulativeScore": 2482
+      "weeklyTotal": 1212,
+      "cumulativeScore": 2499
     },
     {
       "team": {
@@ -1021,18 +1021,18 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 106,
+          "bestBallScore": 133,
           "locked": false,
           "countingPlayerIds": [
             57,
             55,
-            296,
-            56,
             60,
-            61,
             63,
-            53,
+            56,
+            296,
+            61,
             58,
+            53,
             54
           ],
           "benchPlayerIds": [
@@ -1227,8 +1227,8 @@
         }
       ],
       "firstThirdScore": 1275,
-      "weeklyTotal": 1171,
-      "cumulativeScore": 2446
+      "weeklyTotal": 1198,
+      "cumulativeScore": 2473
     },
     {
       "team": {
@@ -1431,7 +1431,7 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 122,
+          "bestBallScore": 134,
           "locked": false,
           "countingPlayerIds": [
             171,
@@ -1440,10 +1440,10 @@
             49,
             47,
             41,
-            395,
-            121,
             44,
-            45
+            395,
+            45,
+            121
           ],
           "benchPlayerIds": [
             48,
@@ -1637,8 +1637,8 @@
         }
       ],
       "firstThirdScore": 1207,
-      "weeklyTotal": 1204,
-      "cumulativeScore": 2411
+      "weeklyTotal": 1216,
+      "cumulativeScore": 2423
     },
     {
       "team": {
@@ -1841,18 +1841,18 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 134,
+          "bestBallScore": 151,
           "locked": false,
           "countingPlayerIds": [
             89,
-            80,
             86,
+            80,
             82,
             128,
-            88,
-            300,
-            79,
             81,
+            300,
+            88,
+            79,
             85
           ],
           "benchPlayerIds": [
@@ -2047,8 +2047,8 @@
         }
       ],
       "firstThirdScore": 1309,
-      "weeklyTotal": 1061,
-      "cumulativeScore": 2370
+      "weeklyTotal": 1078,
+      "cumulativeScore": 2387
     },
     {
       "team": {
@@ -2251,22 +2251,22 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 110,
+          "bestBallScore": 133,
           "locked": false,
           "countingPlayerIds": [
             106,
             22,
             18,
+            21,
             25,
-            248,
-            16,
-            15,
-            17,
             19,
-            24
+            24,
+            248,
+            15,
+            16
           ],
           "benchPlayerIds": [
-            21,
+            17,
             14,
             20
           ]
@@ -2457,8 +2457,8 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 1084,
-      "cumulativeScore": 2352
+      "weeklyTotal": 1107,
+      "cumulativeScore": 2375
     },
     {
       "team": {
@@ -2661,22 +2661,22 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 141,
+          "bestBallScore": 171,
           "locked": false,
           "countingPlayerIds": [
             76,
             72,
             69,
-            350,
-            77,
-            78,
             192,
-            67,
+            78,
+            350,
             68,
+            66,
+            67,
             73
           ],
           "benchPlayerIds": [
-            66,
+            77,
             71,
             70
           ]
@@ -2867,8 +2867,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 1157,
-      "cumulativeScore": 2343
+      "weeklyTotal": 1187,
+      "cumulativeScore": 2373
     },
     {
       "team": {
@@ -3071,15 +3071,15 @@
         {
           "periodId": 12,
           "periodName": "Wk 9",
-          "bestBallScore": 120,
+          "bestBallScore": 146,
           "locked": false,
           "countingPlayerIds": [
             100,
             94,
-            104,
-            96,
             98,
+            104,
             92,
+            96,
             95,
             97,
             103,
@@ -3277,8 +3277,8 @@
         }
       ],
       "firstThirdScore": 1218,
-      "weeklyTotal": 1107,
-      "cumulativeScore": 2325
+      "weeklyTotal": 1133,
+      "cumulativeScore": 2351
     }
   ],
   "periods": [
