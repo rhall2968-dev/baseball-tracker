@@ -44,7 +44,7 @@
       "mlbId": 671056,
       "name": "Iván Herrera",
       "mlbTeam": "STL",
-      "position": "C",
+      "position": "DH",
       "teamId": 3,
       "draftRound": null,
       "isActive": 1,
@@ -3818,8 +3818,86 @@
         "startDate": "2026-08-02",
         "endDate": "2026-08-08"
       },
-      "bestBallScore": 6,
+      "bestBallScore": 18,
       "playerScores": [
+        {
+          "playerId": 36,
+          "playerName": "Dansby Swanson",
+          "slug": "dansby-swanson",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 1,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 7,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 1,
+          "plateAppearances": 8,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 1,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 4
+        },
+        {
+          "playerId": 222,
+          "playerName": "JJ Wetherholt",
+          "slug": "jj-wetherholt",
+          "totalScore": 3,
+          "gamesPlayed": 1,
+          "totalBases": 1,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 2,
+          "rbi": 0,
+          "strikeouts": 0,
+          "plateAppearances": 5,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 0
+        },
+        {
+          "playerId": 226,
+          "playerName": "Iván Herrera",
+          "slug": "ivan-herrera",
+          "totalScore": 3,
+          "gamesPlayed": 2,
+          "totalBases": 0,
+          "stolenBases": 1,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 7,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 1,
+          "plateAppearances": 9,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 4
+        },
         {
           "playerId": 29,
           "playerName": "Francisco Lindor",
@@ -3845,6 +3923,32 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 2
+        },
+        {
+          "playerId": 37,
+          "playerName": "Ian Happ",
+          "slug": "ian-happ",
+          "totalScore": 2,
+          "gamesPlayed": 2,
+          "totalBases": 0,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 4,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 0,
+          "strikeouts": 2,
+          "plateAppearances": 6,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 3
         },
         {
           "playerId": 194,
@@ -3873,30 +3977,30 @@
           "leftOnBase": 5
         },
         {
-          "playerId": 37,
-          "playerName": "Ian Happ",
-          "slug": "ian-happ",
+          "playerId": 31,
+          "playerName": "CJ Abrams",
+          "slug": "cj-abrams",
           "totalScore": 1,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 1,
+          "stolenBases": 1,
+          "walks": 0,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 8,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
+          "strikeouts": 6,
+          "plateAppearances": 8,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
+          "leftOnBase": 5
         },
         {
           "playerId": 181,
@@ -3955,32 +4059,6 @@
           "playerName": "Fernando Tatis Jr.",
           "slug": "fernando-tatis-jr",
           "totalScore": 0,
-          "gamesPlayed": 0,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 0,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 0,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
-          "playerId": 31,
-          "playerName": "CJ Abrams",
-          "slug": "cj-abrams",
-          "totalScore": 0,
           "gamesPlayed": 1,
           "totalBases": 0,
           "stolenBases": 0,
@@ -3993,14 +4071,14 @@
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 3,
+          "strikeouts": 1,
           "plateAppearances": 4,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
+          "leftOnBase": 1
         },
         {
           "playerId": 32,
@@ -4055,32 +4133,6 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 36,
-          "playerName": "Dansby Swanson",
-          "slug": "dansby-swanson",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
-        },
-        {
           "playerId": 38,
           "playerName": "Willson Contreras",
           "slug": "willson-contreras",
@@ -4105,76 +4157,24 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 3
-        },
-        {
-          "playerId": 222,
-          "playerName": "JJ Wetherholt",
-          "slug": "jj-wetherholt",
-          "totalScore": 0,
-          "gamesPlayed": 0,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 0,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 0,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
-          "playerId": 226,
-          "playerName": "Iván Herrera",
-          "slug": "ivan-herrera",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 4
         }
       ],
       "countingPlayerIds": [
+        36,
+        222,
+        226,
         29,
-        194,
         37,
+        194,
+        31,
         181,
         27,
-        28,
-        31,
-        32,
-        34,
-        36
+        28
       ],
       "benchPlayerIds": [
-        38,
-        222,
-        226
+        32,
+        34,
+        38
       ]
     },
     {
@@ -6741,17 +6741,23 @@
     }
   ],
   "weeklyDaily": {
+    "28": {
+      "2026-08-03": 0
+    },
     "29": {
       "2026-08-02": 2
     },
     "31": {
-      "2026-08-02": 0
+      "2026-08-02": 0,
+      "2026-08-03": 1
     },
     "36": {
-      "2026-08-02": 0
+      "2026-08-02": 0,
+      "2026-08-03": 4
     },
     "37": {
-      "2026-08-02": 1
+      "2026-08-02": 1,
+      "2026-08-03": 1
     },
     "38": {
       "2026-08-02": 0
@@ -6762,8 +6768,12 @@
     "194": {
       "2026-08-02": 2
     },
+    "222": {
+      "2026-08-03": 3
+    },
     "226": {
-      "2026-08-02": 0
+      "2026-08-02": 0,
+      "2026-08-03": 3
     }
   }
 }
