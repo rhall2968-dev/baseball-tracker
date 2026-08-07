@@ -33,7 +33,7 @@
       "mlbId": 608070,
       "name": "Jose Ramirez",
       "mlbTeam": "CLE",
-      "position": "DH",
+      "position": "3B",
       "teamId": 5,
       "draftRound": 1,
       "isActive": 1,
@@ -55,7 +55,7 @@
       "mlbId": 691718,
       "name": "Pete Crow-Armstrong",
       "mlbTeam": "CHC",
-      "position": "DH",
+      "position": "CF",
       "teamId": 5,
       "draftRound": 3,
       "isActive": 1,
@@ -3818,33 +3818,59 @@
         "startDate": "2026-08-02",
         "endDate": "2026-08-08"
       },
-      "bestBallScore": 92,
+      "bestBallScore": 105,
       "playerScores": [
         {
           "playerId": 55,
           "playerName": "Pete Crow-Armstrong",
           "slug": "pete-crow-armstrong",
-          "totalScore": 19,
-          "gamesPlayed": 4,
-          "totalBases": 13,
-          "stolenBases": 2,
+          "totalScore": 22,
+          "gamesPlayed": 5,
+          "totalBases": 15,
+          "stolenBases": 3,
           "walks": 4,
           "hbp": 0,
-          "atBats": 14,
-          "hits": 6,
+          "atBats": 19,
+          "hits": 8,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 2,
-          "runs": 5,
+          "runs": 7,
           "rbi": 5,
-          "strikeouts": 4,
-          "plateAppearances": 18,
+          "strikeouts": 6,
+          "plateAppearances": 23,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 6
+          "leftOnBase": 8
+        },
+        {
+          "playerId": 57,
+          "playerName": "Matt Olson",
+          "slug": "matt-olson",
+          "totalScore": 17,
+          "gamesPlayed": 4,
+          "totalBases": 14,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 1,
+          "atBats": 14,
+          "hits": 6,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 2,
+          "runs": 4,
+          "rbi": 2,
+          "strikeouts": 2,
+          "plateAppearances": 17,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 1
         },
         {
           "playerId": 63,
@@ -3897,32 +3923,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 5
-        },
-        {
-          "playerId": 57,
-          "playerName": "Matt Olson",
-          "slug": "matt-olson",
-          "totalScore": 9,
-          "gamesPlayed": 3,
-          "totalBases": 8,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 1,
-          "atBats": 11,
-          "hits": 4,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 1,
-          "runs": 1,
-          "rbi": 1,
-          "strikeouts": 2,
-          "plateAppearances": 12,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
         },
         {
           "playerId": 214,
@@ -4003,6 +4003,32 @@
           "leftOnBase": 6
         },
         {
+          "playerId": 296,
+          "playerName": "Xavier Edwards",
+          "slug": "xavier-edwards",
+          "totalScore": 6,
+          "gamesPlayed": 3,
+          "totalBases": 4,
+          "stolenBases": 0,
+          "walks": 2,
+          "hbp": 0,
+          "atBats": 10,
+          "hits": 3,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 1,
+          "strikeouts": 0,
+          "plateAppearances": 12,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 1,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
+        },
+        {
           "playerId": 56,
           "playerName": "Freddie Freeman",
           "slug": "freddie-freeman",
@@ -4059,78 +4085,52 @@
           "playerName": "Christian Yelich",
           "slug": "christian-yelich",
           "totalScore": 4,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 3,
           "stolenBases": 1,
           "walks": 0,
           "hbp": 0,
-          "atBats": 12,
+          "atBats": 16,
           "hits": 2,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 1,
-          "strikeouts": 4,
-          "plateAppearances": 12,
+          "strikeouts": 6,
+          "plateAppearances": 16,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 1,
-          "leftOnBase": 7
-        },
-        {
-          "playerId": 296,
-          "playerName": "Xavier Edwards",
-          "slug": "xavier-edwards",
-          "totalScore": 2,
-          "gamesPlayed": 2,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 8,
-          "hits": 2,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 1,
-          "strikeouts": 0,
-          "plateAppearances": 8,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 1,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
+          "leftOnBase": 8
         },
         {
           "playerId": 53,
           "playerName": "Jose Ramirez",
           "slug": "jose-ramirez",
-          "totalScore": 1,
-          "gamesPlayed": 1,
-          "totalBases": 1,
+          "totalScore": 3,
+          "gamesPlayed": 2,
+          "totalBases": 2,
           "stolenBases": 0,
-          "walks": 0,
+          "walks": 1,
           "hbp": 0,
-          "atBats": 4,
-          "hits": 1,
+          "atBats": 7,
+          "hits": 2,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
-          "runs": 1,
+          "runs": 3,
           "rbi": 0,
           "strikeouts": 0,
-          "plateAppearances": 4,
+          "plateAppearances": 8,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 1,
-          "leftOnBase": 3
+          "leftOnBase": 4
         },
         {
           "playerId": 59,
@@ -4161,18 +4161,18 @@
       ],
       "countingPlayerIds": [
         55,
+        57,
         63,
         54,
-        57,
         214,
         58,
         60,
+        296,
         56,
-        61,
-        62
+        61
       ],
       "benchPlayerIds": [
-        296,
+        62,
         53,
         59
       ]
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "53": {
-      "2026-08-02": 1
+      "2026-08-02": 1,
+      "2026-08-06": 2
     },
     "54": {
       "2026-08-02": 2,
@@ -6754,7 +6755,8 @@
       "2026-08-02": 3,
       "2026-08-03": 2,
       "2026-08-04": 4,
-      "2026-08-05": 10
+      "2026-08-05": 10,
+      "2026-08-06": 3
     },
     "56": {
       "2026-08-02": 1,
@@ -6765,7 +6767,8 @@
     "57": {
       "2026-08-02": 5,
       "2026-08-04": 4,
-      "2026-08-05": 0
+      "2026-08-05": 0,
+      "2026-08-06": 8
     },
     "58": {
       "2026-08-02": 1,
@@ -6787,7 +6790,8 @@
     "62": {
       "2026-08-03": 0,
       "2026-08-04": 0,
-      "2026-08-05": 4
+      "2026-08-05": 4,
+      "2026-08-06": 0
     },
     "63": {
       "2026-08-02": 6,
@@ -6803,7 +6807,8 @@
     },
     "296": {
       "2026-08-02": 1,
-      "2026-08-05": 1
+      "2026-08-05": 1,
+      "2026-08-06": 4
     }
   }
 }

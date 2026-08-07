@@ -224,22 +224,22 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 79,
+          "bestBallScore": 96,
           "locked": false,
           "countingPlayerIds": [
+            3,
             1,
             5,
-            3,
-            8,
-            83,
             9,
-            12,
+            8,
             2,
+            12,
+            83,
             6,
-            219
+            11
           ],
           "benchPlayerIds": [
-            11,
+            219,
             4,
             7
           ]
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 1343,
-      "cumulativeScore": 2614
+      "weeklyTotal": 1360,
+      "cumulativeScore": 2631
     },
     {
       "team": {
@@ -634,22 +634,22 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 92,
+          "bestBallScore": 105,
           "locked": false,
           "countingPlayerIds": [
             55,
+            57,
             63,
             54,
-            57,
             214,
             58,
             60,
+            296,
             56,
-            61,
-            62
+            61
           ],
           "benchPlayerIds": [
-            296,
+            62,
             53,
             59
           ]
@@ -817,8 +817,8 @@
         }
       ],
       "firstThirdScore": 1275,
-      "weeklyTotal": 1290,
-      "cumulativeScore": 2565
+      "weeklyTotal": 1303,
+      "cumulativeScore": 2578
     },
     {
       "team": {
@@ -1044,18 +1044,18 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 58,
+          "bestBallScore": 73,
           "locked": false,
           "countingPlayerIds": [
             36,
             31,
-            222,
             28,
+            194,
+            222,
+            29,
             226,
             38,
             37,
-            194,
-            29,
             181
           ],
           "benchPlayerIds": [
@@ -1227,8 +1227,8 @@
         }
       ],
       "firstThirdScore": 1287,
-      "weeklyTotal": 1270,
-      "cumulativeScore": 2557
+      "weeklyTotal": 1285,
+      "cumulativeScore": 2572
     },
     {
       "team": {
@@ -1454,22 +1454,22 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 78,
+          "bestBallScore": 98,
           "locked": false,
           "countingPlayerIds": [
             46,
             395,
+            171,
+            40,
+            45,
             48,
             44,
-            171,
+            121,
             41,
-            45,
-            40,
-            47,
             49
           ],
           "benchPlayerIds": [
-            121,
+            47,
             43,
             42
           ]
@@ -1637,8 +1637,8 @@
         }
       ],
       "firstThirdScore": 1207,
-      "weeklyTotal": 1294,
-      "cumulativeScore": 2501
+      "weeklyTotal": 1314,
+      "cumulativeScore": 2521
     },
     {
       "team": {
@@ -1864,19 +1864,19 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 62,
+          "bestBallScore": 83,
           "locked": false,
           "countingPlayerIds": [
             82,
-            128,
             80,
+            86,
+            128,
+            91,
             81,
+            79,
             85,
             88,
-            91,
-            86,
-            300,
-            79
+            300
           ],
           "benchPlayerIds": [
             89,
@@ -2047,8 +2047,8 @@
         }
       ],
       "firstThirdScore": 1309,
-      "weeklyTotal": 1140,
-      "cumulativeScore": 2449
+      "weeklyTotal": 1161,
+      "cumulativeScore": 2470
     },
     {
       "team": {
@@ -2274,23 +2274,23 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 71,
+          "bestBallScore": 91,
           "locked": false,
           "countingPlayerIds": [
             67,
             76,
-            192,
-            71,
+            66,
             77,
+            71,
+            192,
             72,
+            69,
             350,
-            73,
-            78,
-            66
+            68
           ],
           "benchPlayerIds": [
-            69,
-            68,
+            73,
+            78,
             70
           ]
         },
@@ -2457,418 +2457,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 1258,
-      "cumulativeScore": 2444
-    },
-    {
-      "team": {
-        "id": 8,
-        "name": "Bobby"
-      },
-      "periods": [
-        {
-          "periodId": 1,
-          "periodName": "First Third",
-          "bestBallScore": 1218,
-          "locked": true,
-          "countingPlayerIds": [],
-          "benchPlayerIds": []
-        },
-        {
-          "periodId": 4,
-          "periodName": "Wk 1",
-          "bestBallScore": 125,
-          "locked": false,
-          "countingPlayerIds": [
-            96,
-            94,
-            100,
-            92,
-            99,
-            103,
-            104,
-            93,
-            95,
-            97
-          ],
-          "benchPlayerIds": [
-            98,
-            101,
-            102
-          ]
-        },
-        {
-          "periodId": 5,
-          "periodName": "Wk 2",
-          "bestBallScore": 138,
-          "locked": false,
-          "countingPlayerIds": [
-            94,
-            95,
-            103,
-            99,
-            98,
-            92,
-            104,
-            96,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            97,
-            93,
-            102
-          ]
-        },
-        {
-          "periodId": 6,
-          "periodName": "Wk 3",
-          "bestBallScore": 122,
-          "locked": false,
-          "countingPlayerIds": [
-            98,
-            100,
-            95,
-            101,
-            96,
-            99,
-            92,
-            94,
-            97,
-            104
-          ],
-          "benchPlayerIds": [
-            93,
-            103,
-            102
-          ]
-        },
-        {
-          "periodId": 7,
-          "periodName": "Wk 4",
-          "bestBallScore": 126,
-          "locked": false,
-          "countingPlayerIds": [
-            103,
-            94,
-            100,
-            98,
-            104,
-            95,
-            92,
-            96,
-            101,
-            99
-          ],
-          "benchPlayerIds": [
-            93,
-            97,
-            102
-          ]
-        },
-        {
-          "periodId": 8,
-          "periodName": "Wk 5",
-          "bestBallScore": 118,
-          "locked": false,
-          "countingPlayerIds": [
-            94,
-            96,
-            104,
-            92,
-            101,
-            98,
-            99,
-            95,
-            93,
-            97
-          ],
-          "benchPlayerIds": [
-            103,
-            100,
-            102
-          ]
-        },
-        {
-          "periodId": 9,
-          "periodName": "Wk 6",
-          "bestBallScore": 137,
-          "locked": false,
-          "countingPlayerIds": [
-            98,
-            93,
-            96,
-            103,
-            94,
-            101,
-            97,
-            104,
-            95,
-            99
-          ],
-          "benchPlayerIds": [
-            100,
-            92,
-            102
-          ]
-        },
-        {
-          "periodId": 10,
-          "periodName": "Wk 7",
-          "bestBallScore": 74,
-          "locked": false,
-          "countingPlayerIds": [
-            99,
-            94,
-            103,
-            104,
-            93,
-            96,
-            100,
-            101,
-            95,
-            98
-          ],
-          "benchPlayerIds": [
-            97,
-            92,
-            102
-          ]
-        },
-        {
-          "periodId": 11,
-          "periodName": "Wk 8",
-          "bestBallScore": 147,
-          "locked": false,
-          "countingPlayerIds": [
-            94,
-            100,
-            98,
-            95,
-            96,
-            99,
-            103,
-            93,
-            92,
-            101
-          ],
-          "benchPlayerIds": [
-            104,
-            97,
-            102
-          ]
-        },
-        {
-          "periodId": 12,
-          "periodName": "Wk 9",
-          "bestBallScore": 146,
-          "locked": false,
-          "countingPlayerIds": [
-            100,
-            94,
-            98,
-            104,
-            92,
-            96,
-            95,
-            97,
-            103,
-            93
-          ],
-          "benchPlayerIds": [
-            101,
-            99,
-            102
-          ]
-        },
-        {
-          "periodId": 13,
-          "periodName": "Wk 10",
-          "bestBallScore": 84,
-          "locked": false,
-          "countingPlayerIds": [
-            94,
-            97,
-            101,
-            92,
-            100,
-            98,
-            95,
-            96,
-            104,
-            93
-          ],
-          "benchPlayerIds": [
-            103,
-            99,
-            102
-          ]
-        },
-        {
-          "periodId": 14,
-          "periodName": "Wk 11",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 15,
-          "periodName": "Wk 12",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 16,
-          "periodName": "Wk 13",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 17,
-          "periodName": "Wk 14",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 18,
-          "periodName": "Wk 15",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 19,
-          "periodName": "Wk 16",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        },
-        {
-          "periodId": 20,
-          "periodName": "Wk 17",
-          "bestBallScore": 0,
-          "locked": false,
-          "countingPlayerIds": [
-            92,
-            93,
-            94,
-            95,
-            96,
-            97,
-            98,
-            99,
-            100,
-            101
-          ],
-          "benchPlayerIds": [
-            102,
-            103,
-            104
-          ]
-        }
-      ],
-      "firstThirdScore": 1218,
-      "weeklyTotal": 1217,
-      "cumulativeScore": 2435
+      "weeklyTotal": 1278,
+      "cumulativeScore": 2464
     },
     {
       "team": {
@@ -3094,18 +2684,18 @@
         {
           "periodId": 13,
           "periodName": "Wk 10",
-          "bestBallScore": 54,
+          "bestBallScore": 70,
           "locked": false,
           "countingPlayerIds": [
             22,
             19,
-            248,
             24,
-            18,
-            15,
-            25,
             106,
+            15,
             17,
+            248,
+            18,
+            25,
             21
           ],
           "benchPlayerIds": [
@@ -3277,8 +2867,418 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 1161,
-      "cumulativeScore": 2429
+      "weeklyTotal": 1177,
+      "cumulativeScore": 2445
+    },
+    {
+      "team": {
+        "id": 8,
+        "name": "Bobby"
+      },
+      "periods": [
+        {
+          "periodId": 1,
+          "periodName": "First Third",
+          "bestBallScore": 1218,
+          "locked": true,
+          "countingPlayerIds": [],
+          "benchPlayerIds": []
+        },
+        {
+          "periodId": 4,
+          "periodName": "Wk 1",
+          "bestBallScore": 125,
+          "locked": false,
+          "countingPlayerIds": [
+            96,
+            94,
+            100,
+            92,
+            99,
+            103,
+            104,
+            93,
+            95,
+            97
+          ],
+          "benchPlayerIds": [
+            98,
+            101,
+            102
+          ]
+        },
+        {
+          "periodId": 5,
+          "periodName": "Wk 2",
+          "bestBallScore": 138,
+          "locked": false,
+          "countingPlayerIds": [
+            94,
+            95,
+            103,
+            99,
+            98,
+            92,
+            104,
+            96,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            97,
+            93,
+            102
+          ]
+        },
+        {
+          "periodId": 6,
+          "periodName": "Wk 3",
+          "bestBallScore": 122,
+          "locked": false,
+          "countingPlayerIds": [
+            98,
+            100,
+            95,
+            101,
+            96,
+            99,
+            92,
+            94,
+            97,
+            104
+          ],
+          "benchPlayerIds": [
+            93,
+            103,
+            102
+          ]
+        },
+        {
+          "periodId": 7,
+          "periodName": "Wk 4",
+          "bestBallScore": 126,
+          "locked": false,
+          "countingPlayerIds": [
+            103,
+            94,
+            100,
+            98,
+            104,
+            95,
+            92,
+            96,
+            101,
+            99
+          ],
+          "benchPlayerIds": [
+            93,
+            97,
+            102
+          ]
+        },
+        {
+          "periodId": 8,
+          "periodName": "Wk 5",
+          "bestBallScore": 118,
+          "locked": false,
+          "countingPlayerIds": [
+            94,
+            96,
+            104,
+            92,
+            101,
+            98,
+            99,
+            95,
+            93,
+            97
+          ],
+          "benchPlayerIds": [
+            103,
+            100,
+            102
+          ]
+        },
+        {
+          "periodId": 9,
+          "periodName": "Wk 6",
+          "bestBallScore": 137,
+          "locked": false,
+          "countingPlayerIds": [
+            98,
+            93,
+            96,
+            103,
+            94,
+            101,
+            97,
+            104,
+            95,
+            99
+          ],
+          "benchPlayerIds": [
+            100,
+            92,
+            102
+          ]
+        },
+        {
+          "periodId": 10,
+          "periodName": "Wk 7",
+          "bestBallScore": 74,
+          "locked": false,
+          "countingPlayerIds": [
+            99,
+            94,
+            103,
+            104,
+            93,
+            96,
+            100,
+            101,
+            95,
+            98
+          ],
+          "benchPlayerIds": [
+            97,
+            92,
+            102
+          ]
+        },
+        {
+          "periodId": 11,
+          "periodName": "Wk 8",
+          "bestBallScore": 147,
+          "locked": false,
+          "countingPlayerIds": [
+            94,
+            100,
+            98,
+            95,
+            96,
+            99,
+            103,
+            93,
+            92,
+            101
+          ],
+          "benchPlayerIds": [
+            104,
+            97,
+            102
+          ]
+        },
+        {
+          "periodId": 12,
+          "periodName": "Wk 9",
+          "bestBallScore": 146,
+          "locked": false,
+          "countingPlayerIds": [
+            100,
+            94,
+            98,
+            104,
+            92,
+            96,
+            95,
+            97,
+            103,
+            93
+          ],
+          "benchPlayerIds": [
+            101,
+            99,
+            102
+          ]
+        },
+        {
+          "periodId": 13,
+          "periodName": "Wk 10",
+          "bestBallScore": 90,
+          "locked": false,
+          "countingPlayerIds": [
+            97,
+            94,
+            92,
+            101,
+            100,
+            98,
+            95,
+            104,
+            96,
+            102
+          ],
+          "benchPlayerIds": [
+            103,
+            93,
+            99
+          ]
+        },
+        {
+          "periodId": 14,
+          "periodName": "Wk 11",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 15,
+          "periodName": "Wk 12",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 16,
+          "periodName": "Wk 13",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 17,
+          "periodName": "Wk 14",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 18,
+          "periodName": "Wk 15",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 19,
+          "periodName": "Wk 16",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        },
+        {
+          "periodId": 20,
+          "periodName": "Wk 17",
+          "bestBallScore": 0,
+          "locked": false,
+          "countingPlayerIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ],
+          "benchPlayerIds": [
+            102,
+            103,
+            104
+          ]
+        }
+      ],
+      "firstThirdScore": 1218,
+      "weeklyTotal": 1223,
+      "cumulativeScore": 2441
     }
   ],
   "periods": [
