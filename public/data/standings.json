@@ -247,18 +247,18 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 98,
+          "bestBallScore": 115,
           "locked": false,
           "countingPlayerIds": [
             2,
             5,
             3,
             1,
-            12,
-            219,
             8,
-            11,
+            219,
             6,
+            12,
+            11,
             9
           ],
           "benchPlayerIds": [
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 1512,
-      "cumulativeScore": 2783
+      "weeklyTotal": 1529,
+      "cumulativeScore": 2800
     },
     {
       "team": {
@@ -657,18 +657,18 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 114,
+          "bestBallScore": 136,
           "locked": false,
           "countingPlayerIds": [
-            181,
             28,
-            36,
+            181,
             29,
+            36,
             31,
-            37,
             38,
-            222,
             226,
+            37,
+            222,
             194
           ],
           "benchPlayerIds": [
@@ -817,8 +817,8 @@
         }
       ],
       "firstThirdScore": 1287,
-      "weeklyTotal": 1445,
-      "cumulativeScore": 2732
+      "weeklyTotal": 1467,
+      "cumulativeScore": 2754
     },
     {
       "team": {
@@ -1067,7 +1067,7 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 86,
+          "bestBallScore": 90,
           "locked": false,
           "countingPlayerIds": [
             61,
@@ -1082,8 +1082,8 @@
             62
           ],
           "benchPlayerIds": [
-            296,
             60,
+            296,
             59
           ]
         },
@@ -1227,8 +1227,8 @@
         }
       ],
       "firstThirdScore": 1275,
-      "weeklyTotal": 1422,
-      "cumulativeScore": 2697
+      "weeklyTotal": 1426,
+      "cumulativeScore": 2701
     },
     {
       "team": {
@@ -1477,24 +1477,24 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 108,
+          "bestBallScore": 135,
           "locked": false,
           "countingPlayerIds": [
             42,
             43,
             45,
-            171,
             46,
-            40,
             47,
-            121,
+            171,
+            40,
+            49,
             44,
             48
           ],
           "benchPlayerIds": [
-            49,
-            395,
-            41
+            121,
+            41,
+            395
           ]
         },
         {
@@ -1637,8 +1637,8 @@
         }
       ],
       "firstThirdScore": 1207,
-      "weeklyTotal": 1455,
-      "cumulativeScore": 2662
+      "weeklyTotal": 1482,
+      "cumulativeScore": 2689
     },
     {
       "team": {
@@ -1887,23 +1887,23 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 112,
+          "bestBallScore": 136,
           "locked": false,
           "countingPlayerIds": [
             79,
             86,
-            82,
-            88,
-            85,
             128,
-            81,
+            82,
             89,
-            90,
+            85,
+            88,
+            81,
+            300,
             80
           ],
           "benchPlayerIds": [
+            90,
             91,
-            300,
             84
           ]
         },
@@ -2047,8 +2047,8 @@
         }
       ],
       "firstThirdScore": 1309,
-      "weeklyTotal": 1320,
-      "cumulativeScore": 2629
+      "weeklyTotal": 1344,
+      "cumulativeScore": 2653
     },
     {
       "team": {
@@ -2297,23 +2297,23 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 84,
+          "bestBallScore": 95,
           "locked": false,
           "countingPlayerIds": [
             68,
-            67,
             72,
+            67,
             76,
             73,
             350,
             66,
             69,
-            77,
-            71
+            192,
+            77
           ],
           "benchPlayerIds": [
+            71,
             78,
-            192,
             70
           ]
         },
@@ -2457,8 +2457,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 1403,
-      "cumulativeScore": 2589
+      "weeklyTotal": 1414,
+      "cumulativeScore": 2600
     },
     {
       "team": {
@@ -2707,19 +2707,19 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 86,
+          "bestBallScore": 106,
           "locked": false,
           "countingPlayerIds": [
-            24,
             15,
+            24,
             22,
-            21,
-            19,
             248,
             17,
-            25,
+            21,
+            19,
+            106,
             18,
-            106
+            25
           ],
           "benchPlayerIds": [
             14,
@@ -2867,8 +2867,8 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 1295,
-      "cumulativeScore": 2563
+      "weeklyTotal": 1315,
+      "cumulativeScore": 2583
     },
     {
       "team": {
@@ -3117,23 +3117,23 @@
         {
           "periodId": 14,
           "periodName": "Wk 11",
-          "bestBallScore": 67,
+          "bestBallScore": 88,
           "locked": false,
           "countingPlayerIds": [
-            104,
             92,
-            93,
             94,
-            95,
-            97,
-            96,
+            104,
             98,
-            102,
-            103
+            97,
+            93,
+            95,
+            96,
+            101,
+            100
           ],
           "benchPlayerIds": [
-            100,
-            101,
+            102,
+            103,
             99
           ]
         },
@@ -3277,8 +3277,8 @@
         }
       ],
       "firstThirdScore": 1218,
-      "weeklyTotal": 1339,
-      "cumulativeScore": 2557
+      "weeklyTotal": 1360,
+      "cumulativeScore": 2578
     }
   ],
   "periods": [
