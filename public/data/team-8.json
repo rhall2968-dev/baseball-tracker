@@ -4550,8 +4550,34 @@
         "startDate": "2026-08-16",
         "endDate": "2026-08-22"
       },
-      "bestBallScore": 17,
+      "bestBallScore": 21,
       "playerScores": [
+        {
+          "playerId": 102,
+          "playerName": "Agustín Ramírez",
+          "slug": "agustin-ramirez",
+          "totalScore": 8,
+          "gamesPlayed": 2,
+          "totalBases": 6,
+          "stolenBases": 1,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 9,
+          "hits": 4,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 3,
+          "rbi": 2,
+          "strikeouts": 0,
+          "plateAppearances": 10,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
+        },
         {
           "playerId": 100,
           "playerName": "Jeremy Pena",
@@ -4577,32 +4603,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
-        },
-        {
-          "playerId": 102,
-          "playerName": "Agustín Ramírez",
-          "slug": "agustin-ramirez",
-          "totalScore": 4,
-          "gamesPlayed": 1,
-          "totalBases": 3,
-          "stolenBases": 1,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 5,
-          "hits": 2,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 2,
-          "rbi": 2,
-          "strikeouts": 0,
-          "plateAppearances": 5,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
         },
         {
           "playerId": 92,
@@ -4739,20 +4739,20 @@
           "playerName": "Spencer Torkelson",
           "slug": "spencer-torkelson",
           "totalScore": 1,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 1,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 4,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 4,
+          "strikeouts": 1,
+          "plateAppearances": 5,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -4817,21 +4817,21 @@
           "playerName": "Geraldo Perdomo",
           "slug": "geraldo-perdomo",
           "totalScore": 0,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 6,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
-          "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 4,
-          "sacFlies": 0,
+          "rbi": 1,
+          "strikeouts": 3,
+          "plateAppearances": 7,
+          "sacFlies": 1,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
@@ -4892,8 +4892,8 @@
         }
       ],
       "countingPlayerIds": [
-        100,
         102,
+        100,
         92,
         95,
         101,
@@ -6754,7 +6754,8 @@
       "2026-08-16": 1
     },
     "98": {
-      "2026-08-16": 0
+      "2026-08-16": 0,
+      "2026-08-17": 0
     },
     "100": {
       "2026-08-16": 4
@@ -6763,10 +6764,12 @@
       "2026-08-16": 2
     },
     "102": {
-      "2026-08-16": 4
+      "2026-08-16": 4,
+      "2026-08-17": 4
     },
     "104": {
-      "2026-08-16": 1
+      "2026-08-16": 1,
+      "2026-08-17": 0
     }
   }
 }
