@@ -4916,33 +4916,59 @@
         "startDate": "2026-08-23",
         "endDate": "2026-08-29"
       },
-      "bestBallScore": 19,
+      "bestBallScore": 26,
       "playerScores": [
         {
           "playerId": 72,
           "playerName": "Randy Arozarena",
           "slug": "randy-arozarena",
-          "totalScore": 5,
-          "gamesPlayed": 1,
+          "totalScore": 8,
+          "gamesPlayed": 2,
           "totalBases": 4,
           "stolenBases": 0,
-          "walks": 1,
+          "walks": 4,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 6,
           "hits": 1,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 1,
-          "runs": 1,
+          "runs": 2,
           "rbi": 1,
-          "strikeouts": 2,
-          "plateAppearances": 5,
+          "strikeouts": 3,
+          "plateAppearances": 10,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 1
+        },
+        {
+          "playerId": 76,
+          "playerName": "Ceddanne Rafaela",
+          "slug": "ceddanne-rafaela",
+          "totalScore": 5,
+          "gamesPlayed": 2,
+          "totalBases": 4,
+          "stolenBases": 1,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 9,
+          "hits": 4,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 2,
+          "strikeouts": 1,
+          "plateAppearances": 9,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 7
         },
         {
           "playerId": 66,
@@ -4971,56 +4997,30 @@
           "leftOnBase": 2
         },
         {
-          "playerId": 76,
-          "playerName": "Ceddanne Rafaela",
-          "slug": "ceddanne-rafaela",
-          "totalScore": 4,
-          "gamesPlayed": 1,
-          "totalBases": 3,
-          "stolenBases": 1,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 3,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 2,
-          "strikeouts": 0,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
-        },
-        {
           "playerId": 67,
           "playerName": "Junior Caminero",
           "slug": "junior-caminero",
-          "totalScore": 2,
-          "gamesPlayed": 1,
-          "totalBases": 1,
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
           "stolenBases": 0,
-          "walks": 1,
+          "walks": 2,
           "hbp": 0,
-          "atBats": 3,
-          "hits": 1,
+          "atBats": 6,
+          "hits": 2,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
-          "rbi": 1,
-          "strikeouts": 0,
-          "plateAppearances": 4,
+          "rbi": 2,
+          "strikeouts": 1,
+          "plateAppearances": 8,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 2
         },
         {
           "playerId": 350,
@@ -5073,6 +5073,32 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
+        },
+        {
+          "playerId": 77,
+          "playerName": "Luis Arraez",
+          "slug": "luis-arraez",
+          "totalScore": 1,
+          "gamesPlayed": 2,
+          "totalBases": 1,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 0,
+          "strikeouts": 0,
+          "plateAppearances": 5,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 3
         },
         {
           "playerId": 192,
@@ -5131,26 +5157,26 @@
           "playerName": "Trea Turner",
           "slug": "trea-turner",
           "totalScore": 0,
-          "gamesPlayed": 1,
+          "gamesPlayed": 2,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 4,
+          "atBats": 8,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
+          "strikeouts": 3,
+          "plateAppearances": 8,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
+          "leftOnBase": 2
         },
         {
           "playerId": 70,
@@ -5205,32 +5231,6 @@
           "leftOnBase": 0
         },
         {
-          "playerId": 77,
-          "playerName": "Luis Arraez",
-          "slug": "luis-arraez",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 1,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 1,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
-        },
-        {
           "playerId": 78,
           "playerName": "Heliot Ramos",
           "slug": "heliot-ramos",
@@ -5259,19 +5259,19 @@
       ],
       "countingPlayerIds": [
         72,
-        66,
         76,
+        66,
         67,
         350,
         73,
+        77,
         192,
         68,
-        69,
-        70
+        69
       ],
       "benchPlayerIds": [
+        70,
         71,
-        77,
         78
       ]
     },
@@ -6745,22 +6745,27 @@
       "2026-08-23": 4
     },
     "67": {
-      "2026-08-23": 2
+      "2026-08-23": 2,
+      "2026-08-24": 2
     },
     "69": {
-      "2026-08-23": 0
+      "2026-08-23": 0,
+      "2026-08-24": 0
     },
     "72": {
-      "2026-08-23": 5
+      "2026-08-23": 5,
+      "2026-08-24": 3
     },
     "73": {
       "2026-08-23": 1
     },
     "76": {
-      "2026-08-23": 4
+      "2026-08-23": 4,
+      "2026-08-24": 1
     },
     "77": {
-      "2026-08-23": 0
+      "2026-08-23": 0,
+      "2026-08-24": 1
     },
     "192": {
       "2026-08-23": 1
