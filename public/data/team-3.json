@@ -44,7 +44,7 @@
       "mlbId": 671056,
       "name": "Iván Herrera",
       "mlbTeam": "STL",
-      "position": "C",
+      "position": "DH",
       "teamId": 3,
       "draftRound": null,
       "isActive": 1,
@@ -5282,7 +5282,7 @@
         "startDate": "2026-08-30",
         "endDate": "2026-09-05"
       },
-      "bestBallScore": 59,
+      "bestBallScore": 62,
       "playerScores": [
         {
           "playerId": 28,
@@ -5366,21 +5366,21 @@
           "playerId": 226,
           "playerName": "Iván Herrera",
           "slug": "ivan-herrera",
-          "totalScore": 8,
-          "gamesPlayed": 3,
-          "totalBases": 5,
+          "totalScore": 10,
+          "gamesPlayed": 4,
+          "totalBases": 7,
           "stolenBases": 1,
           "walks": 2,
           "hbp": 0,
-          "atBats": 13,
-          "hits": 4,
+          "atBats": 18,
+          "hits": 6,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
-          "runs": 2,
+          "runs": 3,
           "rbi": 3,
           "strikeouts": 2,
-          "plateAppearances": 15,
+          "plateAppearances": 20,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -5445,18 +5445,44 @@
           "playerName": "Ian Happ",
           "slug": "ian-happ",
           "totalScore": 4,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 3,
           "stolenBases": 0,
           "walks": 1,
           "hbp": 0,
-          "atBats": 9,
+          "atBats": 12,
           "hits": 3,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 2,
           "rbi": 0,
+          "strikeouts": 3,
+          "plateAppearances": 13,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
+        },
+        {
+          "playerId": 34,
+          "playerName": "Will Smith",
+          "slug": "will-smith",
+          "totalScore": 3,
+          "gamesPlayed": 3,
+          "totalBases": 2,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 9,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 2,
+          "rbi": 2,
           "strikeouts": 1,
           "plateAppearances": 10,
           "sacFlies": 0,
@@ -5464,7 +5490,7 @@
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 1
+          "leftOnBase": 7
         },
         {
           "playerId": 194,
@@ -5491,32 +5517,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 8
-        },
-        {
-          "playerId": 34,
-          "playerName": "Will Smith",
-          "slug": "will-smith",
-          "totalScore": 2,
-          "gamesPlayed": 2,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 6,
-          "hits": 1,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 2,
-          "rbi": 2,
-          "strikeouts": 0,
-          "plateAppearances": 6,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
         },
         {
           "playerId": 32,
@@ -5631,8 +5631,8 @@
         181,
         31,
         37,
-        194,
         34,
+        194,
         32
       ],
       "benchPlayerIds": [
@@ -6766,12 +6766,14 @@
     },
     "34": {
       "2026-09-01": 2,
-      "2026-09-02": 0
+      "2026-09-02": 0,
+      "2026-09-03": 1
     },
     "37": {
       "2026-08-30": 3,
       "2026-09-01": 0,
-      "2026-09-02": 1
+      "2026-09-02": 1,
+      "2026-09-03": 0
     },
     "38": {
       "2026-08-30": 0
@@ -6791,7 +6793,8 @@
     "226": {
       "2026-08-30": 4,
       "2026-09-01": 3,
-      "2026-09-02": 1
+      "2026-09-02": 1,
+      "2026-09-03": 2
     }
   }
 }
