@@ -22,7 +22,7 @@
       "mlbId": 665489,
       "name": "Vladimir Guerrero Jr.",
       "mlbTeam": "TOR",
-      "position": "DH",
+      "position": "1B",
       "teamId": 8,
       "draftRound": 2,
       "isActive": 1,
@@ -5648,33 +5648,59 @@
         "startDate": "2026-09-06",
         "endDate": "2026-09-12"
       },
-      "bestBallScore": 18,
+      "bestBallScore": 29,
       "playerScores": [
         {
           "playerId": 96,
           "playerName": "Brice Turang",
           "slug": "brice-turang",
-          "totalScore": 5,
-          "gamesPlayed": 1,
+          "totalScore": 7,
+          "gamesPlayed": 2,
           "totalBases": 3,
           "stolenBases": 0,
-          "walks": 2,
+          "walks": 4,
           "hbp": 0,
-          "atBats": 3,
+          "atBats": 5,
           "hits": 2,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 0,
           "runs": 1,
           "rbi": 3,
-          "strikeouts": 0,
-          "plateAppearances": 5,
+          "strikeouts": 1,
+          "plateAppearances": 9,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
+        },
+        {
+          "playerId": 97,
+          "playerName": "Jarren Duran",
+          "slug": "jarren-duran",
+          "totalScore": 6,
+          "gamesPlayed": 2,
+          "totalBases": 6,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 1,
+          "runs": 1,
+          "rbi": 1,
+          "strikeouts": 2,
+          "plateAppearances": 8,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 5
         },
         {
           "playerId": 94,
@@ -5703,6 +5729,32 @@
           "leftOnBase": 2
         },
         {
+          "playerId": 98,
+          "playerName": "Geraldo Perdomo",
+          "slug": "geraldo-perdomo",
+          "totalScore": 4,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 1,
+          "atBats": 5,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 1,
+          "rbi": 1,
+          "strikeouts": 1,
+          "plateAppearances": 7,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 0
+        },
+        {
           "playerId": 101,
           "playerName": "Jose Altuve",
           "slug": "jose-altuve",
@@ -5729,32 +5781,6 @@
           "leftOnBase": 1
         },
         {
-          "playerId": 98,
-          "playerName": "Geraldo Perdomo",
-          "slug": "geraldo-perdomo",
-          "totalScore": 2,
-          "gamesPlayed": 1,
-          "totalBases": 1,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 1,
-          "atBats": 1,
-          "hits": 1,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 2,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
-        },
-        {
           "playerId": 92,
           "playerName": "Julio Rodriguez",
           "slug": "julio-rodriguez",
@@ -5779,6 +5805,32 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 2
+        },
+        {
+          "playerId": 93,
+          "playerName": "Vladimir Guerrero Jr.",
+          "slug": "vladimir-guerrero-jr",
+          "totalScore": 1,
+          "gamesPlayed": 2,
+          "totalBases": 1,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 8,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 0,
+          "strikeouts": 2,
+          "plateAppearances": 8,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 1,
+          "leftOnBase": 4
         },
         {
           "playerId": 95,
@@ -5831,58 +5883,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 1
-        },
-        {
-          "playerId": 93,
-          "playerName": "Vladimir Guerrero Jr.",
-          "slug": "vladimir-guerrero-jr",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 1,
-          "leftOnBase": 4
-        },
-        {
-          "playerId": 97,
-          "playerName": "Jarren Duran",
-          "slug": "jarren-duran",
-          "totalScore": 0,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 4
         },
         {
           "playerId": 99,
@@ -5967,38 +5967,38 @@
           "playerName": "Spencer Torkelson",
           "slug": "spencer-torkelson",
           "totalScore": 0,
-          "gamesPlayed": 0,
+          "gamesPlayed": 1,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 0,
+          "atBats": 4,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 0,
+          "strikeouts": 1,
+          "plateAppearances": 4,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 1
         }
       ],
       "countingPlayerIds": [
         96,
+        97,
         94,
-        101,
         98,
+        101,
         92,
+        93,
         95,
         100,
-        93,
-        97,
         99
       ],
       "benchPlayerIds": [
@@ -6745,7 +6745,8 @@
       "2026-09-06": 1
     },
     "93": {
-      "2026-09-06": 0
+      "2026-09-06": 0,
+      "2026-09-07": 1
     },
     "94": {
       "2026-09-06": 4
@@ -6754,19 +6755,25 @@
       "2026-09-06": 1
     },
     "96": {
-      "2026-09-06": 5
+      "2026-09-06": 5,
+      "2026-09-07": 2
     },
     "97": {
-      "2026-09-06": 0
+      "2026-09-06": 0,
+      "2026-09-07": 6
     },
     "98": {
-      "2026-09-06": 2
+      "2026-09-06": 2,
+      "2026-09-07": 2
     },
     "100": {
       "2026-09-06": 1
     },
     "101": {
       "2026-09-06": 4
+    },
+    "104": {
+      "2026-09-07": 0
     }
   }
 }
