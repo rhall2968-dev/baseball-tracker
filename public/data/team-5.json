@@ -11,7 +11,7 @@
       "mlbId": 666018,
       "name": "Jonathan Aranda",
       "mlbTeam": "TB",
-      "position": "1B",
+      "position": "PH",
       "teamId": 5,
       "draftRound": null,
       "isActive": 1,
@@ -5648,7 +5648,7 @@
         "startDate": "2026-09-06",
         "endDate": "2026-09-12"
       },
-      "bestBallScore": 83,
+      "bestBallScore": 90,
       "playerScores": [
         {
           "playerId": 60,
@@ -5703,24 +5703,50 @@
           "leftOnBase": 6
         },
         {
+          "playerId": 59,
+          "playerName": "Cody Bellinger",
+          "slug": "cody-bellinger",
+          "totalScore": 12,
+          "gamesPlayed": 4,
+          "totalBases": 11,
+          "stolenBases": 1,
+          "walks": 0,
+          "hbp": 0,
+          "atBats": 15,
+          "hits": 5,
+          "doubles": 3,
+          "triples": 0,
+          "homeRuns": 1,
+          "runs": 5,
+          "rbi": 2,
+          "strikeouts": 2,
+          "plateAppearances": 16,
+          "sacFlies": 1,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 5
+        },
+        {
           "playerId": 61,
           "playerName": "Yandy Diaz",
           "slug": "yandy-diaz",
-          "totalScore": 9,
-          "gamesPlayed": 3,
-          "totalBases": 9,
+          "totalScore": 10,
+          "gamesPlayed": 4,
+          "totalBases": 10,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 14,
-          "hits": 5,
+          "atBats": 18,
+          "hits": 6,
           "doubles": 1,
           "triples": 0,
           "homeRuns": 1,
           "runs": 2,
           "rbi": 4,
-          "strikeouts": 2,
-          "plateAppearances": 15,
+          "strikeouts": 3,
+          "plateAppearances": 19,
           "sacFlies": 1,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -5781,32 +5807,6 @@
           "leftOnBase": 12
         },
         {
-          "playerId": 59,
-          "playerName": "Cody Bellinger",
-          "slug": "cody-bellinger",
-          "totalScore": 7,
-          "gamesPlayed": 3,
-          "totalBases": 7,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 12,
-          "hits": 3,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 1,
-          "runs": 4,
-          "rbi": 1,
-          "strikeouts": 1,
-          "plateAppearances": 12,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 4
-        },
-        {
           "playerId": 62,
           "playerName": "Christian Yelich",
           "slug": "christian-yelich",
@@ -5837,12 +5837,12 @@
           "playerName": "Jonathan Aranda",
           "slug": "jonathan-aranda",
           "totalScore": 6,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 4,
           "stolenBases": 0,
           "walks": 1,
           "hbp": 1,
-          "atBats": 12,
+          "atBats": 13,
           "hits": 3,
           "doubles": 1,
           "triples": 0,
@@ -5850,13 +5850,39 @@
           "runs": 1,
           "rbi": 1,
           "strikeouts": 3,
-          "plateAppearances": 15,
+          "plateAppearances": 16,
           "sacFlies": 1,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
+          "leftOnBase": 4
+        },
+        {
+          "playerId": 57,
+          "playerName": "Matt Olson",
+          "slug": "matt-olson",
+          "totalScore": 4,
+          "gamesPlayed": 5,
+          "totalBases": 3,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 16,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 0,
+          "rbi": 1,
+          "strikeouts": 2,
+          "plateAppearances": 18,
+          "sacFlies": 1,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 2
         },
         {
           "playerId": 53,
@@ -5911,50 +5937,24 @@
           "leftOnBase": 7
         },
         {
-          "playerId": 57,
-          "playerName": "Matt Olson",
-          "slug": "matt-olson",
-          "totalScore": 3,
-          "gamesPlayed": 4,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 1,
-          "hbp": 0,
-          "atBats": 13,
-          "hits": 2,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 1,
-          "strikeouts": 2,
-          "plateAppearances": 15,
-          "sacFlies": 1,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 2
-        },
-        {
           "playerId": 63,
           "playerName": "Brandon Nimmo",
           "slug": "brandon-nimmo",
           "totalScore": 3,
-          "gamesPlayed": 3,
+          "gamesPlayed": 4,
           "totalBases": 3,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 14,
+          "atBats": 18,
           "hits": 3,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 4,
-          "plateAppearances": 14,
+          "strikeouts": 6,
+          "plateAppearances": 18,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
@@ -5992,17 +5992,17 @@
       "countingPlayerIds": [
         60,
         55,
+        59,
         61,
         58,
         54,
-        59,
         62,
         214,
-        53,
-        56
+        57,
+        53
       ],
       "benchPlayerIds": [
-        57,
+        56,
         63,
         296
       ]
@@ -6767,7 +6767,8 @@
       "2026-09-06": 0,
       "2026-09-07": 1,
       "2026-09-08": 1,
-      "2026-09-09": 1
+      "2026-09-09": 1,
+      "2026-09-10": 1
     },
     "58": {
       "2026-09-07": 0,
@@ -6777,7 +6778,8 @@
     "59": {
       "2026-09-06": 1,
       "2026-09-08": 2,
-      "2026-09-09": 4
+      "2026-09-09": 4,
+      "2026-09-10": 5
     },
     "60": {
       "2026-09-06": 2,
@@ -6788,7 +6790,8 @@
     "61": {
       "2026-09-06": 2,
       "2026-09-08": 6,
-      "2026-09-09": 1
+      "2026-09-09": 1,
+      "2026-09-10": 1
     },
     "62": {
       "2026-09-06": 2,
@@ -6799,12 +6802,14 @@
     "63": {
       "2026-09-06": 1,
       "2026-09-08": 0,
-      "2026-09-09": 2
+      "2026-09-09": 2,
+      "2026-09-10": 0
     },
     "214": {
       "2026-09-06": 3,
       "2026-09-08": 2,
-      "2026-09-09": 1
+      "2026-09-09": 1,
+      "2026-09-10": 0
     }
   }
 }
