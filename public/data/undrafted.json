@@ -84,7 +84,7 @@
     "name": "Daylen Lile",
     "mlbTeam": "WSH",
     "mlbId": 695734,
-    "gamesPlayed": 154,
+    "gamesPlayed": 155,
     "totalScore": 318,
     "singles": 89,
     "doubles": 28,
@@ -92,8 +92,8 @@
     "homeRuns": 22,
     "stolenBases": 15,
     "slug": "daylen-lile",
-    "ppg": 2.06,
-    "proj162": 335
+    "ppg": 2.05,
+    "proj162": 332
   },
   {
     "id": 114,
@@ -132,16 +132,16 @@
     "name": "Kazuma Okamoto",
     "mlbTeam": "TOR",
     "mlbId": 672960,
-    "gamesPlayed": 148,
-    "totalScore": 314,
-    "singles": 73,
+    "gamesPlayed": 149,
+    "totalScore": 315,
+    "singles": 74,
     "doubles": 24,
     "triples": 0,
     "homeRuns": 33,
     "stolenBases": 1,
     "slug": "kazuma-okamoto",
-    "ppg": 2.12,
-    "proj162": 344
+    "ppg": 2.11,
+    "proj162": 342
   },
   {
     "id": 301,
@@ -174,6 +174,22 @@
     "slug": "luis-garcia-jr",
     "ppg": 2.08,
     "proj162": 337
+  },
+  {
+    "id": 153,
+    "name": "Brooks Lee",
+    "mlbTeam": "MIN",
+    "mlbId": 686797,
+    "gamesPlayed": 149,
+    "totalScore": 293,
+    "singles": 92,
+    "doubles": 24,
+    "triples": 3,
+    "homeRuns": 24,
+    "stolenBases": 8,
+    "slug": "brooks-lee",
+    "ppg": 1.97,
+    "proj162": 319
   },
   {
     "id": 244,
@@ -224,20 +240,20 @@
     "proj162": 319
   },
   {
-    "id": 153,
-    "name": "Brooks Lee",
-    "mlbTeam": "MIN",
-    "mlbId": 686797,
-    "gamesPlayed": 148,
-    "totalScore": 289,
-    "singles": 92,
-    "doubles": 24,
-    "triples": 3,
-    "homeRuns": 23,
-    "stolenBases": 8,
-    "slug": "brooks-lee",
-    "ppg": 1.95,
-    "proj162": 316
+    "id": 198,
+    "name": "Dillon Dingler",
+    "mlbTeam": "DET",
+    "mlbId": 693307,
+    "gamesPlayed": 140,
+    "totalScore": 290,
+    "singles": 76,
+    "doubles": 27,
+    "triples": 2,
+    "homeRuns": 27,
+    "stolenBases": 0,
+    "slug": "dillon-dingler",
+    "ppg": 2.07,
+    "proj162": 336
   },
   {
     "id": 155,
@@ -260,7 +276,7 @@
     "name": "Kody Clemens",
     "mlbTeam": "MIN",
     "mlbId": 665019,
-    "gamesPlayed": 137,
+    "gamesPlayed": 138,
     "totalScore": 286,
     "singles": 64,
     "doubles": 21,
@@ -268,24 +284,8 @@
     "homeRuns": 26,
     "stolenBases": 9,
     "slug": "kody-clemens",
-    "ppg": 2.09,
-    "proj162": 338
-  },
-  {
-    "id": 198,
-    "name": "Dillon Dingler",
-    "mlbTeam": "DET",
-    "mlbId": 693307,
-    "gamesPlayed": 139,
-    "totalScore": 286,
-    "singles": 75,
-    "doubles": 26,
-    "triples": 2,
-    "homeRuns": 27,
-    "stolenBases": 0,
-    "slug": "dillon-dingler",
-    "ppg": 2.06,
-    "proj162": 333
+    "ppg": 2.07,
+    "proj162": 336
   },
   {
     "id": 245,
@@ -756,7 +756,7 @@
     "name": "Ernie Clement",
     "mlbTeam": "TOR",
     "mlbId": 676391,
-    "gamesPlayed": 151,
+    "gamesPlayed": 152,
     "totalScore": 241,
     "singles": 109,
     "doubles": 31,
@@ -764,8 +764,8 @@
     "homeRuns": 9,
     "stolenBases": 7,
     "slug": "ernie-clement",
-    "ppg": 1.6,
-    "proj162": 259
+    "ppg": 1.59,
+    "proj162": 257
   },
   {
     "id": 228,
@@ -932,7 +932,7 @@
     "name": "Coby Mayo",
     "mlbTeam": "BAL",
     "mlbId": 691723,
-    "gamesPlayed": 120,
+    "gamesPlayed": 121,
     "totalScore": 224,
     "singles": 46,
     "doubles": 17,
@@ -940,8 +940,8 @@
     "homeRuns": 23,
     "stolenBases": 4,
     "slug": "coby-mayo",
-    "ppg": 1.87,
-    "proj162": 302
+    "ppg": 1.85,
+    "proj162": 300
   },
   {
     "id": 278,
@@ -960,6 +960,22 @@
     "proj162": 274
   },
   {
+    "id": 144,
+    "name": "Jacob Young",
+    "mlbTeam": "WSH",
+    "mlbId": 696285,
+    "gamesPlayed": 127,
+    "totalScore": 221,
+    "singles": 68,
+    "doubles": 22,
+    "triples": 3,
+    "homeRuns": 10,
+    "stolenBases": 18,
+    "slug": "jacob-young",
+    "ppg": 1.74,
+    "proj162": 282
+  },
+  {
     "id": 115,
     "name": "Marcus Semien",
     "mlbTeam": "NYM",
@@ -974,22 +990,6 @@
     "slug": "marcus-semien",
     "ppg": 1.66,
     "proj162": 270
-  },
-  {
-    "id": 144,
-    "name": "Jacob Young",
-    "mlbTeam": "WSH",
-    "mlbId": 696285,
-    "gamesPlayed": 126,
-    "totalScore": 218,
-    "singles": 67,
-    "doubles": 21,
-    "triples": 3,
-    "homeRuns": 10,
-    "stolenBases": 18,
-    "slug": "jacob-young",
-    "ppg": 1.73,
-    "proj162": 280
   },
   {
     "id": 158,

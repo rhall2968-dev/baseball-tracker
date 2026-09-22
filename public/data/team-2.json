@@ -6380,8 +6380,34 @@
         "startDate": "2026-09-20",
         "endDate": "2026-09-27"
       },
-      "bestBallScore": 17,
+      "bestBallScore": 25,
       "playerScores": [
+        {
+          "playerId": 15,
+          "playerName": "Gunnar Henderson",
+          "slug": "gunnar-henderson",
+          "totalScore": 9,
+          "gamesPlayed": 2,
+          "totalBases": 8,
+          "stolenBases": 0,
+          "walks": 0,
+          "hbp": 1,
+          "atBats": 7,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 1,
+          "homeRuns": 1,
+          "runs": 1,
+          "rbi": 1,
+          "strikeouts": 2,
+          "plateAppearances": 8,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 0
+        },
         {
           "playerId": 20,
           "playerName": "Vinnie Pasquantino",
@@ -6511,32 +6537,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 3
-        },
-        {
-          "playerId": 15,
-          "playerName": "Gunnar Henderson",
-          "slug": "gunnar-henderson",
-          "totalScore": 1,
-          "gamesPlayed": 1,
-          "totalBases": 0,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 1,
-          "atBats": 3,
-          "hits": 0,
-          "doubles": 0,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 0,
-          "rbi": 0,
-          "strikeouts": 2,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
         },
         {
           "playerId": 25,
@@ -6699,35 +6699,35 @@
           "playerName": "Luke Keaschall",
           "slug": "luke-keaschall",
           "totalScore": 0,
-          "gamesPlayed": 0,
+          "gamesPlayed": 1,
           "totalBases": 0,
           "stolenBases": 0,
           "walks": 0,
           "hbp": 0,
-          "atBats": 0,
+          "atBats": 4,
           "hits": 0,
           "doubles": 0,
           "triples": 0,
           "homeRuns": 0,
           "runs": 0,
           "rbi": 0,
-          "strikeouts": 0,
-          "plateAppearances": 0,
+          "strikeouts": 1,
+          "plateAppearances": 4,
           "sacFlies": 0,
           "sacBunts": 0,
           "caughtStealing": 0,
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
-          "leftOnBase": 0
+          "leftOnBase": 1
         }
       ],
       "countingPlayerIds": [
+        15,
         20,
         21,
         248,
         22,
         106,
-        15,
         25,
         14,
         16,
@@ -6742,7 +6742,8 @@
   ],
   "weeklyDaily": {
     "15": {
-      "2026-09-20": 1
+      "2026-09-20": 1,
+      "2026-09-21": 8
     },
     "17": {
       "2026-09-20": 0
@@ -6758,6 +6759,9 @@
     },
     "22": {
       "2026-09-20": 2
+    },
+    "24": {
+      "2026-09-21": 0
     },
     "25": {
       "2026-09-20": 1

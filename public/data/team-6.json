@@ -6380,7 +6380,7 @@
         "startDate": "2026-09-20",
         "endDate": "2026-09-27"
       },
-      "bestBallScore": 21,
+      "bestBallScore": 22,
       "playerScores": [
         {
           "playerId": 69,
@@ -6461,6 +6461,32 @@
           "leftOnBase": 3
         },
         {
+          "playerId": 71,
+          "playerName": "Riley Greene",
+          "slug": "riley-greene",
+          "totalScore": 3,
+          "gamesPlayed": 2,
+          "totalBases": 2,
+          "stolenBases": 0,
+          "walks": 1,
+          "hbp": 0,
+          "atBats": 7,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "runs": 2,
+          "rbi": 0,
+          "strikeouts": 2,
+          "plateAppearances": 8,
+          "sacFlies": 0,
+          "sacBunts": 0,
+          "caughtStealing": 0,
+          "intentionalWalks": 0,
+          "groundIntoDoublePlay": 0,
+          "leftOnBase": 5
+        },
+        {
           "playerId": 66,
           "playerName": "Ronald Acuna Jr.",
           "slug": "ronald-acuna-jr",
@@ -6511,32 +6537,6 @@
           "intentionalWalks": 0,
           "groundIntoDoublePlay": 0,
           "leftOnBase": 0
-        },
-        {
-          "playerId": 71,
-          "playerName": "Riley Greene",
-          "slug": "riley-greene",
-          "totalScore": 2,
-          "gamesPlayed": 1,
-          "totalBases": 2,
-          "stolenBases": 0,
-          "walks": 0,
-          "hbp": 0,
-          "atBats": 4,
-          "hits": 1,
-          "doubles": 1,
-          "triples": 0,
-          "homeRuns": 0,
-          "runs": 1,
-          "rbi": 0,
-          "strikeouts": 1,
-          "plateAppearances": 4,
-          "sacFlies": 0,
-          "sacBunts": 0,
-          "caughtStealing": 0,
-          "intentionalWalks": 0,
-          "groundIntoDoublePlay": 0,
-          "leftOnBase": 3
         },
         {
           "playerId": 67,
@@ -6725,9 +6725,9 @@
         69,
         78,
         70,
+        71,
         66,
         68,
-        71,
         67,
         72,
         77,
@@ -6757,7 +6757,8 @@
       "2026-09-20": 3
     },
     "71": {
-      "2026-09-20": 2
+      "2026-09-20": 2,
+      "2026-09-21": 1
     },
     "72": {
       "2026-09-20": 1

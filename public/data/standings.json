@@ -385,9 +385,10 @@
         {
           "periodId": 20,
           "periodName": "Wk 17",
-          "bestBallScore": 17,
+          "bestBallScore": 25,
           "locked": false,
           "countingPlayerIds": [
+            42,
             45,
             46,
             121,
@@ -395,7 +396,6 @@
             49,
             40,
             41,
-            42,
             43,
             44
           ],
@@ -407,8 +407,8 @@
         }
       ],
       "firstThirdScore": 1207,
-      "weeklyTotal": 2320,
-      "cumulativeScore": 3527
+      "weeklyTotal": 2328,
+      "cumulativeScore": 3535
     },
     {
       "team": {
@@ -1205,30 +1205,30 @@
         {
           "periodId": 20,
           "periodName": "Wk 17",
-          "bestBallScore": 13,
+          "bestBallScore": 16,
           "locked": false,
           "countingPlayerIds": [
             3,
             2,
             9,
             11,
+            83,
+            4,
             5,
             12,
             219,
-            1,
-            4,
-            6
+            1
           ],
           "benchPlayerIds": [
+            6,
             7,
-            8,
-            83
+            8
           ]
         }
       ],
       "firstThirdScore": 1271,
-      "weeklyTotal": 2215,
-      "cumulativeScore": 3486
+      "weeklyTotal": 2218,
+      "cumulativeScore": 3489
     },
     {
       "team": {
@@ -2435,15 +2435,15 @@
         {
           "periodId": 20,
           "periodName": "Wk 17",
-          "bestBallScore": 17,
+          "bestBallScore": 25,
           "locked": false,
           "countingPlayerIds": [
+            15,
             20,
             21,
             248,
             22,
             106,
-            15,
             25,
             14,
             16,
@@ -2457,8 +2457,8 @@
         }
       ],
       "firstThirdScore": 1268,
-      "weeklyTotal": 2036,
-      "cumulativeScore": 3304
+      "weeklyTotal": 2044,
+      "cumulativeScore": 3312
     },
     {
       "team": {
@@ -2845,15 +2845,15 @@
         {
           "periodId": 20,
           "periodName": "Wk 17",
-          "bestBallScore": 21,
+          "bestBallScore": 22,
           "locked": false,
           "countingPlayerIds": [
             69,
             78,
             70,
+            71,
             66,
             68,
-            71,
             67,
             72,
             77,
@@ -2867,8 +2867,8 @@
         }
       ],
       "firstThirdScore": 1186,
-      "weeklyTotal": 2106,
-      "cumulativeScore": 3292
+      "weeklyTotal": 2107,
+      "cumulativeScore": 3293
     },
     {
       "team": {
@@ -3255,12 +3255,12 @@
         {
           "periodId": 20,
           "periodName": "Wk 17",
-          "bestBallScore": 21,
+          "bestBallScore": 25,
           "locked": false,
           "countingPlayerIds": [
+            104,
             101,
             98,
-            104,
             92,
             94,
             93,
@@ -3277,8 +3277,8 @@
         }
       ],
       "firstThirdScore": 1218,
-      "weeklyTotal": 1970,
-      "cumulativeScore": 3188
+      "weeklyTotal": 1974,
+      "cumulativeScore": 3192
     }
   ],
   "periods": [
