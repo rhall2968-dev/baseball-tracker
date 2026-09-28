@@ -9,23 +9,23 @@
     "teamId": 4,
     "fantasyTeam": "Ryan",
     "draftRound": 10,
-    "overallRank": 26
+    "overallRank": 25
   },
   "seasonTotals": {
-    "gamesPlayed": 157,
-    "atBats": 591,
+    "gamesPlayed": 158,
+    "atBats": 592,
     "hits": 153,
     "doubles": 39,
     "triples": 3,
     "homeRuns": 16,
     "totalBases": 246,
     "stolenBases": 9,
-    "baseOnBalls": 87,
+    "baseOnBalls": 88,
     "hitByPitch": 11,
     "runs": 101,
     "rbi": 71,
-    "strikeouts": 161,
-    "plateAppearances": 693,
+    "strikeouts": 162,
+    "plateAppearances": 695,
     "sacBunts": 0,
     "sacFlies": 3,
     "groundIntoDoublePlay": 9,
@@ -40,7 +40,7 @@
     "caughtStealing": 0,
     "intentionalWalks": 3,
     "pickoffs": 0,
-    "fantasyScore": 353
+    "fantasyScore": 354
   },
   "games": [
     {
@@ -5066,6 +5066,38 @@
       "intentionalWalks": 0,
       "pickoffs": 0,
       "fantasyScore": 4
+    },
+    {
+      "gameDate": "2026-09-27",
+      "gamePk": null,
+      "atBats": 1,
+      "hits": 0,
+      "doubles": 0,
+      "triples": 0,
+      "homeRuns": 0,
+      "totalBases": 0,
+      "stolenBases": 0,
+      "baseOnBalls": 1,
+      "hitByPitch": 0,
+      "runs": 0,
+      "rbi": 0,
+      "strikeouts": 1,
+      "plateAppearances": 2,
+      "sacBunts": 0,
+      "sacFlies": 0,
+      "groundIntoDoublePlay": 0,
+      "groundIntoTriplePlay": 0,
+      "leftOnBase": 0,
+      "groundOuts": 0,
+      "flyOuts": 0,
+      "lineOuts": 0,
+      "popOuts": 0,
+      "airOuts": 0,
+      "catchersInterference": 0,
+      "caughtStealing": 0,
+      "intentionalWalks": 0,
+      "pickoffs": 0,
+      "fantasyScore": 1
     }
   ],
   "navigation": {
