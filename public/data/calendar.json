@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-28T18:50:18.848Z",
+  "generatedAt": "2026-09-29T17:07:30.497Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-12",
+  "endDate": "2026-10-13",
   "games": [
     {
       "date": "2026-03-26",
@@ -68862,10 +68862,10 @@
         "abbr": "ATL",
         "name": "Braves"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-09-29T18:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -68890,14 +68890,20 @@
         "abbr": "HOU",
         "name": "Astros"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-09-29T21:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 696146,
+        "name": "Hagen Smith"
+      },
+      "homePitcher": {
+        "id": 805123,
+        "name": "AJ Blubaugh"
+      }
     },
     {
       "date": "2026-09-30",
@@ -68946,7 +68952,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-09-30T02:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 571510,
+        "name": "Matthew Boyd"
+      },
       "homePitcher": {
         "id": 650633,
         "name": "Michael King"
@@ -68971,8 +68980,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-09-30T18:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 650911,
+        "name": "Cristopher Sánchez"
+      },
+      "homePitcher": {
+        "id": 641816,
+        "name": "Tyler Mahle"
+      }
     },
     {
       "date": "2026-09-30",
@@ -69642,6 +69657,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-12T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-13",
+      "gamePk": 849813,
+      "away": {
+        "id": 5521,
+        "abbr": null,
+        "name": "AL Lower Seed"
+      },
+      "home": {
+        "id": 5513,
+        "abbr": null,
+        "name": "AL Higher Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-13T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
