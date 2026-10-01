@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-30T17:05:19.503Z",
+  "generatedAt": "2026-10-01T17:35:51.944Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-14",
+  "endDate": "2026-10-15",
   "games": [
     {
       "date": "2026-03-26",
@@ -68974,10 +68974,10 @@
         "abbr": "ATL",
         "name": "Braves"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-09-30T18:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69002,10 +69002,10 @@
         "abbr": "HOU",
         "name": "Astros"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 7,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-09-30T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69030,10 +69030,10 @@
         "abbr": "NYY",
         "name": "Yankees"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 9,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-01T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69058,10 +69058,10 @@
         "abbr": "SD",
         "name": "Padres"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 1,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-01T02:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69074,7 +69074,7 @@
       }
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "gamePk": 849844,
       "away": {
         "id": 143,
@@ -69090,90 +69090,24 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-01T18:00:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-01",
-      "gamePk": 849850,
-      "away": {
-        "id": 145,
-        "abbr": "CWS",
-        "name": "White Sox"
-      },
-      "home": {
-        "id": 117,
-        "abbr": "HOU",
-        "name": "Astros"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-01T21:00:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-02",
-      "gamePk": 849847,
-      "away": {
-        "id": 111,
-        "abbr": "BOS",
-        "name": "Red Sox"
-      },
-      "home": {
-        "id": 147,
-        "abbr": "NYY",
-        "name": "Yankees"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-02T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
-        "id": 624133,
-        "name": "Ranger Suarez"
+        "id": 605400,
+        "name": "Aaron Nola"
       },
       "homePitcher": {
-        "id": 543037,
-        "name": "Gerrit Cole"
+        "id": 678061,
+        "name": "Ray Kerr"
       }
-    },
-    {
-      "date": "2026-10-02",
-      "gamePk": 849840,
-      "away": {
-        "id": 112,
-        "abbr": "CHC",
-        "name": "Cubs"
-      },
-      "home": {
-        "id": 135,
-        "abbr": "SD",
-        "name": "Padres"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-02T02:00:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
     },
     {
       "date": "2026-10-03",
       "gamePk": 849829,
       "away": {
-        "id": 5528,
-        "abbr": null,
-        "name": "HOU/CWS"
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
       },
       "home": {
         "id": 114,
@@ -69187,53 +69121,9 @@
       "gameTimeISO": "2026-10-03T17:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-03",
-      "gamePk": 849835,
-      "away": {
-        "id": 5529,
-        "abbr": null,
-        "name": "NYY/BOS"
-      },
-      "home": {
-        "id": 139,
-        "abbr": "TB",
-        "name": "Rays"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-03T22:30:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-03",
-      "gamePk": 849830,
-      "away": {
-        "id": 5533,
-        "abbr": null,
-        "name": "SD/CHC"
-      },
-      "home": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-03T08:33:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
       "homePitcher": {
-        "id": 694819,
-        "name": "Jacob Misiorowski"
+        "id": 800048,
+        "name": "Parker Messick"
       }
     },
     {
@@ -69253,18 +69143,68 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-03T10:33:00Z",
+      "gameTimeISO": "2026-10-03T20:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
+      "date": "2026-10-03",
+      "gamePk": 849835,
+      "away": {
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "home": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-03T22:30:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      }
+    },
+    {
+      "date": "2026-10-04",
+      "gamePk": 849830,
+      "away": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
+      },
+      "home": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-04T00:30:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": {
+        "id": 694819,
+        "name": "Jacob Misiorowski"
+      }
+    },
+    {
       "date": "2026-10-04",
       "gamePk": 849825,
       "away": {
-        "id": 5533,
-        "abbr": null,
-        "name": "SD/CHC"
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
       },
       "home": {
         "id": 158,
@@ -69309,9 +69249,9 @@
       "date": "2026-10-05",
       "gamePk": 849834,
       "away": {
-        "id": 5528,
-        "abbr": null,
-        "name": "HOU/CWS"
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
       },
       "home": {
         "id": 114,
@@ -69325,15 +69265,18 @@
       "gameTimeISO": "2026-10-05T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 668909,
+        "name": "Gavin Williams"
+      }
     },
     {
       "date": "2026-10-06",
       "gamePk": 849839,
       "away": {
-        "id": 5529,
-        "abbr": null,
-        "name": "NYY/BOS"
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
       },
       "home": {
         "id": 139,
@@ -69345,6 +69288,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-06T00:00:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-06",
+      "gamePk": 849826,
+      "away": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "home": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-06T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69372,28 +69337,6 @@
       "homePitcher": null
     },
     {
-      "date": "2026-10-06",
-      "gamePk": 849826,
-      "away": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "home": {
-        "id": 5533,
-        "abbr": null,
-        "name": "SD/CHC"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-06T07:33:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
       "date": "2026-10-07",
       "gamePk": 849833,
       "away": {
@@ -69402,9 +69345,9 @@
         "name": "Guardians"
       },
       "home": {
-        "id": 5528,
-        "abbr": null,
-        "name": "HOU/CWS"
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69424,9 +69367,31 @@
         "name": "Rays"
       },
       "home": {
-        "id": 5529,
-        "abbr": null,
-        "name": "NYY/BOS"
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-07T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-07",
+      "gamePk": 849827,
+      "away": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "home": {
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69460,28 +69425,6 @@
       "homePitcher": null
     },
     {
-      "date": "2026-10-07",
-      "gamePk": 849827,
-      "away": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "home": {
-        "id": 5533,
-        "abbr": null,
-        "name": "SD/CHC"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-07T07:33:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
       "date": "2026-10-08",
       "gamePk": 849832,
       "away": {
@@ -69490,9 +69433,9 @@
         "name": "Guardians"
       },
       "home": {
-        "id": 5528,
-        "abbr": null,
-        "name": "HOU/CWS"
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69512,9 +69455,9 @@
         "name": "Rays"
       },
       "home": {
-        "id": 5529,
-        "abbr": null,
-        "name": "NYY/BOS"
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69529,9 +69472,9 @@
       "date": "2026-10-09",
       "gamePk": 849824,
       "away": {
-        "id": 5533,
-        "abbr": null,
-        "name": "SD/CHC"
+        "id": 135,
+        "abbr": "SD",
+        "name": "Padres"
       },
       "home": {
         "id": 158,
@@ -69573,9 +69516,9 @@
       "date": "2026-10-10",
       "gamePk": 849831,
       "away": {
-        "id": 5528,
-        "abbr": null,
-        "name": "HOU/CWS"
+        "id": 145,
+        "abbr": "CWS",
+        "name": "White Sox"
       },
       "home": {
         "id": 114,
@@ -69595,9 +69538,9 @@
       "date": "2026-10-10",
       "gamePk": 849836,
       "away": {
-        "id": 5529,
-        "abbr": null,
-        "name": "NYY/BOS"
+        "id": 147,
+        "abbr": "NYY",
+        "name": "Yankees"
       },
       "home": {
         "id": 139,
@@ -69719,6 +69662,50 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-14T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-15",
+      "gamePk": 849818,
+      "away": {
+        "id": 5513,
+        "abbr": null,
+        "name": "AL Higher Seed"
+      },
+      "home": {
+        "id": 5521,
+        "abbr": null,
+        "name": "AL Lower Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-15T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-15",
+      "gamePk": 849810,
+      "away": {
+        "id": 5517,
+        "abbr": null,
+        "name": "NL Higher Seed"
+      },
+      "home": {
+        "id": 5525,
+        "abbr": null,
+        "name": "NL Lower Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-15T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
