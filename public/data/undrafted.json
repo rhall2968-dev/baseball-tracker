@@ -196,7 +196,7 @@
     "name": "Bryson Stott",
     "mlbTeam": "PHI",
     "mlbId": 681082,
-    "gamesPlayed": 154,
+    "gamesPlayed": 155,
     "totalScore": 307,
     "singles": 87,
     "doubles": 36,
@@ -204,8 +204,8 @@
     "homeRuns": 10,
     "stolenBases": 27,
     "slug": "bryson-stott",
-    "ppg": 1.99,
-    "proj162": 323
+    "ppg": 1.98,
+    "proj162": 321
   },
   {
     "id": 146,
@@ -436,15 +436,15 @@
     "name": "Alec Bohm",
     "mlbTeam": "PHI",
     "mlbId": 664761,
-    "gamesPlayed": 152,
-    "totalScore": 281,
-    "singles": 94,
+    "gamesPlayed": 153,
+    "totalScore": 282,
+    "singles": 95,
     "doubles": 30,
     "triples": 1,
     "homeRuns": 16,
     "stolenBases": 2,
     "slug": "alec-bohm",
-    "ppg": 1.85,
+    "ppg": 1.84,
     "proj162": 299
   },
   {
@@ -468,7 +468,7 @@
     "name": "Mauricio Dubón",
     "mlbTeam": "ATL",
     "mlbId": 643289,
-    "gamesPlayed": 153,
+    "gamesPlayed": 154,
     "totalScore": 280,
     "singles": 116,
     "doubles": 29,
@@ -476,8 +476,8 @@
     "homeRuns": 12,
     "stolenBases": 10,
     "slug": "mauricio-dubon",
-    "ppg": 1.83,
-    "proj162": 296
+    "ppg": 1.82,
+    "proj162": 295
   },
   {
     "id": 345,
@@ -704,6 +704,22 @@
     "proj162": 280
   },
   {
+    "id": 236,
+    "name": "Brandon Marsh",
+    "mlbTeam": "PHI",
+    "mlbId": 669016,
+    "gamesPlayed": 154,
+    "totalScore": 261,
+    "singles": 95,
+    "doubles": 20,
+    "triples": 2,
+    "homeRuns": 18,
+    "stolenBases": 11,
+    "slug": "brandon-marsh",
+    "ppg": 1.69,
+    "proj162": 275
+  },
+  {
     "id": 74,
     "name": "Lawrence Butler",
     "mlbTeam": "ATH",
@@ -718,22 +734,6 @@
     "slug": "lawrence-butler",
     "ppg": 1.76,
     "proj162": 285
-  },
-  {
-    "id": 236,
-    "name": "Brandon Marsh",
-    "mlbTeam": "PHI",
-    "mlbId": 669016,
-    "gamesPlayed": 153,
-    "totalScore": 260,
-    "singles": 95,
-    "doubles": 20,
-    "triples": 2,
-    "homeRuns": 18,
-    "stolenBases": 11,
-    "slug": "brandon-marsh",
-    "ppg": 1.7,
-    "proj162": 275
   },
   {
     "id": 118,
