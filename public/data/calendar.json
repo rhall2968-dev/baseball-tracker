@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-02T16:54:43.021Z",
+  "generatedAt": "2026-10-03T15:18:43.066Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-16",
+  "endDate": "2026-10-17",
   "games": [
     {
       "date": "2026-03-26",
@@ -69114,13 +69114,16 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-10-03T17:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 696146,
+        "name": "Hagen Smith"
+      },
       "homePitcher": {
         "id": 800048,
         "name": "Parker Messick"
@@ -69146,7 +69149,10 @@
       "gameTimeISO": "2026-10-03T20:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 669373,
+        "name": "Tarik Skubal"
+      }
     },
     {
       "date": "2026-10-03",
@@ -69195,7 +69201,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-04T00:30:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 592662,
+        "name": "Robbie Ray"
+      },
       "homePitcher": {
         "id": 694819,
         "name": "Jacob Misiorowski"
@@ -69220,7 +69229,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-04T20:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 650633,
+        "name": "Michael King"
+      },
       "homePitcher": {
         "id": 701656,
         "name": "Logan Henderson"
@@ -69756,6 +69768,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-16T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-17",
+      "gamePk": 849816,
+      "away": {
+        "id": 5513,
+        "abbr": null,
+        "name": "AL Higher Seed"
+      },
+      "home": {
+        "id": 5521,
+        "abbr": null,
+        "name": "AL Lower Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-17T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
