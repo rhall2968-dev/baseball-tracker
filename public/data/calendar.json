@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-04T16:03:24.810Z",
+  "generatedAt": "2026-10-05T19:50:02.270Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-18",
+  "endDate": "2026-10-19",
   "games": [
     {
       "date": "2026-03-26",
@@ -69226,10 +69226,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-04T20:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69254,13 +69254,16 @@
         "abbr": "LAD",
         "name": "Dodgers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-05T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 678061,
+        "name": "Ray Kerr"
+      },
       "homePitcher": {
         "id": 605483,
         "name": "Blake Snell"
@@ -69279,13 +69282,16 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-10-05T21:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 641743,
+        "name": "Anthony Kay"
+      },
       "homePitcher": {
         "id": 668909,
         "name": "Gavin Williams"
@@ -69306,8 +69312,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-10-06T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69338,8 +69344,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-06T22:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 808967,
+        "name": "Yoshinobu Yamamoto"
+      },
+      "homePitcher": {
+        "id": 519242,
+        "name": "Chris Sale"
+      }
     },
     {
       "date": "2026-10-07",
@@ -69360,8 +69372,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-07T01:30:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 669160,
+        "name": "Dustin May"
+      },
+      "homePitcher": {
+        "id": 601713,
+        "name": "Nick Pivetta"
+      }
     },
     {
       "date": "2026-10-07",
@@ -69821,6 +69839,50 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-18T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-19",
+      "gamePk": 849815,
+      "away": {
+        "id": 5521,
+        "abbr": null,
+        "name": "AL Lower Seed"
+      },
+      "home": {
+        "id": 5513,
+        "abbr": null,
+        "name": "AL Higher Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-19T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-19",
+      "gamePk": 849807,
+      "away": {
+        "id": 5525,
+        "abbr": null,
+        "name": "NL Lower Seed"
+      },
+      "home": {
+        "id": 5517,
+        "abbr": null,
+        "name": "NL Higher Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-19T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null

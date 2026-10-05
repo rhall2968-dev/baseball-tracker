@@ -36,7 +36,7 @@
     "name": "Jake Bauers",
     "mlbTeam": "MIL",
     "mlbId": 641343,
-    "gamesPlayed": 142,
+    "gamesPlayed": 143,
     "totalScore": 343,
     "singles": 79,
     "doubles": 22,
@@ -44,8 +44,8 @@
     "homeRuns": 26,
     "stolenBases": 11,
     "slug": "jake-bauers",
-    "ppg": 2.42,
-    "proj162": 391
+    "ppg": 2.4,
+    "proj162": 389
   },
   {
     "id": 186,
@@ -356,8 +356,8 @@
     "name": "Xander Bogaerts",
     "mlbTeam": "SD",
     "mlbId": 593428,
-    "gamesPlayed": 155,
-    "totalScore": 290,
+    "gamesPlayed": 156,
+    "totalScore": 291,
     "singles": 90,
     "doubles": 19,
     "triples": 1,
@@ -365,7 +365,7 @@
     "stolenBases": 21,
     "slug": "xander-bogaerts",
     "ppg": 1.87,
-    "proj162": 303
+    "proj162": 302
   },
   {
     "id": 75,
@@ -432,6 +432,38 @@
     "proj162": 326
   },
   {
+    "id": 307,
+    "name": "Mauricio Dubón",
+    "mlbTeam": "ATL",
+    "mlbId": 643289,
+    "gamesPlayed": 156,
+    "totalScore": 283,
+    "singles": 117,
+    "doubles": 29,
+    "triples": 3,
+    "homeRuns": 12,
+    "stolenBases": 10,
+    "slug": "mauricio-dubon",
+    "ppg": 1.81,
+    "proj162": 294
+  },
+  {
+    "id": 314,
+    "name": "Ty France",
+    "mlbTeam": "SD",
+    "mlbId": 664034,
+    "gamesPlayed": 131,
+    "totalScore": 283,
+    "singles": 89,
+    "doubles": 25,
+    "triples": 2,
+    "homeRuns": 21,
+    "stolenBases": 1,
+    "slug": "ty-france",
+    "ppg": 2.16,
+    "proj162": 350
+  },
+  {
     "id": 239,
     "name": "Alec Bohm",
     "mlbTeam": "PHI",
@@ -464,22 +496,6 @@
     "proj162": 319
   },
   {
-    "id": 307,
-    "name": "Mauricio Dubón",
-    "mlbTeam": "ATL",
-    "mlbId": 643289,
-    "gamesPlayed": 155,
-    "totalScore": 281,
-    "singles": 116,
-    "doubles": 29,
-    "triples": 3,
-    "homeRuns": 12,
-    "stolenBases": 10,
-    "slug": "mauricio-dubon",
-    "ppg": 1.81,
-    "proj162": 294
-  },
-  {
     "id": 258,
     "name": "Cole Young",
     "mlbTeam": "SEA",
@@ -494,22 +510,6 @@
     "slug": "cole-young",
     "ppg": 1.77,
     "proj162": 287
-  },
-  {
-    "id": 314,
-    "name": "Ty France",
-    "mlbTeam": "SD",
-    "mlbId": 664034,
-    "gamesPlayed": 130,
-    "totalScore": 280,
-    "singles": 87,
-    "doubles": 25,
-    "triples": 2,
-    "homeRuns": 21,
-    "stolenBases": 1,
-    "slug": "ty-france",
-    "ppg": 2.15,
-    "proj162": 349
   },
   {
     "id": 252,
@@ -560,6 +560,22 @@
     "proj162": 314
   },
   {
+    "id": 135,
+    "name": "Garrett Mitchell",
+    "mlbTeam": "MIL",
+    "mlbId": 669003,
+    "gamesPlayed": 143,
+    "totalScore": 275,
+    "singles": 77,
+    "doubles": 30,
+    "triples": 4,
+    "homeRuns": 11,
+    "stolenBases": 15,
+    "slug": "garrett-mitchell",
+    "ppg": 1.92,
+    "proj162": 312
+  },
+  {
     "id": 453,
     "name": "JJ Bleday",
     "mlbTeam": "CIN",
@@ -574,22 +590,6 @@
     "slug": "jj-bleday",
     "ppg": 2.12,
     "proj162": 343
-  },
-  {
-    "id": 135,
-    "name": "Garrett Mitchell",
-    "mlbTeam": "MIL",
-    "mlbId": 669003,
-    "gamesPlayed": 142,
-    "totalScore": 274,
-    "singles": 76,
-    "doubles": 30,
-    "triples": 4,
-    "homeRuns": 11,
-    "stolenBases": 15,
-    "slug": "garrett-mitchell",
-    "ppg": 1.93,
-    "proj162": 313
   },
   {
     "id": 211,
