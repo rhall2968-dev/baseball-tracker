@@ -180,9 +180,9 @@
     "name": "Chase Meidroth",
     "mlbTeam": "CWS",
     "mlbId": 805367,
-    "gamesPlayed": 157,
-    "totalScore": 313,
-    "singles": 112,
+    "gamesPlayed": 158,
+    "totalScore": 315,
+    "singles": 114,
     "doubles": 31,
     "triples": 0,
     "homeRuns": 17,
@@ -212,7 +212,7 @@
     "name": "Luis García Jr.",
     "mlbTeam": "NYY",
     "mlbId": 671277,
-    "gamesPlayed": 148,
+    "gamesPlayed": 149,
     "totalScore": 305,
     "singles": 84,
     "doubles": 26,
@@ -220,8 +220,8 @@
     "homeRuns": 31,
     "stolenBases": 5,
     "slug": "luis-garcia-jr",
-    "ppg": 2.06,
-    "proj162": 334
+    "ppg": 2.05,
+    "proj162": 332
   },
   {
     "id": 52,
@@ -272,6 +272,22 @@
     "proj162": 377
   },
   {
+    "id": 250,
+    "name": "Chase DeLauter",
+    "mlbTeam": "CLE",
+    "mlbId": 800050,
+    "gamesPlayed": 131,
+    "totalScore": 300,
+    "singles": 95,
+    "doubles": 30,
+    "triples": 3,
+    "homeRuns": 16,
+    "stolenBases": 11,
+    "slug": "chase-delauter",
+    "ppg": 2.29,
+    "proj162": 371
+  },
+  {
     "id": 227,
     "name": "Jake Burger",
     "mlbTeam": "TEX",
@@ -286,22 +302,6 @@
     "slug": "jake-burger",
     "ppg": 1.94,
     "proj162": 313
-  },
-  {
-    "id": 250,
-    "name": "Chase DeLauter",
-    "mlbTeam": "CLE",
-    "mlbId": 800050,
-    "gamesPlayed": 130,
-    "totalScore": 298,
-    "singles": 93,
-    "doubles": 30,
-    "triples": 3,
-    "homeRuns": 16,
-    "stolenBases": 11,
-    "slug": "chase-delauter",
-    "ppg": 2.29,
-    "proj162": 371
   },
   {
     "id": 155,
@@ -372,16 +372,16 @@
     "name": "Steven Kwan",
     "mlbTeam": "CLE",
     "mlbId": 680757,
-    "gamesPlayed": 147,
-    "totalScore": 287,
-    "singles": 124,
+    "gamesPlayed": 148,
+    "totalScore": 288,
+    "singles": 125,
     "doubles": 21,
     "triples": 3,
     "homeRuns": 3,
     "stolenBases": 10,
     "slug": "steven-kwan",
     "ppg": 1.95,
-    "proj162": 316
+    "proj162": 315
   },
   {
     "id": 232,
@@ -420,7 +420,7 @@
     "name": "Sam Antonacci",
     "mlbTeam": "CWS",
     "mlbId": 803011,
-    "gamesPlayed": 142,
+    "gamesPlayed": 143,
     "totalScore": 286,
     "singles": 96,
     "doubles": 26,
@@ -428,8 +428,8 @@
     "homeRuns": 8,
     "stolenBases": 20,
     "slug": "sam-antonacci",
-    "ppg": 2.01,
-    "proj162": 326
+    "ppg": 2,
+    "proj162": 324
   },
   {
     "id": 307,
@@ -484,7 +484,7 @@
     "name": "Liam Hicks",
     "mlbTeam": "TB",
     "mlbId": 689414,
-    "gamesPlayed": 143,
+    "gamesPlayed": 144,
     "totalScore": 282,
     "singles": 102,
     "doubles": 17,
@@ -492,8 +492,8 @@
     "homeRuns": 18,
     "stolenBases": 3,
     "slug": "liam-hicks",
-    "ppg": 1.97,
-    "proj162": 319
+    "ppg": 1.96,
+    "proj162": 317
   },
   {
     "id": 258,
@@ -516,7 +516,7 @@
     "name": "Brayan Rocchio",
     "mlbTeam": "CLE",
     "mlbId": 677587,
-    "gamesPlayed": 150,
+    "gamesPlayed": 151,
     "totalScore": 279,
     "singles": 93,
     "doubles": 25,
@@ -524,8 +524,8 @@
     "homeRuns": 15,
     "stolenBases": 20,
     "slug": "brayan-rocchio",
-    "ppg": 1.86,
-    "proj162": 301
+    "ppg": 1.85,
+    "proj162": 299
   },
   {
     "id": 167,
@@ -560,6 +560,22 @@
     "proj162": 314
   },
   {
+    "id": 211,
+    "name": "Chandler Simpson",
+    "mlbTeam": "TB",
+    "mlbId": 802415,
+    "gamesPlayed": 149,
+    "totalScore": 276,
+    "singles": 153,
+    "doubles": 16,
+    "triples": 6,
+    "homeRuns": 0,
+    "stolenBases": 47,
+    "slug": "chandler-simpson",
+    "ppg": 1.85,
+    "proj162": 300
+  },
+  {
     "id": 135,
     "name": "Garrett Mitchell",
     "mlbTeam": "MIL",
@@ -590,22 +606,6 @@
     "slug": "jj-bleday",
     "ppg": 2.12,
     "proj162": 343
-  },
-  {
-    "id": 211,
-    "name": "Chandler Simpson",
-    "mlbTeam": "TB",
-    "mlbId": 802415,
-    "gamesPlayed": 148,
-    "totalScore": 274,
-    "singles": 152,
-    "doubles": 16,
-    "triples": 6,
-    "homeRuns": 0,
-    "stolenBases": 46,
-    "slug": "chandler-simpson",
-    "ppg": 1.85,
-    "proj162": 300
   },
   {
     "id": 65,
@@ -644,16 +644,16 @@
     "name": "Travis Bazzana",
     "mlbTeam": "CLE",
     "mlbId": 683953,
-    "gamesPlayed": 123,
-    "totalScore": 267,
+    "gamesPlayed": 124,
+    "totalScore": 268,
     "singles": 70,
     "doubles": 23,
     "triples": 3,
     "homeRuns": 15,
     "stolenBases": 19,
     "slug": "travis-bazzana",
-    "ppg": 2.17,
-    "proj162": 352
+    "ppg": 2.16,
+    "proj162": 350
   },
   {
     "id": 51,
@@ -740,7 +740,7 @@
     "name": "Tristan Peters",
     "mlbTeam": "CWS",
     "mlbId": 671976,
-    "gamesPlayed": 153,
+    "gamesPlayed": 154,
     "totalScore": 252,
     "singles": 72,
     "doubles": 31,
@@ -748,8 +748,8 @@
     "homeRuns": 12,
     "stolenBases": 9,
     "slug": "tristan-peters",
-    "ppg": 1.65,
-    "proj162": 267
+    "ppg": 1.64,
+    "proj162": 265
   },
   {
     "id": 33,
@@ -884,7 +884,7 @@
     "name": "Trent Grisham",
     "mlbTeam": "NYY",
     "mlbId": 663757,
-    "gamesPlayed": 119,
+    "gamesPlayed": 120,
     "totalScore": 236,
     "singles": 51,
     "doubles": 19,
@@ -892,8 +892,8 @@
     "homeRuns": 18,
     "stolenBases": 10,
     "slug": "trent-grisham",
-    "ppg": 1.98,
-    "proj162": 321
+    "ppg": 1.97,
+    "proj162": 319
   },
   {
     "id": 1160,
@@ -1092,7 +1092,7 @@
     "name": "Andrew Benintendi",
     "mlbTeam": "CWS",
     "mlbId": 643217,
-    "gamesPlayed": 143,
+    "gamesPlayed": 144,
     "totalScore": 219,
     "singles": 62,
     "doubles": 24,
@@ -1100,8 +1100,8 @@
     "homeRuns": 15,
     "stolenBases": 1,
     "slug": "andrew-benintendi",
-    "ppg": 1.53,
-    "proj162": 248
+    "ppg": 1.52,
+    "proj162": 246
   },
   {
     "id": 158,

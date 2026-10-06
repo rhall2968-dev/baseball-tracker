@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-05T19:50:02.270Z",
+  "generatedAt": "2026-10-06T17:29:39.547Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-19",
+  "endDate": "2026-10-20",
   "games": [
     {
       "date": "2026-03-26",
@@ -69282,10 +69282,10 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": 0,
-      "homeScore": 0,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 4,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-05T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69310,10 +69310,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "P",
-      "detailedState": "Pre-Game",
+      "awayScore": 2,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-06T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69444,8 +69444,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-08T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 607259,
+        "name": "Nick Martinez"
+      },
+      "homePitcher": {
+        "id": 608331,
+        "name": "Max Fried"
+      }
     },
     {
       "date": "2026-10-08",
@@ -69511,7 +69517,10 @@
       "gameTimeISO": "2026-10-09T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 607074,
+        "name": "Carlos Rodón"
+      }
     },
     {
       "date": "2026-10-09",
@@ -69883,6 +69892,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-19T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-20",
+      "gamePk": 849814,
+      "away": {
+        "id": 5521,
+        "abbr": null,
+        "name": "AL Lower Seed"
+      },
+      "home": {
+        "id": 5513,
+        "abbr": null,
+        "name": "AL Higher Seed"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-20T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
