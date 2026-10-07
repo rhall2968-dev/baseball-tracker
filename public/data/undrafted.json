@@ -36,16 +36,16 @@
     "name": "Jake Bauers",
     "mlbTeam": "MIL",
     "mlbId": 641343,
-    "gamesPlayed": 143,
-    "totalScore": 343,
+    "gamesPlayed": 144,
+    "totalScore": 344,
     "singles": 79,
     "doubles": 22,
     "triples": 2,
     "homeRuns": 26,
     "stolenBases": 11,
     "slug": "jake-bauers",
-    "ppg": 2.4,
-    "proj162": 389
+    "ppg": 2.39,
+    "proj162": 387
   },
   {
     "id": 186,
@@ -356,16 +356,16 @@
     "name": "Xander Bogaerts",
     "mlbTeam": "SD",
     "mlbId": 593428,
-    "gamesPlayed": 156,
-    "totalScore": 291,
-    "singles": 90,
+    "gamesPlayed": 157,
+    "totalScore": 292,
+    "singles": 91,
     "doubles": 19,
     "triples": 1,
     "homeRuns": 14,
     "stolenBases": 21,
     "slug": "xander-bogaerts",
-    "ppg": 1.87,
-    "proj162": 302
+    "ppg": 1.86,
+    "proj162": 301
   },
   {
     "id": 75,
@@ -436,23 +436,23 @@
     "name": "Mauricio Dubón",
     "mlbTeam": "ATL",
     "mlbId": 643289,
-    "gamesPlayed": 156,
-    "totalScore": 283,
-    "singles": 117,
+    "gamesPlayed": 157,
+    "totalScore": 284,
+    "singles": 118,
     "doubles": 29,
     "triples": 3,
     "homeRuns": 12,
     "stolenBases": 10,
     "slug": "mauricio-dubon",
     "ppg": 1.81,
-    "proj162": 294
+    "proj162": 293
   },
   {
     "id": 314,
     "name": "Ty France",
     "mlbTeam": "SD",
     "mlbId": 664034,
-    "gamesPlayed": 131,
+    "gamesPlayed": 132,
     "totalScore": 283,
     "singles": 89,
     "doubles": 25,
@@ -460,8 +460,8 @@
     "homeRuns": 21,
     "stolenBases": 1,
     "slug": "ty-france",
-    "ppg": 2.16,
-    "proj162": 350
+    "ppg": 2.14,
+    "proj162": 347
   },
   {
     "id": 239,
@@ -580,7 +580,7 @@
     "name": "Garrett Mitchell",
     "mlbTeam": "MIL",
     "mlbId": 669003,
-    "gamesPlayed": 143,
+    "gamesPlayed": 144,
     "totalScore": 275,
     "singles": 77,
     "doubles": 30,
@@ -588,8 +588,8 @@
     "homeRuns": 11,
     "stolenBases": 15,
     "slug": "garrett-mitchell",
-    "ppg": 1.92,
-    "proj162": 312
+    "ppg": 1.91,
+    "proj162": 309
   },
   {
     "id": 453,
