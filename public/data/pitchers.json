@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:01:55.419Z",
+  "generatedAt": "2026-10-08T18:04:04.583Z",
   "season": 2026,
   "pitchers": [
     {
@@ -13631,10 +13631,10 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 399,
+          "pitchCount": 398,
           "totalPitches": 1149,
-          "percentage": 0.34725848,
-          "averageSpeed": 95.50862902255645
+          "percentage": 0.34638816,
+          "averageSpeed": 95.51421423618096
         },
         {
           "code": "SI",
@@ -13655,10 +13655,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 203,
+          "pitchCount": 204,
           "totalPitches": 1149,
-          "percentage": 0.17667536,
-          "averageSpeed": 89.87787466995074
+          "percentage": 0.1775457,
+          "averageSpeed": 89.8945797647059
         },
         {
           "code": "CU",
@@ -18177,7 +18177,7 @@
       "mlbTeam": "ATH",
       "mlbTeamId": 133,
       "pitchHand": "L",
-      "age": 28,
+      "age": 29,
       "totalPitches": 696,
       "pitches": [
         {
@@ -24529,7 +24529,7 @@
       "mlbTeam": "ATH",
       "mlbTeamId": 133,
       "pitchHand": "R",
-      "age": 24,
+      "age": 25,
       "totalPitches": 125,
       "pitches": [
         {
