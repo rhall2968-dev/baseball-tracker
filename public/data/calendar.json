@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-08T18:03:56.120Z",
+  "generatedAt": "2026-10-09T17:37:04.311Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-22",
+  "endDate": "2026-10-23",
   "games": [
     {
       "date": "2026-03-26",
@@ -69506,10 +69506,10 @@
         "abbr": "CWS",
         "name": "White Sox"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 9,
+      "homeScore": 5,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-09T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69544,7 +69544,7 @@
       "homePitcher": null
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "gamePk": 849809,
       "away": {
         "id": 119,
@@ -69560,7 +69560,7 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-11T07:33:00Z",
+      "gameTimeISO": "2026-10-12T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69582,13 +69582,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-12T07:33:00Z",
+      "gameTimeISO": "2026-10-12T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "gamePk": 849820,
       "away": {
         "id": 5521,
@@ -69604,13 +69604,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-12T07:33:00Z",
+      "gameTimeISO": "2026-10-13T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "gamePk": 849813,
       "away": {
         "id": 5521,
@@ -69626,13 +69626,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-13T07:33:00Z",
+      "gameTimeISO": "2026-10-14T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-14",
+      "date": "2026-10-15",
       "gamePk": 849811,
       "away": {
         "id": 158,
@@ -69648,29 +69648,7 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-14T07:33:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-15",
-      "gamePk": 849810,
-      "away": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "home": {
-        "id": 119,
-        "abbr": "LAD",
-        "name": "Dodgers"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-15T07:33:00Z",
+      "gameTimeISO": "2026-10-15T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69692,14 +69670,14 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-15T07:33:00Z",
+      "gameTimeISO": "2026-10-15T22:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
       "date": "2026-10-16",
-      "gamePk": 849808,
+      "gamePk": 849810,
       "away": {
         "id": 158,
         "abbr": "MIL",
@@ -69714,7 +69692,7 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-16T07:33:00Z",
+      "gameTimeISO": "2026-10-16T01:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69736,13 +69714,35 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-16T07:33:00Z",
+      "gameTimeISO": "2026-10-16T22:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
       "date": "2026-10-17",
+      "gamePk": 849808,
+      "away": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "home": {
+        "id": 119,
+        "abbr": "LAD",
+        "name": "Dodgers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-17T01:00:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-18",
       "gamePk": 849816,
       "away": {
         "id": 139,
@@ -69758,13 +69758,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-17T07:33:00Z",
+      "gameTimeISO": "2026-10-18T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "gamePk": 849806,
       "away": {
         "id": 119,
@@ -69780,29 +69780,7 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-18T07:33:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-19",
-      "gamePk": 849807,
-      "away": {
-        "id": 119,
-        "abbr": "LAD",
-        "name": "Dodgers"
-      },
-      "home": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-19T07:33:00Z",
+      "gameTimeISO": "2026-10-19T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69824,13 +69802,35 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-19T07:33:00Z",
+      "gameTimeISO": "2026-10-19T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
       "date": "2026-10-20",
+      "gamePk": 849807,
+      "away": {
+        "id": 119,
+        "abbr": "LAD",
+        "name": "Dodgers"
+      },
+      "home": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-20T00:00:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-21",
       "gamePk": 849814,
       "away": {
         "id": 5521,
@@ -69846,7 +69846,29 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-20T07:33:00Z",
+      "gameTimeISO": "2026-10-21T00:00:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-23",
+      "gamePk": 849805,
+      "away": {
+        "id": 21,
+        "abbr": null,
+        "name": "AL Champion"
+      },
+      "home": {
+        "id": 31,
+        "abbr": null,
+        "name": "NL Champion"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-23T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
