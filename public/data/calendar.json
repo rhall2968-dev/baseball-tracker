@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-09T17:37:04.311Z",
+  "generatedAt": "2026-10-10T16:27:42.680Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-23",
+  "endDate": "2026-10-24",
   "games": [
     {
       "date": "2026-03-26",
@@ -69540,8 +69540,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-11T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 680732,
+        "name": "Sean Burke"
+      },
+      "homePitcher": {
+        "id": 668909,
+        "name": "Gavin Williams"
+      }
     },
     {
       "date": "2026-10-12",
@@ -69562,7 +69568,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-12T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669373,
+        "name": "Tarik Skubal"
+      },
       "homePitcher": null
     },
     {
@@ -69584,7 +69593,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-12T21:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 808967,
+        "name": "Yoshinobu Yamamoto"
+      },
       "homePitcher": null
     },
     {
@@ -69869,6 +69881,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-23T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-24",
+      "gamePk": 849802,
+      "away": {
+        "id": 21,
+        "abbr": null,
+        "name": "AL Champion"
+      },
+      "home": {
+        "id": 31,
+        "abbr": null,
+        "name": "NL Champion"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-24T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
