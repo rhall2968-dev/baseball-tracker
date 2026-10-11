@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-10T16:27:42.680Z",
+  "generatedAt": "2026-10-11T16:52:27.849Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-24",
+  "endDate": "2026-10-25",
   "games": [
     {
       "date": "2026-03-26",
@@ -69534,10 +69534,10 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-11T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69572,7 +69572,10 @@
         "id": 669373,
         "name": "Tarik Skubal"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 694819,
+        "name": "Jacob Misiorowski"
+      }
     },
     {
       "date": "2026-10-12",
@@ -69597,15 +69600,18 @@
         "id": 808967,
         "name": "Yoshinobu Yamamoto"
       },
-      "homePitcher": null
+      "homePitcher": {
+        "id": 701656,
+        "name": "Logan Henderson"
+      }
     },
     {
       "date": "2026-10-13",
       "gamePk": 849820,
       "away": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "home": {
         "id": 139,
@@ -69625,9 +69631,9 @@
       "date": "2026-10-14",
       "gamePk": 849813,
       "away": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "home": {
         "id": 139,
@@ -69674,9 +69680,9 @@
         "name": "Rays"
       },
       "home": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69718,9 +69724,9 @@
         "name": "Rays"
       },
       "home": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69762,9 +69768,9 @@
         "name": "Rays"
       },
       "home": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69801,9 +69807,9 @@
       "date": "2026-10-19",
       "gamePk": 849815,
       "away": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "home": {
         "id": 139,
@@ -69845,9 +69851,9 @@
       "date": "2026-10-21",
       "gamePk": 849814,
       "away": {
-        "id": 5521,
-        "abbr": null,
-        "name": "CLE/CWS"
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
       },
       "home": {
         "id": 139,
