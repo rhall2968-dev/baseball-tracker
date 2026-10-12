@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T16:52:27.849Z",
+  "generatedAt": "2026-10-12T20:29:50.904Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-25",
+  "endDate": "2026-10-26",
   "games": [
     {
       "date": "2026-03-26",
@@ -69562,10 +69562,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 1,
+      "homeScore": 2,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-12T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69590,10 +69590,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-10-12T21:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69618,14 +69618,20 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 0,
+      "homeScore": 0,
+      "status": "P",
+      "detailedState": "Pre-Game",
       "gameTimeISO": "2026-10-13T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 656492,
+        "name": "Foster Griffin"
+      },
+      "homePitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      }
     },
     {
       "date": "2026-10-14",
@@ -69647,7 +69653,10 @@
       "gameTimeISO": "2026-10-14T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 642547,
+        "name": "Freddy Peralta"
+      }
     },
     {
       "date": "2026-10-15",
@@ -69668,7 +69677,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-15T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 688107,
+        "name": "Robert Gasser"
+      },
       "homePitcher": null
     },
     {
@@ -69909,6 +69921,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-24T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-26",
+      "gamePk": 849804,
+      "away": {
+        "id": 31,
+        "abbr": null,
+        "name": "NL Champion"
+      },
+      "home": {
+        "id": 21,
+        "abbr": null,
+        "name": "AL Champion"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-26T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null

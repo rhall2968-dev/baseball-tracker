@@ -1,5 +1,21 @@
 [
   {
+    "id": 131,
+    "name": "Jake Bauers",
+    "mlbTeam": "MIL",
+    "mlbId": 641343,
+    "gamesPlayed": 146,
+    "totalScore": 350,
+    "singles": 81,
+    "doubles": 22,
+    "triples": 2,
+    "homeRuns": 26,
+    "stolenBases": 11,
+    "slug": "jake-bauers",
+    "ppg": 2.4,
+    "proj162": 388
+  },
+  {
     "id": 165,
     "name": "Wilyer Abreu",
     "mlbTeam": "BOS",
@@ -30,22 +46,6 @@
     "slug": "alec-burleson",
     "ppg": 2.24,
     "proj162": 362
-  },
-  {
-    "id": 131,
-    "name": "Jake Bauers",
-    "mlbTeam": "MIL",
-    "mlbId": 641343,
-    "gamesPlayed": 145,
-    "totalScore": 348,
-    "singles": 80,
-    "doubles": 22,
-    "triples": 2,
-    "homeRuns": 26,
-    "stolenBases": 11,
-    "slug": "jake-bauers",
-    "ppg": 2.4,
-    "proj162": 389
   },
   {
     "id": 186,
@@ -512,6 +512,22 @@
     "proj162": 315
   },
   {
+    "id": 135,
+    "name": "Garrett Mitchell",
+    "mlbTeam": "MIL",
+    "mlbId": 669003,
+    "gamesPlayed": 146,
+    "totalScore": 280,
+    "singles": 78,
+    "doubles": 30,
+    "triples": 5,
+    "homeRuns": 11,
+    "stolenBases": 15,
+    "slug": "garrett-mitchell",
+    "ppg": 1.92,
+    "proj162": 311
+  },
+  {
     "id": 258,
     "name": "Cole Young",
     "mlbTeam": "SEA",
@@ -526,22 +542,6 @@
     "slug": "cole-young",
     "ppg": 1.77,
     "proj162": 287
-  },
-  {
-    "id": 135,
-    "name": "Garrett Mitchell",
-    "mlbTeam": "MIL",
-    "mlbId": 669003,
-    "gamesPlayed": 145,
-    "totalScore": 279,
-    "singles": 78,
-    "doubles": 30,
-    "triples": 5,
-    "homeRuns": 11,
-    "stolenBases": 15,
-    "slug": "garrett-mitchell",
-    "ppg": 1.92,
-    "proj162": 312
   },
   {
     "id": 167,

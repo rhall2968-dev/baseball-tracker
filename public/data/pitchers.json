@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T16:52:37.122Z",
+  "generatedAt": "2026-10-12T20:29:59.470Z",
   "season": 2026,
   "pitchers": [
     {
@@ -3714,62 +3714,62 @@
       "mlbTeamId": 135,
       "pitchHand": "R",
       "age": 32,
-      "totalPitches": 2606,
+      "totalPitches": 2608,
       "pitches": [
         {
           "code": "FC",
           "description": "Cutter",
-          "pitchCount": 635,
-          "totalPitches": 2606,
-          "percentage": 0.24366845,
-          "averageSpeed": 90.43766897165352
+          "pitchCount": 637,
+          "totalPitches": 2608,
+          "percentage": 0.24424846,
+          "averageSpeed": 90.43870182103609
         },
         {
           "code": "FF",
           "description": "Four-seam FB",
           "pitchCount": 526,
-          "totalPitches": 2606,
-          "percentage": 0.2018419,
-          "averageSpeed": 94.04433056463876
+          "totalPitches": 2608,
+          "percentage": 0.20168711,
+          "averageSpeed": 94.04255630228134
         },
         {
           "code": "SI",
           "description": "Sinker",
           "pitchCount": 519,
-          "totalPitches": 2606,
-          "percentage": 0.1991558,
-          "averageSpeed": 94.22558111368008
+          "totalPitches": 2608,
+          "percentage": 0.19900307,
+          "averageSpeed": 94.22500278998065
         },
         {
           "code": "SL",
           "description": "Slider",
           "pitchCount": 276,
-          "totalPitches": 2606,
-          "percentage": 0.10590944,
-          "averageSpeed": 87.13547701086956
+          "totalPitches": 2608,
+          "percentage": 0.10582822,
+          "averageSpeed": 87.13600235144928
         },
         {
           "code": "CH",
           "description": "Changeup",
           "pitchCount": 247,
-          "totalPitches": 2606,
-          "percentage": 0.09478127,
+          "totalPitches": 2608,
+          "percentage": 0.09470859,
           "averageSpeed": 89.25688587854245
         },
         {
           "code": "KC",
           "description": "Knuckle Curve",
           "pitchCount": 219,
-          "totalPitches": 2606,
-          "percentage": 0.084036835,
+          "totalPitches": 2608,
+          "percentage": 0.083972394,
           "averageSpeed": 78.25632260730593
         },
         {
           "code": "ST",
           "description": "Sweeper",
           "pitchCount": 184,
-          "totalPitches": 2606,
-          "percentage": 0.07060629,
+          "totalPitches": 2608,
+          "percentage": 0.07055215,
           "averageSpeed": 82.46355474456526
         }
       ],
