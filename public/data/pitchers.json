@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T20:29:59.470Z",
+  "generatedAt": "2026-10-13T18:34:52.952Z",
   "season": 2026,
   "pitchers": [
     {
@@ -9087,10 +9087,10 @@
         {
           "code": "CH",
           "description": "Changeup",
-          "pitchCount": 181,
+          "pitchCount": 188,
           "totalPitches": 1773,
-          "percentage": 0.10208686,
-          "averageSpeed": 89.37269307182319
+          "percentage": 0.10603497,
+          "averageSpeed": 89.33979987234041
         },
         {
           "code": "SI",
@@ -9111,10 +9111,10 @@
         {
           "code": "FS",
           "description": "Splitter",
-          "pitchCount": 19,
+          "pitchCount": 12,
           "totalPitches": 1773,
-          "percentage": 0.0107163,
-          "averageSpeed": 88.44709910526316
+          "percentage": 0.0067681894,
+          "averageSpeed": 88.42249608333333
         }
       ],
       "season": {
