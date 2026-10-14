@@ -176,6 +176,22 @@
     "proj162": 342
   },
   {
+    "id": 250,
+    "name": "Chase DeLauter",
+    "mlbTeam": "CLE",
+    "mlbId": 800050,
+    "gamesPlayed": 136,
+    "totalScore": 317,
+    "singles": 99,
+    "doubles": 32,
+    "triples": 3,
+    "homeRuns": 17,
+    "stolenBases": 11,
+    "slug": "chase-delauter",
+    "ppg": 2.33,
+    "proj162": 378
+  },
+  {
     "id": 301,
     "name": "Carter Jensen",
     "mlbTeam": "KC",
@@ -190,22 +206,6 @@
     "slug": "carter-jensen",
     "ppg": 2.16,
     "proj162": 349
-  },
-  {
-    "id": 250,
-    "name": "Chase DeLauter",
-    "mlbTeam": "CLE",
-    "mlbId": 800050,
-    "gamesPlayed": 135,
-    "totalScore": 313,
-    "singles": 99,
-    "doubles": 31,
-    "triples": 3,
-    "homeRuns": 17,
-    "stolenBases": 11,
-    "slug": "chase-delauter",
-    "ppg": 2.32,
-    "proj162": 376
   },
   {
     "id": 240,
@@ -304,6 +304,22 @@
     "proj162": 313
   },
   {
+    "id": 75,
+    "name": "Steven Kwan",
+    "mlbTeam": "CLE",
+    "mlbId": 680757,
+    "gamesPlayed": 153,
+    "totalScore": 297,
+    "singles": 131,
+    "doubles": 21,
+    "triples": 3,
+    "homeRuns": 3,
+    "stolenBases": 10,
+    "slug": "steven-kwan",
+    "ppg": 1.94,
+    "proj162": 314
+  },
+  {
     "id": 155,
     "name": "Josh Bell",
     "mlbTeam": "MIN",
@@ -334,22 +350,6 @@
     "slug": "kody-clemens",
     "ppg": 2.07,
     "proj162": 335
-  },
-  {
-    "id": 75,
-    "name": "Steven Kwan",
-    "mlbTeam": "CLE",
-    "mlbId": 680757,
-    "gamesPlayed": 152,
-    "totalScore": 295,
-    "singles": 129,
-    "doubles": 21,
-    "triples": 3,
-    "homeRuns": 3,
-    "stolenBases": 10,
-    "slug": "steven-kwan",
-    "ppg": 1.94,
-    "proj162": 314
   },
   {
     "id": 198,
@@ -452,7 +452,7 @@
     "name": "Brayan Rocchio",
     "mlbTeam": "CLE",
     "mlbId": 677587,
-    "gamesPlayed": 155,
+    "gamesPlayed": 156,
     "totalScore": 284,
     "singles": 95,
     "doubles": 25,
@@ -460,8 +460,8 @@
     "homeRuns": 15,
     "stolenBases": 21,
     "slug": "brayan-rocchio",
-    "ppg": 1.83,
-    "proj162": 297
+    "ppg": 1.82,
+    "proj162": 295
   },
   {
     "id": 314,
@@ -480,6 +480,22 @@
     "proj162": 346
   },
   {
+    "id": 345,
+    "name": "Liam Hicks",
+    "mlbTeam": "TB",
+    "mlbId": 689414,
+    "gamesPlayed": 147,
+    "totalScore": 284,
+    "singles": 104,
+    "doubles": 17,
+    "triples": 1,
+    "homeRuns": 18,
+    "stolenBases": 3,
+    "slug": "liam-hicks",
+    "ppg": 1.93,
+    "proj162": 313
+  },
+  {
     "id": 239,
     "name": "Alec Bohm",
     "mlbTeam": "PHI",
@@ -494,22 +510,6 @@
     "slug": "alec-bohm",
     "ppg": 1.84,
     "proj162": 299
-  },
-  {
-    "id": 345,
-    "name": "Liam Hicks",
-    "mlbTeam": "TB",
-    "mlbId": 689414,
-    "gamesPlayed": 146,
-    "totalScore": 282,
-    "singles": 102,
-    "doubles": 17,
-    "triples": 1,
-    "homeRuns": 18,
-    "stolenBases": 3,
-    "slug": "liam-hicks",
-    "ppg": 1.93,
-    "proj162": 313
   },
   {
     "id": 135,
@@ -580,16 +580,16 @@
     "name": "Chandler Simpson",
     "mlbTeam": "TB",
     "mlbId": 802415,
-    "gamesPlayed": 150,
-    "totalScore": 276,
-    "singles": 153,
+    "gamesPlayed": 151,
+    "totalScore": 277,
+    "singles": 154,
     "doubles": 16,
     "triples": 6,
     "homeRuns": 0,
     "stolenBases": 47,
     "slug": "chandler-simpson",
-    "ppg": 1.84,
-    "proj162": 298
+    "ppg": 1.83,
+    "proj162": 297
   },
   {
     "id": 453,
@@ -612,16 +612,16 @@
     "name": "Travis Bazzana",
     "mlbTeam": "CLE",
     "mlbId": 683953,
-    "gamesPlayed": 128,
-    "totalScore": 274,
-    "singles": 71,
+    "gamesPlayed": 129,
+    "totalScore": 275,
+    "singles": 72,
     "doubles": 24,
     "triples": 3,
     "homeRuns": 15,
     "stolenBases": 20,
     "slug": "travis-bazzana",
-    "ppg": 2.14,
-    "proj162": 347
+    "ppg": 2.13,
+    "proj162": 345
   },
   {
     "id": 65,
@@ -1092,7 +1092,7 @@
     "name": "Nathaniel Lowe",
     "mlbTeam": "CLE",
     "mlbId": 663993,
-    "gamesPlayed": 125,
+    "gamesPlayed": 126,
     "totalScore": 220,
     "singles": 61,
     "doubles": 23,
@@ -1100,8 +1100,8 @@
     "homeRuns": 17,
     "stolenBases": 0,
     "slug": "nathaniel-lowe",
-    "ppg": 1.76,
-    "proj162": 285
+    "ppg": 1.75,
+    "proj162": 283
   },
   {
     "id": 125,

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T18:34:48.590Z",
+  "generatedAt": "2026-10-14T16:03:09.881Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-27",
+  "endDate": "2026-10-28",
   "games": [
     {
       "date": "2026-03-26",
@@ -69646,10 +69646,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 1,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-14T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69708,7 +69708,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-15T22:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 643377,
+        "name": "Griffin Jax"
+      },
       "homePitcher": null
     },
     {
@@ -69731,7 +69734,10 @@
       "gameTimeISO": "2026-10-16T01:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 607192,
+        "name": "Tyler Glasnow"
+      }
     },
     {
       "date": "2026-10-16",
@@ -69971,6 +69977,28 @@
       "status": "S",
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-27T07:33:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-10-28",
+      "gamePk": 849799,
+      "away": {
+        "id": 31,
+        "abbr": null,
+        "name": "NL Champion"
+      },
+      "home": {
+        "id": 21,
+        "abbr": null,
+        "name": "AL Champion"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-28T07:33:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
