@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:03:15.172Z",
+  "generatedAt": "2026-10-15T15:51:35.175Z",
   "season": 2026,
   "pitchers": [
     {
@@ -2735,18 +2735,18 @@
         {
           "code": "FC",
           "description": "Cutter",
-          "pitchCount": 381,
+          "pitchCount": 380,
           "totalPitches": 2712,
-          "percentage": 0.14048673,
-          "averageSpeed": 89.26376531233599
+          "percentage": 0.14011799,
+          "averageSpeed": 89.25656017368425
         },
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 156,
+          "pitchCount": 157,
           "totalPitches": 2712,
-          "percentage": 0.057522126,
-          "averageSpeed": 92.8517926538461
+          "percentage": 0.057890855,
+          "averageSpeed": 92.84637816560505
         }
       ],
       "season": {
@@ -7281,7 +7281,7 @@
       "mlbTeam": "AZ",
       "mlbTeamId": 109,
       "pitchHand": "R",
-      "age": 27,
+      "age": 28,
       "totalPitches": 2032,
       "pitches": [
         {
@@ -9977,7 +9977,7 @@
       "mlbTeam": "DET",
       "mlbTeamId": 116,
       "pitchHand": "R",
-      "age": 30,
+      "age": 31,
       "totalPitches": 1658,
       "pitches": [
         {
@@ -14873,7 +14873,7 @@
       "mlbTeam": "NYM",
       "mlbTeamId": 121,
       "pitchHand": "R",
-      "age": 36,
+      "age": 37,
       "totalPitches": 1040,
       "pitches": [
         {

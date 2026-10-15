@@ -4,16 +4,16 @@
     "name": "Jake Bauers",
     "mlbTeam": "MIL",
     "mlbId": 641343,
-    "gamesPlayed": 147,
-    "totalScore": 352,
+    "gamesPlayed": 148,
+    "totalScore": 356,
     "singles": 82,
     "doubles": 22,
     "triples": 2,
-    "homeRuns": 26,
+    "homeRuns": 27,
     "stolenBases": 11,
     "slug": "jake-bauers",
-    "ppg": 2.39,
-    "proj162": 388
+    "ppg": 2.41,
+    "proj162": 390
   },
   {
     "id": 165,
@@ -416,6 +416,22 @@
     "proj162": 310
   },
   {
+    "id": 135,
+    "name": "Garrett Mitchell",
+    "mlbTeam": "MIL",
+    "mlbId": 669003,
+    "gamesPlayed": 148,
+    "totalScore": 286,
+    "singles": 78,
+    "doubles": 30,
+    "triples": 5,
+    "homeRuns": 12,
+    "stolenBases": 15,
+    "slug": "garrett-mitchell",
+    "ppg": 1.93,
+    "proj162": 313
+  },
+  {
     "id": 259,
     "name": "Dominic Canzone",
     "mlbTeam": "SEA",
@@ -510,22 +526,6 @@
     "slug": "alec-bohm",
     "ppg": 1.84,
     "proj162": 299
-  },
-  {
-    "id": 135,
-    "name": "Garrett Mitchell",
-    "mlbTeam": "MIL",
-    "mlbId": 669003,
-    "gamesPlayed": 147,
-    "totalScore": 281,
-    "singles": 78,
-    "doubles": 30,
-    "triples": 5,
-    "homeRuns": 11,
-    "stolenBases": 15,
-    "slug": "garrett-mitchell",
-    "ppg": 1.91,
-    "proj162": 310
   },
   {
     "id": 258,
