@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:51:35.175Z",
+  "generatedAt": "2026-10-16T15:39:58.496Z",
   "season": 2026,
   "pitchers": [
     {
@@ -19008,6 +19008,62 @@
         "baseOnBalls": 21,
         "wins": 3,
         "losses": 0
+      }
+    },
+    {
+      "id": 542888,
+      "name": "Shawn Armstrong",
+      "slug": "shawn-armstrong-542888",
+      "mlbTeam": "CLE",
+      "mlbTeamId": 114,
+      "pitchHand": "R",
+      "age": 36,
+      "totalPitches": 628,
+      "pitches": [
+        {
+          "code": "FF",
+          "description": "Four-seam FB",
+          "pitchCount": 194,
+          "totalPitches": 628,
+          "percentage": 0.3089172,
+          "averageSpeed": 93.48793404639171
+        },
+        {
+          "code": "ST",
+          "description": "Sweeper",
+          "pitchCount": 176,
+          "totalPitches": 628,
+          "percentage": 0.28025478,
+          "averageSpeed": 84.4551696647727
+        },
+        {
+          "code": "FC",
+          "description": "Cutter",
+          "pitchCount": 151,
+          "totalPitches": 628,
+          "percentage": 0.24044587,
+          "averageSpeed": 89.99526616556291
+        },
+        {
+          "code": "SI",
+          "description": "Sinker",
+          "pitchCount": 107,
+          "totalPitches": 628,
+          "percentage": 0.17038217,
+          "averageSpeed": 93.73522873831774
+        }
+      ],
+      "season": {
+        "gamesStarted": 0,
+        "inningsPitched": "35.1",
+        "era": "4.58",
+        "whip": "1.39",
+        "strikeoutsPer9Inn": "8.66",
+        "walksPer9Inn": "4.84",
+        "strikeOuts": 34,
+        "baseOnBalls": 19,
+        "wins": 2,
+        "losses": 1
       }
     },
     {
