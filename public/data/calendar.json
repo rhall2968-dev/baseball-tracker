@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-16T15:39:48.384Z",
+  "generatedAt": "2026-10-17T14:31:37.740Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-30",
+  "endDate": "2026-10-31",
   "games": [
     {
       "date": "2026-03-26",
@@ -69760,8 +69760,8 @@
       },
       "awayScore": null,
       "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "status": "DR",
+      "detailedState": "Postponed",
       "gameTimeISO": "2026-10-17T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69790,7 +69790,35 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-18T00:00:00Z",
+      "gameTimeISO": "2026-10-18T00:08:00Z",
+      "doubleHeader": null,
+      "awayPitcher": {
+        "id": 607259,
+        "name": "Nick Martinez"
+      },
+      "homePitcher": {
+        "id": 542888,
+        "name": "Shawn Armstrong"
+      }
+    },
+    {
+      "date": "2026-10-18",
+      "gamePk": 849817,
+      "away": {
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
+      },
+      "home": {
+        "id": 114,
+        "abbr": "CLE",
+        "name": "Guardians"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-10-18T21:08:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69812,7 +69840,7 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-20T00:00:00Z",
+      "gameTimeISO": "2026-10-20T00:08:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
@@ -69834,13 +69862,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-21T00:00:00Z",
+      "gameTimeISO": "2026-10-21T00:08:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "gamePk": 849805,
       "away": {
         "id": 21,
@@ -69856,13 +69884,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-23T08:33:00Z",
+      "gameTimeISO": "2026-10-24T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "gamePk": 849802,
       "away": {
         "id": 21,
@@ -69878,13 +69906,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-24T08:33:00Z",
+      "gameTimeISO": "2026-10-25T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-26",
+      "date": "2026-10-27",
       "gamePk": 849804,
       "away": {
         "id": 158,
@@ -69900,13 +69928,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-26T07:33:00Z",
+      "gameTimeISO": "2026-10-27T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "gamePk": 849803,
       "away": {
         "id": 158,
@@ -69922,13 +69950,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-27T07:33:00Z",
+      "gameTimeISO": "2026-10-28T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "gamePk": 849799,
       "away": {
         "id": 158,
@@ -69944,13 +69972,13 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-28T07:33:00Z",
+      "gameTimeISO": "2026-10-29T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "gamePk": 849801,
       "away": {
         "id": 21,
@@ -69966,7 +69994,29 @@
       "homeScore": null,
       "status": "S",
       "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-30T08:33:00Z",
+      "gameTimeISO": "2026-10-31T00:00:00Z",
+      "doubleHeader": null,
+      "awayPitcher": null,
+      "homePitcher": null
+    },
+    {
+      "date": "2026-11-01",
+      "gamePk": 849800,
+      "away": {
+        "id": 21,
+        "abbr": null,
+        "name": "TB/CLE"
+      },
+      "home": {
+        "id": 158,
+        "abbr": "MIL",
+        "name": "Brewers"
+      },
+      "awayScore": null,
+      "homeScore": null,
+      "status": "S",
+      "detailedState": "Scheduled",
+      "gameTimeISO": "2026-11-01T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
       "homePitcher": null
