@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T14:31:48.456Z",
+  "generatedAt": "2026-10-18T14:58:44.188Z",
   "season": 2026,
   "pitchers": [
     {
@@ -13233,7 +13233,7 @@
       "mlbTeam": "BOS",
       "mlbTeamId": 111,
       "pitchHand": "L",
-      "age": 29,
+      "age": 30,
       "totalPitches": 1219,
       "pitches": [
         {

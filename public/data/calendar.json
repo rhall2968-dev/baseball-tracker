@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-17T14:31:37.740Z",
+  "generatedAt": "2026-10-18T14:58:39.434Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-10-31",
+  "endDate": "2026-11-01",
   "games": [
     {
       "date": "2026-03-26",
@@ -69786,10 +69786,10 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 7,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-18T00:08:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69820,8 +69820,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-18T21:08:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      },
+      "homePitcher": {
+        "id": 800048,
+        "name": "Parker Messick"
+      }
     },
     {
       "date": "2026-10-20",
