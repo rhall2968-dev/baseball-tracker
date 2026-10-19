@@ -164,9 +164,9 @@
     "name": "Chase DeLauter",
     "mlbTeam": "CLE",
     "mlbId": 800050,
-    "gamesPlayed": 138,
-    "totalScore": 318,
-    "singles": 100,
+    "gamesPlayed": 139,
+    "totalScore": 320,
+    "singles": 101,
     "doubles": 32,
     "triples": 3,
     "homeRuns": 17,
@@ -256,6 +256,22 @@
     "proj162": 342
   },
   {
+    "id": 75,
+    "name": "Steven Kwan",
+    "mlbTeam": "CLE",
+    "mlbId": 680757,
+    "gamesPlayed": 156,
+    "totalScore": 300,
+    "singles": 134,
+    "doubles": 21,
+    "triples": 3,
+    "homeRuns": 3,
+    "stolenBases": 10,
+    "slug": "steven-kwan",
+    "ppg": 1.92,
+    "proj162": 312
+  },
+  {
     "id": 153,
     "name": "Brooks Lee",
     "mlbTeam": "MIN",
@@ -286,22 +302,6 @@
     "slug": "gabriel-moreno",
     "ppg": 2.33,
     "proj162": 377
-  },
-  {
-    "id": 75,
-    "name": "Steven Kwan",
-    "mlbTeam": "CLE",
-    "mlbId": 680757,
-    "gamesPlayed": 155,
-    "totalScore": 298,
-    "singles": 132,
-    "doubles": 21,
-    "triples": 3,
-    "homeRuns": 3,
-    "stolenBases": 10,
-    "slug": "steven-kwan",
-    "ppg": 1.92,
-    "proj162": 311
   },
   {
     "id": 227,
@@ -432,11 +432,27 @@
     "proj162": 310
   },
   {
+    "id": 345,
+    "name": "Liam Hicks",
+    "mlbTeam": "TB",
+    "mlbId": 689414,
+    "gamesPlayed": 150,
+    "totalScore": 287,
+    "singles": 106,
+    "doubles": 17,
+    "triples": 1,
+    "homeRuns": 18,
+    "stolenBases": 3,
+    "slug": "liam-hicks",
+    "ppg": 1.91,
+    "proj162": 310
+  },
+  {
     "id": 252,
     "name": "Brayan Rocchio",
     "mlbTeam": "CLE",
     "mlbId": 677587,
-    "gamesPlayed": 158,
+    "gamesPlayed": 159,
     "totalScore": 286,
     "singles": 97,
     "doubles": 25,
@@ -444,8 +460,8 @@
     "homeRuns": 15,
     "stolenBases": 21,
     "slug": "brayan-rocchio",
-    "ppg": 1.81,
-    "proj162": 293
+    "ppg": 1.8,
+    "proj162": 291
   },
   {
     "id": 259,
@@ -462,6 +478,22 @@
     "slug": "dominic-canzone",
     "ppg": 1.96,
     "proj162": 317
+  },
+  {
+    "id": 211,
+    "name": "Chandler Simpson",
+    "mlbTeam": "TB",
+    "mlbId": 802415,
+    "gamesPlayed": 154,
+    "totalScore": 285,
+    "singles": 155,
+    "doubles": 17,
+    "triples": 7,
+    "homeRuns": 0,
+    "stolenBases": 48,
+    "slug": "chandler-simpson",
+    "ppg": 1.85,
+    "proj162": 300
   },
   {
     "id": 307,
@@ -496,22 +528,6 @@
     "proj162": 346
   },
   {
-    "id": 345,
-    "name": "Liam Hicks",
-    "mlbTeam": "TB",
-    "mlbId": 689414,
-    "gamesPlayed": 149,
-    "totalScore": 284,
-    "singles": 104,
-    "doubles": 17,
-    "triples": 1,
-    "homeRuns": 18,
-    "stolenBases": 3,
-    "slug": "liam-hicks",
-    "ppg": 1.91,
-    "proj162": 309
-  },
-  {
     "id": 239,
     "name": "Alec Bohm",
     "mlbTeam": "PHI",
@@ -528,27 +544,11 @@
     "proj162": 299
   },
   {
-    "id": 211,
-    "name": "Chandler Simpson",
-    "mlbTeam": "TB",
-    "mlbId": 802415,
-    "gamesPlayed": 153,
-    "totalScore": 281,
-    "singles": 154,
-    "doubles": 16,
-    "triples": 7,
-    "homeRuns": 0,
-    "stolenBases": 47,
-    "slug": "chandler-simpson",
-    "ppg": 1.84,
-    "proj162": 298
-  },
-  {
     "id": 455,
     "name": "Travis Bazzana",
     "mlbTeam": "CLE",
     "mlbId": 683953,
-    "gamesPlayed": 131,
+    "gamesPlayed": 132,
     "totalScore": 281,
     "singles": 73,
     "doubles": 24,
@@ -556,8 +556,8 @@
     "homeRuns": 16,
     "stolenBases": 20,
     "slug": "travis-bazzana",
-    "ppg": 2.15,
-    "proj162": 347
+    "ppg": 2.13,
+    "proj162": 345
   },
   {
     "id": 258,
@@ -1024,6 +1024,22 @@
     "proj162": 274
   },
   {
+    "id": 336,
+    "name": "Nathaniel Lowe",
+    "mlbTeam": "CLE",
+    "mlbId": 663993,
+    "gamesPlayed": 129,
+    "totalScore": 223,
+    "singles": 62,
+    "doubles": 24,
+    "triples": 0,
+    "homeRuns": 17,
+    "stolenBases": 0,
+    "slug": "nathaniel-lowe",
+    "ppg": 1.73,
+    "proj162": 280
+  },
+  {
     "id": 229,
     "name": "Josh Jung",
     "mlbTeam": "TEX",
@@ -1038,22 +1054,6 @@
     "slug": "josh-jung",
     "ppg": 2.16,
     "proj162": 349
-  },
-  {
-    "id": 336,
-    "name": "Nathaniel Lowe",
-    "mlbTeam": "CLE",
-    "mlbId": 663993,
-    "gamesPlayed": 128,
-    "totalScore": 222,
-    "singles": 61,
-    "doubles": 24,
-    "triples": 0,
-    "homeRuns": 17,
-    "stolenBases": 0,
-    "slug": "nathaniel-lowe",
-    "ppg": 1.73,
-    "proj162": 281
   },
   {
     "id": 109,

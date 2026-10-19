@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-18T14:58:39.434Z",
+  "generatedAt": "2026-10-19T17:51:10.835Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-01",
+  "endDate": "2026-11-02",
   "games": [
     {
       "date": "2026-03-26",
@@ -69814,10 +69814,10 @@
         "abbr": "CLE",
         "name": "Guardians"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 1,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-18T21:08:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69848,8 +69848,14 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-20T00:08:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "awayPitcher": {
+        "id": 542888,
+        "name": "Shawn Armstrong"
+      },
+      "homePitcher": {
+        "id": 642547,
+        "name": "Freddy Peralta"
+      }
     },
     {
       "date": "2026-10-21",
