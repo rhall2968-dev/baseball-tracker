@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-19T17:51:10.835Z",
+  "generatedAt": "2026-10-20T15:54:49.637Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-02",
+  "endDate": "2026-11-03",
   "games": [
     {
       "date": "2026-03-26",
@@ -69842,10 +69842,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 7,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-20T00:08:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69858,34 +69858,12 @@
       }
     },
     {
-      "date": "2026-10-21",
-      "gamePk": 849814,
-      "away": {
-        "id": 114,
-        "abbr": "CLE",
-        "name": "Guardians"
-      },
-      "home": {
-        "id": 139,
-        "abbr": "TB",
-        "name": "Rays"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-21T00:08:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
       "date": "2026-10-24",
       "gamePk": 849805,
       "away": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "home": {
         "id": 158,
@@ -69905,9 +69883,9 @@
       "date": "2026-10-25",
       "gamePk": 849802,
       "away": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "home": {
         "id": 158,
@@ -69932,9 +69910,9 @@
         "name": "Brewers"
       },
       "home": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69954,9 +69932,9 @@
         "name": "Brewers"
       },
       "home": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69976,9 +69954,9 @@
         "name": "Brewers"
       },
       "home": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "awayScore": null,
       "homeScore": null,
@@ -69993,9 +69971,9 @@
       "date": "2026-10-31",
       "gamePk": 849801,
       "away": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "home": {
         "id": 158,
@@ -70015,9 +69993,9 @@
       "date": "2026-11-01",
       "gamePk": 849800,
       "away": {
-        "id": 21,
-        "abbr": null,
-        "name": "TB/CLE"
+        "id": 139,
+        "abbr": "TB",
+        "name": "Rays"
       },
       "home": {
         "id": 158,

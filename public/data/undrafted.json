@@ -112,6 +112,22 @@
     "proj162": 373
   },
   {
+    "id": 250,
+    "name": "Chase DeLauter",
+    "mlbTeam": "CLE",
+    "mlbId": 800050,
+    "gamesPlayed": 140,
+    "totalScore": 323,
+    "singles": 102,
+    "doubles": 33,
+    "triples": 3,
+    "homeRuns": 17,
+    "stolenBases": 11,
+    "slug": "chase-delauter",
+    "ppg": 2.31,
+    "proj162": 374
+  },
+  {
     "id": 283,
     "name": "Kazuma Okamoto",
     "mlbTeam": "TOR",
@@ -158,22 +174,6 @@
     "slug": "daylen-lile",
     "ppg": 2,
     "proj162": 324
-  },
-  {
-    "id": 250,
-    "name": "Chase DeLauter",
-    "mlbTeam": "CLE",
-    "mlbId": 800050,
-    "gamesPlayed": 139,
-    "totalScore": 320,
-    "singles": 101,
-    "doubles": 32,
-    "triples": 3,
-    "homeRuns": 17,
-    "stolenBases": 11,
-    "slug": "chase-delauter",
-    "ppg": 2.3,
-    "proj162": 373
   },
   {
     "id": 244,
@@ -240,6 +240,22 @@
     "proj162": 330
   },
   {
+    "id": 75,
+    "name": "Steven Kwan",
+    "mlbTeam": "CLE",
+    "mlbId": 680757,
+    "gamesPlayed": 157,
+    "totalScore": 302,
+    "singles": 135,
+    "doubles": 21,
+    "triples": 3,
+    "homeRuns": 3,
+    "stolenBases": 10,
+    "slug": "steven-kwan",
+    "ppg": 1.92,
+    "proj162": 312
+  },
+  {
     "id": 52,
     "name": "Jac Caglianone",
     "mlbTeam": "KC",
@@ -254,22 +270,6 @@
     "slug": "jac-caglianone",
     "ppg": 2.11,
     "proj162": 342
-  },
-  {
-    "id": 75,
-    "name": "Steven Kwan",
-    "mlbTeam": "CLE",
-    "mlbId": 680757,
-    "gamesPlayed": 156,
-    "totalScore": 300,
-    "singles": 134,
-    "doubles": 21,
-    "triples": 3,
-    "homeRuns": 3,
-    "stolenBases": 10,
-    "slug": "steven-kwan",
-    "ppg": 1.92,
-    "proj162": 312
   },
   {
     "id": 153,
@@ -416,6 +416,38 @@
     "proj162": 315
   },
   {
+    "id": 345,
+    "name": "Liam Hicks",
+    "mlbTeam": "TB",
+    "mlbId": 689414,
+    "gamesPlayed": 151,
+    "totalScore": 289,
+    "singles": 107,
+    "doubles": 17,
+    "triples": 1,
+    "homeRuns": 18,
+    "stolenBases": 3,
+    "slug": "liam-hicks",
+    "ppg": 1.91,
+    "proj162": 310
+  },
+  {
+    "id": 211,
+    "name": "Chandler Simpson",
+    "mlbTeam": "TB",
+    "mlbId": 802415,
+    "gamesPlayed": 155,
+    "totalScore": 287,
+    "singles": 156,
+    "doubles": 17,
+    "triples": 7,
+    "homeRuns": 0,
+    "stolenBases": 49,
+    "slug": "chandler-simpson",
+    "ppg": 1.85,
+    "proj162": 300
+  },
+  {
     "id": 232,
     "name": "Ezequiel Duran",
     "mlbTeam": "TEX",
@@ -432,35 +464,19 @@
     "proj162": 310
   },
   {
-    "id": 345,
-    "name": "Liam Hicks",
-    "mlbTeam": "TB",
-    "mlbId": 689414,
-    "gamesPlayed": 150,
-    "totalScore": 287,
-    "singles": 106,
-    "doubles": 17,
-    "triples": 1,
-    "homeRuns": 18,
-    "stolenBases": 3,
-    "slug": "liam-hicks",
-    "ppg": 1.91,
-    "proj162": 310
-  },
-  {
     "id": 252,
     "name": "Brayan Rocchio",
     "mlbTeam": "CLE",
     "mlbId": 677587,
-    "gamesPlayed": 159,
-    "totalScore": 286,
-    "singles": 97,
+    "gamesPlayed": 160,
+    "totalScore": 287,
+    "singles": 98,
     "doubles": 25,
     "triples": 2,
     "homeRuns": 15,
     "stolenBases": 21,
     "slug": "brayan-rocchio",
-    "ppg": 1.8,
+    "ppg": 1.79,
     "proj162": 291
   },
   {
@@ -478,22 +494,6 @@
     "slug": "dominic-canzone",
     "ppg": 1.96,
     "proj162": 317
-  },
-  {
-    "id": 211,
-    "name": "Chandler Simpson",
-    "mlbTeam": "TB",
-    "mlbId": 802415,
-    "gamesPlayed": 154,
-    "totalScore": 285,
-    "singles": 155,
-    "doubles": 17,
-    "triples": 7,
-    "homeRuns": 0,
-    "stolenBases": 48,
-    "slug": "chandler-simpson",
-    "ppg": 1.85,
-    "proj162": 300
   },
   {
     "id": 307,
@@ -548,16 +548,16 @@
     "name": "Travis Bazzana",
     "mlbTeam": "CLE",
     "mlbId": 683953,
-    "gamesPlayed": 132,
-    "totalScore": 281,
+    "gamesPlayed": 133,
+    "totalScore": 282,
     "singles": 73,
     "doubles": 24,
     "triples": 3,
     "homeRuns": 16,
     "stolenBases": 20,
     "slug": "travis-bazzana",
-    "ppg": 2.13,
-    "proj162": 345
+    "ppg": 2.12,
+    "proj162": 343
   },
   {
     "id": 258,
@@ -976,6 +976,22 @@
     "proj162": 271
   },
   {
+    "id": 336,
+    "name": "Nathaniel Lowe",
+    "mlbTeam": "CLE",
+    "mlbId": 663993,
+    "gamesPlayed": 130,
+    "totalScore": 226,
+    "singles": 64,
+    "doubles": 24,
+    "triples": 0,
+    "homeRuns": 17,
+    "stolenBases": 0,
+    "slug": "nathaniel-lowe",
+    "ppg": 1.74,
+    "proj162": 282
+  },
+  {
     "id": 115,
     "name": "Marcus Semien",
     "mlbTeam": "NYM",
@@ -1022,22 +1038,6 @@
     "slug": "daulton-varsho",
     "ppg": 1.69,
     "proj162": 274
-  },
-  {
-    "id": 336,
-    "name": "Nathaniel Lowe",
-    "mlbTeam": "CLE",
-    "mlbId": 663993,
-    "gamesPlayed": 129,
-    "totalScore": 223,
-    "singles": 62,
-    "doubles": 24,
-    "triples": 0,
-    "homeRuns": 17,
-    "stolenBases": 0,
-    "slug": "nathaniel-lowe",
-    "ppg": 1.73,
-    "proj162": 280
   },
   {
     "id": 229,
