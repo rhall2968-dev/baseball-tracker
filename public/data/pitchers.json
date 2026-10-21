@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:54:56.844Z",
+  "generatedAt": "2026-10-21T16:12:02.751Z",
   "season": 2026,
   "pitchers": [
     {
@@ -3287,10 +3287,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 290,
+          "pitchCount": 288,
           "totalPitches": 2643,
-          "percentage": 0.1097238,
-          "averageSpeed": 85.63822027241375
+          "percentage": 0.10896708,
+          "averageSpeed": 85.64652275347218
         },
         {
           "code": "SI",
@@ -3311,10 +3311,10 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 206,
+          "pitchCount": 208,
           "totalPitches": 2643,
-          "percentage": 0.07794173,
-          "averageSpeed": 82.79913378640778
+          "percentage": 0.07869845,
+          "averageSpeed": 82.8149369519231
         },
         {
           "code": "SV",
