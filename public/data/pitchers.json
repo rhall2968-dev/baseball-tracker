@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:12:02.751Z",
+  "generatedAt": "2026-10-22T16:10:10.208Z",
   "season": 2026,
   "pitchers": [
     {
@@ -679,10 +679,10 @@
         {
           "code": "FC",
           "description": "Cutter",
-          "pitchCount": 717,
+          "pitchCount": 712,
           "totalPitches": 2968,
-          "percentage": 0.24157682,
-          "averageSpeed": 85.77338961645741
+          "percentage": 0.23989218,
+          "averageSpeed": 85.77821825702242
         },
         {
           "code": "FF",
@@ -711,18 +711,18 @@
         {
           "code": "CU",
           "description": "Curveball",
-          "pitchCount": 326,
+          "pitchCount": 324,
           "totalPitches": 2968,
-          "percentage": 0.10983828,
-          "averageSpeed": 78.07078848466263
+          "percentage": 0.10916442,
+          "averageSpeed": 78.04796028086425
         },
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 155,
+          "pitchCount": 162,
           "totalPitches": 2968,
-          "percentage": 0.05222372,
-          "averageSpeed": 82.46855767096774
+          "percentage": 0.05458221,
+          "averageSpeed": 82.54069944444443
         }
       ],
       "season": {
@@ -8807,18 +8807,18 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 422,
+          "pitchCount": 423,
           "totalPitches": 1817,
-          "percentage": 0.23225096,
-          "averageSpeed": 92.89124536492896
+          "percentage": 0.23280132,
+          "averageSpeed": 92.8945465839244
         },
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 410,
+          "pitchCount": 409,
           "totalPitches": 1817,
-          "percentage": 0.22564667,
-          "averageSpeed": 92.66648631951233
+          "percentage": 0.22509632,
+          "averageSpeed": 92.6625225672373
         },
         {
           "code": "FC",
@@ -10575,10 +10575,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 366,
+          "pitchCount": 367,
           "totalPitches": 1544,
-          "percentage": 0.23704663,
-          "averageSpeed": 87.96144473224038
+          "percentage": 0.2376943,
+          "averageSpeed": 87.96275898092638
         },
         {
           "code": "SI",
@@ -10607,10 +10607,10 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 45,
+          "pitchCount": 44,
           "totalPitches": 1544,
-          "percentage": 0.029145077,
-          "averageSpeed": 86.32069739999999
+          "percentage": 0.02849741,
+          "averageSpeed": 86.2724456590909
         }
       ],
       "season": {
@@ -15127,10 +15127,10 @@
         {
           "code": "KC",
           "description": "Knuckle Curve",
-          "pitchCount": 366,
+          "pitchCount": 365,
           "totalPitches": 1004,
-          "percentage": 0.36454183,
-          "averageSpeed": 86.78369681147544
+          "percentage": 0.3635458,
+          "averageSpeed": 86.78179727945208
         },
         {
           "code": "SI",
@@ -15143,10 +15143,10 @@
         {
           "code": "CH",
           "description": "Changeup",
-          "pitchCount": 60,
+          "pitchCount": 61,
           "totalPitches": 1004,
-          "percentage": 0.059760958,
-          "averageSpeed": 90.12702461666665
+          "percentage": 0.060756974,
+          "averageSpeed": 90.08358201639342
         }
       ],
       "season": {
@@ -16127,18 +16127,18 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 162,
+          "pitchCount": 161,
           "totalPitches": 909,
-          "percentage": 0.17821783,
-          "averageSpeed": 87.32467353086415
+          "percentage": 0.1771177,
+          "averageSpeed": 87.35105696273287
         },
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 138,
+          "pitchCount": 139,
           "totalPitches": 909,
-          "percentage": 0.15181518,
-          "averageSpeed": 83.60026798550727
+          "percentage": 0.1529153,
+          "averageSpeed": 83.5965030431655
         },
         {
           "code": "CU",
@@ -19303,10 +19303,10 @@
         {
           "code": "FC",
           "description": "Cutter",
-          "pitchCount": 59,
+          "pitchCount": 54,
           "totalPitches": 610,
-          "percentage": 0.096721314,
-          "averageSpeed": 86.56989108474578
+          "percentage": 0.08852459,
+          "averageSpeed": 86.85543546296294
         },
         {
           "code": "CU",
@@ -19319,10 +19319,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 28,
+          "pitchCount": 33,
           "totalPitches": 610,
-          "percentage": 0.045901638,
-          "averageSpeed": 81.57186978571427
+          "percentage": 0.05409836,
+          "averageSpeed": 81.86189130303029
         }
       ],
       "season": {
@@ -21719,10 +21719,10 @@
         {
           "code": "CU",
           "description": "Curveball",
-          "pitchCount": 45,
+          "pitchCount": 46,
           "totalPitches": 391,
-          "percentage": 0.11508951,
-          "averageSpeed": 79.19839026666668
+          "percentage": 0.11764706,
+          "averageSpeed": 79.27112886956523
         },
         {
           "code": "CH",
@@ -21735,10 +21735,10 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 41,
+          "pitchCount": 40,
           "totalPitches": 391,
-          "percentage": 0.10485934,
-          "averageSpeed": 82.12866051219513
+          "percentage": 0.10230179,
+          "averageSpeed": 82.118267875
         }
       ],
       "season": {
@@ -24033,7 +24033,7 @@
       "mlbTeam": "AZ",
       "mlbTeamId": 109,
       "pitchHand": "R",
-      "age": 31,
+      "age": 32,
       "totalPitches": 198,
       "pitches": [
         {
