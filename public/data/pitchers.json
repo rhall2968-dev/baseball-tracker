@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T16:00:24.068Z",
+  "generatedAt": "2026-10-24T14:58:05.245Z",
   "season": 2026,
   "pitchers": [
     {
@@ -754,7 +754,7 @@
           "pitchCount": 1405,
           "totalPitches": 2962,
           "percentage": 0.47434166,
-          "averageSpeed": 95.13296104270464
+          "averageSpeed": 95.13353285266905
         },
         {
           "code": "CU",
@@ -778,7 +778,7 @@
           "pitchCount": 297,
           "totalPitches": 2962,
           "percentage": 0.100270085,
-          "averageSpeed": 85.65036629966329
+          "averageSpeed": 85.64392529292928
         },
         {
           "code": "FC",
@@ -18545,7 +18545,7 @@
       "mlbTeam": "PHI",
       "mlbTeamId": 143,
       "pitchHand": "L",
-      "age": 34,
+      "age": 35,
       "totalPitches": 669,
       "pitches": [
         {

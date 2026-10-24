@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-23T16:00:11.026Z",
+  "generatedAt": "2026-10-24T14:58:00.097Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-06",
+  "endDate": "2026-11-07",
   "games": [
     {
       "date": "2026-03-26",
@@ -69870,10 +69870,10 @@
         "abbr": "MIL",
         "name": "Brewers"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 2,
+      "homeScore": 3,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-24T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
