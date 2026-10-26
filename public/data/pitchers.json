@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:08:17.393Z",
+  "generatedAt": "2026-10-26T17:45:14.804Z",
   "season": 2026,
   "pitchers": [
     {
@@ -953,7 +953,7 @@
       "mlbTeam": "CLE",
       "mlbTeamId": 114,
       "pitchHand": "L",
-      "age": 25,
+      "age": 26,
       "totalPitches": 2948,
       "pitches": [
         {
@@ -8463,10 +8463,10 @@
         {
           "code": "KC",
           "description": "Knuckle Curve",
-          "pitchCount": 338,
+          "pitchCount": 337,
           "totalPitches": 1881,
-          "percentage": 0.17969166,
-          "averageSpeed": 83.41692701775145
+          "percentage": 0.17916003,
+          "averageSpeed": 83.41322044213646
         },
         {
           "code": "CH",
@@ -8495,10 +8495,10 @@
         {
           "code": "SV",
           "description": "Slurve",
-          "pitchCount": 19,
+          "pitchCount": 20,
           "totalPitches": 1881,
-          "percentage": 0.01010101,
-          "averageSpeed": 86.80041899999999
+          "percentage": 0.010632643,
+          "averageSpeed": 86.6937002
         }
       ],
       "season": {
@@ -9833,7 +9833,7 @@
       "mlbTeam": "COL",
       "mlbTeamId": 115,
       "pitchHand": "R",
-      "age": 28,
+      "age": 29,
       "totalPitches": 1692,
       "pitches": [
         {
@@ -17601,7 +17601,7 @@
       "mlbTeam": "COL",
       "mlbTeamId": 115,
       "pitchHand": "R",
-      "age": 24,
+      "age": 25,
       "totalPitches": 743,
       "pitches": [
         {
