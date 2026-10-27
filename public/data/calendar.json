@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-26T17:45:04.155Z",
+  "generatedAt": "2026-10-27T16:56:39.855Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-09",
+  "endDate": "2026-11-10",
   "games": [
     {
       "date": "2026-03-26",
@@ -69926,10 +69926,10 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 10,
+      "homeScore": 1,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-27T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
@@ -69961,7 +69961,10 @@
       "gameTimeISO": "2026-10-28T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 643377,
+        "name": "Griffin Jax"
+      }
     },
     {
       "date": "2026-10-29",

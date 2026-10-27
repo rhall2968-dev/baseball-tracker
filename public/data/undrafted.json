@@ -4,16 +4,16 @@
     "name": "Jake Bauers",
     "mlbTeam": "MIL",
     "mlbId": 641343,
-    "gamesPlayed": 151,
-    "totalScore": 363,
+    "gamesPlayed": 152,
+    "totalScore": 364,
     "singles": 84,
     "doubles": 23,
     "triples": 2,
     "homeRuns": 27,
     "stolenBases": 11,
     "slug": "jake-bauers",
-    "ppg": 2.4,
-    "proj162": 389
+    "ppg": 2.39,
+    "proj162": 388
   },
   {
     "id": 165,
@@ -368,6 +368,22 @@
     "proj162": 311
   },
   {
+    "id": 135,
+    "name": "Garrett Mitchell",
+    "mlbTeam": "MIL",
+    "mlbId": 669003,
+    "gamesPlayed": 152,
+    "totalScore": 293,
+    "singles": 80,
+    "doubles": 30,
+    "triples": 5,
+    "homeRuns": 13,
+    "stolenBases": 15,
+    "slug": "garrett-mitchell",
+    "ppg": 1.93,
+    "proj162": 312
+  },
+  {
     "id": 198,
     "name": "Dillon Dingler",
     "mlbTeam": "DET",
@@ -420,7 +436,7 @@
     "name": "Chandler Simpson",
     "mlbTeam": "TB",
     "mlbId": 802415,
-    "gamesPlayed": 157,
+    "gamesPlayed": 158,
     "totalScore": 292,
     "singles": 159,
     "doubles": 17,
@@ -428,24 +444,8 @@
     "homeRuns": 0,
     "stolenBases": 51,
     "slug": "chandler-simpson",
-    "ppg": 1.86,
-    "proj162": 301
-  },
-  {
-    "id": 135,
-    "name": "Garrett Mitchell",
-    "mlbTeam": "MIL",
-    "mlbId": 669003,
-    "gamesPlayed": 151,
-    "totalScore": 291,
-    "singles": 79,
-    "doubles": 30,
-    "triples": 5,
-    "homeRuns": 13,
-    "stolenBases": 15,
-    "slug": "garrett-mitchell",
-    "ppg": 1.93,
-    "proj162": 312
+    "ppg": 1.85,
+    "proj162": 299
   },
   {
     "id": 232,
@@ -964,16 +964,16 @@
     "name": "Cedric Mullins",
     "mlbTeam": "TB",
     "mlbId": 656775,
-    "gamesPlayed": 135,
-    "totalScore": 226,
-    "singles": 62,
+    "gamesPlayed": 136,
+    "totalScore": 227,
+    "singles": 63,
     "doubles": 10,
     "triples": 3,
     "homeRuns": 16,
     "stolenBases": 21,
     "slug": "cedric-mullins",
     "ppg": 1.67,
-    "proj162": 271
+    "proj162": 270
   },
   {
     "id": 336,
