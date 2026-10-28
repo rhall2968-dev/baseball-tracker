@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-27T16:56:39.855Z",
+  "generatedAt": "2026-10-28T17:30:21.386Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-10",
+  "endDate": "2026-11-11",
   "games": [
     {
       "date": "2026-03-26",
@@ -69954,13 +69954,16 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 3,
+      "homeScore": 4,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-28T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 669160,
+        "name": "Dustin May"
+      },
       "homePitcher": {
         "id": 643377,
         "name": "Griffin Jax"
@@ -69985,7 +69988,10 @@
       "detailedState": "Scheduled",
       "gameTimeISO": "2026-10-29T00:00:00Z",
       "doubleHeader": null,
-      "awayPitcher": null,
+      "awayPitcher": {
+        "id": 694819,
+        "name": "Jacob Misiorowski"
+      },
       "homePitcher": null
     },
     {
