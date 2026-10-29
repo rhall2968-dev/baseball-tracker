@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T17:30:21.386Z",
+  "generatedAt": "2026-10-29T17:41:01.878Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-11-11",
+  "endDate": "2026-11-12",
   "games": [
     {
       "date": "2026-03-26",
@@ -69982,61 +69982,20 @@
         "abbr": "TB",
         "name": "Rays"
       },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
+      "awayScore": 4,
+      "homeScore": 1,
+      "status": "F",
+      "detailedState": "Final",
       "gameTimeISO": "2026-10-29T00:00:00Z",
       "doubleHeader": null,
       "awayPitcher": {
         "id": 694819,
         "name": "Jacob Misiorowski"
       },
-      "homePitcher": null
-    },
-    {
-      "date": "2026-10-31",
-      "gamePk": 849801,
-      "away": {
-        "id": 139,
-        "abbr": "TB",
-        "name": "Rays"
-      },
-      "home": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-10-31T00:00:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
-    },
-    {
-      "date": "2026-11-01",
-      "gamePk": 849800,
-      "away": {
-        "id": 139,
-        "abbr": "TB",
-        "name": "Rays"
-      },
-      "home": {
-        "id": 158,
-        "abbr": "MIL",
-        "name": "Brewers"
-      },
-      "awayScore": null,
-      "homeScore": null,
-      "status": "S",
-      "detailedState": "Scheduled",
-      "gameTimeISO": "2026-11-01T00:00:00Z",
-      "doubleHeader": null,
-      "awayPitcher": null,
-      "homePitcher": null
+      "homePitcher": {
+        "id": 656876,
+        "name": "Drew Rasmussen"
+      }
     }
   ],
   "rosteredByTeam": {
