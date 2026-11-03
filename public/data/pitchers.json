@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:57:03.337Z",
+  "generatedAt": "2026-11-03T18:44:26.671Z",
   "season": 2026,
   "pitchers": [
     {
@@ -5897,7 +5897,7 @@
       "mlbTeam": "SD",
       "mlbTeamId": 135,
       "pitchHand": "R",
-      "age": 27,
+      "age": 28,
       "totalPitches": 2226,
       "pitches": [
         {
@@ -6809,7 +6809,7 @@
       "mlbTeam": "LAD",
       "mlbTeamId": 119,
       "pitchHand": "R",
-      "age": 24,
+      "age": 25,
       "totalPitches": 2100,
       "pitches": [
         {
