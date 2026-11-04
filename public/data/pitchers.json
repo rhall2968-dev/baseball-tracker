@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T18:44:26.671Z",
+  "generatedAt": "2026-11-04T18:57:39.785Z",
   "season": 2026,
   "pitchers": [
     {
@@ -1258,7 +1258,7 @@
           "pitchCount": 993,
           "totalPitches": 2911,
           "percentage": 0.3411199,
-          "averageSpeed": 95.8420168328299
+          "averageSpeed": 95.83131440080574
         },
         {
           "code": "KC",
@@ -1266,7 +1266,7 @@
           "pitchCount": 959,
           "totalPitches": 2911,
           "percentage": 0.32944006,
-          "averageSpeed": 85.26452387382695
+          "averageSpeed": 85.27625724921798
         },
         {
           "code": "FC",
@@ -1290,7 +1290,7 @@
           "pitchCount": 256,
           "totalPitches": 2911,
           "percentage": 0.08794229,
-          "averageSpeed": 95.25952167968751
+          "averageSpeed": 95.25998135546877
         },
         {
           "code": "FA",
@@ -7602,47 +7602,47 @@
       "mlbTeamId": 120,
       "pitchHand": "R",
       "age": 31,
-      "totalPitches": 1977,
+      "totalPitches": 1976,
       "pitches": [
         {
           "code": "SL",
           "description": "Slider",
           "pitchCount": 559,
-          "totalPitches": 1977,
-          "percentage": 0.28275165,
-          "averageSpeed": 88.19658892844369
+          "totalPitches": 1976,
+          "percentage": 0.28289473,
+          "averageSpeed": 88.19753835062616
         },
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 504,
-          "totalPitches": 1977,
-          "percentage": 0.25493172,
-          "averageSpeed": 91.67712495833321
+          "pitchCount": 503,
+          "totalPitches": 1976,
+          "percentage": 0.25455466,
+          "averageSpeed": 91.67654705765395
         },
         {
           "code": "FS",
           "description": "Splitter",
           "pitchCount": 456,
-          "totalPitches": 1977,
-          "percentage": 0.23065251,
+          "totalPitches": 1976,
+          "percentage": 0.23076923,
           "averageSpeed": 84.14012810526322
         },
         {
           "code": "SI",
           "description": "Sinker",
           "pitchCount": 286,
-          "totalPitches": 1977,
-          "percentage": 0.14466363,
+          "totalPitches": 1976,
+          "percentage": 0.14473684,
           "averageSpeed": 91.37084566083911
         },
         {
           "code": "ST",
           "description": "Sweeper",
           "pitchCount": 171,
-          "totalPitches": 1977,
-          "percentage": 0.08649469,
-          "averageSpeed": 79.33604046198829
+          "totalPitches": 1976,
+          "percentage": 0.086538464,
+          "averageSpeed": 79.33899694152046
         }
       ],
       "season": {
