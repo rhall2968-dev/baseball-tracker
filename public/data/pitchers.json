@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T18:57:39.785Z",
+  "generatedAt": "2026-11-05T19:09:05.971Z",
   "season": 2026,
   "pitchers": [
     {
@@ -14569,7 +14569,7 @@
       "mlbTeam": "HOU",
       "mlbTeamId": 117,
       "pitchHand": "L",
-      "age": 29,
+      "age": 30,
       "totalPitches": 1067,
       "pitches": [
         {
@@ -18497,7 +18497,7 @@
       "mlbTeam": "DET",
       "mlbTeamId": 116,
       "pitchHand": "R",
-      "age": 32,
+      "age": 33,
       "totalPitches": 672,
       "pitches": [
         {
