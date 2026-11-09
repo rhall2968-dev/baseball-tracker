@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:18:53.237Z",
+  "generatedAt": "2026-11-09T21:41:23.830Z",
   "season": 2026,
   "pitchers": [
     {
@@ -1351,10 +1351,10 @@
         {
           "code": "KC",
           "description": "Knuckle Curve",
-          "pitchCount": 292,
+          "pitchCount": 291,
           "totalPitches": 2895,
-          "percentage": 0.10086356,
-          "averageSpeed": 81.68599218835615
+          "percentage": 0.10051814,
+          "averageSpeed": 81.68453608591065
         },
         {
           "code": "SI",
@@ -1367,10 +1367,10 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 101,
+          "pitchCount": 102,
           "totalPitches": 2895,
-          "percentage": 0.03488774,
-          "averageSpeed": 83.42476152475245
+          "percentage": 0.035233162,
+          "averageSpeed": 83.41186894117645
         }
       ],
       "season": {
@@ -1767,10 +1767,10 @@
         {
           "code": "FC",
           "description": "Cutter",
-          "pitchCount": 455,
+          "pitchCount": 454,
           "totalPitches": 2858,
-          "percentage": 0.15920223,
-          "averageSpeed": 89.82055558241755
+          "percentage": 0.15885234,
+          "averageSpeed": 89.82554657929512
         },
         {
           "code": "CU",
@@ -1783,18 +1783,18 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 327,
+          "pitchCount": 328,
           "totalPitches": 2858,
-          "percentage": 0.114415675,
-          "averageSpeed": 79.16934804587153
+          "percentage": 0.11476557,
+          "averageSpeed": 79.15599453963412
         },
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 263,
+          "pitchCount": 264,
           "totalPitches": 2858,
-          "percentage": 0.0920224,
-          "averageSpeed": 84.29463126235746
+          "percentage": 0.09237229,
+          "averageSpeed": 84.3069797916667
         },
         {
           "code": "CH",
@@ -1815,10 +1815,10 @@
         {
           "code": "SV",
           "description": "Slurve",
-          "pitchCount": 36,
+          "pitchCount": 35,
           "totalPitches": 2858,
-          "percentage": 0.012596221,
-          "averageSpeed": 77.20475649999999
+          "percentage": 0.012246327,
+          "averageSpeed": 77.27376674285713
         }
       ],
       "season": {
@@ -2207,18 +2207,18 @@
         {
           "code": "KC",
           "description": "Knuckle Curve",
-          "pitchCount": 740,
+          "pitchCount": 741,
           "totalPitches": 2777,
-          "percentage": 0.2664746,
-          "averageSpeed": 86.20020233108099
+          "percentage": 0.2668347,
+          "averageSpeed": 86.20054514709842
         },
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 397,
+          "pitchCount": 396,
           "totalPitches": 2777,
-          "percentage": 0.14296003,
-          "averageSpeed": 86.326222652393
+          "percentage": 0.14259993,
+          "averageSpeed": 86.32589940404044
         },
         {
           "code": "SI",
@@ -6823,10 +6823,10 @@
         {
           "code": "FS",
           "description": "Splitter",
-          "pitchCount": 613,
+          "pitchCount": 618,
           "totalPitches": 2100,
-          "percentage": 0.29190475,
-          "averageSpeed": 90.2229047259379
+          "percentage": 0.2942857,
+          "averageSpeed": 90.19883327508079
         },
         {
           "code": "SL",
@@ -6839,10 +6839,10 @@
         {
           "code": "FO",
           "description": "Forkball",
-          "pitchCount": 152,
+          "pitchCount": 147,
           "totalPitches": 2100,
-          "percentage": 0.07238095,
-          "averageSpeed": 85.27148209868422
+          "percentage": 0.07,
+          "averageSpeed": 85.204264707483
         }
       ],
       "season": {
