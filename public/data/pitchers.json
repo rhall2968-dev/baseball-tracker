@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:58:35.375Z",
+  "generatedAt": "2026-11-11T18:56:24.860Z",
   "season": 2026,
   "pitchers": [
     {
@@ -13183,10 +13183,10 @@
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 224,
+          "pitchCount": 225,
           "totalPitches": 1222,
-          "percentage": 0.18330605,
-          "averageSpeed": 86.68461763839285
+          "percentage": 0.18412438,
+          "averageSpeed": 86.67759561777778
         },
         {
           "code": "FC",
@@ -13207,10 +13207,10 @@
         {
           "code": "CU",
           "description": "Curveball",
-          "pitchCount": 100,
+          "pitchCount": 99,
           "totalPitches": 1222,
-          "percentage": 0.08183306,
-          "averageSpeed": 83.2291806
+          "percentage": 0.08101473,
+          "averageSpeed": 83.21023633333333
         },
         {
           "code": "SI",
