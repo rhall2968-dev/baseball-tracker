@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T19:15:37.238Z",
+  "generatedAt": "2026-11-13T18:51:44.446Z",
   "season": 2026,
   "pitchers": [
     {
@@ -2769,7 +2769,7 @@
       "mlbTeam": "BAL",
       "mlbTeamId": 110,
       "pitchHand": "L",
-      "age": 28,
+      "age": 29,
       "totalPitches": 2689,
       "pitches": [
         {
