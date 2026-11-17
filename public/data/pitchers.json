@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:20:28.685Z",
+  "generatedAt": "2026-11-17T20:08:44.283Z",
   "season": 2026,
   "pitchers": [
     {
@@ -1745,7 +1745,7 @@
       "mlbTeam": "KC",
       "mlbTeamId": 118,
       "pitchHand": "R",
-      "age": 36,
+      "age": 37,
       "totalPitches": 2858,
       "pitches": [
         {
@@ -12289,7 +12289,7 @@
       "mlbTeam": "KC",
       "mlbTeamId": 118,
       "pitchHand": "L",
-      "age": 29,
+      "age": 30,
       "totalPitches": 1300,
       "pitches": [
         {
@@ -15329,7 +15329,7 @@
       "mlbTeam": "SF",
       "mlbTeamId": 137,
       "pitchHand": "R",
-      "age": 32,
+      "age": 33,
       "totalPitches": 1000,
       "pitches": [
         {
