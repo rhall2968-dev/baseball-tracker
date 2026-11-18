@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T20:08:33.455Z",
+  "generatedAt": "2026-11-18T19:41:17.431Z",
   "seasonStart": "2026-03-26",
-  "endDate": "2026-12-01",
+  "endDate": "2026-12-02",
   "games": [
     {
       "date": "2026-03-26",
@@ -70149,6 +70149,12 @@
         "fantasyTeamId": 1
       },
       {
+        "name": "Maikel Garcia",
+        "slug": "maikel-garcia",
+        "fantasyTeam": "Cole",
+        "fantasyTeamId": 1
+      },
+      {
         "name": "Randy Arozarena",
         "slug": "randy-arozarena",
         "fantasyTeam": "Jack",
@@ -70157,26 +70163,6 @@
       {
         "name": "Cal Raleigh",
         "slug": "cal-raleigh",
-        "fantasyTeam": "Ryan",
-        "fantasyTeamId": 4
-      }
-    ],
-    "KC": [
-      {
-        "name": "Maikel Garcia",
-        "slug": "maikel-garcia",
-        "fantasyTeam": "Cole",
-        "fantasyTeamId": 1
-      },
-      {
-        "name": "Vinnie Pasquantino",
-        "slug": "vinnie-pasquantino",
-        "fantasyTeam": "Markus",
-        "fantasyTeamId": 2
-      },
-      {
-        "name": "Bobby Witt Jr.",
-        "slug": "bobby-witt-jr",
         "fantasyTeam": "Ryan",
         "fantasyTeamId": 4
       }
@@ -70297,6 +70283,20 @@
         "slug": "zach-neto",
         "fantasyTeam": "Markus",
         "fantasyTeamId": 2
+      }
+    ],
+    "KC": [
+      {
+        "name": "Vinnie Pasquantino",
+        "slug": "vinnie-pasquantino",
+        "fantasyTeam": "Markus",
+        "fantasyTeamId": 2
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "slug": "bobby-witt-jr",
+        "fantasyTeam": "Ryan",
+        "fantasyTeamId": 4
       }
     ],
     "COL": [
