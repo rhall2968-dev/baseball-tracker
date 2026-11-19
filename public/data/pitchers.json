@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T19:41:28.679Z",
+  "generatedAt": "2026-11-19T19:41:16.410Z",
   "season": 2026,
   "pitchers": [
     {
@@ -2353,7 +2353,7 @@
       "mlbTeam": "DET",
       "mlbTeamId": 116,
       "pitchHand": "L",
-      "age": 32,
+      "age": 33,
       "totalPitches": 2768,
       "pitches": [
         {
