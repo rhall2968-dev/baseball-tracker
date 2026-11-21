@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T19:19:53.271Z",
+  "generatedAt": "2026-11-21T18:21:32.296Z",
   "season": 2026,
   "pitchers": [
     {
@@ -10317,12 +10317,12 @@
           "averageSpeed": 87.97389899130432
         },
         {
-          "code": "FC",
-          "description": "Cutter",
-          "pitchCount": 170,
+          "code": "SL",
+          "description": "Slider",
+          "pitchCount": 112,
           "totalPitches": 1613,
-          "percentage": 0.10539368,
-          "averageSpeed": 85.97151166470583
+          "percentage": 0.069435835,
+          "averageSpeed": 84.54673706249993
         },
         {
           "code": "CU",
@@ -10331,6 +10331,14 @@
           "totalPitches": 1613,
           "percentage": 0.06819591,
           "averageSpeed": 81.11231705454549
+        },
+        {
+          "code": "FC",
+          "description": "Cutter",
+          "pitchCount": 58,
+          "totalPitches": 1613,
+          "percentage": 0.035957843,
+          "averageSpeed": 88.72280055172413
         },
         {
           "code": "FF",
@@ -19945,7 +19953,7 @@
       "mlbTeam": "NYM",
       "mlbTeamId": 121,
       "pitchHand": "R",
-      "age": 36,
+      "age": 37,
       "totalPitches": 560,
       "pitches": [
         {
