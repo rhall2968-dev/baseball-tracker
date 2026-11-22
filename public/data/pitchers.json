@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T18:21:32.296Z",
+  "generatedAt": "2026-11-22T18:46:06.131Z",
   "season": 2026,
   "pitchers": [
     {
@@ -4129,7 +4129,7 @@
       "mlbTeam": "TEX",
       "mlbTeamId": 140,
       "pitchHand": "R",
-      "age": 26,
+      "age": 27,
       "totalPitches": 2496,
       "pitches": [
         {
@@ -9617,7 +9617,7 @@
       "mlbTeam": "TB",
       "mlbTeamId": 139,
       "pitchHand": "R",
-      "age": 31,
+      "age": 32,
       "totalPitches": 1724,
       "pitches": [
         {
