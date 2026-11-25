@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:38:34.702Z",
+  "generatedAt": "2026-11-25T20:46:13.816Z",
   "season": 2026,
   "pitchers": [
     {
@@ -10063,10 +10063,10 @@
         {
           "code": "ST",
           "description": "Sweeper",
-          "pitchCount": 375,
+          "pitchCount": 376,
           "totalPitches": 1640,
-          "percentage": 0.22865854,
-          "averageSpeed": 84.7493791733333
+          "percentage": 0.2292683,
+          "averageSpeed": 84.73241879255315
         },
         {
           "code": "CH",
@@ -10087,10 +10087,10 @@
         {
           "code": "CU",
           "description": "Curveball",
-          "pitchCount": 14,
+          "pitchCount": 13,
           "totalPitches": 1640,
-          "percentage": 0.008536586,
-          "averageSpeed": 80.53321621428572
+          "percentage": 0.007926829,
+          "averageSpeed": 80.69944238461538
         }
       ],
       "season": {
@@ -13183,18 +13183,18 @@
         {
           "code": "FF",
           "description": "Four-seam FB",
-          "pitchCount": 467,
+          "pitchCount": 468,
           "totalPitches": 1222,
-          "percentage": 0.3821604,
-          "averageSpeed": 95.34272059743039
+          "percentage": 0.38297874,
+          "averageSpeed": 95.34082796794871
         },
         {
           "code": "SL",
           "description": "Slider",
-          "pitchCount": 225,
+          "pitchCount": 228,
           "totalPitches": 1222,
-          "percentage": 0.18412438,
-          "averageSpeed": 86.67759561777778
+          "percentage": 0.18657938,
+          "averageSpeed": 86.63611274122806
         },
         {
           "code": "FC",
@@ -13215,18 +13215,18 @@
         {
           "code": "CU",
           "description": "Curveball",
-          "pitchCount": 99,
+          "pitchCount": 96,
           "totalPitches": 1222,
-          "percentage": 0.08101473,
-          "averageSpeed": 83.21023633333333
+          "percentage": 0.07855974,
+          "averageSpeed": 83.2004031875
         },
         {
           "code": "SI",
           "description": "Sinker",
-          "pitchCount": 86,
+          "pitchCount": 85,
           "totalPitches": 1222,
-          "percentage": 0.07037643,
-          "averageSpeed": 94.84178627906977
+          "percentage": 0.0695581,
+          "averageSpeed": 94.84631352941177
         }
       ],
       "season": {
@@ -17113,7 +17113,7 @@
       "mlbTeam": "TEX",
       "mlbTeamId": 140,
       "pitchHand": "R",
-      "age": 26,
+      "age": 27,
       "totalPitches": 787,
       "pitches": [
         {
